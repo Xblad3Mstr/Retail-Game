@@ -1,0 +1,2 @@
+C:\Users\missp\Desktop\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\Definitions.Retail1.h
+C:\Users\missp\Desktop\Projects\Retail-Game\Retail1\Source\Retail1\Retail1.h

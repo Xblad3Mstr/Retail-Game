@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Retail1",
+			"Path": "C:\\Users\\missp\\Desktop\\Projects\\Retail-Game\\Retail1\\Source\\Retail1.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Retail1Editor",
+			"Path": "C:\\Users\\missp\\Desktop\\Projects\\Retail-Game\\Retail1\\Source\\Retail1Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
