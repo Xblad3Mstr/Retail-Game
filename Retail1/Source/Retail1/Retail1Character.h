@@ -31,6 +31,10 @@ public:
 
 protected:
 
+	/** Current Employment Status*/
+	UPROPERTY(BlueprintReadOnly, Category = "Employee")
+	float employeeLevel;
+
 	/** Resets HMD orientation in VR. */
 	void OnResetVR();
 
@@ -68,5 +72,9 @@ public:
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	/** Returns FollowCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
+
+	/** Adjusts the Employee Level of the player by @param adjustment*/
+	UFUNCTION(BlueprintCallable, Category = "Employee")
+	void adjustEmployeeLevel(float adjustment);
 };
 

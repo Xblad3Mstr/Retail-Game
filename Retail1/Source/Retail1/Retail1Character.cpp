@@ -43,6 +43,8 @@ ARetail1Character::ARetail1Character()
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
+	employeeLevel = 10.0f;
+
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 }
@@ -74,6 +76,72 @@ void ARetail1Character::SetupPlayerInputComponent(class UInputComponent* PlayerI
 
 	// VR headset functionality
 	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &ARetail1Character::OnResetVR);
+}
+
+void ARetail1Character::adjustEmployeeLevel(float adjustment)
+{
+	float difficulty = employeeLevel / 100.0f;
+	if (difficulty >= 1.0f)
+	{
+		difficulty = 0.99f;
+	}
+	else if (difficulty < 0.1f)
+	{
+		difficulty = 0.10f;
+	}
+	employeeLevel += (adjustment - difficulty);
+	if (employeeLevel <= 0.0f)
+	{
+		UE_LOG(LogTemp, Log, TEXT("FIRED!"));
+	}
+	else if (employeeLevel >= 100.0f)
+	{
+		UE_LOG(LogTemp, Log, TEXT("Employee of the Month!"))
+	}
+	else if (employeeLevel >= 90.0f)
+	{
+		UE_LOG(LogTemp, Log, TEXT("Irreplacable!"))
+	}
+	else if (employeeLevel >= 80.0f)
+	{
+		UE_LOG(LogTemp, Log, TEXT("Golden Employee!"))
+	}
+	else if (employeeLevel >= 70.0f)
+	{
+		UE_LOG(LogTemp, Log, TEXT("Reliable!"))
+	}
+	else if (employeeLevel >= 60.0f)
+	{
+		UE_LOG(LogTemp, Log, TEXT("Fantastic!"))
+	}
+	else if (employeeLevel >= 50.0f)
+	{
+		UE_LOG(LogTemp, Log, TEXT("Doing Great!"))
+	}
+	else if (employeeLevel >= 40.0f)
+	{
+		UE_LOG(LogTemp, Log, TEXT("Pretty Good!"))
+	}
+	else if (employeeLevel >= 30.0f)
+	{
+		UE_LOG(LogTemp, Log, TEXT("Fairly Good!"))
+	}
+	else if (employeeLevel >= 20.0f)
+	{
+		UE_LOG(LogTemp, Log, TEXT("Moving Up!"))
+	}
+	else if (employeeLevel >= 10.0f)
+	{
+		UE_LOG(LogTemp, Log, TEXT("Unsteady!"))
+	}
+	else if (employeeLevel > 0.0f)
+	{
+		UE_LOG(LogTemp, Log, TEXT("Probationary!"))
+	}
+	else
+	{
+		UE_LOG(LogTemp, Log, TEXT("How did you get here??"))
+	}
 }
 
 
