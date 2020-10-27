@@ -73,7 +73,8 @@ public:
 	/** Returns FollowCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
 
-	/** Adjusts the Employee Level of the player by @param adjustment*/
+	/** Adjusts the Employee Level of the player by adjustment
+	@param adjustment - a float to adjust the employeeLevel (before adjusting for difficulty)*/
 	UFUNCTION(BlueprintCallable, Category = "Employee")
 	void adjustEmployeeLevel(float adjustment);
 };

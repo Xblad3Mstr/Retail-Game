@@ -80,21 +80,42 @@ void ARetail1Character::SetupPlayerInputComponent(class UInputComponent* PlayerI
 
 void ARetail1Character::adjustEmployeeLevel(float adjustment)
 {
-	float difficulty = employeeLevel / 100.0f;
-	if (difficulty >= 1.0f)
+	// if you're a higher level, it's harder to get points.
+
+	// int to level off employeeLevel so if you're at 92.1 diff = 9; 89.2 diff = 8
+	int diff = employeeLevel / 10;
+	// make diff a percentage to take off of adjustment
+	float difficulty = diff / 10.0f;
+	if (difficulty >= 1.0f) // if your employee status is more than 100.0
 	{
-		difficulty = 0.99f;
+		difficulty = 0.90f;
 	}
-	else if (difficulty < 0.1f)
+	else if (difficulty < 0.1f) // if your employee status is less than 10.0
 	{
 		difficulty = 0.10f;
 	}
-	employeeLevel += (adjustment - difficulty);
+
+	// summation of adjustment * difficulty
+	float sum = adjustment;
+	if (adjustment < 0) // easier to lose points when higher vice versa ( level 92.1 with difficulty .9, has .1 difficulty on negative)
+	{
+		difficulty = 1 - difficulty;
+		sum *= difficulty;
+	}
+	else
+	{
+		sum *= difficulty;
+	}
+	
+	// if level 92.1 adjustment is 3 sum = 2.7 so adjust level by .3. or if adjustment is -2, sum = -.2 so adjust level by -1.8.
+	employeeLevel += adjustment - sum;
+
+	// if employee level is zero or less player loses
 	if (employeeLevel <= 0.0f)
 	{
 		UE_LOG(LogTemp, Log, TEXT("FIRED!"));
 	}
-	else if (employeeLevel >= 100.0f)
+	else if (employeeLevel >= 100.0f)// we could end here or have them play forever( they don't get additional points anymore, they can still lose points tho)
 	{
 		UE_LOG(LogTemp, Log, TEXT("Employee of the Month!"))
 	}
@@ -138,7 +159,7 @@ void ARetail1Character::adjustEmployeeLevel(float adjustment)
 	{
 		UE_LOG(LogTemp, Log, TEXT("Probationary!"))
 	}
-	else
+	else // shouldn't be able to get here less than or equal to 0.0 is the first if, and greater than or equal to 100.0 is the second.
 	{
 		UE_LOG(LogTemp, Log, TEXT("How did you get here??"))
 	}
