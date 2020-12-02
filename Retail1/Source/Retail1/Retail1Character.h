@@ -3,6 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Cleanup.h"
+#include "Components/SphereComponent.h"
 #include "GameFramework/Character.h"
 #include "Retail1Character.generated.h"
 
@@ -34,6 +36,18 @@ protected:
 	/** Current Employment Status*/
 	UPROPERTY(BlueprintReadOnly, Category = "Employee")
 	float employeeLevel;
+
+	/** Timer for current task*/
+	UPROPERTY(BlueprintReadOnly, Category = "Actions")
+	FTimerHandle task1Timer;
+
+	/** Timer for current shift*/
+	UPROPERTY(BlueprintReadOnly, Category = "Gameplay")
+	FTimerHandle shiftTimer;
+
+	/** If the player is interacting with something they can't move*/
+	UPROPERTY(BlueprintReadWrite, Category = "Actions")
+	bool canMove;
 
 	/** Resets HMD orientation in VR. */
 	void OnResetVR();
@@ -67,6 +81,22 @@ protected:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	// End of APawn interface
 
+	/** Current Cleanup*/
+	UPROPERTY(BlueprintReadWrite, Category = "Cleanup")
+	ACleanup* currentCleanup;
+
+	/** Sphere Component for Interaction Collision*/
+	UPROPERTY(BlueprintReadWrite, Category = "Cleanup")
+	class USphereComponent* collectionSphere;
+
+	/** Starts Interaction w/ Character or Cleanup*/
+	UFUNCTION(BlueprintCallable, Category = "Employee")
+	void Interact();
+
+	/** Stops Interaction w/ Character or Cleanup*/
+	UFUNCTION(BlueprintCallable, Category = "Employee")
+	void StopInteract();
+
 public:
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
@@ -77,5 +107,10 @@ public:
 	@param adjustment - a float to adjust the employeeLevel (before adjusting for difficulty)*/
 	UFUNCTION(BlueprintCallable, Category = "Employee")
 	void adjustEmployeeLevel(float adjustment);
+
+	/** Adjusts the number of points for the player for current day by adjustment
+	@param adjustment - a float to adjust the daily points*/
+	UFUNCTION(BlueprintCallable, Category = "Employee")
+	void adjustDailyPoints(float adjustment);
 };
 

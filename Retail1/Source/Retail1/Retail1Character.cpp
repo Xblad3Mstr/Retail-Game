@@ -1,6 +1,8 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "Retail1Character.h"
+#include "Cleanup.h"
+#include "Components/SphereComponent.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
@@ -9,6 +11,9 @@
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
 
+
+
+// TODO: ADD INTERACTION FOR CHARACTERS ::::: DAILY POINTS
 //////////////////////////////////////////////////////////////////////////
 // ARetail1Character
 
@@ -45,6 +50,11 @@ ARetail1Character::ARetail1Character()
 
 	employeeLevel = 10.0f;
 
+	// Create CollectionSphere
+	collectionSphere = CreateDefaultSubobject<USphereComponent>(TEXT("CollectionSphere"));
+	collectionSphere->SetupAttachment(RootComponent);
+	collectionSphere->SetSphereRadius(200.0f);
+
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 }
@@ -58,6 +68,8 @@ void ARetail1Character::SetupPlayerInputComponent(class UInputComponent* PlayerI
 	check(PlayerInputComponent);
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+	PlayerInputComponent->BindAction("Interact", IE_Pressed, this, &ARetail1Character::Interact);
+	PlayerInputComponent->BindAction("Interact", IE_Released, this, &ARetail1Character::StopInteract);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &ARetail1Character::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &ARetail1Character::MoveRight);
@@ -76,6 +88,42 @@ void ARetail1Character::SetupPlayerInputComponent(class UInputComponent* PlayerI
 
 	// VR headset functionality
 	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &ARetail1Character::OnResetVR);
+}
+
+void ARetail1Character::Interact()
+{
+	TArray<AActor*> CollectedActors;
+	collectionSphere->GetOverlappingActors(CollectedActors);
+
+	int32 iCollected = 0;
+	bool foundInteraction = false;
+	while ( iCollected < CollectedActors.Num() && !foundInteraction)
+	{
+		iCollected++;
+		ACleanup* const TestCleanup = Cast<ACleanup>(CollectedActors[iCollected]);
+
+		if (TestCleanup && !TestCleanup->IsPendingKill())
+		{
+			foundInteraction = true;
+			if (currentCleanup != NULL)
+			{
+				currentCleanup->ResetTimer();
+			}
+			currentCleanup = TestCleanup;
+			currentCleanup->StartTimer();
+		}
+	}
+}
+
+void ARetail1Character::StopInteract()
+{
+	if (currentCleanup != NULL)
+	{
+		if (!currentCleanup->IsPendingKill())
+		{
+			currentCleanup->PauseTimer();
+		}
+	}
 }
 
 void ARetail1Character::adjustEmployeeLevel(float adjustment)
@@ -117,52 +165,56 @@ void ARetail1Character::adjustEmployeeLevel(float adjustment)
 	}
 	else if (employeeLevel >= 100.0f)// we could end here or have them play forever( they don't get additional points anymore, they can still lose points tho)
 	{
-		UE_LOG(LogTemp, Log, TEXT("Employee of the Month!"))
+		UE_LOG(LogTemp, Log, TEXT("Employee of the Month!"));
 	}
 	else if (employeeLevel >= 90.0f)
 	{
-		UE_LOG(LogTemp, Log, TEXT("Irreplacable!"))
+		UE_LOG(LogTemp, Log, TEXT("Irreplacable!"));
 	}
 	else if (employeeLevel >= 80.0f)
 	{
-		UE_LOG(LogTemp, Log, TEXT("Golden Employee!"))
+		UE_LOG(LogTemp, Log, TEXT("Golden Employee!"));
 	}
 	else if (employeeLevel >= 70.0f)
 	{
-		UE_LOG(LogTemp, Log, TEXT("Reliable!"))
+		UE_LOG(LogTemp, Log, TEXT("Reliable!"));
 	}
 	else if (employeeLevel >= 60.0f)
 	{
-		UE_LOG(LogTemp, Log, TEXT("Fantastic!"))
+		UE_LOG(LogTemp, Log, TEXT("Fantastic!"));
 	}
 	else if (employeeLevel >= 50.0f)
 	{
-		UE_LOG(LogTemp, Log, TEXT("Doing Great!"))
+		UE_LOG(LogTemp, Log, TEXT("Doing Great!"));
 	}
 	else if (employeeLevel >= 40.0f)
 	{
-		UE_LOG(LogTemp, Log, TEXT("Pretty Good!"))
+		UE_LOG(LogTemp, Log, TEXT("Pretty Good!"));
 	}
 	else if (employeeLevel >= 30.0f)
 	{
-		UE_LOG(LogTemp, Log, TEXT("Fairly Good!"))
+		UE_LOG(LogTemp, Log, TEXT("Fairly Good!"));
 	}
 	else if (employeeLevel >= 20.0f)
 	{
-		UE_LOG(LogTemp, Log, TEXT("Moving Up!"))
+		UE_LOG(LogTemp, Log, TEXT("Moving Up!"));
 	}
 	else if (employeeLevel >= 10.0f)
 	{
-		UE_LOG(LogTemp, Log, TEXT("Unsteady!"))
+		UE_LOG(LogTemp, Log, TEXT("Unsteady!"));
 	}
 	else if (employeeLevel > 0.0f)
 	{
-		UE_LOG(LogTemp, Log, TEXT("Probationary!"))
+		UE_LOG(LogTemp, Log, TEXT("Probationary!"));
 	}
 	else // shouldn't be able to get here less than or equal to 0.0 is the first if, and greater than or equal to 100.0 is the second.
 	{
-		UE_LOG(LogTemp, Log, TEXT("How did you get here??"))
+		UE_LOG(LogTemp, Log, TEXT("How did you get here??"));
 	}
+}
+
+void ARetail1Character::adjustDailyPoints(float adjustment)
+{
 }
 
 

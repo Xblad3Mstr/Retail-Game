@@ -26,4 +26,16 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|Win32'">
+    <LocalDebuggerCommandArguments>"D:\missp\Projects\Retail-Game\Retail1\Retail1.uproject" -skipcompile</LocalDebuggerCommandArguments>
+    <RemoteDebuggerCommandArguments>"D:\missp\Projects\Retail-Game\Retail1\Retail1.uproject" -skipcompile</RemoteDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'">
+    <LocalDebuggerCommandArguments>"D:\missp\Projects\Retail-Game\Retail1\Retail1.uproject" -skipcompile</LocalDebuggerCommandArguments>
+    <RemoteDebuggerCommandArguments>"D:\missp\Projects\Retail-Game\Retail1\Retail1.uproject" -skipcompile</RemoteDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'">
+    <LocalDebuggerCommandArguments>"D:\missp\Projects\Retail-Game\Retail1\Retail1.uproject" -skipcompile</LocalDebuggerCommandArguments>
+    <RemoteDebuggerCommandArguments>"D:\missp\Projects\Retail-Game\Retail1\Retail1.uproject" -skipcompile</RemoteDebuggerCommandArguments>
+  </PropertyGroup>
 </Project>
