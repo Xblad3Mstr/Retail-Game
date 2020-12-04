@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Retail1.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{D7F3FD60-41A6-4AA0-B7F1-BD74E208AA44}</UniqueIdentifier>
+      <UniqueIdentifier>{59BF19CD-3293-43ED-9037-6BA6378C465A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Retail1.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{14D4ED86-1DFE-494F-AF8F-D8F77B626FED}</UniqueIdentifier>
+      <UniqueIdentifier>{46A8FD33-9767-40B6-9522-973CA76E94BE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Retail1">
-      <UniqueIdentifier>{31F29F8D-78CF-42B6-9CE6-6618960B1695}</UniqueIdentifier>
+      <UniqueIdentifier>{15B86F60-8B6B-41F6-A190-CA9A8D32464B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Retail1\Retail1.Build.cs">
       <Filter>Source\Retail1</Filter>
@@ -54,13 +54,13 @@
       <Filter>Source\Retail1</Filter>
     </ClInclude>
     <Filter Include="Source\Retail1\Private">
-      <UniqueIdentifier>{C7FB8A32-235E-4B99-8FD8-2F133786B5F2}</UniqueIdentifier>
+      <UniqueIdentifier>{3478E32C-010D-4E0F-8C63-909DB650E7C4}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Retail1\Private\Cleanup.cpp">
       <Filter>Source\Retail1\Private</Filter>
     </ClCompile>
     <Filter Include="Source\Retail1\Public">
-      <UniqueIdentifier>{A38FEAB1-520C-4BDA-93B5-0D762D1E8CDE}</UniqueIdentifier>
+      <UniqueIdentifier>{28802CB7-C480-46A3-8626-B91D7CB43921}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Retail1\Public\Cleanup.h">
       <Filter>Source\Retail1\Public</Filter>

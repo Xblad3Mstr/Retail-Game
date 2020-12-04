@@ -58,7 +58,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ARetail1GameMode); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ARetail1GameMode)
 
 
-#define Retail1_Source_Retail1_Retail1GameMode_h_12_PRIVATE_PROPERTY_OFFSET
+#define Retail1_Source_Retail1_Retail1GameMode_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__HUDWidgetClass() { return STRUCT_OFFSET(ARetail1GameMode, HUDWidgetClass); } \
+	FORCEINLINE static uint32 __PPO__CurrentWidget() { return STRUCT_OFFSET(ARetail1GameMode, CurrentWidget); }
+
+
 #define Retail1_Source_Retail1_Retail1GameMode_h_9_PROLOG
 #define Retail1_Source_Retail1_Retail1GameMode_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

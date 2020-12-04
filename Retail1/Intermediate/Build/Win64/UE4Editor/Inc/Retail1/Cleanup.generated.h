@@ -81,8 +81,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACleanup); \
 	FORCEINLINE static uint32 __PPO__timeToComplete() { return STRUCT_OFFSET(ACleanup, timeToComplete); } \
 	FORCEINLINE static uint32 __PPO__progress() { return STRUCT_OFFSET(ACleanup, progress); } \
 	FORCEINLINE static uint32 __PPO__timerStarted() { return STRUCT_OFFSET(ACleanup, timerStarted); } \
-	FORCEINLINE static uint32 __PPO__timerPaused() { return STRUCT_OFFSET(ACleanup, timerPaused); } \
-	FORCEINLINE static uint32 __PPO__progressBar() { return STRUCT_OFFSET(ACleanup, progressBar); }
+	FORCEINLINE static uint32 __PPO__timerPaused() { return STRUCT_OFFSET(ACleanup, timerPaused); }
 
 
 #define Retail1_Source_Retail1_Public_Cleanup_h_10_PROLOG

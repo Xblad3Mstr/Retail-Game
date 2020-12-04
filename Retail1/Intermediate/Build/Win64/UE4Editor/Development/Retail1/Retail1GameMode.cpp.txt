@@ -5,9 +5,6 @@ D:\missp\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicato
 D:\missp\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 D:\missp\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
 D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Inc\Retail1\Retail1GameMode.generated.h
-D:\missp\Projects\Retail-Game\Retail1\Source\Retail1\Retail1Character.h
-D:\missp\Projects\Retail-Game\Retail1\Source\Retail1\Public\Cleanup.h
-D:\missp\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/WidgetComponent.h
 D:\missp\UE_4.25\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h
 D:\missp\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/SlateWrapperTypes.h
 D:\missp\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\SlateWrapperTypes.generated.h
@@ -125,6 +122,9 @@ D:\missp\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath\Prop
 D:\missp\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\DynamicPropertyPath.generated.h
 D:\missp\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 D:\missp\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
+D:\missp\Projects\Retail-Game\Retail1\Source\Retail1\Retail1Character.h
+D:\missp\Projects\Retail-Game\Retail1\Source\Retail1\Public\Cleanup.h
+D:\missp\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/WidgetComponent.h
 D:\missp\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetComponent.generated.h
 D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Inc\Retail1\Cleanup.generated.h
 D:\missp\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h

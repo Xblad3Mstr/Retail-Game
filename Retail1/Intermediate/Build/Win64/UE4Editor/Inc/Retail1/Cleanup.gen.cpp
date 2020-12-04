@@ -17,7 +17,6 @@ void EmptyLinkFunctionForGeneratedCodeCleanup() {}
 	RETAIL1_API UClass* Z_Construct_UClass_ACleanup();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_Retail1();
-	UMG_API UClass* Z_Construct_UClass_UWidgetComponent_NoRegister();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FTimerHandle();
 // End Cross Module References
 	DEFINE_FUNCTION(ACleanup::execFinishCleanup)
@@ -237,10 +236,6 @@ void EmptyLinkFunctionForGeneratedCodeCleanup() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_progressBar_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_progressBar;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_timerPaused_MetaData[];
 #endif
 		static void NewProp_timerPaused_SetBit(void* Obj);
@@ -284,16 +279,6 @@ void EmptyLinkFunctionForGeneratedCodeCleanup() {}
 		{ "ModuleRelativePath", "Public/Cleanup.h" },
 	};
 #endif
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACleanup_Statics::NewProp_progressBar_MetaData[] = {
-		{ "Category", "Cleanup" },
-		{ "Comment", "/** Progress Bar for how cleanup is progressing*/" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Public/Cleanup.h" },
-		{ "ToolTip", "Progress Bar for how cleanup is progressing" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACleanup_Statics::NewProp_progressBar = { "progressBar", nullptr, (EPropertyFlags)0x002008000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACleanup, progressBar), Z_Construct_UClass_UWidgetComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACleanup_Statics::NewProp_progressBar_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACleanup_Statics::NewProp_progressBar_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACleanup_Statics::NewProp_timerPaused_MetaData[] = {
 		{ "Category", "Cleanup" },
@@ -348,7 +333,6 @@ void EmptyLinkFunctionForGeneratedCodeCleanup() {}
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ACleanup_Statics::NewProp_timer = { "timer", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACleanup, timer), Z_Construct_UScriptStruct_FTimerHandle, METADATA_PARAMS(Z_Construct_UClass_ACleanup_Statics::NewProp_timer_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACleanup_Statics::NewProp_timer_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACleanup_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACleanup_Statics::NewProp_progressBar,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACleanup_Statics::NewProp_timerPaused,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACleanup_Statics::NewProp_timerStarted,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACleanup_Statics::NewProp_progress,
@@ -382,7 +366,7 @@ void EmptyLinkFunctionForGeneratedCodeCleanup() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACleanup, 435767445);
+	IMPLEMENT_CLASS(ACleanup, 581100031);
 	template<> RETAIL1_API UClass* StaticClass<ACleanup>()
 	{
 		return ACleanup::StaticClass();

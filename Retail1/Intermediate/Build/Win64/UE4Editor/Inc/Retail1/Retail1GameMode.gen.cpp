@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeRetail1GameMode() {}
 	RETAIL1_API UClass* Z_Construct_UClass_ARetail1GameMode();
 	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
 	UPackage* Z_Construct_UPackage__Script_Retail1();
+	UMG_API UClass* Z_Construct_UClass_UUserWidget_NoRegister();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 // End Cross Module References
 	void ARetail1GameMode::StaticRegisterNativesARetail1GameMode()
 	{
@@ -31,6 +33,15 @@ void EmptyLinkFunctionForGeneratedCodeRetail1GameMode() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentWidget_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CurrentWidget;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HUDWidgetClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_HUDWidgetClass;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -46,6 +57,30 @@ void EmptyLinkFunctionForGeneratedCodeRetail1GameMode() {}
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARetail1GameMode_Statics::NewProp_CurrentWidget_MetaData[] = {
+		{ "Category", "Widget" },
+		{ "Comment", "/** The instance of the HUD Widget class*/" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Retail1GameMode.h" },
+		{ "ToolTip", "The instance of the HUD Widget class" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ARetail1GameMode_Statics::NewProp_CurrentWidget = { "CurrentWidget", nullptr, (EPropertyFlags)0x002008000008001c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARetail1GameMode, CurrentWidget), Z_Construct_UClass_UUserWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ARetail1GameMode_Statics::NewProp_CurrentWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARetail1GameMode_Statics::NewProp_CurrentWidget_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARetail1GameMode_Statics::NewProp_HUDWidgetClass_MetaData[] = {
+		{ "BlueprintProtected", "TRUE" },
+		{ "Category", "Widget" },
+		{ "Comment", "/** Widget class to use for HUD screen*/" },
+		{ "ModuleRelativePath", "Retail1GameMode.h" },
+		{ "ToolTip", "Widget class to use for HUD screen" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ARetail1GameMode_Statics::NewProp_HUDWidgetClass = { "HUDWidgetClass", nullptr, (EPropertyFlags)0x0024080000010005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARetail1GameMode, HUDWidgetClass), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ARetail1GameMode_Statics::NewProp_HUDWidgetClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARetail1GameMode_Statics::NewProp_HUDWidgetClass_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ARetail1GameMode_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1GameMode_Statics::NewProp_CurrentWidget,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1GameMode_Statics::NewProp_HUDWidgetClass,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ARetail1GameMode_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ARetail1GameMode>::IsAbstract,
 	};
@@ -55,11 +90,11 @@ void EmptyLinkFunctionForGeneratedCodeRetail1GameMode() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_ARetail1GameMode_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_ARetail1GameMode_Statics::PropPointers),
 		0,
 		0x008802ACu,
 		METADATA_PARAMS(Z_Construct_UClass_ARetail1GameMode_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ARetail1GameMode_Statics::Class_MetaDataParams))
@@ -73,7 +108,7 @@ void EmptyLinkFunctionForGeneratedCodeRetail1GameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ARetail1GameMode, 1530960544);
+	IMPLEMENT_CLASS(ARetail1GameMode, 285509630);
 	template<> RETAIL1_API UClass* StaticClass<ARetail1GameMode>()
 	{
 		return ARetail1GameMode::StaticClass();

@@ -38,10 +38,6 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Cleanup")
 	bool timerPaused;
 
-	/** Progress Bar for how cleanup is progressing*/
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Cleanup")
-	UWidgetComponent* progressBar;
-
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
