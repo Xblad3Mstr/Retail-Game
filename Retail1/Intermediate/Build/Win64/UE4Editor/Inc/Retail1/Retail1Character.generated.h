@@ -16,6 +16,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define Retail1_Source_Retail1_Retail1Character_h_14_SPARSE_DATA
 #define Retail1_Source_Retail1_Retail1Character_h_14_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execresetCleanup); \
 	DECLARE_FUNCTION(execadjustDailyPoints); \
 	DECLARE_FUNCTION(execadjustEmployeeLevel); \
 	DECLARE_FUNCTION(execStopInteract); \
@@ -24,6 +25,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define Retail1_Source_Retail1_Retail1Character_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execresetCleanup); \
 	DECLARE_FUNCTION(execadjustDailyPoints); \
 	DECLARE_FUNCTION(execadjustEmployeeLevel); \
 	DECLARE_FUNCTION(execStopInteract); \
@@ -76,6 +78,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ARetail1Character); \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(ARetail1Character, CameraBoom); } \
 	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(ARetail1Character, FollowCamera); } \
 	FORCEINLINE static uint32 __PPO__employeeLevel() { return STRUCT_OFFSET(ARetail1Character, employeeLevel); } \
+	FORCEINLINE static uint32 __PPO__dailyPoints() { return STRUCT_OFFSET(ARetail1Character, dailyPoints); } \
 	FORCEINLINE static uint32 __PPO__task1Timer() { return STRUCT_OFFSET(ARetail1Character, task1Timer); } \
 	FORCEINLINE static uint32 __PPO__shiftTimer() { return STRUCT_OFFSET(ARetail1Character, shiftTimer); } \
 	FORCEINLINE static uint32 __PPO__canMove() { return STRUCT_OFFSET(ARetail1Character, canMove); } \

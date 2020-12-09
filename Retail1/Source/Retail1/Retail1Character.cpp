@@ -49,6 +49,7 @@ ARetail1Character::ARetail1Character()
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
 	employeeLevel = 10.0f;
+	dailyPoints = 0.0f;
 
 	// Create CollectionSphere
 	collectionSphere = CreateDefaultSubobject<USphereComponent>(TEXT("CollectionSphere"));
@@ -107,10 +108,22 @@ void ARetail1Character::Interact()
 			foundInteraction = true;
 			if (currentCleanup != NULL)
 			{
-				currentCleanup->ResetTimer();
+				if (currentCleanup == TestCleanup)
+				{
+					currentCleanup->ResumeTimer();
+				}
+				else
+				{
+					currentCleanup->ResetTimer();
+					currentCleanup = TestCleanup;
+					currentCleanup->StartTimer();
+				}
 			}
-			currentCleanup = TestCleanup;
-			currentCleanup->StartTimer();
+			else
+			{
+				currentCleanup = TestCleanup;
+				currentCleanup->StartTimer();
+			}
 		}
 	}
 }
@@ -215,6 +228,12 @@ void ARetail1Character::adjustEmployeeLevel(float adjustment)
 
 void ARetail1Character::adjustDailyPoints(float adjustment)
 {
+	dailyPoints += adjustment;
+}
+
+void ARetail1Character::resetCleanup()
+{
+	currentCleanup = NULL;
 }
 
 
@@ -225,12 +244,12 @@ void ARetail1Character::OnResetVR()
 
 void ARetail1Character::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
 {
-		Jump();
+	Jump();
 }
 
 void ARetail1Character::TouchStopped(ETouchIndex::Type FingerIndex, FVector Location)
 {
-		StopJumping();
+	StopJumping();
 }
 
 void ARetail1Character::TurnAtRate(float Rate)

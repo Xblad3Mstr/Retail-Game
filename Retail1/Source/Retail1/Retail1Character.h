@@ -37,6 +37,10 @@ protected:
 	UPROPERTY(BlueprintReadOnly, Category = "Employee")
 	float employeeLevel;
 
+	/** Current Points for the day*/
+	UPROPERTY(BlueprintReadOnly, Category = "Employee")
+	float dailyPoints;
+
 	/** Timer for current task*/
 	UPROPERTY(BlueprintReadOnly, Category = "Actions")
 	FTimerHandle task1Timer;
@@ -112,5 +116,9 @@ public:
 	@param adjustment - a float to adjust the daily points*/
 	UFUNCTION(BlueprintCallable, Category = "Employee")
 	void adjustDailyPoints(float adjustment);
+
+	/** Reset Cleanup Vars*/
+	UFUNCTION(BlueprintCallable, Category = "Employee")
+		void resetCleanup();
 };
 

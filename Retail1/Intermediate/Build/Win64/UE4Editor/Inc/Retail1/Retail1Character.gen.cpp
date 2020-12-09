@@ -23,6 +23,13 @@ void EmptyLinkFunctionForGeneratedCodeRetail1Character() {}
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(ARetail1Character::execresetCleanup)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->resetCleanup();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(ARetail1Character::execadjustDailyPoints)
 	{
 		P_GET_PROPERTY(FFloatProperty,Z_Param_adjustment);
@@ -60,6 +67,7 @@ void EmptyLinkFunctionForGeneratedCodeRetail1Character() {}
 			{ "adjustDailyPoints", &ARetail1Character::execadjustDailyPoints },
 			{ "adjustEmployeeLevel", &ARetail1Character::execadjustEmployeeLevel },
 			{ "Interact", &ARetail1Character::execInteract },
+			{ "resetCleanup", &ARetail1Character::execresetCleanup },
 			{ "StopInteract", &ARetail1Character::execStopInteract },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -159,6 +167,31 @@ void EmptyLinkFunctionForGeneratedCodeRetail1Character() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_ARetail1Character_resetCleanup_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ARetail1Character_resetCleanup_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Employee" },
+		{ "Comment", "/** Reset Cleanup Vars*/" },
+		{ "ModuleRelativePath", "Retail1Character.h" },
+		{ "ToolTip", "Reset Cleanup Vars" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ARetail1Character_resetCleanup_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ARetail1Character, nullptr, "resetCleanup", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ARetail1Character_resetCleanup_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ARetail1Character_resetCleanup_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ARetail1Character_resetCleanup()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ARetail1Character_resetCleanup_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_ARetail1Character_StopInteract_Statics
 	{
 #if WITH_METADATA
@@ -217,6 +250,10 @@ void EmptyLinkFunctionForGeneratedCodeRetail1Character() {}
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_task1Timer;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_dailyPoints_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_dailyPoints;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_employeeLevel_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_employeeLevel;
@@ -248,6 +285,7 @@ void EmptyLinkFunctionForGeneratedCodeRetail1Character() {}
 		{ &Z_Construct_UFunction_ARetail1Character_adjustDailyPoints, "adjustDailyPoints" }, // 1615042376
 		{ &Z_Construct_UFunction_ARetail1Character_adjustEmployeeLevel, "adjustEmployeeLevel" }, // 1231185959
 		{ &Z_Construct_UFunction_ARetail1Character_Interact, "Interact" }, // 3051932504
+		{ &Z_Construct_UFunction_ARetail1Character_resetCleanup, "resetCleanup" }, // 749762693
 		{ &Z_Construct_UFunction_ARetail1Character_StopInteract, "StopInteract" }, // 2406375806
 	};
 #if WITH_METADATA
@@ -308,6 +346,15 @@ void EmptyLinkFunctionForGeneratedCodeRetail1Character() {}
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ARetail1Character_Statics::NewProp_task1Timer = { "task1Timer", nullptr, (EPropertyFlags)0x0020080000000014, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARetail1Character, task1Timer), Z_Construct_UScriptStruct_FTimerHandle, METADATA_PARAMS(Z_Construct_UClass_ARetail1Character_Statics::NewProp_task1Timer_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARetail1Character_Statics::NewProp_task1Timer_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARetail1Character_Statics::NewProp_dailyPoints_MetaData[] = {
+		{ "Category", "Employee" },
+		{ "Comment", "/** Current Points for the day*/" },
+		{ "ModuleRelativePath", "Retail1Character.h" },
+		{ "ToolTip", "Current Points for the day" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ARetail1Character_Statics::NewProp_dailyPoints = { "dailyPoints", nullptr, (EPropertyFlags)0x0020080000000014, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARetail1Character, dailyPoints), METADATA_PARAMS(Z_Construct_UClass_ARetail1Character_Statics::NewProp_dailyPoints_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARetail1Character_Statics::NewProp_dailyPoints_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARetail1Character_Statics::NewProp_employeeLevel_MetaData[] = {
 		{ "Category", "Employee" },
 		{ "Comment", "/** Current Employment Status*/" },
@@ -362,6 +409,7 @@ void EmptyLinkFunctionForGeneratedCodeRetail1Character() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1Character_Statics::NewProp_canMove,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1Character_Statics::NewProp_shiftTimer,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1Character_Statics::NewProp_task1Timer,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1Character_Statics::NewProp_dailyPoints,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1Character_Statics::NewProp_employeeLevel,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1Character_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1Character_Statics::NewProp_BaseTurnRate,
@@ -395,7 +443,7 @@ void EmptyLinkFunctionForGeneratedCodeRetail1Character() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ARetail1Character, 1766619861);
+	IMPLEMENT_CLASS(ARetail1Character, 2414033329);
 	template<> RETAIL1_API UClass* StaticClass<ARetail1Character>()
 	{
 		return ARetail1Character::StaticClass();
