@@ -135,8 +135,6 @@ D:\missp\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBluepri
 D:\missp\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
 D:\missp\Projects\Retail-Game\Retail1\Source\Retail1\Retail1Character.h
 D:\missp\Projects\Retail-Game\Retail1\Source\Retail1\Public\Cleanup.h
-D:\missp\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/WidgetComponent.h
-D:\missp\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetComponent.generated.h
 D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Inc\Retail1\Cleanup.generated.h
 D:\missp\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
 D:\missp\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h

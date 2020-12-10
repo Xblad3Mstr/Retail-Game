@@ -13,8 +13,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define RETAIL1_Cleanup_generated_h
 
-#define Retail1_Source_Retail1_Public_Cleanup_h_13_SPARSE_DATA
-#define Retail1_Source_Retail1_Public_Cleanup_h_13_RPC_WRAPPERS \
+#define Retail1_Source_Retail1_Public_Cleanup_h_12_SPARSE_DATA
+#define Retail1_Source_Retail1_Public_Cleanup_h_12_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execFinishCleanup); \
 	DECLARE_FUNCTION(execResetTimer); \
@@ -24,7 +24,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execUpdateProgress);
 
 
-#define Retail1_Source_Retail1_Public_Cleanup_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Retail1_Source_Retail1_Public_Cleanup_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execFinishCleanup); \
 	DECLARE_FUNCTION(execResetTimer); \
@@ -34,7 +34,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execUpdateProgress);
 
 
-#define Retail1_Source_Retail1_Public_Cleanup_h_13_INCLASS_NO_PURE_DECLS \
+#define Retail1_Source_Retail1_Public_Cleanup_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACleanup(); \
 	friend struct Z_Construct_UClass_ACleanup_Statics; \
@@ -43,7 +43,7 @@ public: \
 	DECLARE_SERIALIZER(ACleanup)
 
 
-#define Retail1_Source_Retail1_Public_Cleanup_h_13_INCLASS \
+#define Retail1_Source_Retail1_Public_Cleanup_h_12_INCLASS \
 private: \
 	static void StaticRegisterNativesACleanup(); \
 	friend struct Z_Construct_UClass_ACleanup_Statics; \
@@ -52,7 +52,7 @@ public: \
 	DECLARE_SERIALIZER(ACleanup)
 
 
-#define Retail1_Source_Retail1_Public_Cleanup_h_13_STANDARD_CONSTRUCTORS \
+#define Retail1_Source_Retail1_Public_Cleanup_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ACleanup(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACleanup) \
@@ -65,7 +65,7 @@ private: \
 public:
 
 
-#define Retail1_Source_Retail1_Public_Cleanup_h_13_ENHANCED_CONSTRUCTORS \
+#define Retail1_Source_Retail1_Public_Cleanup_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACleanup(ACleanup&&); \
@@ -76,7 +76,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACleanup); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACleanup)
 
 
-#define Retail1_Source_Retail1_Public_Cleanup_h_13_PRIVATE_PROPERTY_OFFSET \
+#define Retail1_Source_Retail1_Public_Cleanup_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__timer() { return STRUCT_OFFSET(ACleanup, timer); } \
 	FORCEINLINE static uint32 __PPO__timeToComplete() { return STRUCT_OFFSET(ACleanup, timeToComplete); } \
 	FORCEINLINE static uint32 __PPO__progress() { return STRUCT_OFFSET(ACleanup, progress); } \
@@ -84,27 +84,27 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACleanup); \
 	FORCEINLINE static uint32 __PPO__timerPaused() { return STRUCT_OFFSET(ACleanup, timerPaused); }
 
 
-#define Retail1_Source_Retail1_Public_Cleanup_h_10_PROLOG
-#define Retail1_Source_Retail1_Public_Cleanup_h_13_GENERATED_BODY_LEGACY \
+#define Retail1_Source_Retail1_Public_Cleanup_h_9_PROLOG
+#define Retail1_Source_Retail1_Public_Cleanup_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Retail1_Source_Retail1_Public_Cleanup_h_13_PRIVATE_PROPERTY_OFFSET \
-	Retail1_Source_Retail1_Public_Cleanup_h_13_SPARSE_DATA \
-	Retail1_Source_Retail1_Public_Cleanup_h_13_RPC_WRAPPERS \
-	Retail1_Source_Retail1_Public_Cleanup_h_13_INCLASS \
-	Retail1_Source_Retail1_Public_Cleanup_h_13_STANDARD_CONSTRUCTORS \
+	Retail1_Source_Retail1_Public_Cleanup_h_12_PRIVATE_PROPERTY_OFFSET \
+	Retail1_Source_Retail1_Public_Cleanup_h_12_SPARSE_DATA \
+	Retail1_Source_Retail1_Public_Cleanup_h_12_RPC_WRAPPERS \
+	Retail1_Source_Retail1_Public_Cleanup_h_12_INCLASS \
+	Retail1_Source_Retail1_Public_Cleanup_h_12_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Retail1_Source_Retail1_Public_Cleanup_h_13_GENERATED_BODY \
+#define Retail1_Source_Retail1_Public_Cleanup_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Retail1_Source_Retail1_Public_Cleanup_h_13_PRIVATE_PROPERTY_OFFSET \
-	Retail1_Source_Retail1_Public_Cleanup_h_13_SPARSE_DATA \
-	Retail1_Source_Retail1_Public_Cleanup_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	Retail1_Source_Retail1_Public_Cleanup_h_13_INCLASS_NO_PURE_DECLS \
-	Retail1_Source_Retail1_Public_Cleanup_h_13_ENHANCED_CONSTRUCTORS \
+	Retail1_Source_Retail1_Public_Cleanup_h_12_PRIVATE_PROPERTY_OFFSET \
+	Retail1_Source_Retail1_Public_Cleanup_h_12_SPARSE_DATA \
+	Retail1_Source_Retail1_Public_Cleanup_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	Retail1_Source_Retail1_Public_Cleanup_h_12_INCLASS_NO_PURE_DECLS \
+	Retail1_Source_Retail1_Public_Cleanup_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

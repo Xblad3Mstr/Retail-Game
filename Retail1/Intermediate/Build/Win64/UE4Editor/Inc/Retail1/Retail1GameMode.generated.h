@@ -14,8 +14,28 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define RETAIL1_Retail1GameMode_generated_h
 
 #define Retail1_Source_Retail1_Retail1GameMode_h_12_SPARSE_DATA
-#define Retail1_Source_Retail1_Retail1GameMode_h_12_RPC_WRAPPERS
-#define Retail1_Source_Retail1_Retail1GameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define Retail1_Source_Retail1_Retail1GameMode_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetProgress); \
+	DECLARE_FUNCTION(execFinishDay); \
+	DECLARE_FUNCTION(execResetTimer); \
+	DECLARE_FUNCTION(execResumeTimer); \
+	DECLARE_FUNCTION(execPauseTimer); \
+	DECLARE_FUNCTION(execStartTimer); \
+	DECLARE_FUNCTION(execUpdateProgress);
+
+
+#define Retail1_Source_Retail1_Retail1GameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetProgress); \
+	DECLARE_FUNCTION(execFinishDay); \
+	DECLARE_FUNCTION(execResetTimer); \
+	DECLARE_FUNCTION(execResumeTimer); \
+	DECLARE_FUNCTION(execPauseTimer); \
+	DECLARE_FUNCTION(execStartTimer); \
+	DECLARE_FUNCTION(execUpdateProgress);
+
+
 #define Retail1_Source_Retail1_Retail1GameMode_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesARetail1GameMode(); \
@@ -59,6 +79,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ARetail1GameMode); \
 
 
 #define Retail1_Source_Retail1_Retail1GameMode_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__timer() { return STRUCT_OFFSET(ARetail1GameMode, timer); } \
+	FORCEINLINE static uint32 __PPO__timeToComplete() { return STRUCT_OFFSET(ARetail1GameMode, timeToComplete); } \
+	FORCEINLINE static uint32 __PPO__progress() { return STRUCT_OFFSET(ARetail1GameMode, progress); } \
+	FORCEINLINE static uint32 __PPO__timerStarted() { return STRUCT_OFFSET(ARetail1GameMode, timerStarted); } \
+	FORCEINLINE static uint32 __PPO__timerPaused() { return STRUCT_OFFSET(ARetail1GameMode, timerPaused); } \
 	FORCEINLINE static uint32 __PPO__HUDWidgetClass() { return STRUCT_OFFSET(ARetail1GameMode, HUDWidgetClass); } \
 	FORCEINLINE static uint32 __PPO__CurrentWidget() { return STRUCT_OFFSET(ARetail1GameMode, CurrentWidget); }
 

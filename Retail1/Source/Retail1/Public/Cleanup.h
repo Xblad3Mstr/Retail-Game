@@ -4,7 +4,6 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "Components/WidgetComponent.h"
 #include "Cleanup.generated.h"
 
 UCLASS()
