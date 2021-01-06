@@ -1,0 +1,1112 @@
+﻿Log file open, 01/06/21 13:56:34
+LogInit: Display: Running engine for game: Retail1
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.238427
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.44.0
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-7820HK CPU @ 2.90GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: D:/missp/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+[2021.01.06-20.56.35:479][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+[2021.01.06-20.56.35:479][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+[2021.01.06-20.56.35:479][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+[2021.01.06-20.56.35:479][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.01.06-20.56.35:479][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+[2021.01.06-20.56.35:479][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+[2021.01.06-20.56.35:485][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.06-20.56.35:485][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.01.06-20.56.35:486][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.06-20.56.35:486][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.01.06-20.56.35:486][  0]LogHAL: Display: Platform has ~ 16 GB [17042706432 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.01.06-20.56.35:486][  0]LogInit: Going up to parent DeviceProfile []
+[2021.01.06-20.56.35:486][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.06-20.56.35:486][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.06-20.56.35:487][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.06-20.56.35:487][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.06-20.56.35:487][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.06-20.56.35:487][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.06-20.56.35:487][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.06-20.56.35:487][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.06-20.56.35:487][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.06-20.56.35:487][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.06-20.56.35:487][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.06-20.56.35:487][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.06-20.56.35:487][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.06-20.56.35:487][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.06-20.56.35:487][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.06-20.56.35:487][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.06-20.56.35:487][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.06-20.56.35:487][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.06-20.56.35:487][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.06-20.56.35:487][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.06-20.56.35:487][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.06-20.56.35:487][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.06-20.56.35:487][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.06-20.56.35:487][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.06-20.56.35:487][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.06-20.56.35:487][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.06-20.56.35:487][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.06-20.56.35:487][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.06-20.56.35:487][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.01.06-20.56.35:487][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.06-20.56.35:488][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.06-20.56.35:489][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.06-20.56.35:489][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.06-20.56.35:489][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.01.06-20.56.35:489][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.06-20.56.35:489][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.06-20.56.35:489][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.01.06-20.56.35:489][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.06-20.56.35:489][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.06-20.56.35:489][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.06-20.56.35:489][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.01.06-20.56.35:489][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.01.06-20.56.35:489][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.01.06-20.56.35:489][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.01.06-20.56.35:489][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.01.06-20.56.35:489][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.01.06-20.56.35:489][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.01.06-20.56.35:489][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.01.06-20.56.35:490][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+[2021.01.06-20.56.35:490][  0]LogInit: Computer: WONDERLAND
+[2021.01.06-20.56.35:490][  0]LogInit: User: missp
+[2021.01.06-20.56.35:490][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.01.06-20.56.35:490][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.01.06-20.56.35:490][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.01.06-20.56.35:490][  0]LogMemory: Platform Memory Stats for Windows
+[2021.01.06-20.56.35:490][  0]LogMemory: Process Physical Memory: 117.73 MB used, 117.73 MB peak
+[2021.01.06-20.56.35:490][  0]LogMemory: Process Virtual Memory: 108.24 MB used, 108.24 MB peak
+[2021.01.06-20.56.35:490][  0]LogMemory: Physical Memory: 8429.32 MB used,  7823.87 MB free, 16253.19 MB total
+[2021.01.06-20.56.35:490][  0]LogMemory: Virtual Memory: 5190.36 MB used,  134212536.00 MB free, 134217728.00 MB total
+[2021.01.06-20.56.36:649][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.01.06-20.56.36:687][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.01.06-20.56.36:688][  0]LogInit: Using OS detected language (en-US).
+[2021.01.06-20.56.36:688][  0]LogInit: Using OS detected locale (en-US).
+[2021.01.06-20.56.36:692][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.01.06-20.56.36:868][  0]LogInit: Setting process to per monitor DPI aware
+[2021.01.06-20.56.36:921][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.01.06-20.56.36:921][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.01.06-20.56.37:173][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.01.06-20.56.37:173][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.01.06-20.56.37:173][  0]LogD3D11RHI: D3D11 adapters:
+[2021.01.06-20.56.37:225][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2021.01.06-20.56.37:225][  0]LogD3D11RHI:       8081/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.01.06-20.56.37:258][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2021.01.06-20.56.37:258][  0]LogD3D11RHI:       128/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.01.06-20.56.37:260][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.01.06-20.56.37:260][  0]LogD3D11RHI:       0/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.01.06-20.56.37:260][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.01.06-20.56.37:275][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.01.06-20.56.37:275][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2021.01.06-20.56.37:275][  0]LogWindows: EnumDisplayDevices:
+[2021.01.06-20.56.37:275][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2021.01.06-20.56.37:275][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2021.01.06-20.56.37:275][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.01.06-20.56.37:276][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.01.06-20.56.37:276][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2021.01.06-20.56.37:276][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2021.01.06-20.56.37:276][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2021.01.06-20.56.37:277][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2021.01.06-20.56.37:277][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2021.01.06-20.56.37:277][  0]LogD3D11RHI:   Driver Version: 431.53 (internal:26.21.14.3153, unified:431.53)
+[2021.01.06-20.56.37:277][  0]LogD3D11RHI:      Driver Date: 7-12-2019
+[2021.01.06-20.56.37:277][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2021.01.06-20.56.37:318][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.01.06-20.56.37:319][  0]LogD3D11RHI: Async texture creation enabled
+[2021.01.06-20.56.37:319][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.01.06-20.56.37:428][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.01.06-20.56.37:758][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.01.06-20.56.37:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.01.06-20.56.37:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.01.06-20.56.37:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.01.06-20.56.37:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.01.06-20.56.37:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.01.06-20.56.37:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.01.06-20.56.37:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.01.06-20.56.37:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.01.06-20.56.37:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.01.06-20.56.37:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.01.06-20.56.37:807][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.01.06-20.56.37:807][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.01.06-20.56.37:817][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.01.06-20.56.37:828][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.01.06-20.56.37:837][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.01.06-20.56.37:846][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.01.06-20.56.37:857][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.01.06-20.56.37:865][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.01.06-20.56.37:875][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.01.06-20.56.37:901][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.01.06-20.56.37:901][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.01.06-20.56.37:915][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.01.06-20.56.37:915][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.01.06-20.56.37:924][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.01.06-20.56.37:934][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.01.06-20.56.37:943][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.01.06-20.56.37:951][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.01.06-20.56.37:951][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.01.06-20.56.37:960][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.01.06-20.56.38:016][  0]LogShaderCompilers: Guid format shader working directory is 4 characters bigger than the processId version (../../../../Projects/Retail-Game/Retail1/Intermediate/Shaders/WorkingDirectory/121332/).
+[2021.01.06-20.56.38:016][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/missp/AppData/Local/Temp/UnrealShaderWorkingDir/65866C114823A2D6A0A31E94D364B9E5/'.
+[2021.01.06-20.56.38:016][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.01.06-20.56.38:016][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.01.06-20.56.38:017][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.01.06-20.56.38:796][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.01.06-20.56.38:857][  0]LogDerivedDataCache: Loaded boot cache 0.06s 84MB C:/Users/missp/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.01.06-20.56.38:857][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/missp/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.01.06-20.56.38:857][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Projects/Retail-Game/Retail1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.01.06-20.56.38:857][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.01.06-20.56.38:857][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Projects/Retail-Game/Retail1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.06-20.56.38:857][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.01.06-20.56.38:867][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.01.06-20.56.38:867][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.06-20.56.38:867][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.01.06-20.56.38:869][  0]LogDerivedDataCache: Using Local data cache path C:/Users/missp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.01.06-20.56.38:869][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.01.06-20.56.38:869][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.01.06-20.56.38:921][  0]LogSlate: Using FreeType 2.10.0
+[2021.01.06-20.56.38:921][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.06-20.56.38:949][  0]LogAssetRegistry: FAssetRegistry took 0.0026 seconds to start up
+[2021.01.06-20.56.39:204][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.06-20.56.39:250][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.01.06-20.56.39:250][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.01.06-20.56.39:250][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.01.06-20.56.39:250][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.01.06-20.56.39:250][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.01.06-20.56.39:340][  0]LogNetVersion: Retail1 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2139136878)
+[2021.01.06-20.56.39:853][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001ECE96902C0), frame # 0
+[2021.01.06-20.56.39:854][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001ECEA5F0900), frame # 0
+[2021.01.06-20.56.39:855][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001ECEA614800), frame # 0
+[2021.01.06-20.56.39:909][  0]LogPackageLocalizationCache: Processed 18 localized package path(s) for 1 prioritized culture(s) in 0.048749 seconds
+[2021.01.06-20.56.39:914][  0]LogUObjectArray: 15814 objects as part of root set at end of initial load.
+[2021.01.06-20.56.39:914][  0]LogUObjectAllocator: 3939424 out of 0 bytes used by permanent object pool.
+[2021.01.06-20.56.39:914][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.01.06-20.56.40:240][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.01.06-20.56.40:244][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.01.06-20.56.41:763][  0]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "employeeLevel" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get employeeLevel
+[2021.01.06-20.56.41:764][  0]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "dailyPoints" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get dailyPoints
+[2021.01.06-20.56.41:764][  0]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  employeeLevel  could not be found in '/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C'
+[2021.01.06-20.56.41:764][  0]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  dailyPoints  could not be found in '/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C'
+[2021.01.06-20.56.42:772][  0]SourceControl: Source control is disabled
+[2021.01.06-20.56.42:772][  0]SourceControl: Source control is disabled
+[2021.01.06-20.56.42:775][  0]SourceControl: Source control is disabled
+[2021.01.06-20.56.42:778][  0]SourceControl: Source control is disabled
+[2021.01.06-20.56.42:785][  0]SourceControl: Source control is disabled
+[2021.01.06-20.56.43:002][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.01.06-20.56.43:020][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.06-20.56.43:020][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.06-20.56.43:065][  0]LogOcInput: OculusInput pre-init called
+[2021.01.06-20.56.43:338][  0]LogEngine: Initializing Engine...
+[2021.01.06-20.56.43:338][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.01.06-20.56.43:339][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.01.06-20.56.43:468][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.01.06-20.56.43:476][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.01.06-20.56.43:476][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001ECF3AEDE00), frame # 0
+[2021.01.06-20.56.43:476][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001ECF3B12980), frame # 0
+[2021.01.06-20.56.43:552][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.06-20.56.43:552][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.06-20.56.43:552][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.06-20.56.43:552][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.06-20.56.43:552][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.06-20.56.43:552][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.06-20.56.43:552][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.06-20.56.43:552][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.06-20.56.43:552][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.06-20.56.43:552][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.06-20.56.43:583][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.06-20.56.43:583][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.01.06-20.56.43:583][  0]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.06-20.56.43:583][  0]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.06-20.56.43:583][  0]LogAudioMixer: Display: 4: BackLeft
+[2021.01.06-20.56.43:583][  0]LogAudioMixer: Display: 5: BackRight
+[2021.01.06-20.56.43:583][  0]LogAudioMixer: Display: 6: SideLeft
+[2021.01.06-20.56.43:583][  0]LogAudioMixer: Display: 7: SideRight
+[2021.01.06-20.56.43:856][  0]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.01.06-20.56.43:859][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.06-20.56.43:862][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.06-20.56.43:862][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.06-20.56.43:862][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.06-20.56.43:863][  0]LogInit: FAudioDevice initialized.
+[2021.01.06-20.56.43:863][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.01.06-20.56.43:952][  0]LogDerivedDataCache: Saved boot cache 0.09s 88MB C:/Users/missp/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.01.06-20.56.43:956][  0]LogInit: Texture streaming: Enabled
+[2021.01.06-20.56.43:971][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.01.06-20.56.43:971][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.01.06-20.56.43:973][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.01.06-20.56.44:046][  0]LogInit: Transaction tracking system initialized
+[2021.01.06-20.56.44:068][  0]BlueprintLog: New page: Editor Load
+[2021.01.06-20.56.44:130][  0]LocalizationService: Localization service is disabled
+[2021.01.06-20.56.44:355][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.01.06-20.56.44:355][  0]LogCook: Display: Mobile HDR setting 1
+[2021.01.06-20.56.44:511][  0]LogFileCache: Scanning file cache for directory 'D:/missp/Projects/Retail-Game/Retail1/Content/' took 0.01s
+[2021.01.06-20.56.44:511][  0]SourceControl: Source control is disabled
+[2021.01.06-20.56.44:511][  0]LogUnrealEdMisc: Loading editor; pre map load, took 12.178
+[2021.01.06-20.56.44:511][  0]Cmd: MAP LOAD FILE="../../../../Projects/Retail-Game/Retail1/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.06-20.56.44:511][  0]LightingResults: New page: Lighting Build
+[2021.01.06-20.56.44:512][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.01.06-20.56.44:512][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.06-20.56.44:512][  0]MapCheck: New page: Map Check
+[2021.01.06-20.56.44:512][  0]LightingResults: New page: Lighting Build
+[2021.01.06-20.56.44:522][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001ECF3AEDE00), frame # 0
+[2021.01.06-20.56.44:522][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001ECF3B12980), frame # 0
+[2021.01.06-20.56.44:523][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2021.01.06-20.56.44:761][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/SpillCleanup_BP.SpillCleanup_BP_C
+[2021.01.06-20.56.44:762][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/SpillCleanup_BP.SpillCleanup_BP_C
+[2021.01.06-20.56.44:762][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/SpillCleanup_BP.SpillCleanup_BP_C
+[2021.01.06-20.56.44:762][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/SpillCleanup_BP.SpillCleanup_BP_C
+[2021.01.06-20.56.44:762][  0]LogLinker: Warning: Unable to load Default__SpillCleanup_BP_C with outer Package /Game/Blueprints/SpillCleanup_BP because its class does not exist
+[2021.01.06-20.56.44:762][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/SpillCleanup_BP.SpillCleanup_BP_C
+[2021.01.06-20.56.44:762][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/SpillCleanup_BP.SpillCleanup_BP_C
+[2021.01.06-20.56.44:762][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/SpillCleanup_BP.SpillCleanup_BP_C
+[2021.01.06-20.56.44:762][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/SpillCleanup_BP.SpillCleanup_BP_C
+[2021.01.06-20.56.44:762][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/SpillCleanup_BP.SpillCleanup_BP_C
+[2021.01.06-20.56.44:886][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/SpillCleanup_BP.SpillCleanup_BP_C
+[2021.01.06-20.56.44:888][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/SpillCleanup_BP.SpillCleanup_BP_C
+[2021.01.06-20.56.44:889][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/SpillCleanup_BP.SpillCleanup_BP_C
+[2021.01.06-20.56.44:889][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/SpillCleanup_BP.SpillCleanup_BP_C
+[2021.01.06-20.56.44:890][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/SpillCleanup_BP.SpillCleanup_BP_C
+[2021.01.06-20.56.45:312][  0]LogStaticMesh: Building static mesh shelf...
+[2021.01.06-20.56.45:464][  0]LogStaticMesh: Built static mesh [0.15s] /Game/Assets/StoreStuff/shelf.shelf
+[2021.01.06-20.56.45:550][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.01.06-20.56.45:550][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001ECF3183E00), frame # 0
+[2021.01.06-20.56.45:550][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001ECEC9991C0), frame # 0
+[2021.01.06-20.56.45:692][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.06-20.56.45:703][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2021.01.06-20.56.45:704][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.06-20.56.45:704][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.093ms to complete.
+[2021.01.06-20.56.45:704][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.193
+[2021.01.06-20.56.45:715][  0]LogUnrealEdMisc: Total Editor Startup Time, took 13.381
+[2021.01.06-20.56.48:269][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.06-20.56.48:285][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.06-20.56.48:292][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.06-20.56.48:299][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.06-20.56.48:367][  0]LogCollectionManager: Loaded 0 collections in 0.001045 seconds
+[2021.01.06-20.56.48:476][  0]LogFileCache: Scanning file cache for directory 'D:/missp/Projects/Retail-Game/Retail1/Saved/Collections/' took 0.00s
+[2021.01.06-20.56.48:476][  0]LogFileCache: Scanning file cache for directory 'D:/missp/Projects/Retail-Game/Retail1/Content/Developers/missp/Collections/' took 0.00s
+[2021.01.06-20.56.48:476][  0]LogFileCache: Scanning file cache for directory 'D:/missp/Projects/Retail-Game/Retail1/Content/Collections/' took 0.00s
+[2021.01.06-20.56.48:476][  0]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 3421 classes and 816 folders.
+[2021.01.06-20.56.48:507][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2021.01.06-20.56.49:713][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2021.01.06-20.56.49:998][  0]LogSlate: Took 0.000384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.06-20.56.50:023][  0]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.01.06-20.56.50:054][  0]LogSlate: Took 0.016960 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.01.06-20.56.50:406][  0]LogRenderer: Reallocating scene render targets to support 1344x304 Format 10 NumSamples 1 (Frame:1).
+[2021.01.06-20.56.50:697][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2021.01.06-20.56.50:698][  0]LogLoad: (Engine Initialization) Total time: 18.36 seconds
+[2021.01.06-20.56.50:698][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.01.06-20.56.50:718][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'ExecuteUbergraph_SpillCleanup_BP': BlueprintGeneratedClass /Game/Blueprints/SpillCleanup_BP.SpillCleanup_BP_C
+[2021.01.06-20.56.50:718][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'ReceiveTick': BlueprintGeneratedClass /Game/Blueprints/SpillCleanup_BP.SpillCleanup_BP_C
+[2021.01.06-20.56.50:718][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot_GEN_VARIABLE': BlueprintGeneratedClass /Game/Blueprints/SpillCleanup_BP.SpillCleanup_BP_C
+[2021.01.06-20.56.50:718][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SimpleConstructionScript_0': BlueprintGeneratedClass /Game/Blueprints/SpillCleanup_BP.SpillCleanup_BP_C
+[2021.01.06-20.56.50:718][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_0': SimpleConstructionScript /Game/Blueprints/SpillCleanup_BP.SpillCleanup_BP_C:SimpleConstructionScript_0
+[2021.01.06-20.56.50:718][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_1': SimpleConstructionScript /Game/Blueprints/SpillCleanup_BP.SpillCleanup_BP_C:SimpleConstructionScript_0
+[2021.01.06-20.56.50:718][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_2': SimpleConstructionScript /Game/Blueprints/SpillCleanup_BP.SpillCleanup_BP_C:SimpleConstructionScript_0
+[2021.01.06-20.56.50:718][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_3': SimpleConstructionScript /Game/Blueprints/SpillCleanup_BP.SpillCleanup_BP_C:SimpleConstructionScript_0
+[2021.01.06-20.56.50:718][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sphere1_GEN_VARIABLE': BlueprintGeneratedClass /Game/Blueprints/SpillCleanup_BP.SpillCleanup_BP_C
+[2021.01.06-20.56.50:718][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sphere_GEN_VARIABLE': BlueprintGeneratedClass /Game/Blueprints/SpillCleanup_BP.SpillCleanup_BP_C
+[2021.01.06-20.56.50:718][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'ProgressBar_GEN_VARIABLE': BlueprintGeneratedClass /Game/Blueprints/SpillCleanup_BP.SpillCleanup_BP_C
+[2021.01.06-20.56.50:718][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': SpillCleanup_BP_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.SpillCleanup_5
+[2021.01.06-20.56.50:718][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sphere1': SpillCleanup_BP_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.SpillCleanup_5
+[2021.01.06-20.56.50:718][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sphere': SpillCleanup_BP_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.SpillCleanup_5
+[2021.01.06-20.56.50:718][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'ProgressBar': SpillCleanup_BP_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.SpillCleanup_5
+[2021.01.06-20.56.50:781][  0]LogAssetRegistry: Asset discovery search completed in 11.8333 seconds
+[2021.01.06-20.56.50:784][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.01.06-20.56.50:802][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.01.06-20.56.50:931][  0]LogSlate: Took 0.035107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.01.06-20.56.51:774][ 45]LogSlate: Took 0.044345 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.01.06-20.57.00:237][539]LogSlate: Window 'Message Log' being destroyed
+[2021.01.06-20.57.00:242][539]LogSlate: Window 'Message Log' being destroyed
+[2021.01.06-20.57.03:850][747]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.01.06-20.57.04:872][747]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 125 classes and 0 folders.
+[2021.01.06-20.57.06:214][747]LogBlueprint: Error: [Compiler RetailHUD_BP] In use pin  <Unnamed>  no longer exists on node  Get Progress . Please refresh node or break links to remove pin.
+[2021.01.06-20.57.06:214][747]LogBlueprint: Error: [Compiler RetailHUD_BP] In use pin  <Unnamed>  no longer exists on node  Get Progress . Please refresh node or break links to remove pin.
+[2021.01.06-20.57.06:214][747]LogBlueprint: Error: [Compiler RetailHUD_BP] In use pin  Target  no longer exists on node  Get Progress . Please refresh node or break links to remove pin.
+[2021.01.06-20.57.06:214][747]LogBlueprint: Error: [Compiler RetailHUD_BP] In use pin  Return Value  no longer exists on node  Get Progress . Please refresh node or break links to remove pin.
+[2021.01.06-20.57.06:215][747]LogBlueprint: Error: [Compiler RetailHUD_BP] Could not find a function named "GetProgress" in 'Retail1GameMode'.
+Make sure 'Retail1GameMode' has been compiled for  Get Progress
+[2021.01.06-20.57.06:228][747]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/RetailHUD_BP.RetailHUD_BP
+[2021.01.06-20.57.07:239][747]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.01.06-20.57.12:776][ 38]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2021.01.06-20.57.19:183][396]LogSlate: Took 0.019904 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.01.06-20.58.33:425][803]LogRenderer: Reallocating scene render targets to support 1348x304 Format 10 NumSamples 1 (Frame:4577).
+[2021.01.06-20.58.51:508][814]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/RetailGameMode_BP.RetailGameMode_BP
+[2021.01.06-20.59.47:746][ 43]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.01.06-20.59.47:746][ 43]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.06-20.59.47:848][ 43]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/RetailGameMode_BP.RetailGameMode_BP
+[2021.01.06-21.00.14:257][598]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.01.06-21.00.14:257][598]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.06-21.03.34:458][321]LogEditorTransaction: Undo Add Node
+[2021.01.06-21.03.34:657][326]LogEditorTransaction: Undo Add Node
+[2021.01.06-21.03.35:124][352]LogEditorTransaction: Undo Move Node
+[2021.01.06-21.05.27:730][ 56]LogHotReload: New module detected: UE4Editor-Retail1-0001.dll
+[2021.01.06-21.05.29:791][ 63]LogHotReload: Starting Hot-Reload from IDE
+[2021.01.06-21.05.29:866][ 63]LogClass: Could not find existing class Cleanup in package /Script/Retail1 for HotReload, assuming new class
+[2021.01.06-21.05.29:866][ 63]LogClass: Function FinishCleanup is new.
+[2021.01.06-21.05.29:866][ 63]LogClass: Function PauseTimer is new.
+[2021.01.06-21.05.29:866][ 63]LogClass: Function ResetTimer is new.
+[2021.01.06-21.05.29:866][ 63]LogClass: Function ResumeTimer is new.
+[2021.01.06-21.05.29:866][ 63]LogClass: Function StartTimer is new.
+[2021.01.06-21.05.29:866][ 63]LogClass: Function UpdateProgress is new.
+[2021.01.06-21.05.29:866][ 63]LogClass: Could not find existing class Retail1Character in package /Script/Retail1 for HotReload, assuming new class
+[2021.01.06-21.05.29:866][ 63]LogClass: Function adjustDailyPoints is new.
+[2021.01.06-21.05.29:866][ 63]LogClass: Function adjustEmployeeLevel is new.
+[2021.01.06-21.05.29:866][ 63]LogClass: Function Interact is new.
+[2021.01.06-21.05.29:866][ 63]LogClass: Function resetCleanup is new.
+[2021.01.06-21.05.29:866][ 63]LogClass: Function StopInteract is new.
+[2021.01.06-21.05.29:866][ 63]LogClass: Could not find existing class Retail1GameMode in package /Script/Retail1 for HotReload, assuming new class
+[2021.01.06-21.05.29:866][ 63]LogClass: Function FinishDay is new.
+[2021.01.06-21.05.29:866][ 63]LogClass: Function GetProgress is new.
+[2021.01.06-21.05.29:866][ 63]LogClass: Function PauseTimer is new.
+[2021.01.06-21.05.29:866][ 63]LogClass: Function ResetTimer is new.
+[2021.01.06-21.05.29:866][ 63]LogClass: Function ResumeTimer is new.
+[2021.01.06-21.05.29:866][ 63]LogClass: Function StartTimer is new.
+[2021.01.06-21.05.29:866][ 63]LogClass: Function UpdateProgress is new.
+[2021.01.06-21.05.29:866][ 63]LogTemp: TIME TO COMPLETE -1073741824
+[2021.01.06-21.05.29:899][ 63]LogHotReload: Re-instancing Retail1Character after hot-reload.
+[2021.01.06-21.05.30:682][ 63]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/ThirdPersonCharacter5D451BF04E1166C5B7F2118104F5D003.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.01.06-21.05.30:848][ 63]LogHotReload: Re-instancing Retail1GameMode after hot-reload.
+[2021.01.06-21.05.30:879][ 63]LogContentBrowser: Native class hierarchy updated for 'Retail1' in 0.0007 seconds. Added 3 classes and 3 folders.
+[2021.01.06-21.05.30:884][ 63]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.06-21.05.30:920][ 63]LogContentBrowser: Native class hierarchy populated in 0.0152 seconds. Added 3422 classes and 817 folders.
+[2021.01.06-21.05.31:019][ 63]Display: HotReload took  1.2s.
+[2021.01.06-21.05.31:104][ 63]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.01.06-21.05.31:104][ 63]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.01.06-21.05.47:539][290]BlueprintLog: New page: Compile RetailHUD_BP
+[2021.01.06-21.05.47:547][290]LogBlueprint: Error: [Compiler RetailHUD_BP] In use pin  <Unnamed>  no longer exists on node  Get Progress . Please refresh node or break links to remove pin.
+[2021.01.06-21.05.47:547][290]LogBlueprint: Error: [Compiler RetailHUD_BP] In use pin  <Unnamed>  no longer exists on node  Get Progress . Please refresh node or break links to remove pin.
+[2021.01.06-21.05.47:547][290]LogBlueprint: Error: [Compiler RetailHUD_BP] In use pin  Target  no longer exists on node  Get Progress . Please refresh node or break links to remove pin.
+[2021.01.06-21.05.47:547][290]LogBlueprint: Error: [Compiler RetailHUD_BP] In use pin  Return Value  no longer exists on node  Get Progress . Please refresh node or break links to remove pin.
+[2021.01.06-21.05.47:729][290]LogUObjectHash: Compacting FUObjectHashTables data took   4.72ms
+[2021.01.06-21.06.22:878][344]BlueprintLog: New page: Compile RetailHUD_BP
+[2021.01.06-21.06.23:020][344]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2021.01.06-21.06.23:067][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RetailHUD_BP" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/RetailHUD_BP.uasset" SILENT=true
+[2021.01.06-21.06.23:117][344]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/RetailHUD_BP7F953DF545AEC0361ABE51A82F57BA1A.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/RetailHUD_BP.uasset'
+[2021.01.06-21.06.23:136][344]AssetCheck: New page: Asset Save: RetailHUD_BP
+[2021.01.06-21.06.23:136][344]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/RetailHUD_BP.RetailHUD_BP
+[2021.01.06-21.06.25:786][488]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.01.06-21.06.25:786][488]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.06-21.06.25:827][488]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.01.06-21.06.25:827][488]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.06-21.06.37:905][187]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/ThirdPersonCharacterDCB0EC8148B03FDC0F29419294AA6A7C.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.01.06-21.06.37:926][187]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.01.06-21.06.37:926][187]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.01.06-21.06.40:132][317]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.01.06-21.06.40:201][317]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2021.01.06-21.06.48:888][814]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.01.06-21.06.48:888][814]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.01.06-21.06.48:888][814]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.06-21.06.50:503][895]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2021.01.06-21.06.50:628][895]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/ThirdPersonExampleMapBAA442C446FB68E249AD4ABA51ED0CF6.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2021.01.06-21.06.51:004][895]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/ThirdPersonExampleMap_BuiltDataEAB8409946301DD59F5B5EAAEA891A8E.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.01.06-21.06.51:033][895]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.06-21.06.51:033][895]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.01.06-21.06.51:033][895]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.01.06-21.07.02:228][538]LogRenderer: Reallocating scene render targets to support 1348x308 Format 10 NumSamples 1 (Frame:7301).
+[2021.01.06-21.07.02:271][539]LogRenderer: Reallocating scene render targets to support 1348x324 Format 10 NumSamples 1 (Frame:7303).
+[2021.01.06-21.07.02:323][540]LogRenderer: Reallocating scene render targets to support 1348x364 Format 10 NumSamples 1 (Frame:7305).
+[2021.01.06-21.07.02:372][541]LogRenderer: Reallocating scene render targets to support 1348x404 Format 10 NumSamples 1 (Frame:7307).
+[2021.01.06-21.07.02:422][542]LogRenderer: Reallocating scene render targets to support 1348x436 Format 10 NumSamples 1 (Frame:7309).
+[2021.01.06-21.07.02:458][543]LogRenderer: Reallocating scene render targets to support 1348x456 Format 10 NumSamples 1 (Frame:7311).
+[2021.01.06-21.07.02:496][544]LogRenderer: Reallocating scene render targets to support 1348x464 Format 10 NumSamples 1 (Frame:7313).
+[2021.01.06-21.07.02:539][545]LogRenderer: Reallocating scene render targets to support 1348x472 Format 10 NumSamples 1 (Frame:7315).
+[2021.01.06-21.07.02:581][546]LogRenderer: Reallocating scene render targets to support 1348x480 Format 10 NumSamples 1 (Frame:7317).
+[2021.01.06-21.07.02:624][547]LogRenderer: Reallocating scene render targets to support 1348x484 Format 10 NumSamples 1 (Frame:7319).
+[2021.01.06-21.07.02:663][548]LogRenderer: Reallocating scene render targets to support 1348x488 Format 10 NumSamples 1 (Frame:7321).
+[2021.01.06-21.07.04:629][658]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.06-21.07.04:776][658]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.06-21.07.04:835][658]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 6, 2021, 7:07:04 AM)
+[2021.01.06-21.07.04:941][658]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.01.06-21.07.04:944][658]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.01.06-21.07.04:974][658]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.01.06-21.07.05:023][658]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049137s)
+[2021.01.06-21.07.05:048][658]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.01.06-21.07.05:048][658]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001ECFED35A00), frame # 26658
+[2021.01.06-21.07.05:048][658]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001ED131DF740), frame # 26658
+[2021.01.06-21.07.05:048][658]LogPlayLevel: PIE: World Init took: (0.011235s)
+[2021.01.06-21.07.05:048][658]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.074407s)
+[2021.01.06-21.07.05:093][658]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2021.01.06-21.07.05:098][658]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.06-21.07.05:098][658]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.06-21.07.05:098][658]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.06-21.07.05:098][658]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.06-21.07.05:098][658]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.06-21.07.05:098][658]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.06-21.07.05:098][658]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.06-21.07.05:098][658]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.06-21.07.05:098][658]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.06-21.07.05:098][658]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.06-21.07.05:131][658]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.06-21.07.05:131][658]LogAudioMixer: Display: 1: FrontRight
+[2021.01.06-21.07.05:131][658]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.06-21.07.05:131][658]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.06-21.07.05:131][658]LogAudioMixer: Display: 4: BackLeft
+[2021.01.06-21.07.05:131][658]LogAudioMixer: Display: 5: BackRight
+[2021.01.06-21.07.05:131][658]LogAudioMixer: Display: 6: SideLeft
+[2021.01.06-21.07.05:131][658]LogAudioMixer: Display: 7: SideRight
+[2021.01.06-21.07.05:208][658]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.01.06-21.07.05:209][658]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.06-21.07.05:209][658]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.06-21.07.05:209][658]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.06-21.07.05:209][658]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.06-21.07.05:222][658]LogInit: FAudioDevice initialized.
+[2021.01.06-21.07.05:325][658]LogLoad: Game class is 'RetailGameMode_BP_C'
+[2021.01.06-21.07.05:328][658]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.01.06-14.07.05
+[2021.01.06-21.07.05:339][658]LogWorld: Bringing up level for play took: 0.012990
+[2021.01.06-21.07.05:340][658]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.01.06-21.07.05:678][658]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2021.01.06-21.07.05:707][658]LogTemp: GAMEMODE::StartTimer
+[2021.01.06-21.07.05:721][658]PIE: Server logged in
+[2021.01.06-21.07.05:730][658]PIE: Play in editor total start time 1.06 seconds.
+[2021.01.06-21.07.12:189][  6]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.06-21.07.12:189][  6]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.01.06-21.07.12:193][  6]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.06-21.07.12:193][  6]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.06-21.07.12:237][  6]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.06-21.07.12:241][  6]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.06-21.07.12:284][  6]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.06-21.07.12:354][  6]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001ED131DF740), frame # 27006
+[2021.01.06-21.07.12:354][  6]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001ECFED35A00), frame # 27006
+[2021.01.06-21.07.12:455][  6]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2021.01.06-21.07.12:499][  7]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.01.06-21.07.58:904][725]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/RetailGameMode_BP.RetailGameMode_BP
+[2021.01.06-21.08.47:020][517]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/RetailHUD_BP.RetailHUD_BP
+[2021.01.06-21.09.24:486][704]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.01.06-21.09.24:486][704]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.06-21.09.43:497][782]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/SpillCleanup_BP.SpillCleanup_BP
+[2021.01.06-21.09.49:225][782]LogSlate: Window 'Message' being destroyed
+[2021.01.06-21.09.49:231][782]Message dialog closed, result: No, title: Message, text: Blueprint could not be loaded because it derives from an invalid class.  Check to make sure the parent class for this blueprint hasn't been removed! Do you want to continue (it can crash the editor)?
+[2021.01.06-21.10.28:762][  8]Candidate modules for hot reload:
+[2021.01.06-21.10.28:762][  8]  Retail1
+[2021.01.06-21.10.28:762][  8]Launching UnrealBuildTool... [D:/missp/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Retail1,1099 Retail1Editor Win64 Development -Project="D:/missp/Projects/Retail-Game/Retail1/Retail1.uproject" "D:/missp/Projects/Retail-Game/Retail1/Retail1.uproject"  -IgnoreJunk]
+[2021.01.06-21.10.28:764][  8]Warning: Starting HotReload took  0.1s.
+[2021.01.06-21.10.30:981][126]CompilerResultsLog: New page: Compilation - Jan 6, 2021, 7:10:30 AM
+[2021.01.06-21.10.31:025][126]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\missp\Projects\Retail-Game).
+[2021.01.06-21.10.31:025][126]CompilerResultsLog: Building Retail1Editor...
+[2021.01.06-21.10.31:025][126]CompilerResultsLog: Using Visual Studio 2019 14.28.29333 toolchain (D:\VSCommunity\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.06-21.10.31:025][126]CompilerResultsLog: Building 3 actions with 8 processes...
+[2021.01.06-21.10.31:025][126]CompilerResultsLog:   [1/3] UE4Editor-Retail1-1099.lib
+[2021.01.06-21.10.31:025][126]CompilerResultsLog:      Creating library D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-1099.lib and object D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-1099.exp
+[2021.01.06-21.10.31:025][126]CompilerResultsLog:   [2/3] UE4Editor-Retail1-1099.dll
+[2021.01.06-21.10.31:025][126]CompilerResultsLog:      Creating library D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-1099.suppressed.lib and object D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-1099.suppressed.exp
+[2021.01.06-21.10.31:025][126]CompilerResultsLog:   [3/3] Retail1Editor.target
+[2021.01.06-21.10.31:025][126]CompilerResultsLog: Total time in Parallel executor: 0.92 seconds
+[2021.01.06-21.10.31:025][126]CompilerResultsLog: Total execution time: 2.09 seconds
+[2021.01.06-21.10.31:025][126]LogMainFrame: MainFrame: Module compiling took 2.266 seconds
+[2021.01.06-21.10.31:055][126]LogTemp: TIME TO COMPLETE -2147483648
+[2021.01.06-21.10.31:055][126]LogHotReload: Re-instancing Cleanup after hot-reload.
+[2021.01.06-21.10.31:097][126]LogContentBrowser: Native class hierarchy updated for 'Retail1' in 0.0006 seconds. Added 3 classes and 3 folders.
+[2021.01.06-21.10.31:101][126]Display: HotReload successful (18 functions remapped  0 scriptstructs remapped)
+[2021.01.06-21.10.31:596][126]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 3422 classes and 817 folders.
+[2021.01.06-21.10.31:596][126]Display: HotReload took  3.0s.
+[2021.01.06-21.10.57:386][626]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/CleanupWidget_BP.CleanupWidget_BP
+[2021.01.06-21.11.54:539][911]LogTemp: Resetting audio stream to device id 
+[2021.01.06-21.11.54:703][911]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.06-21.11.54:703][911]LogAudioMixer: Display: 1: FrontRight
+[2021.01.06-21.11.54:703][911]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.06-21.11.54:703][911]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.06-21.11.54:703][911]LogAudioMixer: Display: 4: BackLeft
+[2021.01.06-21.11.54:703][911]LogAudioMixer: Display: 5: BackRight
+[2021.01.06-21.11.54:703][911]LogAudioMixer: Display: 6: SideLeft
+[2021.01.06-21.11.54:703][911]LogAudioMixer: Display: 7: SideRight
+[2021.01.06-21.12.23:833][622]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/SpillCleanup_BP.SpillCleanup_BP
+[2021.01.06-21.12.23:833][622]LogContentValidation: Display: Validating Material /Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial
+[2021.01.06-21.12.23:833][622]LogContentValidation: Display: Validating MaterialInstanceConstant /Engine/EngineMaterials/Widget3DPassThrough_Masked.Widget3DPassThrough_Masked
+[2021.01.06-21.12.23:833][622]LogContentValidation: Display: Validating Material /Engine/EngineMaterials/Widget3DPassThrough.Widget3DPassThrough
+[2021.01.06-21.12.23:833][622]LogContentValidation: Display: Validating Texture2D /Engine/EngineResources/WhiteSquareTexture.WhiteSquareTexture
+[2021.01.06-21.12.23:833][622]LogContentValidation: Display: Validating StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2021.01.06-21.12.23:833][622]LogContentValidation: Display: Validating Material /Engine/EngineMaterials/DefaultMaterial.DefaultMaterial
+[2021.01.06-21.12.23:833][622]LogContentValidation: Display: Validating MaterialFunction /Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.CameraDepthFade
+[2021.01.06-21.12.23:833][622]LogContentValidation: Display: Validating Texture2D /Engine/EngineMaterials/T_Default_Material_Grid_M.T_Default_Material_Grid_M
+[2021.01.06-21.12.23:833][622]LogContentValidation: Display: Validating Texture2D /Engine/EngineMaterials/T_Default_Material_Grid_N.T_Default_Material_Grid_N
+[2021.01.06-21.12.23:833][622]LogContentValidation: Display: Validating PhysicalMaterial /Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial
+[2021.01.06-21.12.23:833][622]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/CleanupWidget_BP.CleanupWidget_BP
+[2021.01.06-21.12.23:833][622]AssetCheck: /Game/Blueprints/SpillCleanup_BP contains invalid data.
+[2021.01.06-21.12.23:833][622]AssetCheck: /Engine/BasicShapes/BasicShapeMaterial has no data validation.
+[2021.01.06-21.12.23:834][622]AssetCheck: /Engine/EngineMaterials/Widget3DPassThrough_Masked has no data validation.
+[2021.01.06-21.12.23:834][622]AssetCheck: /Engine/EngineMaterials/Widget3DPassThrough has no data validation.
+[2021.01.06-21.12.23:834][622]AssetCheck: /Engine/EngineResources/WhiteSquareTexture has no data validation.
+[2021.01.06-21.12.23:834][622]AssetCheck: /Engine/BasicShapes/Sphere has no data validation.
+[2021.01.06-21.12.23:834][622]AssetCheck: /Engine/EngineMaterials/DefaultMaterial has no data validation.
+[2021.01.06-21.12.23:834][622]AssetCheck: /Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade has no data validation.
+[2021.01.06-21.12.23:834][622]AssetCheck: /Engine/EngineMaterials/T_Default_Material_Grid_M has no data validation.
+[2021.01.06-21.12.23:834][622]AssetCheck: /Engine/EngineMaterials/T_Default_Material_Grid_N has no data validation.
+[2021.01.06-21.12.23:834][622]AssetCheck: /Engine/EngineMaterials/DefaultPhysicalMaterial has no data validation.
+[2021.01.06-21.12.23:834][622]AssetCheck: Data validation FAILED.
+[2021.01.06-21.12.23:834][622]AssetCheck: Files Checked: 12, Passed: 1, Failed: 1, Skipped: 0, Unable to validate: 10
+[2021.01.06-21.12.28:195][876]LogSlate: Window 'Message Log' being destroyed
+[2021.01.06-21.12.28:200][876]LogSlate: Window 'Message Log' being destroyed
+[2021.01.06-21.12.31:761][ 80]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/SpillCleanup_BP.SpillCleanup_BP
+[2021.01.06-21.12.39:786][ 80]LogSlate: Window 'Message' being destroyed
+[2021.01.06-21.12.39:792][ 80]Message dialog closed, result: Yes, title: Message, text: Blueprint could not be loaded because it derives from an invalid class.  Check to make sure the parent class for this blueprint hasn't been removed! Do you want to continue (it can crash the editor)?
+[2021.01.06-21.12.39:888][ 80]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.01.06-21.12.41:273][ 80]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.384 s
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: === Handled ensure: ===
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: 
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: Ensure condition failed: BpClass != nullptr [File:D:/Build/++UE4/Sync/Engine/Source/Editor/BlueprintGraph/Private/BlueprintActionFilter.cpp] [Line: 632]
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: Unable to resolve IsEventUnimplementable() - Blueprint (SpillCleanup_BP) missing an authoratative class (skel: [NULL], generated: [NULL], parent: [NULL])
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: Stack: 
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97db8298f UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97d9d022d UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97d9d0bd3 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97d9d0a6b UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97f921a36 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97f949b45 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97f922042 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97fb90018 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97fbc465f UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97c286296 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97c199681 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97fb7d963 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97fba589f UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97fba12b2 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97fb7c5b2 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97fba1930 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97f990d85 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97f9b1084 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97f9a6708 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97f9d2ab3 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97f9ac1fc UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff96af927b6 UE4Editor-AssetTools.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff980d8f909 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff980d90d0d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff980d90a3a UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff976bfb0bb UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff976bfe115 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff98e9fab85 UE4Editor-Slate.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff98ea01320 UE4Editor-Slate.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff98e9da937 UE4Editor-Slate.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff98ea7207e UE4Editor-Slate.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff98ea8b27e UE4Editor-Slate.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff98ea02a95 UE4Editor-Slate.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff98e8d2dc8 UE4Editor-Slate.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff98e9569cf UE4Editor-Slate.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff98e93f4b2 UE4Editor-Slate.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff98e932392 UE4Editor-Slate.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff9b1377f88 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff9b1365c87 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff9b137a619 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff9b13617d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff9e6415c1d USER32.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff9e6415612 USER32.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff9b137bb34 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff7d98168c4 UE4Editor.exe!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff7d982ba7c UE4Editor.exe!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff7d982bb5a UE4Editor.exe!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff7d983e31d UE4Editor.exe!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff7d984145a UE4Editor.exe!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff9e7857c24 KERNEL32.DLL!UnknownFunction []
+[2021.01.06-21.12.41:289][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff9e7e4d4d1 ntdll.dll!UnknownFunction []
+[2021.01.06-21.12.41:290][ 80]LogOutputDevice: Error: 
+[2021.01.06-21.12.41:291][ 80]LogStats:                SubmitErrorReport -  0.000 s
+[2021.01.06-21.13.02:577][ 80]LogStats:                    SendNewReport - 21.286 s
+[2021.01.06-21.13.02:577][ 80]LogStats:             FDebug::EnsureFailed - 22.688 s
+[2021.01.06-21.13.02:582][ 80]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.01.06-21.13.02:584][ 80]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.002 s
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: === Handled ensure: ===
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: 
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: Ensure condition failed: BpClass != nullptr [File:D:/Build/++UE4/Sync/Engine/Source/Editor/BlueprintGraph/Private/BlueprintActionFilter.cpp] [Line: 731]
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: Unable to resolve IsFieldInaccessible() - Blueprint (SpillCleanup_BP) missing an authoratative class (skel: [NULL], generated: [NULL], parent: [NULL])
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: Stack: 
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97db8378f UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97d9d097f UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97d9d0bd3 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97d9d0a6b UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97f921a36 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97f949b45 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97f922042 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97fb90018 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97fbc465f UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97c286296 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97c199681 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97fb7d963 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97fba589f UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97fba12b2 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97fb7c5b2 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97fba1930 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97f990d85 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97f9b1084 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97f9a6708 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97f9d2ab3 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97f9ac1fc UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff96af927b6 UE4Editor-AssetTools.dll!UnknownFunction []
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff980d8f909 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff980d90d0d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff980d90a3a UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff976bfb0bb UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff976bfe115 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.01.06-21.13.02:584][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff98e9fab85 UE4Editor-Slate.dll!UnknownFunction []
+[2021.01.06-21.13.02:585][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff98ea01320 UE4Editor-Slate.dll!UnknownFunction []
+[2021.01.06-21.13.02:585][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff98e9da937 UE4Editor-Slate.dll!UnknownFunction []
+[2021.01.06-21.13.02:585][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff98ea7207e UE4Editor-Slate.dll!UnknownFunction []
+[2021.01.06-21.13.02:585][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff98ea8b27e UE4Editor-Slate.dll!UnknownFunction []
+[2021.01.06-21.13.02:585][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff98ea02a95 UE4Editor-Slate.dll!UnknownFunction []
+[2021.01.06-21.13.02:585][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff98e8d2dc8 UE4Editor-Slate.dll!UnknownFunction []
+[2021.01.06-21.13.02:585][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff98e9569cf UE4Editor-Slate.dll!UnknownFunction []
+[2021.01.06-21.13.02:585][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff98e93f4b2 UE4Editor-Slate.dll!UnknownFunction []
+[2021.01.06-21.13.02:585][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff98e932392 UE4Editor-Slate.dll!UnknownFunction []
+[2021.01.06-21.13.02:585][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff9b1377f88 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.01.06-21.13.02:585][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff9b1365c87 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.01.06-21.13.02:585][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff9b137a619 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.01.06-21.13.02:585][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff9b13617d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.01.06-21.13.02:585][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff9e6415c1d USER32.dll!UnknownFunction []
+[2021.01.06-21.13.02:585][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff9e6415612 USER32.dll!UnknownFunction []
+[2021.01.06-21.13.02:585][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff9b137bb34 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.01.06-21.13.02:585][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff7d98168c4 UE4Editor.exe!UnknownFunction []
+[2021.01.06-21.13.02:585][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff7d982ba7c UE4Editor.exe!UnknownFunction []
+[2021.01.06-21.13.02:585][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff7d982bb5a UE4Editor.exe!UnknownFunction []
+[2021.01.06-21.13.02:585][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff7d983e31d UE4Editor.exe!UnknownFunction []
+[2021.01.06-21.13.02:585][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff7d984145a UE4Editor.exe!UnknownFunction []
+[2021.01.06-21.13.02:585][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff9e7857c24 KERNEL32.DLL!UnknownFunction []
+[2021.01.06-21.13.02:585][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff9e7e4d4d1 ntdll.dll!UnknownFunction []
+[2021.01.06-21.13.02:585][ 80]LogOutputDevice: Error: 
+[2021.01.06-21.13.02:615][ 80]LogStats:                SubmitErrorReport -  0.000 s
+[2021.01.06-21.13.09:320][ 80]LogStats:                    SendNewReport -  6.704 s
+[2021.01.06-21.13.09:320][ 80]LogStats:             FDebug::EnsureFailed -  6.738 s
+[2021.01.06-21.13.09:594][ 80]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.01.06-21.13.09:596][ 80]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.002 s
+[2021.01.06-21.13.09:596][ 80]LogOutputDevice: Error: === Handled ensure: ===
+[2021.01.06-21.13.09:596][ 80]LogOutputDevice: Error: 
+[2021.01.06-21.13.09:596][ 80]LogOutputDevice: Error: Ensure condition failed: Blueprint != nullptr && Blueprint->ParentClass != nullptr [File:D:/Build/++UE4/Sync/Engine/Source/Editor/BlueprintGraph/Private/BlueprintActionFilter.cpp] [Line: 1707]
+[2021.01.06-21.13.09:596][ 80]LogOutputDevice: Error: 
+[2021.01.06-21.13.09:596][ 80]LogOutputDevice: Error: Stack: 
+[2021.01.06-21.13.09:596][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97db831d9 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2021.01.06-21.13.09:596][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97d9d19bf UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2021.01.06-21.13.09:596][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97d9d0bd3 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2021.01.06-21.13.09:596][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97d9d0a6b UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2021.01.06-21.13.09:596][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97f921a36 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.13.09:596][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97f949b45 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97f922042 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97fb90018 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97fbc465f UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97c286296 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97c199681 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97fb7d963 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97fba589f UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97fba12b2 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97fb7c5b2 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97fba1930 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97f990d85 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97f9b1084 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97f9a6708 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97f9d2ab3 UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff97f9ac1fc UE4Editor-Kismet.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff96af927b6 UE4Editor-AssetTools.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff980d8f909 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff980d90d0d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff980d90a3a UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff976bfb0bb UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff976bfe115 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff98e9fab85 UE4Editor-Slate.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff98ea01320 UE4Editor-Slate.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff98e9da937 UE4Editor-Slate.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff98ea7207e UE4Editor-Slate.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff98ea8b27e UE4Editor-Slate.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff98ea02a95 UE4Editor-Slate.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff98e8d2dc8 UE4Editor-Slate.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff98e9569cf UE4Editor-Slate.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff98e93f4b2 UE4Editor-Slate.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff98e932392 UE4Editor-Slate.dll!UnknownFunction []
+[2021.01.06-21.13.09:597][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff9b1377f88 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.01.06-21.13.09:598][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff9b1365c87 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.01.06-21.13.09:598][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff9b137a619 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.01.06-21.13.09:598][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff9b13617d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.01.06-21.13.09:598][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff9e6415c1d USER32.dll!UnknownFunction []
+[2021.01.06-21.13.09:598][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff9e6415612 USER32.dll!UnknownFunction []
+[2021.01.06-21.13.09:598][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff9b137bb34 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.01.06-21.13.09:598][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff7d98168c4 UE4Editor.exe!UnknownFunction []
+[2021.01.06-21.13.09:599][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff7d982ba7c UE4Editor.exe!UnknownFunction []
+[2021.01.06-21.13.09:599][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff7d982bb5a UE4Editor.exe!UnknownFunction []
+[2021.01.06-21.13.09:599][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff7d983e31d UE4Editor.exe!UnknownFunction []
+[2021.01.06-21.13.09:599][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff7d984145a UE4Editor.exe!UnknownFunction []
+[2021.01.06-21.13.09:599][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff9e7857c24 KERNEL32.DLL!UnknownFunction []
+[2021.01.06-21.13.09:599][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff9e7e4d4d1 ntdll.dll!UnknownFunction []
+[2021.01.06-21.13.09:599][ 80]LogOutputDevice: Error: 
+[2021.01.06-21.13.09:609][ 80]LogStats:                SubmitErrorReport -  0.000 s
