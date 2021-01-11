@@ -98,13 +98,15 @@ void ARetail1Character::Interact()
 
 	int32 iCollected = 0;
 	bool foundInteraction = false;
+	UE_LOG(LogTemp, Log, TEXT(":::::::::::::::::::::::: %d"), CollectedActors.Num());
 	while ( iCollected < CollectedActors.Num() && !foundInteraction)
 	{
-		iCollected++;
 		ACleanup* const TestCleanup = Cast<ACleanup>(CollectedActors[iCollected]);
+		iCollected++;
 
 		if (TestCleanup && !TestCleanup->IsPendingKill())
 		{
+			UE_LOG(LogTemp, Log, TEXT("\t\t\t:::CHARACTER :::    Found Cleanup"));
 			foundInteraction = true;
 			if (currentCleanup != NULL)
 			{
@@ -130,6 +132,7 @@ void ARetail1Character::Interact()
 
 void ARetail1Character::StopInteract()
 {
+	UE_LOG(LogTemp, Log, TEXT("\t\t\t:::CHARACTER :::    BLAH Cleanup"));
 	if (currentCleanup != NULL)
 	{
 		if (!currentCleanup->IsPendingKill())
