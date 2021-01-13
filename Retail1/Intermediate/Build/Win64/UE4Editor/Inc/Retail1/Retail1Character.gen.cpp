@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeRetail1Character() {}
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_Retail1();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
+	RETAIL1_API UClass* Z_Construct_UClass_ACustomer_NoRegister();
 	RETAIL1_API UClass* Z_Construct_UClass_ACleanup_NoRegister();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FTimerHandle();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
@@ -233,6 +234,10 @@ void EmptyLinkFunctionForGeneratedCodeRetail1Character() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_collectionSphere;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_currentCustomer_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_currentCustomer;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_currentCleanup_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_currentCleanup;
@@ -249,6 +254,10 @@ void EmptyLinkFunctionForGeneratedCodeRetail1Character() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_task1Timer_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_task1Timer;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_item_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_item;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_dailyPoints_MetaData[];
 #endif
@@ -306,6 +315,15 @@ void EmptyLinkFunctionForGeneratedCodeRetail1Character() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ARetail1Character_Statics::NewProp_collectionSphere = { "collectionSphere", nullptr, (EPropertyFlags)0x002008000008000c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARetail1Character, collectionSphere), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ARetail1Character_Statics::NewProp_collectionSphere_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARetail1Character_Statics::NewProp_collectionSphere_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARetail1Character_Statics::NewProp_currentCustomer_MetaData[] = {
+		{ "Category", "Customer" },
+		{ "Comment", "/** Current Customer*/" },
+		{ "ModuleRelativePath", "Retail1Character.h" },
+		{ "ToolTip", "Current Customer" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ARetail1Character_Statics::NewProp_currentCustomer = { "currentCustomer", nullptr, (EPropertyFlags)0x0020080000000004, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARetail1Character, currentCustomer), Z_Construct_UClass_ACustomer_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ARetail1Character_Statics::NewProp_currentCustomer_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARetail1Character_Statics::NewProp_currentCustomer_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARetail1Character_Statics::NewProp_currentCleanup_MetaData[] = {
 		{ "Category", "Cleanup" },
 		{ "Comment", "/** Current Cleanup*/" },
@@ -345,6 +363,15 @@ void EmptyLinkFunctionForGeneratedCodeRetail1Character() {}
 	};
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ARetail1Character_Statics::NewProp_task1Timer = { "task1Timer", nullptr, (EPropertyFlags)0x0020080000000014, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARetail1Character, task1Timer), Z_Construct_UScriptStruct_FTimerHandle, METADATA_PARAMS(Z_Construct_UClass_ARetail1Character_Statics::NewProp_task1Timer_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARetail1Character_Statics::NewProp_task1Timer_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARetail1Character_Statics::NewProp_item_MetaData[] = {
+		{ "Category", "Customer" },
+		{ "Comment", "/** Item player is holding if any*/" },
+		{ "ModuleRelativePath", "Retail1Character.h" },
+		{ "ToolTip", "Item player is holding if any" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ARetail1Character_Statics::NewProp_item = { "item", nullptr, (EPropertyFlags)0x0020080000000004, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARetail1Character, item), METADATA_PARAMS(Z_Construct_UClass_ARetail1Character_Statics::NewProp_item_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARetail1Character_Statics::NewProp_item_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARetail1Character_Statics::NewProp_dailyPoints_MetaData[] = {
 		{ "Category", "Employee" },
@@ -405,10 +432,12 @@ void EmptyLinkFunctionForGeneratedCodeRetail1Character() {}
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ARetail1Character_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARetail1Character, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ARetail1Character_Statics::NewProp_CameraBoom_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARetail1Character_Statics::NewProp_CameraBoom_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ARetail1Character_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1Character_Statics::NewProp_collectionSphere,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1Character_Statics::NewProp_currentCustomer,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1Character_Statics::NewProp_currentCleanup,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1Character_Statics::NewProp_canMove,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1Character_Statics::NewProp_shiftTimer,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1Character_Statics::NewProp_task1Timer,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1Character_Statics::NewProp_item,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1Character_Statics::NewProp_dailyPoints,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1Character_Statics::NewProp_employeeLevel,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1Character_Statics::NewProp_BaseLookUpRate,
@@ -443,7 +472,7 @@ void EmptyLinkFunctionForGeneratedCodeRetail1Character() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ARetail1Character, 2414033329);
+	IMPLEMENT_CLASS(ARetail1Character, 2107445395);
 	template<> RETAIL1_API UClass* StaticClass<ARetail1Character>()
 	{
 		return ARetail1Character::StaticClass();

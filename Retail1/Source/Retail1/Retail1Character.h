@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Cleanup.h"
+#include "Customer.h"
 #include "Components/SphereComponent.h"
 #include "GameFramework/Character.h"
 #include "Retail1Character.generated.h"
@@ -40,6 +41,10 @@ protected:
 	/** Current Points for the day*/
 	UPROPERTY(BlueprintReadOnly, Category = "Employee")
 	float dailyPoints;
+
+	/** Item player is holding if any*/
+	UPROPERTY(BlueprintReadWrite, Category = "Customer")
+	int item;
 
 	/** Timer for current task*/
 	UPROPERTY(BlueprintReadOnly, Category = "Actions")
@@ -88,6 +93,10 @@ protected:
 	/** Current Cleanup*/
 	UPROPERTY(BlueprintReadWrite, Category = "Cleanup")
 	ACleanup* currentCleanup;
+
+	/** Current Customer*/
+	UPROPERTY(BlueprintReadWrite, Category = "Customer")
+	ACustomer* currentCustomer;
 
 	/** Sphere Component for Interaction Collision*/
 	UPROPERTY(BlueprintReadWrite, Category = "Cleanup")

@@ -2,10 +2,6 @@
 	"BuildId": "13144385",
 	"Modules": 
 	{
-<<<<<<< Updated upstream
-		"Retail1": "UE4Editor-Retail1-0026.dll"
-=======
-		"Retail1": "UE4Editor-Retail1.dll"
->>>>>>> Stashed changes
+		"Retail1": "UE4Editor-Retail1-0005.dll"
 	}
 }

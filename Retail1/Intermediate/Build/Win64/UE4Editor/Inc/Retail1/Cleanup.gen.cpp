@@ -84,9 +84,9 @@ void EmptyLinkFunctionForGeneratedCodeCleanup() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACleanup_FinishCleanup_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Cleanup" },
-		{ "Comment", "/** Player ahs completed cleanup*/" },
+		{ "Comment", "/** Player has completed cleanup*/" },
 		{ "ModuleRelativePath", "Public/Cleanup.h" },
-		{ "ToolTip", "Player ahs completed cleanup" },
+		{ "ToolTip", "Player has completed cleanup" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACleanup_FinishCleanup_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACleanup, nullptr, "FinishCleanup", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACleanup_FinishCleanup_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ACleanup_FinishCleanup_Statics::Function_MetaDataParams)) };
@@ -266,7 +266,7 @@ void EmptyLinkFunctionForGeneratedCodeCleanup() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Retail1,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ACleanup_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ACleanup_FinishCleanup, "FinishCleanup" }, // 747761272
+		{ &Z_Construct_UFunction_ACleanup_FinishCleanup, "FinishCleanup" }, // 1061272691
 		{ &Z_Construct_UFunction_ACleanup_PauseTimer, "PauseTimer" }, // 3697933954
 		{ &Z_Construct_UFunction_ACleanup_ResetTimer, "ResetTimer" }, // 858382897
 		{ &Z_Construct_UFunction_ACleanup_ResumeTimer, "ResumeTimer" }, // 2359425349
@@ -366,7 +366,7 @@ void EmptyLinkFunctionForGeneratedCodeCleanup() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACleanup, 581100031);
+	IMPLEMENT_CLASS(ACleanup, 2265930766);
 	template<> RETAIL1_API UClass* StaticClass<ACleanup>()
 	{
 		return ACleanup::StaticClass();

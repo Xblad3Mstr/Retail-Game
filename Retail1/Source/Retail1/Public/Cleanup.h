@@ -64,7 +64,7 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Cleanup")
 	void ResetTimer();
 
-	/** Player ahs completed cleanup*/
+	/** Player has completed cleanup*/
 	UFUNCTION(BlueprintCallable, Category = "Cleanup")
 	void FinishCleanup();
 

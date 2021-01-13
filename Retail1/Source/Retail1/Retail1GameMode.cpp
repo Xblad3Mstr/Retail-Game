@@ -46,7 +46,7 @@ void ARetail1GameMode::StartTimer()
 		progress = 0.0f;
 		timerStarted = true;
 		// Sets + Starts the timer (the timer handle, the object running it, the method to call every update, how often to update (seconds), if you want it to call every update (more than once), delay on start (seconds))
-		GetWorldTimerManager().SetTimer(timer, this, &ARetail1GameMode::UpdateProgress, 1.0f, true, 0.5f);
+		GetWorldTimerManager().SetTimer(timer, this, &ARetail1GameMode::UpdateProgress, 0.5f, true, 0.5f);
 		UE_LOG(LogTemp, Log, TEXT("GAMEMODE::StartTimer"));
 	}
 }

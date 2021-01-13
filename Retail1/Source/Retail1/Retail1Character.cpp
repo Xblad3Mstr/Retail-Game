@@ -2,6 +2,7 @@
 
 #include "Retail1Character.h"
 #include "Cleanup.h"
+#include "Customer.h"
 #include "Components/SphereComponent.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Camera/CameraComponent.h"
@@ -50,6 +51,7 @@ ARetail1Character::ARetail1Character()
 
 	employeeLevel = 10.0f;
 	dailyPoints = 0.0f;
+	item = -1;
 
 	// Create CollectionSphere
 	collectionSphere = CreateDefaultSubobject<USphereComponent>(TEXT("CollectionSphere"));
@@ -101,32 +103,70 @@ void ARetail1Character::Interact()
 	UE_LOG(LogTemp, Log, TEXT(":::::::::::::::::::::::: %d"), CollectedActors.Num());
 	while ( iCollected < CollectedActors.Num() && !foundInteraction)
 	{
-		ACleanup* const TestCleanup = Cast<ACleanup>(CollectedActors[iCollected]);
-		iCollected++;
+		ACleanup* const cleanup = Cast<ACleanup>(CollectedActors[iCollected]);
+		ACustomer* const customer = Cast<ACustomer>(CollectedActors[iCollected]);
 
-		if (TestCleanup && !TestCleanup->IsPendingKill())
+		if (cleanup && !cleanup->IsPendingKill())
 		{
 			UE_LOG(LogTemp, Log, TEXT("\t\t\t:::CHARACTER :::    Found Cleanup"));
 			foundInteraction = true;
 			if (currentCleanup != NULL)
 			{
-				if (currentCleanup == TestCleanup)
+				if (currentCleanup == cleanup)
 				{
 					currentCleanup->ResumeTimer();
 				}
 				else
 				{
 					currentCleanup->ResetTimer();
-					currentCleanup = TestCleanup;
+					currentCleanup = cleanup;
 					currentCleanup->StartTimer();
 				}
 			}
 			else
 			{
-				currentCleanup = TestCleanup;
+				currentCleanup = cleanup;
 				currentCleanup->StartTimer();
 			}
 		}
+		else if (customer && !customer->IsPendingKill())
+		{
+			UE_LOG(LogTemp, Log, TEXT("\t\t\t:::CHARACTER :::    Found Customer"));
+			if (currentCustomer != NULL)
+			{
+				if (currentCustomer == customer)
+				{
+					if (item != -1)
+					{
+						if (item == customer->GetItem())
+						{
+							customer->FinishCustomer();
+						}
+						else
+						{
+							customer->FinishWrongCustomer();
+						}
+						item = -1;
+					}
+				}
+				else
+				{
+					currentCustomer->FailCustomer();
+					currentCustomer = customer;
+					item = customer->GetItem();
+					currentCustomer->StartTimer();
+				}
+			}
+			else
+			{
+				currentCustomer = customer;
+				item = customer->GetItem();
+				currentCustomer->StartTimer();
+			}
+			
+		}
+
+		iCollected++;
 	}
 }
 
