@@ -14,7 +14,7 @@ ACustomer::ACustomer()
 	timerStarted = false;
 	timerPaused = false;
 	progress = 0.0f;
-	item = FMath::RandRange(0,4);
+	item = FMath::RandRange(0,3);
 	timeToComplete = FMath::RandRange(30.0f, 60.0f);
 	UE_LOG(LogTemp, Log, TEXT("TIME TO COMPLETE %d"), timeToComplete);
 }
