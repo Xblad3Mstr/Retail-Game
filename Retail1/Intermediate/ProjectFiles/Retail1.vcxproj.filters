@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Retail1.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{66856EE9-1000-419A-A193-4E98244713CB}</UniqueIdentifier>
+      <UniqueIdentifier>{4719C479-6BFD-47E7-803F-C8CAF240AA56}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Retail1.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{0F3A9B74-99D1-44B9-ABCF-5192680717F0}</UniqueIdentifier>
+      <UniqueIdentifier>{DCA067A6-334F-46FA-A156-07510A4D5E69}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Retail1">
-      <UniqueIdentifier>{6AD6D976-0757-417A-A1E2-66878D541FE1}</UniqueIdentifier>
+      <UniqueIdentifier>{D5773BD6-747B-4F1E-91D4-87C8028D06F2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Retail1\Retail1.Build.cs">
       <Filter>Source\Retail1</Filter>
@@ -54,7 +54,7 @@
       <Filter>Source\Retail1</Filter>
     </ClInclude>
     <Filter Include="Source\Retail1\Private">
-      <UniqueIdentifier>{A06FB181-85B6-4DA1-BBD9-67E9EBB51B51}</UniqueIdentifier>
+      <UniqueIdentifier>{3B002F53-4C6A-49A5-8704-B397C64A3B40}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Retail1\Private\Cleanup.cpp">
       <Filter>Source\Retail1\Private</Filter>
@@ -62,13 +62,19 @@
     <ClCompile Include="..\..\Source\Retail1\Private\Customer.cpp">
       <Filter>Source\Retail1\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Retail1\Private\SpillSpawner.cpp">
+      <Filter>Source\Retail1\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\Retail1\Public">
-      <UniqueIdentifier>{2D8E1F76-0DF1-41F9-824B-10A8D0DCFDFF}</UniqueIdentifier>
+      <UniqueIdentifier>{C9797B20-93EF-44F9-9F8F-A51BECB694F2}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Retail1\Public\Cleanup.h">
       <Filter>Source\Retail1\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\Retail1\Public\Customer.h">
+      <Filter>Source\Retail1\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Retail1\Public\SpillSpawner.h">
       <Filter>Source\Retail1\Public</Filter>
     </ClInclude>
   </ItemGroup>
