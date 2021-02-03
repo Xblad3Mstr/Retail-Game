@@ -4,7 +4,18 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
+#include "SpillSpawner.h"
 #include "Retail1GameMode.generated.h"
+
+// ENUM to store current state of gameplay
+UENUM(BlueprintType)
+enum class EStateOfPlay :uint8
+{
+	EPlaying,
+	EPaused,
+	EEndOfDay,
+	EUnknown
+};
 
 UCLASS(minimalapi)
 class ARetail1GameMode : public AGameModeBase
@@ -42,6 +53,17 @@ protected:
 	UFUNCTION(BlueprintCallable, Category = "Cleanup")
 	void UpdateProgress();
 
+public:
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
+	/** Returns current state of play*/
+	UFUNCTION(BlueprintPure, Category = "State")
+	EStateOfPlay GetCurrentState() const;
+
+	/** Updates the current state of play*/
+	void SetCurrentState(EStateOfPlay newState);
+
 protected:
 	/** Widget class to use for HUD screen*/
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Widget", meta = (BlueprintProtected = true))
@@ -76,6 +98,14 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Daily")
 	float GetProgress();
 
+private:
+	/** Keeps track of the current playing state*/
+	EStateOfPlay currentState;
+
+	TArray<class ASpillSpawner*> SpillSpawnerActors;
+
+	/** Handles any function call that rely upon changing the game state*/
+	void HandleNewState(EStateOfPlay newState);
 };
 
 

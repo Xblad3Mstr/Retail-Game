@@ -17,8 +17,8 @@ ASpillSpawner::ASpillSpawner()
 	RootComponent = WhereToSpawn;
 
 	// Set spawn Delay range
-	SpawnDelayRangeLow = 1.0f;
-	SpawnDelayRangeHigh = 4.5f;
+	SpawnDelayRangeLow = 60.0f;
+	SpawnDelayRangeHigh = 300.0f;
 
 }
 
