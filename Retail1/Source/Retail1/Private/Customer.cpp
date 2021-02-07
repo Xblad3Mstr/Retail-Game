@@ -16,7 +16,7 @@ ACustomer::ACustomer()
 	progress = 0.0f;
 	item = FMath::RandRange(0,3);
 	timeToComplete = FMath::RandRange(30.0f, 60.0f);
-	UE_LOG(LogTemp, Log, TEXT("TIME TO COMPLETE %d"), timeToComplete);
+	UE_LOG(LogTemp, Log, TEXT("ITEM %d"), item);
 }
 
 // Called when the game starts or when spawned
@@ -84,7 +84,7 @@ void ACustomer::FinishCustomer()
 	ARetail1Character* player = Cast<ARetail1Character>(UGameplayStatics::GetPlayerPawn(this, 0));
 	if (player)
 	{
-		player->adjustDailyPoints(timeToComplete - progress);
+		player->adjustDailyPoints((timeToComplete - progress)/10.0f);
 	}
 	Destroy();
 }
