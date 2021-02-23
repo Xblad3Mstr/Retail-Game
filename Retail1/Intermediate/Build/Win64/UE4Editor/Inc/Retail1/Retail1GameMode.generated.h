@@ -8,14 +8,13 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-enum class EStateOfPlay : uint8;
 #ifdef RETAIL1_Retail1GameMode_generated_h
 #error "Retail1GameMode.generated.h already included, missing '#pragma once' in Retail1GameMode.h"
 #endif
 #define RETAIL1_Retail1GameMode_generated_h
 
-#define Retail1_Source_Retail1_Retail1GameMode_h_23_SPARSE_DATA
-#define Retail1_Source_Retail1_Retail1GameMode_h_23_RPC_WRAPPERS \
+#define Retail1_Source_Retail1_Retail1GameMode_h_12_SPARSE_DATA
+#define Retail1_Source_Retail1_Retail1GameMode_h_12_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execGetProgress); \
 	DECLARE_FUNCTION(execFinishDay); \
@@ -23,11 +22,10 @@ enum class EStateOfPlay : uint8;
 	DECLARE_FUNCTION(execResumeTimer); \
 	DECLARE_FUNCTION(execPauseTimer); \
 	DECLARE_FUNCTION(execStartTimer); \
-	DECLARE_FUNCTION(execGetCurrentState); \
 	DECLARE_FUNCTION(execUpdateProgress);
 
 
-#define Retail1_Source_Retail1_Retail1GameMode_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Retail1_Source_Retail1_Retail1GameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execGetProgress); \
 	DECLARE_FUNCTION(execFinishDay); \
@@ -35,11 +33,10 @@ enum class EStateOfPlay : uint8;
 	DECLARE_FUNCTION(execResumeTimer); \
 	DECLARE_FUNCTION(execPauseTimer); \
 	DECLARE_FUNCTION(execStartTimer); \
-	DECLARE_FUNCTION(execGetCurrentState); \
 	DECLARE_FUNCTION(execUpdateProgress);
 
 
-#define Retail1_Source_Retail1_Retail1GameMode_h_23_INCLASS_NO_PURE_DECLS \
+#define Retail1_Source_Retail1_Retail1GameMode_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesARetail1GameMode(); \
 	friend struct Z_Construct_UClass_ARetail1GameMode_Statics; \
@@ -48,7 +45,7 @@ public: \
 	DECLARE_SERIALIZER(ARetail1GameMode)
 
 
-#define Retail1_Source_Retail1_Retail1GameMode_h_23_INCLASS \
+#define Retail1_Source_Retail1_Retail1GameMode_h_12_INCLASS \
 private: \
 	static void StaticRegisterNativesARetail1GameMode(); \
 	friend struct Z_Construct_UClass_ARetail1GameMode_Statics; \
@@ -57,7 +54,7 @@ public: \
 	DECLARE_SERIALIZER(ARetail1GameMode)
 
 
-#define Retail1_Source_Retail1_Retail1GameMode_h_23_STANDARD_CONSTRUCTORS \
+#define Retail1_Source_Retail1_Retail1GameMode_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	RETAIL1_API ARetail1GameMode(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ARetail1GameMode) \
@@ -70,7 +67,7 @@ private: \
 public:
 
 
-#define Retail1_Source_Retail1_Retail1GameMode_h_23_ENHANCED_CONSTRUCTORS \
+#define Retail1_Source_Retail1_Retail1GameMode_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	RETAIL1_API ARetail1GameMode(ARetail1GameMode&&); \
@@ -81,7 +78,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ARetail1GameMode); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ARetail1GameMode)
 
 
-#define Retail1_Source_Retail1_Retail1GameMode_h_23_PRIVATE_PROPERTY_OFFSET \
+#define Retail1_Source_Retail1_Retail1GameMode_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__timer() { return STRUCT_OFFSET(ARetail1GameMode, timer); } \
 	FORCEINLINE static uint32 __PPO__timeToComplete() { return STRUCT_OFFSET(ARetail1GameMode, timeToComplete); } \
 	FORCEINLINE static uint32 __PPO__progress() { return STRUCT_OFFSET(ARetail1GameMode, progress); } \
@@ -91,27 +88,27 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ARetail1GameMode); \
 	FORCEINLINE static uint32 __PPO__CurrentWidget() { return STRUCT_OFFSET(ARetail1GameMode, CurrentWidget); }
 
 
-#define Retail1_Source_Retail1_Retail1GameMode_h_20_PROLOG
-#define Retail1_Source_Retail1_Retail1GameMode_h_23_GENERATED_BODY_LEGACY \
+#define Retail1_Source_Retail1_Retail1GameMode_h_9_PROLOG
+#define Retail1_Source_Retail1_Retail1GameMode_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Retail1_Source_Retail1_Retail1GameMode_h_23_PRIVATE_PROPERTY_OFFSET \
-	Retail1_Source_Retail1_Retail1GameMode_h_23_SPARSE_DATA \
-	Retail1_Source_Retail1_Retail1GameMode_h_23_RPC_WRAPPERS \
-	Retail1_Source_Retail1_Retail1GameMode_h_23_INCLASS \
-	Retail1_Source_Retail1_Retail1GameMode_h_23_STANDARD_CONSTRUCTORS \
+	Retail1_Source_Retail1_Retail1GameMode_h_12_PRIVATE_PROPERTY_OFFSET \
+	Retail1_Source_Retail1_Retail1GameMode_h_12_SPARSE_DATA \
+	Retail1_Source_Retail1_Retail1GameMode_h_12_RPC_WRAPPERS \
+	Retail1_Source_Retail1_Retail1GameMode_h_12_INCLASS \
+	Retail1_Source_Retail1_Retail1GameMode_h_12_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Retail1_Source_Retail1_Retail1GameMode_h_23_GENERATED_BODY \
+#define Retail1_Source_Retail1_Retail1GameMode_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Retail1_Source_Retail1_Retail1GameMode_h_23_PRIVATE_PROPERTY_OFFSET \
-	Retail1_Source_Retail1_Retail1GameMode_h_23_SPARSE_DATA \
-	Retail1_Source_Retail1_Retail1GameMode_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
-	Retail1_Source_Retail1_Retail1GameMode_h_23_INCLASS_NO_PURE_DECLS \
-	Retail1_Source_Retail1_Retail1GameMode_h_23_ENHANCED_CONSTRUCTORS \
+	Retail1_Source_Retail1_Retail1GameMode_h_12_PRIVATE_PROPERTY_OFFSET \
+	Retail1_Source_Retail1_Retail1GameMode_h_12_SPARSE_DATA \
+	Retail1_Source_Retail1_Retail1GameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	Retail1_Source_Retail1_Retail1GameMode_h_12_INCLASS_NO_PURE_DECLS \
+	Retail1_Source_Retail1_Retail1GameMode_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -121,14 +118,5 @@ template<> RETAIL1_API UClass* StaticClass<class ARetail1GameMode>();
 #undef CURRENT_FILE_ID
 #define CURRENT_FILE_ID Retail1_Source_Retail1_Retail1GameMode_h
 
-
-#define FOREACH_ENUM_ESTATEOFPLAY(op) \
-	op(EStateOfPlay::EPlaying) \
-	op(EStateOfPlay::EPaused) \
-	op(EStateOfPlay::EEndOfDay) \
-	op(EStateOfPlay::EUnknown) 
-
-enum class EStateOfPlay : uint8;
-template<> RETAIL1_API UEnum* StaticEnum<EStateOfPlay>();
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

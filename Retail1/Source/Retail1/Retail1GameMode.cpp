@@ -4,7 +4,6 @@
 #include "Kismet/GameplayStatics.h"
 #include "Blueprint/UserWidget.h"
 #include "Retail1Character.h"
-#include "SpillSpawner.h"
 #include "GameFramework/Actor.h"
 #include "UObject/ConstructorHelpers.h"
 
@@ -17,8 +16,6 @@ ARetail1GameMode::ARetail1GameMode()
 		DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
 
-	PrimaryActorTick.bCanEverTick = true;
-
 	timerStarted = false;
 	timerPaused = false;
 	progress = 0.0f;
@@ -30,20 +27,6 @@ void ARetail1GameMode::BeginPlay()
 {
 	Super::BeginPlay();
 
-	TArray<AActor*> foundActors;
-	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ASpillSpawner::StaticClass(), foundActors);
-
-	for (auto Actor : foundActors)
-	{
-		ASpillSpawner* spawner = Cast<ASpillSpawner>(Actor);
-		if (spawner)
-		{
-			SpillSpawnerActors.AddUnique(spawner);
-		}
-	}
-
-	SetCurrentState(EStateOfPlay::EPlaying);
-
 	// Set Material UI to viewport
 	if (HUDWidgetClass != nullptr)
 	{
@@ -54,19 +37,6 @@ void ARetail1GameMode::BeginPlay()
 		}
 	}
 	StartTimer();
-}
-
-void ARetail1GameMode::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-
-	// check that we are using retail character
-	ARetail1Character* MyCharacter = Cast<ARetail1Character>(UGameplayStatics::GetPlayerPawn(this, 0));
-	if (MyCharacter)
-	{
-		// TODO: set state here
-	}
 }
 
 void ARetail1GameMode::StartTimer()
@@ -117,6 +87,7 @@ void ARetail1GameMode::FinishDay()
 {
 	UE_LOG(LogTemp, Log, TEXT("GAMEMODE::FinishDay"));
 	
+	//Destroy();
 }
 
 void ARetail1GameMode::UpdateProgress()
@@ -136,51 +107,4 @@ float ARetail1GameMode::GetProgress()
 	return progress;
 }
 
-EStateOfPlay ARetail1GameMode::GetCurrentState() const
-{
-	return currentState;
-}
 
-void ARetail1GameMode::SetCurrentState(EStateOfPlay newState)
-{
-	currentState = newState;
-	HandleNewState(currentState);
-}
-
-void ARetail1GameMode::HandleNewState(EStateOfPlay newState)
-{
-	// TODO: PAUSE/Play Timers of Customers/Cleanups
-	switch (newState)
-	{
-	case EStateOfPlay::EPlaying:
-	{
-		for (ASpillSpawner* volume : SpillSpawnerActors)
-		{
-			volume->SetSpawningActive(true);
-		}
-	}
-	break;
-	case EStateOfPlay::EPaused:
-	{
-		for (ASpillSpawner* volume : SpillSpawnerActors)
-		{
-			volume->SetSpawningActive(false);
-		}
-	}
-	break;
-	case EStateOfPlay::EEndOfDay:
-	{
-		for (ASpillSpawner* volume : SpillSpawnerActors)
-		{
-			volume->SetSpawningActive(false);
-		}
-	}
-	break;
-	default:
-	case EStateOfPlay::EUnknown:
-	{
-		UE_LOG(LogClass, Log, TEXT("Play State Unknown"));
-	}
-	break;
-	}
-}

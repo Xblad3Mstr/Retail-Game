@@ -36,7 +36,7 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{812D825F-FA98-4D0A-8840-AA1372E53516}.DebugGame Editor|Android.ActiveCfg = Invalid|Win32
-		{812D825F-FA98-4D0A-8840-AA1372E53516}.DebugGame Editor|Win32.ActiveCfg = Development_Editor|x64
+		{812D825F-FA98-4D0A-8840-AA1372E53516}.DebugGame Editor|Win32.ActiveCfg = Invalid|Win32
 		{812D825F-FA98-4D0A-8840-AA1372E53516}.DebugGame Editor|Win64.ActiveCfg = DebugGame_Editor|x64
 		{812D825F-FA98-4D0A-8840-AA1372E53516}.DebugGame Editor|Win64.Build.0 = DebugGame_Editor|x64
 		{812D825F-FA98-4D0A-8840-AA1372E53516}.DebugGame|Android.ActiveCfg = Android_DebugGame|Win32
@@ -81,10 +81,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{812D825F-FA98-4D0A-8840-AA1372E53516} = {8E2F6A87-1826-34F4-940C-CC23A48F9FE4}
 		{F24725E1-8D92-4FB3-8A9D-2AD857230E72} = {94A6C6F3-99B3-346E-9557-ABF9D4064DBD}
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {41ECF1FF-853D-4397-AE4D-AD39DA9DA832}
+		{812D825F-FA98-4D0A-8840-AA1372E53516} = {8E2F6A87-1826-34F4-940C-CC23A48F9FE4}
 	EndGlobalSection
 EndGlobal

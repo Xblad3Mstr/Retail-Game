@@ -14,6 +14,7 @@ ACleanup::ACleanup()
 	timerStarted = false;
 	timerPaused = false;
 	progress = 0.0f;
+	timeToComplete = FMath::RandRange(1.0f, 5.0f);
 	UE_LOG(LogTemp, Log, TEXT("TIME TO COMPLETE %d"), timeToComplete);
 }
 
@@ -21,7 +22,6 @@ ACleanup::ACleanup()
 void ACleanup::BeginPlay()
 {
 	Super::BeginPlay();
-	timeToComplete = FMath::RandRange(1.0f, 5.0f);
 }
 
 // Called every frame
