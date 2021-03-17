@@ -13,14 +13,74 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeRetail1GameMode() {}
 // Cross Module References
+	RETAIL1_API UEnum* Z_Construct_UEnum_Retail1_EStateOfPlay();
+	UPackage* Z_Construct_UPackage__Script_Retail1();
 	RETAIL1_API UClass* Z_Construct_UClass_ARetail1GameMode_NoRegister();
 	RETAIL1_API UClass* Z_Construct_UClass_ARetail1GameMode();
 	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
-	UPackage* Z_Construct_UPackage__Script_Retail1();
 	UMG_API UClass* Z_Construct_UClass_UUserWidget_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FTimerHandle();
 // End Cross Module References
+	static UEnum* EStateOfPlay_StaticEnum()
+	{
+		static UEnum* Singleton = nullptr;
+		if (!Singleton)
+		{
+			Singleton = GetStaticEnum(Z_Construct_UEnum_Retail1_EStateOfPlay, Z_Construct_UPackage__Script_Retail1(), TEXT("EStateOfPlay"));
+		}
+		return Singleton;
+	}
+	template<> RETAIL1_API UEnum* StaticEnum<EStateOfPlay>()
+	{
+		return EStateOfPlay_StaticEnum();
+	}
+	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EStateOfPlay(EStateOfPlay_StaticEnum, TEXT("/Script/Retail1"), TEXT("EStateOfPlay"), false, nullptr, nullptr);
+	uint32 Get_Z_Construct_UEnum_Retail1_EStateOfPlay_Hash() { return 1295987169U; }
+	UEnum* Z_Construct_UEnum_Retail1_EStateOfPlay()
+	{
+#if WITH_HOT_RELOAD
+		UPackage* Outer = Z_Construct_UPackage__Script_Retail1();
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("EStateOfPlay"), 0, Get_Z_Construct_UEnum_Retail1_EStateOfPlay_Hash(), false);
+#else
+		static UEnum* ReturnEnum = nullptr;
+#endif // WITH_HOT_RELOAD
+		if (!ReturnEnum)
+		{
+			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
+				{ "EStateOfPlay::EPlaying", (int64)EStateOfPlay::EPlaying },
+				{ "EStateOfPlay::EPaused", (int64)EStateOfPlay::EPaused },
+				{ "EStateOfPlay::EEndOfDay", (int64)EStateOfPlay::EEndOfDay },
+				{ "EStateOfPlay::EUnknown", (int64)EStateOfPlay::EUnknown },
+			};
+#if WITH_METADATA
+			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "BlueprintType", "true" },
+				{ "Comment", "// ENUM to store current state of gameplay\n" },
+				{ "EEndOfDay.Name", "EStateOfPlay::EEndOfDay" },
+				{ "EPaused.Name", "EStateOfPlay::EPaused" },
+				{ "EPlaying.Name", "EStateOfPlay::EPlaying" },
+				{ "EUnknown.Name", "EStateOfPlay::EUnknown" },
+				{ "ModuleRelativePath", "Retail1GameMode.h" },
+				{ "ToolTip", "ENUM to store current state of gameplay" },
+			};
+#endif
+			static const UE4CodeGen_Private::FEnumParams EnumParams = {
+				(UObject*(*)())Z_Construct_UPackage__Script_Retail1,
+				nullptr,
+				"EStateOfPlay",
+				"EStateOfPlay",
+				Enumerators,
+				UE_ARRAY_COUNT(Enumerators),
+				RF_Public|RF_Transient|RF_MarkAsNative,
+				UE4CodeGen_Private::EDynamicType::NotDynamic,
+				(uint8)UEnum::ECppForm::EnumClass,
+				METADATA_PARAMS(Enum_MetaDataParams, UE_ARRAY_COUNT(Enum_MetaDataParams))
+			};
+			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
+		}
+		return ReturnEnum;
+	}
 	DEFINE_FUNCTION(ARetail1GameMode::execGetProgress)
 	{
 		P_FINISH;
@@ -63,6 +123,13 @@ void EmptyLinkFunctionForGeneratedCodeRetail1GameMode() {}
 		P_THIS->StartTimer();
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(ARetail1GameMode::execGetCurrentState)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(EStateOfPlay*)Z_Param__Result=P_THIS->GetCurrentState();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(ARetail1GameMode::execUpdateProgress)
 	{
 		P_FINISH;
@@ -75,6 +142,7 @@ void EmptyLinkFunctionForGeneratedCodeRetail1GameMode() {}
 		UClass* Class = ARetail1GameMode::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "FinishDay", &ARetail1GameMode::execFinishDay },
+			{ "GetCurrentState", &ARetail1GameMode::execGetCurrentState },
 			{ "GetProgress", &ARetail1GameMode::execGetProgress },
 			{ "PauseTimer", &ARetail1GameMode::execPauseTimer },
 			{ "ResetTimer", &ARetail1GameMode::execResetTimer },
@@ -106,6 +174,44 @@ void EmptyLinkFunctionForGeneratedCodeRetail1GameMode() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ARetail1GameMode_FinishDay_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ARetail1GameMode_GetCurrentState_Statics
+	{
+		struct Retail1GameMode_eventGetCurrentState_Parms
+		{
+			EStateOfPlay ReturnValue;
+		};
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_ReturnValue_Underlying;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_ARetail1GameMode_GetCurrentState_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Retail1GameMode_eventGetCurrentState_Parms, ReturnValue), Z_Construct_UEnum_Retail1_EStateOfPlay, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_ARetail1GameMode_GetCurrentState_Statics::NewProp_ReturnValue_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ARetail1GameMode_GetCurrentState_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ARetail1GameMode_GetCurrentState_Statics::NewProp_ReturnValue,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ARetail1GameMode_GetCurrentState_Statics::NewProp_ReturnValue_Underlying,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ARetail1GameMode_GetCurrentState_Statics::Function_MetaDataParams[] = {
+		{ "Category", "State" },
+		{ "Comment", "/** Returns current state of play*/" },
+		{ "ModuleRelativePath", "Retail1GameMode.h" },
+		{ "ToolTip", "Returns current state of play" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ARetail1GameMode_GetCurrentState_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ARetail1GameMode, nullptr, "GetCurrentState", nullptr, nullptr, sizeof(Retail1GameMode_eventGetCurrentState_Parms), Z_Construct_UFunction_ARetail1GameMode_GetCurrentState_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ARetail1GameMode_GetCurrentState_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ARetail1GameMode_GetCurrentState_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ARetail1GameMode_GetCurrentState_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ARetail1GameMode_GetCurrentState()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ARetail1GameMode_GetCurrentState_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -320,6 +426,7 @@ void EmptyLinkFunctionForGeneratedCodeRetail1GameMode() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ARetail1GameMode_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ARetail1GameMode_FinishDay, "FinishDay" }, // 4174152436
+		{ &Z_Construct_UFunction_ARetail1GameMode_GetCurrentState, "GetCurrentState" }, // 277367325
 		{ &Z_Construct_UFunction_ARetail1GameMode_GetProgress, "GetProgress" }, // 1243529262
 		{ &Z_Construct_UFunction_ARetail1GameMode_PauseTimer, "PauseTimer" }, // 369511712
 		{ &Z_Construct_UFunction_ARetail1GameMode_ResetTimer, "ResetTimer" }, // 3741248965
@@ -444,7 +551,7 @@ void EmptyLinkFunctionForGeneratedCodeRetail1GameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ARetail1GameMode, 2391744125);
+	IMPLEMENT_CLASS(ARetail1GameMode, 551880007);
 	template<> RETAIL1_API UClass* StaticClass<ARetail1GameMode>()
 	{
 		return ARetail1GameMode::StaticClass();

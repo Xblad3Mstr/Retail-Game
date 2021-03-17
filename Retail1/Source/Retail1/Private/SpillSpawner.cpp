@@ -9,7 +9,7 @@
 // Sets default values
 ASpillSpawner::ASpillSpawner()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 	// Create the box component to represent spawn volume
@@ -17,8 +17,8 @@ ASpillSpawner::ASpillSpawner()
 	RootComponent = WhereToSpawn;
 
 	// Set spawn Delay range
-	SpawnDelayRangeLow = 1.0f;
-	SpawnDelayRangeHigh = 4.5f;
+	SpawnDelayRangeLow = 60.0f;
+	SpawnDelayRangeHigh = 300.0f;
 
 }
 
@@ -26,7 +26,7 @@ ASpillSpawner::ASpillSpawner()
 void ASpillSpawner::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 }
 
 // Called every frame
@@ -82,4 +82,3 @@ void ASpillSpawner::SpawnCleanup()
 		}
 	}
 }
-
