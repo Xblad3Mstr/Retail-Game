@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Retail1.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{4719C479-6BFD-47E7-803F-C8CAF240AA56}</UniqueIdentifier>
+      <UniqueIdentifier>{2301C2F0-7D7F-4746-AAFE-033E58610CB0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Retail1.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{DCA067A6-334F-46FA-A156-07510A4D5E69}</UniqueIdentifier>
+      <UniqueIdentifier>{9685B454-A64F-428F-BDB9-1BDA38F31AEA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Retail1">
-      <UniqueIdentifier>{D5773BD6-747B-4F1E-91D4-87C8028D06F2}</UniqueIdentifier>
+      <UniqueIdentifier>{FA158FCD-1916-4707-9B6F-21913C8829A2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Retail1\Retail1.Build.cs">
       <Filter>Source\Retail1</Filter>
@@ -54,7 +54,7 @@
       <Filter>Source\Retail1</Filter>
     </ClInclude>
     <Filter Include="Source\Retail1\Private">
-      <UniqueIdentifier>{3B002F53-4C6A-49A5-8704-B397C64A3B40}</UniqueIdentifier>
+      <UniqueIdentifier>{C7947303-8C97-4394-86E1-89515A5B01BA}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Retail1\Private\Cleanup.cpp">
       <Filter>Source\Retail1\Private</Filter>
@@ -62,16 +62,22 @@
     <ClCompile Include="..\..\Source\Retail1\Private\Customer.cpp">
       <Filter>Source\Retail1\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Retail1\Private\ProduceSpawner.cpp">
+      <Filter>Source\Retail1\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Retail1\Private\SpillSpawner.cpp">
       <Filter>Source\Retail1\Private</Filter>
     </ClCompile>
     <Filter Include="Source\Retail1\Public">
-      <UniqueIdentifier>{C9797B20-93EF-44F9-9F8F-A51BECB694F2}</UniqueIdentifier>
+      <UniqueIdentifier>{FBFE27BB-0235-44CA-B36E-81086319E449}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Retail1\Public\Cleanup.h">
       <Filter>Source\Retail1\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\Retail1\Public\Customer.h">
+      <Filter>Source\Retail1\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Retail1\Public\ProduceSpawner.h">
       <Filter>Source\Retail1\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\Retail1\Public\SpillSpawner.h">

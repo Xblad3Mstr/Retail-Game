@@ -1,0 +1,3 @@
+D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\Definitions.Retail1.h
+D:\missp\Projects\Retail-Game\Retail1\Source\Retail1\Public\ProduceSpawner.h
+D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Inc\Retail1\ProduceSpawner.generated.h
