@@ -898,3 +898,311 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.23-17.37.00:271][911]Display: HotReload successful (36 functions remapped  0 scriptstructs remapped)
 [2021.03.23-17.37.00:406][911]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 3425 classes and 817 folders.
 [2021.03.23-17.37.00:411][911]Display: HotReload took  0.3s.
+[2021.03.23-17.53.33:108][ 60]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.23-17.53.33:135][ 60]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.23-17.53.33:136][ 60]PIE: New page: PIE session: RetailMap2 (Mar 23, 2021, 5:53:33 AM)
+[2021.03.23-17.53.33:136][ 60]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_RetailMap2
+[2021.03.23-17.53.33:211][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075408s)
+[2021.03.23-17.53.33:213][ 60]LogAIModule: Creating AISystem for world RetailMap2
+[2021.03.23-17.53.33:213][ 60]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C007AB6600), frame # 67060
+[2021.03.23-17.53.33:213][ 60]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C0681C7EC0), frame # 67060
+[2021.03.23-17.53.33:214][ 60]LogPlayLevel: PIE: World Init took: (0.002429s)
+[2021.03.23-17.53.33:214][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/RetailMap2.RetailMap2 to /Game/ThirdPersonCPP/Maps/UEDPIE_0_RetailMap2.RetailMap2 (0.078212s)
+[2021.03.23-17.53.33:430][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   4.60ms
+[2021.03.23-17.53.33:432][ 60]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.23-17.53.33:432][ 60]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.23-17.53.33:432][ 60]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.23-17.53.33:432][ 60]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.23-17.53.33:432][ 60]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.23-17.53.33:432][ 60]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.23-17.53.33:432][ 60]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.23-17.53.33:432][ 60]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.23-17.53.33:432][ 60]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.23-17.53.33:432][ 60]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.23-17.53.33:460][ 60]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.23-17.53.33:460][ 60]LogAudioMixer: Display: 1: FrontRight
+[2021.03.23-17.53.33:460][ 60]LogAudioMixer: Display: 2: FrontCenter
+[2021.03.23-17.53.33:460][ 60]LogAudioMixer: Display: 3: LowFrequency
+[2021.03.23-17.53.33:460][ 60]LogAudioMixer: Display: 4: BackLeft
+[2021.03.23-17.53.33:460][ 60]LogAudioMixer: Display: 5: BackRight
+[2021.03.23-17.53.33:460][ 60]LogAudioMixer: Display: 6: SideLeft
+[2021.03.23-17.53.33:460][ 60]LogAudioMixer: Display: 7: SideRight
+[2021.03.23-17.53.33:538][ 60]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.03.23-17.53.33:539][ 60]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.23-17.53.33:539][ 60]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.23-17.53.33:539][ 60]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.23-17.53.33:539][ 60]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.23-17.53.33:555][ 60]LogInit: FAudioDevice initialized.
+[2021.03.23-17.53.33:569][ 60]LogLoad: Game class is 'GameMode_BP_C'
+[2021.03.23-17.53.33:599][ 60]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_RetailMap2.RetailMap2 up for play (max tick rate 60) at 2021.03.23-11.53.33
+[2021.03.23-17.53.33:599][ 60]LogWorld: Bringing up level for play took: 0.029712
+[2021.03.23-17.53.33:600][ 60]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.03.23-17.53.33:603][ 60]LogTemp: PRODUCESPAWNER
+[2021.03.23-17.53.33:604][ 60]LogTemp: GAMEMODE::StartTimer
+[2021.03.23-17.53.33:604][ 60]PIE: Server logged in
+[2021.03.23-17.53.33:605][ 60]PIE: Play in editor total start time 0.473 seconds.
+[2021.03.23-17.54.03:901][873]LogTemp: TIME TO COMPLETE 0
+[2021.03.23-17.54.13:920][468]LogTemp: 			:::CHARACTER :::    Found Cleanup
+[2021.03.23-17.54.16:821][642]LogTemp: CLEANUP::FinishCleanup
+[2021.03.23-17.54.42:507][179]LogTemp: TIME TO COMPLETE 0
+[2021.03.23-17.54.54:058][872]LogTemp: 			:::CHARACTER :::    Found Cleanup
+[2021.03.23-17.54.57:958][106]LogTemp: CLEANUP::FinishCleanup
+[2021.03.23-17.55.28:695][950]LogTemp: TIME TO COMPLETE 0
+[2021.03.23-17.55.41:447][698]LogTemp: 			:::CHARACTER :::    Found Produce
+[2021.03.23-17.55.41:447][698]LogTemp: PRODUCE::StartTimer
+[2021.03.23-17.55.43:847][842]LogTemp: Produce::FinishCleanup
+[2021.03.23-17.56.17:150][840]LogTemp: 			:::CHARACTER :::    Found Cleanup
+[2021.03.23-17.56.18:534][923]LogTemp: TIME TO COMPLETE 0
+[2021.03.23-17.56.21:450][ 98]LogTemp: CLEANUP::FinishCleanup
+[2021.03.23-17.56.22:733][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-17.56.22:733][173]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_RetailMap2
+[2021.03.23-17.56.22:734][173]LogWorld: UWorld::CleanupWorld for RetailMap2, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-17.56.22:738][173]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-17.56.22:750][173]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.23-17.56.22:755][173]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-17.56.22:779][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-17.56.22:807][173]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C0681C7EC0), frame # 77173
+[2021.03.23-17.56.22:807][173]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C007AB6600), frame # 77173
+[2021.03.23-17.56.22:813][173]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2021.03.23-17.56.22:880][174]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.03.23-17.57.06:078][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SpillCleanup2_BP" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/SpillCleanup2_BP.uasset" SILENT=true
+[2021.03.23-17.57.06:426][665]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/SpillCleanup2_BP6E86AD72410DD66835F06DB52AC584D8.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/SpillCleanup2_BP.uasset'
+[2021.03.23-17.57.06:452][665]AssetCheck: New page: Asset Save: SpillCleanup2_BP
+[2021.03.23-17.57.06:452][665]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/SpillCleanup2_BP.SpillCleanup2_BP
+[2021.03.23-17.57.17:628][318]BlueprintLog: New page: Compile SpillCleanup2_BP
+[2021.03.23-17.57.17:629][318]LogTemp: TIME TO COMPLETE 0
+[2021.03.23-17.57.17:630][318]LogTemp: TIME TO COMPLETE 0
+[2021.03.23-17.57.17:631][318]LogTemp: TIME TO COMPLETE 0
+[2021.03.23-17.57.17:632][318]LogTemp: TIME TO COMPLETE 0
+[2021.03.23-17.57.17:674][318]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2021.03.23-17.57.17:680][318]LogTemp: TIME TO COMPLETE 0
+[2021.03.23-17.57.17:742][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SpillCleanup2_BP" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/SpillCleanup2_BP.uasset" SILENT=true
+[2021.03.23-17.57.17:778][318]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/SpillCleanup2_BP6A4FA7284EAC238E768E6CB68C2539C8.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/SpillCleanup2_BP.uasset'
+[2021.03.23-17.57.17:794][318]AssetCheck: New page: Asset Save: SpillCleanup2_BP
+[2021.03.23-17.57.17:795][318]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/SpillCleanup2_BP.SpillCleanup2_BP
+[2021.03.23-17.57.58:534][718]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Maps/RetailMap2" FILE="../../../../Projects/Retail-Game/Retail1/Content/ThirdPersonCPP/Maps/RetailMap2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.23-17.57.58:569][718]LogUObjectHash: Compacting FUObjectHashTables data took   4.53ms
+[2021.03.23-17.57.59:353][718]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/RetailMap27C89A25B4EAD2A218C8BC4A1A85F4CFC.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/ThirdPersonCPP/Maps/RetailMap2.umap'
+[2021.03.23-17.57.59:411][718]AssetCheck: New page: Asset Save: RetailMap2
+[2021.03.23-17.57.59:411][718]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/RetailMap2.RetailMap2
+[2021.03.23-17.58.13:732][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Maps/RetailMap2" FILE="../../../../Projects/Retail-Game/Retail1/Content/ThirdPersonCPP/Maps/RetailMap2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.23-17.58.13:763][571]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2021.03.23-17.58.14:028][571]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/RetailMap267FCAE5A4B21FEC4205A2E85178F27FF.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/ThirdPersonCPP/Maps/RetailMap2.umap'
+[2021.03.23-17.58.14:076][571]AssetCheck: New page: Asset Save: RetailMap2
+[2021.03.23-17.58.14:077][571]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/RetailMap2.RetailMap2
+[2021.03.23-17.58.18:896][848]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.23-17.58.18:916][848]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.23-17.58.18:916][848]PIE: New page: PIE session: RetailMap2 (Mar 23, 2021, 5:58:18 AM)
+[2021.03.23-17.58.18:916][848]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_RetailMap2
+[2021.03.23-17.58.18:986][848]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069738s)
+[2021.03.23-17.58.18:987][848]LogAIModule: Creating AISystem for world RetailMap2
+[2021.03.23-17.58.18:987][848]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C038062000), frame # 83848
+[2021.03.23-17.58.18:987][848]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C01E591E40), frame # 83848
+[2021.03.23-17.58.18:988][848]LogPlayLevel: PIE: World Init took: (0.001917s)
+[2021.03.23-17.58.18:988][848]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/RetailMap2.RetailMap2 to /Game/ThirdPersonCPP/Maps/UEDPIE_0_RetailMap2.RetailMap2 (0.072024s)
+[2021.03.23-17.58.19:019][848]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2021.03.23-17.58.19:022][848]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.23-17.58.19:022][848]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.23-17.58.19:022][848]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.23-17.58.19:022][848]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.23-17.58.19:022][848]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.23-17.58.19:022][848]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.23-17.58.19:022][848]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.23-17.58.19:022][848]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.23-17.58.19:022][848]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.23-17.58.19:022][848]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.23-17.58.19:031][848]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.23-17.58.19:031][848]LogAudioMixer: Display: 1: FrontRight
+[2021.03.23-17.58.19:031][848]LogAudioMixer: Display: 2: FrontCenter
+[2021.03.23-17.58.19:031][848]LogAudioMixer: Display: 3: LowFrequency
+[2021.03.23-17.58.19:032][848]LogAudioMixer: Display: 4: BackLeft
+[2021.03.23-17.58.19:032][848]LogAudioMixer: Display: 5: BackRight
+[2021.03.23-17.58.19:032][848]LogAudioMixer: Display: 6: SideLeft
+[2021.03.23-17.58.19:032][848]LogAudioMixer: Display: 7: SideRight
+[2021.03.23-17.58.19:114][848]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.03.23-17.58.19:114][848]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.23-17.58.19:115][848]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.23-17.58.19:115][848]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.23-17.58.19:115][848]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.23-17.58.19:128][848]LogInit: FAudioDevice initialized.
+[2021.03.23-17.58.19:134][848]LogLoad: Game class is 'GameMode_BP_C'
+[2021.03.23-17.58.19:161][848]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_RetailMap2.RetailMap2 up for play (max tick rate 60) at 2021.03.23-11.58.19
+[2021.03.23-17.58.19:162][848]LogWorld: Bringing up level for play took: 0.026513
+[2021.03.23-17.58.19:162][848]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.03.23-17.58.19:177][848]LogTemp: PRODUCESPAWNER
+[2021.03.23-17.58.19:178][848]LogTemp: GAMEMODE::StartTimer
+[2021.03.23-17.58.19:178][848]PIE: Server logged in
+[2021.03.23-17.58.19:179][848]PIE: Play in editor total start time 0.264 seconds.
+[2021.03.23-17.58.59:957][291]LogTemp: TIME TO COMPLETE 0
+[2021.03.23-17.59.58:414][797]LogTemp: TIME TO COMPLETE 0
+[2021.03.23-18.00.14:882][785]LogTemp: 			:::CHARACTER :::    Found Cleanup
+[2021.03.23-18.00.19:882][ 85]LogTemp: CLEANUP::FinishCleanup
+[2021.03.23-18.00.22:498][242]LogTemp: 			:::CHARACTER :::    Found Cleanup
+[2021.03.23-18.00.26:801][500]LogTemp: CLEANUP::FinishCleanup
+[2021.03.23-18.00.35:768][ 38]LogTemp: TIME TO COMPLETE 0
+[2021.03.23-18.00.52:105][ 17]LogTemp: 			:::CHARACTER :::    Found Cleanup
+[2021.03.23-18.00.54:606][167]LogTemp: CLEANUP::FinishCleanup
+[2021.03.23-18.01.17:808][559]LogTemp: 			:::CHARACTER :::    Found Produce
+[2021.03.23-18.01.17:808][559]LogTemp: PRODUCE::StartTimer
+[2021.03.23-18.01.22:308][829]LogTemp: Produce::FinishCleanup
+[2021.03.23-18.01.23:458][898]LogTemp: TIME TO COMPLETE 0
+[2021.03.23-18.01.44:665][169]LogTemp: 			:::CHARACTER :::    Found Cleanup
+[2021.03.23-18.01.48:265][385]LogTemp: CLEANUP::FinishCleanup
+[2021.03.23-18.01.53:083][672]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-18.01.53:083][672]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_RetailMap2
+[2021.03.23-18.01.53:084][672]LogWorld: UWorld::CleanupWorld for RetailMap2, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-18.01.53:088][672]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-18.01.53:103][672]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.23-18.01.53:108][672]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-18.01.53:132][672]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-18.01.53:163][672]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C01E591E40), frame # 96672
+[2021.03.23-18.01.53:163][672]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C038062000), frame # 96672
+[2021.03.23-18.01.53:168][672]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2021.03.23-18.01.53:240][673]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.03.23-18.02.21:003][309]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.03.23-18.02.26:636][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Maps/RetailMap2" FILE="../../../../Projects/Retail-Game/Retail1/Content/ThirdPersonCPP/Maps/RetailMap2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.23-18.02.26:668][635]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2021.03.23-18.02.26:948][635]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/RetailMap21F2FF29849E8267F7DA82E9F0E2E1FF4.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/ThirdPersonCPP/Maps/RetailMap2.umap'
+[2021.03.23-18.02.27:002][635]AssetCheck: New page: Asset Save: RetailMap2
+[2021.03.23-18.02.27:002][635]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/RetailMap2.RetailMap2
+[2021.03.23-18.02.34:674][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Maps/RetailMap2" FILE="../../../../Projects/Retail-Game/Retail1/Content/ThirdPersonCPP/Maps/RetailMap2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.23-18.02.34:705][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2021.03.23-18.02.34:962][ 84]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/RetailMap285332FD04313BA42EB36A6AC01CAD4E6.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/ThirdPersonCPP/Maps/RetailMap2.umap'
+[2021.03.23-18.02.35:014][ 84]AssetCheck: New page: Asset Save: RetailMap2
+[2021.03.23-18.02.35:014][ 84]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/RetailMap2.RetailMap2
+[2021.03.23-18.02.36:314][148]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.23-18.02.36:335][148]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.23-18.02.36:335][148]PIE: New page: PIE session: RetailMap2 (Mar 23, 2021, 6:02:36 AM)
+[2021.03.23-18.02.36:335][148]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_RetailMap2
+[2021.03.23-18.02.36:396][148]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060629s)
+[2021.03.23-18.02.36:397][148]LogAIModule: Creating AISystem for world RetailMap2
+[2021.03.23-18.02.36:397][148]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C054103000), frame # 99148
+[2021.03.23-18.02.36:417][148]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BFB9161300), frame # 99148
+[2021.03.23-18.02.36:418][148]LogPlayLevel: PIE: World Init took: (0.021071s)
+[2021.03.23-18.02.36:418][148]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/RetailMap2.RetailMap2 to /Game/ThirdPersonCPP/Maps/UEDPIE_0_RetailMap2.RetailMap2 (0.081967s)
+[2021.03.23-18.02.36:446][148]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2021.03.23-18.02.36:448][148]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.23-18.02.36:448][148]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.23-18.02.36:448][148]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.23-18.02.36:448][148]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.23-18.02.36:448][148]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.23-18.02.36:448][148]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.23-18.02.36:448][148]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.23-18.02.36:448][148]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.23-18.02.36:448][148]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.23-18.02.36:448][148]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.23-18.02.36:456][148]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.23-18.02.36:456][148]LogAudioMixer: Display: 1: FrontRight
+[2021.03.23-18.02.36:456][148]LogAudioMixer: Display: 2: FrontCenter
+[2021.03.23-18.02.36:456][148]LogAudioMixer: Display: 3: LowFrequency
+[2021.03.23-18.02.36:456][148]LogAudioMixer: Display: 4: BackLeft
+[2021.03.23-18.02.36:456][148]LogAudioMixer: Display: 5: BackRight
+[2021.03.23-18.02.36:456][148]LogAudioMixer: Display: 6: SideLeft
+[2021.03.23-18.02.36:456][148]LogAudioMixer: Display: 7: SideRight
+[2021.03.23-18.02.36:533][148]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.03.23-18.02.36:533][148]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.23-18.02.36:533][148]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.23-18.02.36:533][148]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.23-18.02.36:534][148]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.23-18.02.36:548][148]LogInit: FAudioDevice initialized.
+[2021.03.23-18.02.36:561][148]LogLoad: Game class is 'GameMode_BP_C'
+[2021.03.23-18.02.36:589][148]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_RetailMap2.RetailMap2 up for play (max tick rate 60) at 2021.03.23-12.02.36
+[2021.03.23-18.02.36:589][148]LogWorld: Bringing up level for play took: 0.028108
+[2021.03.23-18.02.36:590][148]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.03.23-18.02.36:593][148]LogTemp: PRODUCESPAWNER
+[2021.03.23-18.02.36:594][148]LogTemp: GAMEMODE::StartTimer
+[2021.03.23-18.02.36:594][148]PIE: Server logged in
+[2021.03.23-18.02.36:595][148]PIE: Play in editor total start time 0.261 seconds.
+[2021.03.23-18.03.08:369][ 52]LogTemp: TIME TO COMPLETE 0
+[2021.03.23-18.03.37:340][789]LogTemp: 			:::CHARACTER :::    Found Produce
+[2021.03.23-18.03.37:340][789]LogTemp: PRODUCE::StartTimer
+[2021.03.23-18.03.41:640][ 47]LogTemp: Produce::FinishCleanup
+[2021.03.23-18.03.45:409][273]LogTemp: TIME TO COMPLETE 0
+[2021.03.23-18.03.54:358][810]LogTemp: 			:::CHARACTER :::    Found Cleanup
+[2021.03.23-18.03.56:658][948]LogTemp: CLEANUP::FinishCleanup
+[2021.03.23-18.03.58:841][ 79]LogTemp: 			:::CHARACTER :::    Found Cleanup
+[2021.03.23-18.04.02:442][295]LogTemp: CLEANUP::FinishCleanup
+[2021.03.23-18.04.04:333][406]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-18.04.04:333][406]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_RetailMap2
+[2021.03.23-18.04.04:334][406]LogWorld: UWorld::CleanupWorld for RetailMap2, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-18.04.04:338][406]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-18.04.04:351][406]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.23-18.04.04:356][406]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-18.04.04:412][406]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-18.04.04:427][406]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BFB9161300), frame # 104406
+[2021.03.23-18.04.04:427][406]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C054103000), frame # 104406
+[2021.03.23-18.04.04:431][406]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2021.03.23-18.04.04:492][407]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.03.23-18.04.51:267][145]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.03.23-18.04.58:982][590]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (produceTable83)
+[2021.03.23-18.04.59:951][644]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (produceTable83)
+[2021.03.23-18.05.00:562][679]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.03.23-18.05.01:231][715]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.03.23-18.05.41:150][996]BlueprintLog: New page: Compile ProduceSpawner_BP
+[2021.03.23-18.05.41:223][996]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2021.03.23-18.05.41:273][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ProduceSpawner_BP" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ProduceSpawner_BP.uasset" SILENT=true
+[2021.03.23-18.05.41:328][996]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/ProduceSpawner_BP8A5304874CBB6FC5576A35A67B5B0E6E.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ProduceSpawner_BP.uasset'
+[2021.03.23-18.05.41:344][996]AssetCheck: New page: Asset Save: ProduceSpawner_BP
+[2021.03.23-18.05.41:344][996]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/ProduceSpawner_BP.ProduceSpawner_BP
+[2021.03.23-18.05.43:206][102]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Maps/RetailMap2" FILE="../../../../Projects/Retail-Game/Retail1/Content/ThirdPersonCPP/Maps/RetailMap2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.23-18.05.43:236][102]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2021.03.23-18.05.43:535][102]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/RetailMap2AADFE4E24CE1E7A0DCC39E81657E1433.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/ThirdPersonCPP/Maps/RetailMap2.umap'
+[2021.03.23-18.05.43:591][102]AssetCheck: New page: Asset Save: RetailMap2
+[2021.03.23-18.05.43:591][102]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/RetailMap2.RetailMap2
+[2021.03.23-18.05.46:634][274]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.23-18.05.46:654][274]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.23-18.05.46:654][274]PIE: New page: PIE session: RetailMap2 (Mar 23, 2021, 6:05:46 AM)
+[2021.03.23-18.05.46:654][274]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_RetailMap2
+[2021.03.23-18.05.46:720][274]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065309s)
+[2021.03.23-18.05.46:722][274]LogAIModule: Creating AISystem for world RetailMap2
+[2021.03.23-18.05.46:722][274]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BF994B1400), frame # 110274
+[2021.03.23-18.05.46:722][274]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C037472C00), frame # 110274
+[2021.03.23-18.05.46:722][274]LogPlayLevel: PIE: World Init took: (0.002363s)
+[2021.03.23-18.05.46:723][274]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/RetailMap2.RetailMap2 to /Game/ThirdPersonCPP/Maps/UEDPIE_0_RetailMap2.RetailMap2 (0.068078s)
+[2021.03.23-18.05.46:754][274]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2021.03.23-18.05.46:756][274]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.23-18.05.46:756][274]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.23-18.05.46:756][274]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.23-18.05.46:756][274]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.23-18.05.46:756][274]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.23-18.05.46:756][274]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.23-18.05.46:756][274]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.23-18.05.46:756][274]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.23-18.05.46:757][274]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.23-18.05.46:757][274]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.23-18.05.46:765][274]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.23-18.05.46:765][274]LogAudioMixer: Display: 1: FrontRight
+[2021.03.23-18.05.46:765][274]LogAudioMixer: Display: 2: FrontCenter
+[2021.03.23-18.05.46:765][274]LogAudioMixer: Display: 3: LowFrequency
+[2021.03.23-18.05.46:765][274]LogAudioMixer: Display: 4: BackLeft
+[2021.03.23-18.05.46:765][274]LogAudioMixer: Display: 5: BackRight
+[2021.03.23-18.05.46:765][274]LogAudioMixer: Display: 6: SideLeft
+[2021.03.23-18.05.46:765][274]LogAudioMixer: Display: 7: SideRight
+[2021.03.23-18.05.46:841][274]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.03.23-18.05.46:841][274]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.23-18.05.46:841][274]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.23-18.05.46:841][274]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.23-18.05.46:842][274]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.23-18.05.46:855][274]LogInit: FAudioDevice initialized.
+[2021.03.23-18.05.46:863][274]LogLoad: Game class is 'GameMode_BP_C'
+[2021.03.23-18.05.46:890][274]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_RetailMap2.RetailMap2 up for play (max tick rate 60) at 2021.03.23-12.05.46
+[2021.03.23-18.05.46:891][274]LogWorld: Bringing up level for play took: 0.026158
+[2021.03.23-18.05.46:891][274]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.03.23-18.05.46:895][274]LogTemp: PRODUCESPAWNER
+[2021.03.23-18.05.46:895][274]LogTemp: GAMEMODE::StartTimer
+[2021.03.23-18.05.46:895][274]PIE: Server logged in
+[2021.03.23-18.05.46:896][274]PIE: Play in editor total start time 0.243 seconds.
+[2021.03.23-18.06.17:942][133]LogTemp: 			:::CHARACTER :::    Found Produce
+[2021.03.23-18.06.17:942][133]LogTemp: PRODUCE::StartTimer
+[2021.03.23-18.06.21:342][337]LogTemp: Produce::FinishCleanup
+[2021.03.23-18.06.26:263][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-18.06.26:263][629]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_RetailMap2
+[2021.03.23-18.06.26:263][629]LogWorld: UWorld::CleanupWorld for RetailMap2, bSessionEnded=true, bCleanupResources=true
+[2021.03.23-18.06.26:267][629]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-18.06.26:274][629]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.23-18.06.26:279][629]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.23-18.06.26:331][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.23-18.06.26:333][629]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C037472C00), frame # 112629
+[2021.03.23-18.06.26:333][629]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BF994B1400), frame # 112629
+[2021.03.23-18.06.26:337][629]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2021.03.23-18.06.26:406][630]LogPlayLevel: Display: Destroying online subsystem :Context_13
