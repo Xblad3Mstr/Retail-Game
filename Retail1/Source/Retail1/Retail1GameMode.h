@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
 #include "SpillSpawner.h"
+#include "ProduceSpawner.h"
 #include "Retail1GameMode.generated.h"
 
 // ENUM to store current state of gameplay
@@ -103,6 +104,8 @@ private:
 	EStateOfPlay currentState;
 
 	TArray<class ASpillSpawner*> SpillSpawnerActors;
+
+	TArray<class AProduceSpawner*> ProduceSpawnerActors;
 
 	/** Handles any function call that rely upon changing the game state*/
 	void HandleNewState(EStateOfPlay newState);

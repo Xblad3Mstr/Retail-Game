@@ -5,6 +5,7 @@
 #include "Blueprint/UserWidget.h"
 #include "Retail1Character.h"
 #include "SpillSpawner.h"
+#include "ProduceSpawner.h"
 #include "GameFramework/Actor.h"
 #include "UObject/ConstructorHelpers.h"
 
@@ -30,15 +31,27 @@ void ARetail1GameMode::BeginPlay()
 {
 	Super::BeginPlay();
 
-	TArray<AActor*> foundActors;
-	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ASpillSpawner::StaticClass(), foundActors);
+	TArray<AActor*> spillSpawnActors;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ASpillSpawner::StaticClass(), spillSpawnActors);
 
-	for (auto Actor : foundActors)
+	for (auto Actor : spillSpawnActors)
 	{
-		ASpillSpawner* spawner = Cast<ASpillSpawner>(Actor);
-		if (spawner)
+		ASpillSpawner* sSpawner = Cast<ASpillSpawner>(Actor);
+		if (sSpawner)
 		{
-			SpillSpawnerActors.AddUnique(spawner);
+			SpillSpawnerActors.AddUnique(sSpawner);
+		}
+	}
+
+	TArray<AActor*> produceSpawnActors;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AProduceSpawner::StaticClass(), produceSpawnActors);
+
+	for (auto Actor : produceSpawnActors)
+	{
+		AProduceSpawner* pSpawner = Cast<AProduceSpawner>(Actor);
+		if (pSpawner)
+		{
+			ProduceSpawnerActors.AddUnique(pSpawner);
 		}
 	}
 
@@ -158,6 +171,11 @@ void ARetail1GameMode::HandleNewState(EStateOfPlay newState)
 		{
 			volume->SetSpawningActive(true);
 		}
+
+		for (AProduceSpawner* volume : ProduceSpawnerActors)
+		{
+			volume->SetSpawningActive(true);
+		}
 	}
 	break;
 	case EStateOfPlay::EPaused:
@@ -171,6 +189,10 @@ void ARetail1GameMode::HandleNewState(EStateOfPlay newState)
 	case EStateOfPlay::EEndOfDay:
 	{
 		for (ASpillSpawner* volume : SpillSpawnerActors)
+		{
+			volume->SetSpawningActive(false);
+		}
+		for (AProduceSpawner* volume : ProduceSpawnerActors)
 		{
 			volume->SetSpawningActive(false);
 		}

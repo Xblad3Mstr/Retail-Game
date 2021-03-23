@@ -16,8 +16,31 @@ public:
 	AProduceSpawner();
 
 protected:
+	/** THe timer handle for Produce time*/
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Produce")
+		FTimerHandle timer;
+
+	/** How long this Produce will take*/
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Produce")
+		float timeToComplete;
+
+	/** How much progress (%) player has made on this Produce*/
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Produce")
+		float progress;
+
+	/** If this timer has been activated*/
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Produce")
+		bool timerStarted;
+
+	/** If this timer is currently paused*/
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Produce")
+		bool timerPaused;
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	/** Updates the progress bar based on timer*/
+	UFUNCTION(BlueprintCallable, Category = "Produce")
+		void UpdateProgress();
 
 public:
 	// Called every frame
@@ -30,14 +53,34 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Spawning")
 		void SetSpawningActive(bool bShouldSpawn);
 
-protected:
-	/** The Produce to spawn*/
-	UPROPERTY(EditAnywhere, Category = "Spawning")
-		AActor WhatToSpawn;
+	/** If the user can now interact with this spawner*/
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Spawning")
+		bool canInteract;
 
+	/** Starts the Produce timer*/
+	UFUNCTION(BlueprintCallable, Category = "Produce")
+		void StartTimer();
+
+	/** Pauses the Produce timer*/
+	UFUNCTION(BlueprintCallable, Category = "Produce")
+		void PauseTimer();
+
+	/** Resumes (if paused) the Produce timer*/
+	UFUNCTION(BlueprintCallable, Category = "Produce")
+		void ResumeTimer();
+
+	/** Resets the Produce timer*/
+	UFUNCTION(BlueprintCallable, Category = "Produce")
+		void ResetTimer();
+
+	/** Player has completed Produce*/
+	UFUNCTION(BlueprintCallable, Category = "Produce")
+		void FinishProduce();
+
+protected:
 	/** All the Produce in the spawner*/
 	UPROPERTY(EditAnywhere, Category = "Spawning")
-		TArray<AActor> produceInSpawner;
+		TArray<AActor*> produceInSpawner;
 
 	/** Timer for when Produce should spawn*/
 	FTimerHandle SpawnTimer;
@@ -60,5 +103,8 @@ private:
 
 	/** The current spawn delay*/
 	float SpawnDelay;
+
+	/** Which produce was hidden last*/
+	int lastHidden;
 
 };

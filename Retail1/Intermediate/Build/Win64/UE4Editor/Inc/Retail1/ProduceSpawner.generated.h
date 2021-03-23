@@ -14,8 +14,28 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define RETAIL1_ProduceSpawner_generated_h
 
 #define Retail1_Source_Retail1_Public_ProduceSpawner_h_12_SPARSE_DATA
-#define Retail1_Source_Retail1_Public_ProduceSpawner_h_12_RPC_WRAPPERS
-#define Retail1_Source_Retail1_Public_ProduceSpawner_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define Retail1_Source_Retail1_Public_ProduceSpawner_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execFinishProduce); \
+	DECLARE_FUNCTION(execResetTimer); \
+	DECLARE_FUNCTION(execResumeTimer); \
+	DECLARE_FUNCTION(execPauseTimer); \
+	DECLARE_FUNCTION(execStartTimer); \
+	DECLARE_FUNCTION(execSetSpawningActive); \
+	DECLARE_FUNCTION(execUpdateProgress);
+
+
+#define Retail1_Source_Retail1_Public_ProduceSpawner_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execFinishProduce); \
+	DECLARE_FUNCTION(execResetTimer); \
+	DECLARE_FUNCTION(execResumeTimer); \
+	DECLARE_FUNCTION(execPauseTimer); \
+	DECLARE_FUNCTION(execStartTimer); \
+	DECLARE_FUNCTION(execSetSpawningActive); \
+	DECLARE_FUNCTION(execUpdateProgress);
+
+
 #define Retail1_Source_Retail1_Public_ProduceSpawner_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAProduceSpawner(); \
@@ -58,7 +78,18 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AProduceSpawner); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AProduceSpawner)
 
 
-#define Retail1_Source_Retail1_Public_ProduceSpawner_h_12_PRIVATE_PROPERTY_OFFSET
+#define Retail1_Source_Retail1_Public_ProduceSpawner_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__timer() { return STRUCT_OFFSET(AProduceSpawner, timer); } \
+	FORCEINLINE static uint32 __PPO__timeToComplete() { return STRUCT_OFFSET(AProduceSpawner, timeToComplete); } \
+	FORCEINLINE static uint32 __PPO__progress() { return STRUCT_OFFSET(AProduceSpawner, progress); } \
+	FORCEINLINE static uint32 __PPO__timerStarted() { return STRUCT_OFFSET(AProduceSpawner, timerStarted); } \
+	FORCEINLINE static uint32 __PPO__timerPaused() { return STRUCT_OFFSET(AProduceSpawner, timerPaused); } \
+	FORCEINLINE static uint32 __PPO__produceInSpawner() { return STRUCT_OFFSET(AProduceSpawner, produceInSpawner); } \
+	FORCEINLINE static uint32 __PPO__SpawnDelayRangeLow() { return STRUCT_OFFSET(AProduceSpawner, SpawnDelayRangeLow); } \
+	FORCEINLINE static uint32 __PPO__SpawnDelayRangeHigh() { return STRUCT_OFFSET(AProduceSpawner, SpawnDelayRangeHigh); } \
+	FORCEINLINE static uint32 __PPO__WhereToSpawn() { return STRUCT_OFFSET(AProduceSpawner, WhereToSpawn); }
+
+
 #define Retail1_Source_Retail1_Public_ProduceSpawner_h_9_PROLOG
 #define Retail1_Source_Retail1_Public_ProduceSpawner_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

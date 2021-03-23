@@ -37,7 +37,6 @@ void ACleanup::StartTimer()
 		progress = 0.0f;
 		timerStarted = true;
 		GetWorldTimerManager().SetTimer(timer, this, &ACleanup::UpdateProgress, 0.1f, true, 0.5f);
-		UE_LOG(LogTemp, Log, TEXT("CLEANUP::StartTimer"));
 	}
 }
 
@@ -47,7 +46,6 @@ void ACleanup::PauseTimer()
 	{
 		timerPaused = true;
 		GetWorldTimerManager().PauseTimer(timer);
-		UE_LOG(LogTemp, Log, TEXT("CLEANUP::PauseTimer"));
 	}
 }
 

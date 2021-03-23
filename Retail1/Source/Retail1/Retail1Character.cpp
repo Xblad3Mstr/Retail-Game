@@ -3,6 +3,7 @@
 #include "Retail1Character.h"
 #include "Cleanup.h"
 #include "Customer.h"
+#include "ProduceSpawner.h"
 #include "Components/SphereComponent.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Camera/CameraComponent.h"
@@ -100,11 +101,11 @@ void ARetail1Character::Interact()
 
 	int32 iCollected = 0;
 	bool foundInteraction = false;
-	UE_LOG(LogTemp, Log, TEXT(":::::::::::::::::::::::: %d"), CollectedActors.Num());
 	while ( iCollected < CollectedActors.Num() && !foundInteraction)
 	{
 		ACleanup* const cleanup = Cast<ACleanup>(CollectedActors[iCollected]);
 		ACustomer* const customer = Cast<ACustomer>(CollectedActors[iCollected]);
+		AProduceSpawner* const prodSpawn = Cast<AProduceSpawner>(CollectedActors[iCollected]);
 
 		if (cleanup && !cleanup->IsPendingKill())
 		{
@@ -163,7 +164,32 @@ void ARetail1Character::Interact()
 				item = customer->GetItem();
 				currentCustomer->StartTimer();
 			}
-			
+		}
+		else if (prodSpawn)
+		{
+			if (prodSpawn->canInteract)
+			{
+				UE_LOG(LogTemp, Log, TEXT("\t\t\t:::CHARACTER :::    Found Produce"));
+				foundInteraction = true;
+				if (currentProduce != NULL)
+				{
+					if (currentProduce == prodSpawn)
+					{
+						currentProduce-> ResumeTimer();
+					}
+					else
+					{
+						currentProduce->ResetTimer();
+						currentProduce = prodSpawn;
+						currentProduce->StartTimer();
+					}
+				}
+				else
+				{
+					currentProduce = prodSpawn;
+					currentProduce->StartTimer();
+				}
+			}
 		}
 
 		iCollected++;
@@ -172,7 +198,6 @@ void ARetail1Character::Interact()
 
 void ARetail1Character::StopInteract()
 {
-	UE_LOG(LogTemp, Log, TEXT("\t\t\t:::CHARACTER :::    BLAH Cleanup"));
 	if (currentCleanup != NULL)
 	{
 		if (!currentCleanup->IsPendingKill())

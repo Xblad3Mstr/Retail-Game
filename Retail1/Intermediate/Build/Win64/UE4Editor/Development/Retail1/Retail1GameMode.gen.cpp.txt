@@ -8,4 +8,6 @@ D:\missp\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStat
 D:\missp\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
 D:\missp\Projects\Retail-Game\Retail1\Source\Retail1\Public\SpillSpawner.h
 D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Inc\Retail1\SpillSpawner.generated.h
+D:\missp\Projects\Retail-Game\Retail1\Source\Retail1\Public\ProduceSpawner.h
+D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Inc\Retail1\ProduceSpawner.generated.h
 D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Inc\Retail1\Retail1GameMode.generated.h
