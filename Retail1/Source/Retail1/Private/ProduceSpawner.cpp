@@ -137,8 +137,15 @@ void AProduceSpawner::SpawnProduce()
 	{
 		produceInSpawner[lastHidden]->SetActorHiddenInGame(true);
 		++lastHidden;
-		SpawnDelay = FMath::FRandRange(SpawnDelayRangeLow, SpawnDelayRangeHigh);
-		GetWorldTimerManager().SetTimer(SpawnTimer, this, &AProduceSpawner::SpawnProduce, SpawnDelay, false);
+		if (lastHidden < produceInSpawner.Num())
+		{
+			SpawnDelay = FMath::FRandRange(SpawnDelayRangeLow, SpawnDelayRangeHigh);
+			GetWorldTimerManager().SetTimer(SpawnTimer, this, &AProduceSpawner::SpawnProduce, SpawnDelay, false);
+		}
+		else
+		{
+			canInteract = true;
+		}
 	}
 	else
 	{
