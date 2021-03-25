@@ -6,6 +6,7 @@
 #include "Cleanup.h"
 #include "Customer.h"
 #include "ProduceSpawner.h"
+#include "ItemSpawner.h"
 #include "Components/SphereComponent.h"
 #include "GameFramework/Character.h"
 #include "Retail1Character.generated.h"
@@ -102,6 +103,10 @@ protected:
 	/** Current ProduceSpawner*/
 	UPROPERTY(BlueprintReadWrite, Category = "Produce")
 		AProduceSpawner* currentProduce;
+
+	/** Current ProduceSpawner*/
+	UPROPERTY(BlueprintReadWrite, Category = "Items")
+		AItemSpawner* currentItem;
 
 	/** Sphere Component for Interaction Collision*/
 	UPROPERTY(BlueprintReadWrite, Category = "Cleanup")

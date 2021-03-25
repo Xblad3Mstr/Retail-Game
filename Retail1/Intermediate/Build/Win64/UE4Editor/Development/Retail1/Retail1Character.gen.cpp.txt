@@ -8,6 +8,8 @@ D:\missp\Projects\Retail-Game\Retail1\Source\Retail1\Public\Customer.h
 D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Inc\Retail1\Customer.generated.h
 D:\missp\Projects\Retail-Game\Retail1\Source\Retail1\Public\ProduceSpawner.h
 D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Inc\Retail1\ProduceSpawner.generated.h
+D:\missp\Projects\Retail-Game\Retail1\Source\Retail1\Public\ItemSpawner.h
+D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Inc\Retail1\ItemSpawner.generated.h
 D:\missp\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
 D:\missp\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
 D:\missp\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h

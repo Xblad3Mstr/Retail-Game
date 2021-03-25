@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeRetail1Character() {}
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_Retail1();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
+	RETAIL1_API UClass* Z_Construct_UClass_AItemSpawner_NoRegister();
 	RETAIL1_API UClass* Z_Construct_UClass_AProduceSpawner_NoRegister();
 	RETAIL1_API UClass* Z_Construct_UClass_ACustomer_NoRegister();
 	RETAIL1_API UClass* Z_Construct_UClass_ACleanup_NoRegister();
@@ -235,6 +236,10 @@ void EmptyLinkFunctionForGeneratedCodeRetail1Character() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_collectionSphere;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_currentItem_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_currentItem;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_currentProduce_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_currentProduce;
@@ -319,6 +324,15 @@ void EmptyLinkFunctionForGeneratedCodeRetail1Character() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ARetail1Character_Statics::NewProp_collectionSphere = { "collectionSphere", nullptr, (EPropertyFlags)0x002008000008000c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARetail1Character, collectionSphere), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ARetail1Character_Statics::NewProp_collectionSphere_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARetail1Character_Statics::NewProp_collectionSphere_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARetail1Character_Statics::NewProp_currentItem_MetaData[] = {
+		{ "Category", "Items" },
+		{ "Comment", "/** Current ProduceSpawner*/" },
+		{ "ModuleRelativePath", "Retail1Character.h" },
+		{ "ToolTip", "Current ProduceSpawner" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ARetail1Character_Statics::NewProp_currentItem = { "currentItem", nullptr, (EPropertyFlags)0x0020080000000004, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARetail1Character, currentItem), Z_Construct_UClass_AItemSpawner_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ARetail1Character_Statics::NewProp_currentItem_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARetail1Character_Statics::NewProp_currentItem_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARetail1Character_Statics::NewProp_currentProduce_MetaData[] = {
 		{ "Category", "Produce" },
@@ -446,6 +460,7 @@ void EmptyLinkFunctionForGeneratedCodeRetail1Character() {}
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ARetail1Character_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARetail1Character, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ARetail1Character_Statics::NewProp_CameraBoom_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARetail1Character_Statics::NewProp_CameraBoom_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ARetail1Character_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1Character_Statics::NewProp_collectionSphere,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1Character_Statics::NewProp_currentItem,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1Character_Statics::NewProp_currentProduce,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1Character_Statics::NewProp_currentCustomer,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1Character_Statics::NewProp_currentCleanup,
@@ -487,7 +502,7 @@ void EmptyLinkFunctionForGeneratedCodeRetail1Character() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ARetail1Character, 2193870834);
+	IMPLEMENT_CLASS(ARetail1Character, 196608303);
 	template<> RETAIL1_API UClass* StaticClass<ARetail1Character>()
 	{
 		return ARetail1Character::StaticClass();

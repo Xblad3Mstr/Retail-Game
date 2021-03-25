@@ -118,7 +118,7 @@ void AProduceSpawner::FinishProduce()
 	ARetail1Character* player = Cast<ARetail1Character>(UGameplayStatics::GetPlayerPawn(this, 0));
 	if (player)
 	{
-		player->adjustDailyPoints(timeToComplete);
+		player->adjustDailyPoints(timeToComplete / 10.0f);
 		SpawnDelay = FMath::FRandRange(SpawnDelayRangeLow, SpawnDelayRangeHigh);
 		GetWorldTimerManager().SetTimer(SpawnTimer, this, &AProduceSpawner::SpawnProduce, SpawnDelay, false);
 	}
@@ -127,8 +127,10 @@ void AProduceSpawner::FinishProduce()
 	{
 		Actor->SetActorHiddenInGame(false);
 	}
+	progress = 0.0f;
 	canInteract = false;
 	lastHidden = 0;
+	timerStarted = false;
 }
 
 void AProduceSpawner::SpawnProduce()

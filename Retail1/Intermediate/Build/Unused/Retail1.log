@@ -1,13 +1,14 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\missp\Projects\Retail-Game).
   Building Retail1Editor...
   Using Visual Studio 2019 14.28.29333 toolchain (D:\VSCommunity\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 8 processes...
-    [1/5] ProduceSpawner.cpp
-    [2/5] ItemSpawner.cpp
-    [3/5] UE4Editor-Retail1-0024.lib
-       Creating library D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-0024.lib and object D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-0024.exp
-    [4/5] UE4Editor-Retail1-0024.dll
-       Creating library D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-0024.suppressed.lib and object D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-0024.suppressed.exp
-    [5/5] Retail1Editor.target
-  Total time in Parallel executor: 381.46 seconds
-  Total execution time: 384.52 seconds
+  Building 6 actions with 8 processes...
+    [1/6] Retail1Character.cpp
+    [2/6] ItemSpawner.cpp
+    [3/6] ProduceSpawner.cpp
+    [4/6] UE4Editor-Retail1-0030.lib
+       Creating library D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-0030.lib and object D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-0030.exp
+    [5/6] UE4Editor-Retail1-0030.dll
+       Creating library D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-0030.suppressed.lib and object D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-0030.suppressed.exp
+    [6/6] Retail1Editor.target
+  Total time in Parallel executor: 89.22 seconds
+  Total execution time: 90.23 seconds

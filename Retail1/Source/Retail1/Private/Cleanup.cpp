@@ -77,7 +77,7 @@ void ACleanup::FinishCleanup()
 	ARetail1Character* player = Cast<ARetail1Character>(UGameplayStatics::GetPlayerPawn(this, 0));
 	if (player)
 	{
-		player->adjustDailyPoints(timeToComplete);
+		player->adjustDailyPoints(timeToComplete / 10.0f);
 	}
 	Destroy();
 }

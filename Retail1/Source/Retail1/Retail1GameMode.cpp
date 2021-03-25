@@ -6,6 +6,7 @@
 #include "Retail1Character.h"
 #include "SpillSpawner.h"
 #include "ProduceSpawner.h"
+#include "ItemSpawner.h"
 #include "GameFramework/Actor.h"
 #include "UObject/ConstructorHelpers.h"
 
@@ -52,6 +53,18 @@ void ARetail1GameMode::BeginPlay()
 		if (pSpawner)
 		{
 			ProduceSpawnerActors.AddUnique(pSpawner);
+		}
+	}
+
+	TArray<AActor*> itemSpawnActors;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AItemSpawner::StaticClass(), itemSpawnActors);
+
+	for (auto Actor : itemSpawnActors)
+	{
+		AItemSpawner* iSpawner = Cast<AItemSpawner>(Actor);
+		if (iSpawner)
+		{
+			ItemSpawnerActors.AddUnique(iSpawner);
 		}
 	}
 
@@ -176,11 +189,26 @@ void ARetail1GameMode::HandleNewState(EStateOfPlay newState)
 		{
 			volume->SetSpawningActive(true);
 		}
+
+		for (AItemSpawner* volume : ItemSpawnerActors)
+		{
+			volume->SetSpawningActive(true);
+		}
 	}
 	break;
 	case EStateOfPlay::EPaused:
 	{
 		for (ASpillSpawner* volume : SpillSpawnerActors)
+		{
+			volume->SetSpawningActive(false);
+		}
+
+		for (AProduceSpawner* volume : ProduceSpawnerActors)
+		{
+			volume->SetSpawningActive(false);
+		}
+
+		for (AItemSpawner* volume : ItemSpawnerActors)
 		{
 			volume->SetSpawningActive(false);
 		}

@@ -4,6 +4,7 @@
 #include "Cleanup.h"
 #include "Customer.h"
 #include "ProduceSpawner.h"
+#include "ItemSpawner.h"
 #include "Components/SphereComponent.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Camera/CameraComponent.h"
@@ -106,6 +107,7 @@ void ARetail1Character::Interact()
 		ACleanup* const cleanup = Cast<ACleanup>(CollectedActors[iCollected]);
 		ACustomer* const customer = Cast<ACustomer>(CollectedActors[iCollected]);
 		AProduceSpawner* const prodSpawn = Cast<AProduceSpawner>(CollectedActors[iCollected]);
+		AItemSpawner* const itemSpawn = Cast<AItemSpawner>(CollectedActors[iCollected]);
 
 		if (cleanup && !cleanup->IsPendingKill())
 		{
@@ -191,6 +193,32 @@ void ARetail1Character::Interact()
 				}
 			}
 		}
+		else if (itemSpawn)
+		{
+			if (itemSpawn->canInteract)
+			{
+				UE_LOG(LogTemp, Log, TEXT("\t\t\t:::CHARACTER :::    Found Item Spawner"));
+				foundInteraction = true;
+				if (currentItem != NULL)
+				{
+					if (currentItem == itemSpawn)
+					{
+						currentItem->ResumeTimer();
+					}
+					else
+					{
+						currentItem->ResetTimer();
+						currentItem = itemSpawn;
+						currentItem->StartTimer();
+					}
+				}
+				else
+				{
+					currentItem = itemSpawn;
+					currentItem->StartTimer();
+				}
+			}
+		}
 
 		iCollected++;
 	}
@@ -203,6 +231,22 @@ void ARetail1Character::StopInteract()
 		if (!currentCleanup->IsPendingKill())
 		{
 			currentCleanup->PauseTimer();
+		}
+	}
+
+	if (currentProduce != NULL)
+	{
+		if (!currentProduce->IsPendingKill())
+		{
+			currentProduce->PauseTimer();
+		}
+	}
+
+	if (currentItem != NULL)
+	{
+		if (!currentItem->IsPendingKill())
+		{
+			currentItem->PauseTimer();
 		}
 	}
 }
