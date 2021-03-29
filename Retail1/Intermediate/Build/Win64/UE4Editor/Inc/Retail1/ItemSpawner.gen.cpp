@@ -21,6 +21,13 @@ void EmptyLinkFunctionForGeneratedCodeItemSpawner() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FTimerHandle();
 // End Cross Module References
+	DEFINE_FUNCTION(AItemSpawner::execGetItem)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(int32*)Z_Param__Result=P_THIS->GetItem();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AItemSpawner::execFinishItem)
 	{
 		P_FINISH;
@@ -76,6 +83,7 @@ void EmptyLinkFunctionForGeneratedCodeItemSpawner() {}
 		UClass* Class = AItemSpawner::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "FinishItem", &AItemSpawner::execFinishItem },
+			{ "GetItem", &AItemSpawner::execGetItem },
 			{ "PauseTimer", &AItemSpawner::execPauseTimer },
 			{ "ResetTimer", &AItemSpawner::execResetTimer },
 			{ "ResumeTimer", &AItemSpawner::execResumeTimer },
@@ -107,6 +115,41 @@ void EmptyLinkFunctionForGeneratedCodeItemSpawner() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AItemSpawner_FinishItem_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AItemSpawner_GetItem_Statics
+	{
+		struct ItemSpawner_eventGetItem_Parms
+		{
+			int32 ReturnValue;
+		};
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_AItemSpawner_GetItem_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ItemSpawner_eventGetItem_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AItemSpawner_GetItem_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AItemSpawner_GetItem_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AItemSpawner_GetItem_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Customer" },
+		{ "Comment", "/** Return the item this spawns*/" },
+		{ "ModuleRelativePath", "Public/ItemSpawner.h" },
+		{ "ToolTip", "Return the item this spawns" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AItemSpawner_GetItem_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AItemSpawner, nullptr, "GetItem", nullptr, nullptr, sizeof(ItemSpawner_eventGetItem_Parms), Z_Construct_UFunction_AItemSpawner_GetItem_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AItemSpawner_GetItem_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AItemSpawner_GetItem_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AItemSpawner_GetItem_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AItemSpawner_GetItem()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AItemSpawner_GetItem_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -304,6 +347,10 @@ void EmptyLinkFunctionForGeneratedCodeItemSpawner() {}
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_ItemInSpawner;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ItemInSpawner_Inner;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_item_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_item;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_canInteract_MetaData[];
 #endif
 		static void NewProp_canInteract_SetBit(void* Obj);
@@ -340,6 +387,7 @@ void EmptyLinkFunctionForGeneratedCodeItemSpawner() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AItemSpawner_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AItemSpawner_FinishItem, "FinishItem" }, // 1401765022
+		{ &Z_Construct_UFunction_AItemSpawner_GetItem, "GetItem" }, // 410815101
 		{ &Z_Construct_UFunction_AItemSpawner_PauseTimer, "PauseTimer" }, // 3508944328
 		{ &Z_Construct_UFunction_AItemSpawner_ResetTimer, "ResetTimer" }, // 2381831689
 		{ &Z_Construct_UFunction_AItemSpawner_ResumeTimer, "ResumeTimer" }, // 1678621473
@@ -392,6 +440,15 @@ void EmptyLinkFunctionForGeneratedCodeItemSpawner() {}
 #endif
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AItemSpawner_Statics::NewProp_ItemInSpawner = { "ItemInSpawner", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AItemSpawner, ItemInSpawner), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AItemSpawner_Statics::NewProp_ItemInSpawner_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AItemSpawner_Statics::NewProp_ItemInSpawner_MetaData)) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AItemSpawner_Statics::NewProp_ItemInSpawner_Inner = { "ItemInSpawner", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AItemSpawner_Statics::NewProp_item_MetaData[] = {
+		{ "Category", "Customer" },
+		{ "Comment", "/** What item this Customer wants */" },
+		{ "ModuleRelativePath", "Public/ItemSpawner.h" },
+		{ "ToolTip", "What item this Customer wants" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AItemSpawner_Statics::NewProp_item = { "item", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AItemSpawner, item), METADATA_PARAMS(Z_Construct_UClass_AItemSpawner_Statics::NewProp_item_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AItemSpawner_Statics::NewProp_item_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AItemSpawner_Statics::NewProp_canInteract_MetaData[] = {
 		{ "Category", "Spawning" },
@@ -464,6 +521,7 @@ void EmptyLinkFunctionForGeneratedCodeItemSpawner() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AItemSpawner_Statics::NewProp_SpawnDelayRangeLow,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AItemSpawner_Statics::NewProp_ItemInSpawner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AItemSpawner_Statics::NewProp_ItemInSpawner_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AItemSpawner_Statics::NewProp_item,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AItemSpawner_Statics::NewProp_canInteract,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AItemSpawner_Statics::NewProp_timerPaused,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AItemSpawner_Statics::NewProp_timerStarted,
@@ -498,7 +556,7 @@ void EmptyLinkFunctionForGeneratedCodeItemSpawner() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AItemSpawner, 3166950444);
+	IMPLEMENT_CLASS(AItemSpawner, 2478545852);
 	template<> RETAIL1_API UClass* StaticClass<AItemSpawner>()
 	{
 		return AItemSpawner::StaticClass();

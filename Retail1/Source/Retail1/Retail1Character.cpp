@@ -163,7 +163,6 @@ void ARetail1Character::Interact()
 			else
 			{
 				currentCustomer = customer;
-				item = customer->GetItem();
 				currentCustomer->StartTimer();
 			}
 		}
@@ -192,6 +191,10 @@ void ARetail1Character::Interact()
 					currentProduce->StartTimer();
 				}
 			}
+			else
+			{
+				item = prodSpawn->GetItem();
+			}
 		}
 		else if (itemSpawn)
 		{
@@ -217,6 +220,10 @@ void ARetail1Character::Interact()
 					currentItem = itemSpawn;
 					currentItem->StartTimer();
 				}
+			}
+			else
+			{
+				item = itemSpawn->GetItem();
 			}
 		}
 
@@ -348,6 +355,10 @@ void ARetail1Character::resetCleanup()
 	currentCleanup = NULL;
 }
 
+int ARetail1Character::GetCurrentItem()
+{
+	return item;
+}
 
 void ARetail1Character::OnResetVR()
 {

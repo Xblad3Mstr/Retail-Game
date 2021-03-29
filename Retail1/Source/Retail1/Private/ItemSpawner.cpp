@@ -155,3 +155,8 @@ void AItemSpawner::SpawnItem()
 	}
 }
 
+int AItemSpawner::GetItem()
+{
+	UE_LOG(LogTemp, Log, TEXT("ITEMSPAWNER::GetItem"));
+	return item;
+}

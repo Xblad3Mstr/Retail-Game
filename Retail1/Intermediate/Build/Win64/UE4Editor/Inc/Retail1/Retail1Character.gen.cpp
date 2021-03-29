@@ -49,6 +49,13 @@ void EmptyLinkFunctionForGeneratedCodeRetail1Character() {}
 		P_THIS->adjustEmployeeLevel(Z_Param_adjustment);
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(ARetail1Character::execGetCurrentItem)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(int32*)Z_Param__Result=P_THIS->GetCurrentItem();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(ARetail1Character::execStopInteract)
 	{
 		P_FINISH;
@@ -69,6 +76,7 @@ void EmptyLinkFunctionForGeneratedCodeRetail1Character() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "adjustDailyPoints", &ARetail1Character::execadjustDailyPoints },
 			{ "adjustEmployeeLevel", &ARetail1Character::execadjustEmployeeLevel },
+			{ "GetCurrentItem", &ARetail1Character::execGetCurrentItem },
 			{ "Interact", &ARetail1Character::execInteract },
 			{ "resetCleanup", &ARetail1Character::execresetCleanup },
 			{ "StopInteract", &ARetail1Character::execStopInteract },
@@ -142,6 +150,41 @@ void EmptyLinkFunctionForGeneratedCodeRetail1Character() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ARetail1Character_adjustEmployeeLevel_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ARetail1Character_GetCurrentItem_Statics
+	{
+		struct Retail1Character_eventGetCurrentItem_Parms
+		{
+			int32 ReturnValue;
+		};
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_ARetail1Character_GetCurrentItem_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Retail1Character_eventGetCurrentItem_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ARetail1Character_GetCurrentItem_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ARetail1Character_GetCurrentItem_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ARetail1Character_GetCurrentItem_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Customer" },
+		{ "Comment", "/** Stops Interaction w/ Character or Cleanup*/" },
+		{ "ModuleRelativePath", "Retail1Character.h" },
+		{ "ToolTip", "Stops Interaction w/ Character or Cleanup" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ARetail1Character_GetCurrentItem_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ARetail1Character, nullptr, "GetCurrentItem", nullptr, nullptr, sizeof(Retail1Character_eventGetCurrentItem_Parms), Z_Construct_UFunction_ARetail1Character_GetCurrentItem_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ARetail1Character_GetCurrentItem_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ARetail1Character_GetCurrentItem_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ARetail1Character_GetCurrentItem_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ARetail1Character_GetCurrentItem()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ARetail1Character_GetCurrentItem_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -303,6 +346,7 @@ void EmptyLinkFunctionForGeneratedCodeRetail1Character() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_ARetail1Character_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ARetail1Character_adjustDailyPoints, "adjustDailyPoints" }, // 1615042376
 		{ &Z_Construct_UFunction_ARetail1Character_adjustEmployeeLevel, "adjustEmployeeLevel" }, // 1231185959
+		{ &Z_Construct_UFunction_ARetail1Character_GetCurrentItem, "GetCurrentItem" }, // 2243047378
 		{ &Z_Construct_UFunction_ARetail1Character_Interact, "Interact" }, // 3051932504
 		{ &Z_Construct_UFunction_ARetail1Character_resetCleanup, "resetCleanup" }, // 749762693
 		{ &Z_Construct_UFunction_ARetail1Character_StopInteract, "StopInteract" }, // 2406375806
@@ -502,7 +546,7 @@ void EmptyLinkFunctionForGeneratedCodeRetail1Character() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ARetail1Character, 196608303);
+	IMPLEMENT_CLASS(ARetail1Character, 891548586);
 	template<> RETAIL1_API UClass* StaticClass<ARetail1Character>()
 	{
 		return ARetail1Character::StaticClass();

@@ -16,6 +16,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define Retail1_Source_Retail1_Public_ProduceSpawner_h_12_SPARSE_DATA
 #define Retail1_Source_Retail1_Public_ProduceSpawner_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetItem); \
 	DECLARE_FUNCTION(execFinishProduce); \
 	DECLARE_FUNCTION(execResetTimer); \
 	DECLARE_FUNCTION(execResumeTimer); \
@@ -27,6 +28,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define Retail1_Source_Retail1_Public_ProduceSpawner_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetItem); \
 	DECLARE_FUNCTION(execFinishProduce); \
 	DECLARE_FUNCTION(execResetTimer); \
 	DECLARE_FUNCTION(execResumeTimer); \

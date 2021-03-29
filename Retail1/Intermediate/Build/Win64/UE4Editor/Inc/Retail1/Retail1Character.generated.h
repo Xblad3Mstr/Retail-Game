@@ -19,6 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execresetCleanup); \
 	DECLARE_FUNCTION(execadjustDailyPoints); \
 	DECLARE_FUNCTION(execadjustEmployeeLevel); \
+	DECLARE_FUNCTION(execGetCurrentItem); \
 	DECLARE_FUNCTION(execStopInteract); \
 	DECLARE_FUNCTION(execInteract);
 
@@ -28,6 +29,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execresetCleanup); \
 	DECLARE_FUNCTION(execadjustDailyPoints); \
 	DECLARE_FUNCTION(execadjustEmployeeLevel); \
+	DECLARE_FUNCTION(execGetCurrentItem); \
 	DECLARE_FUNCTION(execStopInteract); \
 	DECLARE_FUNCTION(execInteract);
 

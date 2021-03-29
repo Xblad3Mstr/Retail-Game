@@ -155,3 +155,8 @@ void AProduceSpawner::SpawnProduce()
 	}
 }
 
+int AProduceSpawner::GetItem()
+{
+	UE_LOG(LogTemp, Log, TEXT("PRODUCESPAWNER::GetItem"));
+	return item;
+}

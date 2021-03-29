@@ -92,6 +92,7 @@ protected:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	// End of APawn interface
 
+	
 	/** Current Cleanup*/
 	UPROPERTY(BlueprintReadWrite, Category = "Cleanup")
 	ACleanup* currentCleanup;
@@ -120,6 +121,10 @@ protected:
 	UFUNCTION(BlueprintCallable, Category = "Employee")
 	void StopInteract();
 
+
+	/** Stops Interaction w/ Character or Cleanup*/
+	UFUNCTION(BlueprintCallable, Category = "Customer")
+		int GetCurrentItem();
 public:
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }

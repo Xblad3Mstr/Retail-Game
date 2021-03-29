@@ -57,6 +57,10 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Spawning")
 		bool canInteract;
 
+	/** What item this Customer wants */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Customer")
+		int item;
+
 	/** Starts the Item timer*/
 	UFUNCTION(BlueprintCallable, Category = "Item")
 		void StartTimer();
@@ -76,6 +80,10 @@ public:
 	/** Player has completed Item*/
 	UFUNCTION(BlueprintCallable, Category = "Item")
 		void FinishItem();
+
+	/** Return the item this spawns*/
+	UFUNCTION(BlueprintCallable, Category = "Customer")
+	int GetItem();
 
 protected:
 	/** All the Item in the spawner*/
