@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
 #include "SpillSpawner.h"
+#include "CustomerSpawner.h"
 #include "ProduceSpawner.h"
 #include "ItemSpawner.h"
 #include "Retail1GameMode.generated.h"
@@ -105,6 +106,8 @@ private:
 	EStateOfPlay currentState;
 
 	TArray<class ASpillSpawner*> SpillSpawnerActors;
+
+	TArray<class ACustomerSpawner*> CustomerSpawnerActors;
 
 	TArray<class AProduceSpawner*> ProduceSpawnerActors;
 

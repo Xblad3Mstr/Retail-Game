@@ -5,6 +5,7 @@
 #include "Blueprint/UserWidget.h"
 #include "Retail1Character.h"
 #include "SpillSpawner.h"
+#include "CustomerSpawner.h"
 #include "ProduceSpawner.h"
 #include "ItemSpawner.h"
 #include "GameFramework/Actor.h"
@@ -41,6 +42,18 @@ void ARetail1GameMode::BeginPlay()
 		if (sSpawner)
 		{
 			SpillSpawnerActors.AddUnique(sSpawner);
+		}
+	}
+
+	TArray<AActor*> customerSpawnActors;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ACustomerSpawner::StaticClass(), customerSpawnActors);
+
+	for (auto Actor : customerSpawnActors)
+	{
+		ACustomerSpawner* cSpawner = Cast<ACustomerSpawner>(Actor);
+		if (cSpawner)
+		{
+			CustomerSpawnerActors.AddUnique(cSpawner);
 		}
 	}
 
@@ -185,6 +198,11 @@ void ARetail1GameMode::HandleNewState(EStateOfPlay newState)
 			volume->SetSpawningActive(true);
 		}
 
+		for (ACustomerSpawner* volume : CustomerSpawnerActors)
+		{
+			volume->SetSpawningActive(true);
+		}
+
 		for (AProduceSpawner* volume : ProduceSpawnerActors)
 		{
 			volume->SetSpawningActive(true);
@@ -199,6 +217,11 @@ void ARetail1GameMode::HandleNewState(EStateOfPlay newState)
 	case EStateOfPlay::EPaused:
 	{
 		for (ASpillSpawner* volume : SpillSpawnerActors)
+		{
+			volume->SetSpawningActive(false);
+		}
+
+		for (ACustomerSpawner* volume : CustomerSpawnerActors)
 		{
 			volume->SetSpawningActive(false);
 		}
@@ -220,7 +243,15 @@ void ARetail1GameMode::HandleNewState(EStateOfPlay newState)
 		{
 			volume->SetSpawningActive(false);
 		}
+		for (ACustomerSpawner* volume : CustomerSpawnerActors)
+		{
+			volume->SetSpawningActive(false);
+		}
 		for (AProduceSpawner* volume : ProduceSpawnerActors)
+		{
+			volume->SetSpawningActive(false);
+		}
+		for (AItemSpawner* volume : ItemSpawnerActors)
 		{
 			volume->SetSpawningActive(false);
 		}

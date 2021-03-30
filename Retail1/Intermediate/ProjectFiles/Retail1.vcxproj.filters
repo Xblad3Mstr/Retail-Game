@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Retail1.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{8F918890-1CC6-481C-BE0F-99D398F8D935}</UniqueIdentifier>
+      <UniqueIdentifier>{2CF804E8-E09A-4E92-A378-A2AD5108BA55}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Retail1.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{DAECB2F6-739F-4F06-B38D-98E11B8E5C8D}</UniqueIdentifier>
+      <UniqueIdentifier>{A5AD1229-3441-44B5-AF0F-A4E4F70F2615}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Retail1">
-      <UniqueIdentifier>{D16BB6D8-C264-462A-9DC8-4CBA4E1E126E}</UniqueIdentifier>
+      <UniqueIdentifier>{0538A0A0-9C7E-4580-8682-50A041FF3C62}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Retail1\Retail1.Build.cs">
       <Filter>Source\Retail1</Filter>
@@ -54,7 +54,7 @@
       <Filter>Source\Retail1</Filter>
     </ClInclude>
     <Filter Include="Source\Retail1\Private">
-      <UniqueIdentifier>{9567F9C7-C99B-4B07-8E72-33493BE48613}</UniqueIdentifier>
+      <UniqueIdentifier>{9A5B134E-EA18-4E5B-9C5D-399342D2EABE}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Retail1\Private\Cleanup.cpp">
       <Filter>Source\Retail1\Private</Filter>
@@ -63,6 +63,9 @@
       <Filter>Source\Retail1\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Retail1\Private\Customer.cpp">
+      <Filter>Source\Retail1\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Retail1\Private\CustomerSpawner.cpp">
       <Filter>Source\Retail1\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Retail1\Private\ItemSpawner.cpp">
@@ -75,7 +78,7 @@
       <Filter>Source\Retail1\Private</Filter>
     </ClCompile>
     <Filter Include="Source\Retail1\Public">
-      <UniqueIdentifier>{491AE15E-C14A-45A2-8880-4EE59109D712}</UniqueIdentifier>
+      <UniqueIdentifier>{D332DDDA-0625-4391-AEC1-3025AC56AD52}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Retail1\Public\Cleanup.h">
       <Filter>Source\Retail1\Public</Filter>
@@ -84,6 +87,9 @@
       <Filter>Source\Retail1\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\Retail1\Public\Customer.h">
+      <Filter>Source\Retail1\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Retail1\Public\CustomerSpawner.h">
       <Filter>Source\Retail1\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\Retail1\Public\ItemSpawner.h">
