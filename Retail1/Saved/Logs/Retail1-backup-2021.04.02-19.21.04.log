@@ -1,0 +1,1468 @@
+﻿Log file open, 04/02/21 13:13:15
+LogInit: Display: Running engine for game: Retail1
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.198722
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.04.02-19.13.16:090][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.04.02-19.13.16:090][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.04.02-19.13.16:090][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+[2021.04.02-19.13.16:090][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.04.02-19.13.16:090][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+[2021.04.02-19.13.16:090][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+[2021.04.02-19.13.16:090][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.04.02-19.13.16:090][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.04.02-19.13.16:090][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.04.02-19.13.16:090][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.04.02-19.13.16:090][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.04.02-19.13.16:090][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.04.02-19.13.16:090][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.04.02-19.13.16:090][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.04.02-19.13.16:090][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.04.02-19.13.16:090][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.04.02-19.13.16:090][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.04.02-19.13.16:090][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.04.02-19.13.16:090][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.04.02-19.13.16:090][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.04.02-19.13.16:090][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+[2021.04.02-19.13.16:090][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.04.02-19.13.16:090][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.04.02-19.13.16:090][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.04.02-19.13.16:090][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.04.02-19.13.16:090][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.04.02-19.13.16:090][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.04.02-19.13.16:090][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.04.02-19.13.16:090][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.04.02-19.13.16:090][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.04.02-19.13.16:090][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.04.02-19.13.16:091][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.04.02-19.13.16:091][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.04.02-19.13.16:091][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.04.02-19.13.16:091][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+[2021.04.02-19.13.16:091][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+[2021.04.02-19.13.16:093][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.02-19.13.16:093][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.02-19.13.16:093][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.02-19.13.16:093][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.02-19.13.16:093][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.04.02-19.13.16:093][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.02-19.13.16:093][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.02-19.13.16:093][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.02-19.13.16:093][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.02-19.13.16:093][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.02-19.13.16:093][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.02-19.13.16:093][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.02-19.13.16:093][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.02-19.13.16:093][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.02-19.13.16:093][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.02-19.13.16:093][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.02-19.13.16:093][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.02-19.13.16:093][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.02-19.13.16:093][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.02-19.13.16:093][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.02-19.13.16:093][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.02-19.13.16:093][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.02-19.13.16:093][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.02-19.13.16:093][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.02-19.13.16:094][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.04.02-19.13.16:095][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.02-19.13.16:095][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.04.02-19.13.16:095][  0]LogHAL: Display: Platform has ~ 16 GB [16966279168 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.04.02-19.13.16:095][  0]LogInit: Going up to parent DeviceProfile []
+[2021.04.02-19.13.16:095][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.02-19.13.16:095][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.04.02-19.13.16:096][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.04.02-19.13.16:097][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.04.02-19.13.16:097][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.04.02-19.13.16:097][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.04.02-19.13.16:097][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.04.02-19.13.16:097][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.04.02-19.13.16:097][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.04.02-19.13.16:097][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.04.02-19.13.16:097][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.04.02-19.13.16:097][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.04.02-19.13.16:097][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+[2021.04.02-19.13.16:097][  0]LogInit: Computer: DESKTOP-9L11L9P
+[2021.04.02-19.13.16:097][  0]LogInit: User: miken
+[2021.04.02-19.13.16:097][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.04.02-19.13.16:097][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.04.02-19.13.16:097][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2021.04.02-19.13.16:097][  0]LogMemory: Platform Memory Stats for Windows
+[2021.04.02-19.13.16:097][  0]LogMemory: Process Physical Memory: 121.98 MB used, 121.98 MB peak
+[2021.04.02-19.13.16:097][  0]LogMemory: Process Virtual Memory: 103.27 MB used, 103.27 MB peak
+[2021.04.02-19.13.16:097][  0]LogMemory: Physical Memory: 10275.13 MB used,  5905.17 MB free, 16180.30 MB total
+[2021.04.02-19.13.16:097][  0]LogMemory: Virtual Memory: 5217.81 MB used,  134212512.00 MB free, 134217728.00 MB total
+[2021.04.02-19.13.16:438][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.04.02-19.13.16:507][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.04.02-19.13.16:509][  0]LogInit: Using OS detected language (en-US).
+[2021.04.02-19.13.16:509][  0]LogInit: Using OS detected locale (en-US).
+[2021.04.02-19.13.16:515][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.04.02-19.13.16:695][  0]LogInit: Setting process to per monitor DPI aware
+[2021.04.02-19.13.16:731][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.04.02-19.13.16:731][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.04.02-19.13.16:959][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.04.02-19.13.16:959][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.04.02-19.13.16:959][  0]LogD3D11RHI: D3D11 adapters:
+[2021.04.02-19.13.17:057][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (Feature Level 11_0)
+[2021.04.02-19.13.17:057][  0]LogD3D11RHI:       8031/0/8090 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.04.02-19.13.17:094][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2021.04.02-19.13.17:094][  0]LogD3D11RHI:       128/0/8090 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.04.02-19.13.17:097][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.04.02-19.13.17:097][  0]LogD3D11RHI:       0/0/8090 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.04.02-19.13.17:097][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.04.02-19.13.17:108][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.04.02-19.13.17:108][  0]LogD3D11RHI:     GPU DeviceId: 0x1f10 (for the marketing name, search the web for "GPU Device Id")
+[2021.04.02-19.13.17:108][  0]LogWindows: EnumDisplayDevices:
+[2021.04.02-19.13.17:108][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2021.04.02-19.13.17:109][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.04.02-19.13.17:109][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.04.02-19.13.17:109][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2021.04.02-19.13.17:110][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2021.04.02-19.13.17:110][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2021.04.02-19.13.17:110][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2021.04.02-19.13.17:111][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2021.04.02-19.13.17:111][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070 with Max-Q Design
+[2021.04.02-19.13.17:111][  0]LogD3D11RHI:   Driver Version: 456.87 (internal:27.21.14.5687, unified:456.87)
+[2021.04.02-19.13.17:111][  0]LogD3D11RHI:      Driver Date: 10-14-2020
+[2021.04.02-19.13.17:111][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2021.04.02-19.13.17:177][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.04.02-19.13.17:177][  0]LogD3D11RHI: Async texture creation enabled
+[2021.04.02-19.13.17:178][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.04.02-19.13.17:201][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2021.04.02-19.13.17:536][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.04.02-19.13.17:559][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.04.02-19.13.17:559][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.04.02-19.13.17:559][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.04.02-19.13.17:559][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.04.02-19.13.17:559][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.04.02-19.13.17:559][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.04.02-19.13.17:559][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.04.02-19.13.17:559][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.04.02-19.13.17:559][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.04.02-19.13.17:559][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.04.02-19.13.17:583][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.04.02-19.13.17:583][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.04.02-19.13.17:595][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.04.02-19.13.17:606][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.04.02-19.13.17:617][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.04.02-19.13.17:627][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.04.02-19.13.17:638][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.04.02-19.13.17:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.04.02-19.13.17:658][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.04.02-19.13.17:686][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.04.02-19.13.17:686][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.04.02-19.13.17:703][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.04.02-19.13.17:703][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.04.02-19.13.17:712][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.04.02-19.13.17:722][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.04.02-19.13.17:732][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.04.02-19.13.17:742][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.04.02-19.13.17:742][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.04.02-19.13.17:750][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.04.02-19.13.17:814][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Intermediate/Shaders/WorkingDirectory/17148/).
+[2021.04.02-19.13.17:814][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/miken/AppData/Local/Temp/UnrealShaderWorkingDir/33CD8817442E1D9C328D1BBBA2DEC224/'.
+[2021.04.02-19.13.17:815][  0]LogXGEController: Cleaning working directory: C:/Users/miken/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.04.02-19.13.17:815][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.04.02-19.13.17:815][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.04.02-19.13.17:815][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.04.02-19.13.18:539][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.04.02-19.13.18:602][  0]LogDerivedDataCache: Loaded boot cache 0.06s 82MB C:/Users/miken/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.04.02-19.13.18:602][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/miken/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.04.02-19.13.18:603][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.04.02-19.13.18:603][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.04.02-19.13.18:603][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.02-19.13.18:603][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.04.02-19.13.18:612][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.04.02-19.13.18:612][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.02-19.13.18:612][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.04.02-19.13.18:614][  0]LogDerivedDataCache: Using Local data cache path C:/Users/miken/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.04.02-19.13.18:614][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.04.02-19.13.18:614][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.04.02-19.13.18:661][  0]LogSlate: Using FreeType 2.10.0
+[2021.04.02-19.13.18:662][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.04.02-19.13.18:687][  0]LogAssetRegistry: FAssetRegistry took 0.0026 seconds to start up
+[2021.04.02-19.13.18:894][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.02-19.13.19:000][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.04.02-19.13.19:000][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.04.02-19.13.19:000][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.04.02-19.13.19:000][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.04.02-19.13.19:000][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.04.02-19.13.19:015][  0]LogNetVersion: Retail1 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2139136878)
+[2021.04.02-19.13.19:434][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002DEE05B9BC0), frame # 0
+[2021.04.02-19.13.19:434][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002DEE04E3EC0), frame # 0
+[2021.04.02-19.13.19:435][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002DEE053DE00), frame # 0
+[2021.04.02-19.13.19:474][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.032758 seconds
+[2021.04.02-19.13.19:478][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.04.02-19.13.19:478][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.04.02-19.13.19:478][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.04.02-19.13.19:891][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.04.02-19.13.19:896][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.04.02-19.13.19:934][  0]LogTemp: TIME TO COMPLETE 0
+[2021.04.02-19.13.19:934][  0]LogTemp: ITEM 3
+[2021.04.02-19.13.20:165][  0]SourceControl: Source control is disabled
+[2021.04.02-19.13.20:165][  0]SourceControl: Source control is disabled
+[2021.04.02-19.13.20:168][  0]SourceControl: Source control is disabled
+[2021.04.02-19.13.20:171][  0]SourceControl: Source control is disabled
+[2021.04.02-19.13.20:180][  0]SourceControl: Source control is disabled
+[2021.04.02-19.13.20:422][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.04.02-19.13.20:441][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.02-19.13.20:441][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.02-19.13.20:489][  0]LogOcInput: OculusInput pre-init called
+[2021.04.02-19.13.20:735][  0]LogEngine: Initializing Engine...
+[2021.04.02-19.13.20:736][  0]LogHMD: Oculus plugin initialized. Version: 4.25.4-14469661+++UE4+Release-4.25, OVRPlugin: 1.44.0
+[2021.04.02-19.13.20:737][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.04.02-19.13.20:871][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.04.02-19.13.20:879][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.04.02-19.13.20:879][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002DEEAEFFC00), frame # 0
+[2021.04.02-19.13.20:879][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002DEEAF65580), frame # 0
+[2021.04.02-19.13.20:908][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.02-19.13.20:908][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.02-19.13.20:908][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.02-19.13.20:908][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.02-19.13.20:908][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.02-19.13.20:908][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.02-19.13.20:908][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.02-19.13.20:908][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.02-19.13.20:909][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.02-19.13.20:909][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.02-19.13.21:037][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.02-19.13.21:037][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.04.02-19.13.21:037][  0]LogAudioMixer: Display: 2: FrontCenter
+[2021.04.02-19.13.21:037][  0]LogAudioMixer: Display: 3: LowFrequency
+[2021.04.02-19.13.21:037][  0]LogAudioMixer: Display: 4: BackLeft
+[2021.04.02-19.13.21:037][  0]LogAudioMixer: Display: 5: BackRight
+[2021.04.02-19.13.21:037][  0]LogAudioMixer: Display: 6: SideLeft
+[2021.04.02-19.13.21:037][  0]LogAudioMixer: Display: 7: SideRight
+[2021.04.02-19.13.22:029][  0]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2021.04.02-19.13.22:034][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.02-19.13.22:037][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.02-19.13.22:037][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.02-19.13.22:039][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.02-19.13.22:040][  0]LogInit: FAudioDevice initialized.
+[2021.04.02-19.13.22:040][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.04.02-19.13.22:349][  0]LogDerivedDataCache: Saved boot cache 0.31s 82MB C:/Users/miken/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.04.02-19.13.22:352][  0]LogInit: Texture streaming: Enabled
+[2021.04.02-19.13.22:370][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.04.02-19.13.22:370][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.04.02-19.13.22:380][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.04.02-19.13.22:421][  0]LogInit: Transaction tracking system initialized
+[2021.04.02-19.13.22:450][  0]BlueprintLog: New page: Editor Load
+[2021.04.02-19.13.22:519][  0]LocalizationService: Localization service is disabled
+[2021.04.02-19.13.22:708][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.04.02-19.13.22:708][  0]LogCook: Display: Mobile HDR setting 1
+[2021.04.02-19.13.22:861][  0]LogFileCache: Scanning file cache for directory 'C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/' took 0.01s
+[2021.04.02-19.13.23:062][  0]SourceControl: Source control is disabled
+[2021.04.02-19.13.23:063][  0]LogUnrealEdMisc: Loading editor; pre map load, took 9.233
+[2021.04.02-19.13.23:063][  0]Cmd: MAP LOAD FILE="../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.04.02-19.13.23:063][  0]LightingResults: New page: Lighting Build
+[2021.04.02-19.13.23:064][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.04.02-19.13.23:064][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.02-19.13.23:064][  0]MapCheck: New page: Map Check
+[2021.04.02-19.13.23:064][  0]LightingResults: New page: Lighting Build
+[2021.04.02-19.13.23:075][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002DEEAEFFC00), frame # 0
+[2021.04.02-19.13.23:076][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002DEEAF65580), frame # 0
+[2021.04.02-19.13.23:077][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2021.04.02-19.13.23:166][  0]LogTemp: TIME TO COMPLETE 0
+[2021.04.02-19.13.23:168][  0]LogTemp: TIME TO COMPLETE 0
+[2021.04.02-19.13.23:171][  0]LogTemp: TIME TO COMPLETE 0
+[2021.04.02-19.13.23:918][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.04.02-19.13.23:920][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002DEEF5EBE00), frame # 0
+[2021.04.02-19.13.23:920][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002DEEDCD5800), frame # 0
+[2021.04.02-19.13.24:220][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2021.04.02-19.13.24:275][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2021.04.02-19.13.24:276][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.04.02-19.13.24:276][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.659ms to complete.
+[2021.04.02-19.13.24:276][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.213
+[2021.04.02-19.13.24:280][  0]LogUnrealEdMisc: Total Editor Startup Time, took 10.450
+[2021.04.02-19.13.24:444][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.02-19.13.24:452][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.02-19.13.24:460][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.02-19.13.24:467][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.02-19.13.24:478][  0]LogCollectionManager: Loaded 0 collections in 0.001904 seconds
+[2021.04.02-19.13.24:491][  0]LogFileCache: Scanning file cache for directory 'C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Collections/' took 0.00s
+[2021.04.02-19.13.24:491][  0]LogFileCache: Scanning file cache for directory 'C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Developers/miken/Collections/' took 0.00s
+[2021.04.02-19.13.24:491][  0]LogFileCache: Scanning file cache for directory 'C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Collections/' took 0.00s
+[2021.04.02-19.13.24:491][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 3436 classes and 824 folders.
+[2021.04.02-19.13.24:493][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.04.02-19.13.24:564][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.04.02-19.13.24:565][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2021.04.02-19.13.24:622][  0]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.04.02-19.13.24:624][  0]LogSlate: Took 0.000315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.04.02-19.13.24:628][  0]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.04.02-19.13.24:808][  0]LogRenderer: Reallocating scene render targets to support 1340x676 Format 10 NumSamples 1 (Frame:1).
+[2021.04.02-19.13.24:943][  0]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.04.02-19.13.25:069][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2021.04.02-19.13.25:069][  0]LogLoad: (Engine Initialization) Total time: 11.24 seconds
+[2021.04.02-19.13.25:069][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.04.02-19.13.25:089][  0]LogOcInput: OculusInput is initialized
+[2021.04.02-19.13.25:121][  0]LogAssetRegistry: Asset discovery search completed in 6.4346 seconds
+[2021.04.02-19.13.25:124][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.04.02-19.13.25:144][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.04.02-19.14.38:370][309]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.04.02-19.14.38:590][309]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/BeefStew905AA9CC4E4C6B39E8EC1386F1634ADC.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/CannedFood/BeefStew.uasset'
+[2021.04.02-19.14.38:599][309]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/BeefStewF67BFF0943FE1A814CF2D7B88D86D1F7.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/BeefStew.uasset'
+[2021.04.02-19.14.38:619][309]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/blackBeans7EFEBD0742BE457390EA45B8A4CD737F.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/CannedFood/blackBeans.uasset'
+[2021.04.02-19.14.38:632][309]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/blackBeans67B2CF2D4E42A1C80ADF5B97FA071A59.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/blackBeans.uasset'
+[2021.04.02-19.14.38:911][309]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.02-19.14.38:911][309]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/CannedFood/BeefStew.BeefStew
+[2021.04.02-19.14.38:911][309]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/BeefStew.BeefStew
+[2021.04.02-19.14.38:911][309]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/CannedFood/blackBeans.blackBeans
+[2021.04.02-19.14.38:911][309]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/blackBeans.blackBeans
+[2021.04.02-19.14.44:740][588]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/cannedCornE23B76DB432EAE438C5B229C573E2C20.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/CannedFood/cannedCorn.uasset'
+[2021.04.02-19.14.44:745][588]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/cannedCornB8CE47744875A2578BE3659C3410E7C8.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/cannedCorn.uasset'
+[2021.04.02-19.14.44:765][588]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/ChickenNoodleSoup702A60A34207C5EB6036A9BCABA3D52F.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/CannedFood/ChickenNoodleSoup.uasset'
+[2021.04.02-19.14.44:770][588]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/ChickenNoodleSoup8BDC0D594EA7AC78C75DDCBF3E47EC69.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/ChickenNoodleSoup.uasset'
+[2021.04.02-19.14.44:790][588]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/ChiliCan3878FB6A428242F44964DC8F96DBC394.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/CannedFood/ChiliCan.uasset'
+[2021.04.02-19.14.44:795][588]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/ChiliCanB165377C458BD860D6CF7793C447D62D.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/ChiliCan.uasset'
+[2021.04.02-19.14.45:028][588]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.02-19.14.45:028][588]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/CannedFood/cannedCorn.cannedCorn
+[2021.04.02-19.14.45:029][588]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/cannedCorn.cannedCorn
+[2021.04.02-19.14.45:029][588]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/CannedFood/ChickenNoodleSoup.ChickenNoodleSoup
+[2021.04.02-19.14.45:029][588]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/ChickenNoodleSoup.ChickenNoodleSoup
+[2021.04.02-19.14.45:029][588]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/CannedFood/ChiliCan.ChiliCan
+[2021.04.02-19.14.45:029][588]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/ChiliCan.ChiliCan
+[2021.04.02-19.14.51:438][928]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/oatSquaresCerealCF428F6D405213B76DF1369F0663A276.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/oatSquaresCereal.uasset'
+[2021.04.02-19.14.51:724][928]AssetCheck: New page: Asset Save: oatSquaresCereal
+[2021.04.02-19.14.51:724][928]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/Misc/oatSquaresCereal.oatSquaresCereal
+[2021.04.02-19.14.53:483][ 25]LogSlate: Window 'Failed Renames' being destroyed
+[2021.04.02-19.15.00:105][387]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/MinestroneSoup3FD782A9426A5DCF8020A3B01F3D95E9.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/CannedFood/MinestroneSoup.uasset'
+[2021.04.02-19.15.00:110][387]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/MinestroneSoupBCA162CF48FB64C44B1B2A96E255FB84.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/MinestroneSoup.uasset'
+[2021.04.02-19.15.00:130][387]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/mushroomSoupC1255AD74E4AFBD5AD0BA2A1BE7409F0.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/CannedFood/mushroomSoup.uasset'
+[2021.04.02-19.15.00:135][387]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/mushroomSoup7AD45459433A3973E7BA7BB202C3AE4F.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/mushroomSoup.uasset'
+[2021.04.02-19.15.00:360][387]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.02-19.15.00:360][387]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/CannedFood/MinestroneSoup.MinestroneSoup
+[2021.04.02-19.15.00:360][387]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/MinestroneSoup.MinestroneSoup
+[2021.04.02-19.15.00:360][387]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/CannedFood/mushroomSoup.mushroomSoup
+[2021.04.02-19.15.00:360][387]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/mushroomSoup.mushroomSoup
+[2021.04.02-19.15.13:670][999]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/BeefStewFC8614AA4D8278453F7B7FB313B174E4.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/BeefStew.uasset'
+[2021.04.02-19.15.13:688][999]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/blackBeans066F7928443B357073DEAA98F414FED1.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/blackBeans.uasset'
+[2021.04.02-19.15.13:707][999]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/cannedCornA7E87915488E8DE112A523B0A723ADB4.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/cannedCorn.uasset'
+[2021.04.02-19.15.13:725][999]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/ChickenNoodleSoupD028A494475B54CC60E52AB1E3D81D7D.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/ChickenNoodleSoup.uasset'
+[2021.04.02-19.15.13:743][999]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/ChiliCan957CED4447384CA1E512F4BB5B58B495.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/ChiliCan.uasset'
+[2021.04.02-19.15.13:761][999]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/MinestroneSoup3BF4F9524465C978D6A7A29DA4E2DCAE.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/MinestroneSoup.uasset'
+[2021.04.02-19.15.13:779][999]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/mushroomSoup857E07624C681223173BC3B4081D1B95.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/mushroomSoup.uasset'
+[2021.04.02-19.15.14:802][999]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2021.04.02-19.15.14:815][999]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2021.04.02-19.15.14:828][999]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2021.04.02-19.15.14:842][999]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2021.04.02-19.15.14:856][999]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2021.04.02-19.15.14:868][999]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2021.04.02-19.15.14:881][999]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2021.04.02-19.15.14:905][999]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2021.04.02-19.15.14:917][999]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2021.04.02-19.15.14:963][999]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/BeefStew63EEB2BA48B9669E5C477F99D160CBB4.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/BeefStew.uasset'
+[2021.04.02-19.15.14:972][999]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/blackBeans386DCDBB4F88AFA08DB860BC90B243F7.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/blackBeans.uasset'
+[2021.04.02-19.15.14:978][999]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/cannedCornDE6E4E4C45EB2617C7D8F0BCE2E3D1FA.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/cannedCorn.uasset'
+[2021.04.02-19.15.14:985][999]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/ChickenNoodleSoupAC60DFAE4E67BFF796CBA89544461851.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/ChickenNoodleSoup.uasset'
+[2021.04.02-19.15.14:991][999]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/ChiliCan45EBD4D34BA8F94F07AEC898332AE67E.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/ChiliCan.uasset'
+[2021.04.02-19.15.14:997][999]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/MinestroneSoup178FFDAF41526C8A0384818B7A1EB630.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/MinestroneSoup.uasset'
+[2021.04.02-19.15.15:003][999]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/mushroomSoup1C35E4B04FE5C73F4D9FEE9514565ABD.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/mushroomSoup.uasset'
+[2021.04.02-19.15.15:269][999]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.02-19.15.15:269][999]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/OtherFood/BeefStew.BeefStew
+[2021.04.02-19.15.15:269][999]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/OtherFood/blackBeans.blackBeans
+[2021.04.02-19.15.15:269][999]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/OtherFood/cannedCorn.cannedCorn
+[2021.04.02-19.15.15:269][999]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/OtherFood/ChickenNoodleSoup.ChickenNoodleSoup
+[2021.04.02-19.15.15:269][999]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/OtherFood/ChiliCan.ChiliCan
+[2021.04.02-19.15.15:269][999]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/OtherFood/MinestroneSoup.MinestroneSoup
+[2021.04.02-19.15.15:269][999]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/OtherFood/mushroomSoup.mushroomSoup
+[2021.04.02-19.15.15:269][999]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/BeefStew.BeefStew
+[2021.04.02-19.15.15:269][999]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/blackBeans.blackBeans
+[2021.04.02-19.15.15:269][999]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/cannedCorn.cannedCorn
+[2021.04.02-19.15.15:269][999]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/ChickenNoodleSoup.ChickenNoodleSoup
+[2021.04.02-19.15.15:269][999]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/ChiliCan.ChiliCan
+[2021.04.02-19.15.15:269][999]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/MinestroneSoup.MinestroneSoup
+[2021.04.02-19.15.15:269][999]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/mushroomSoup.mushroomSoup
+[2021.04.02-19.15.23:634][417]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/FruityLoopies53FFDB394255CD0140A158BA3A1099D8.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/FruityLoopies.uasset'
+[2021.04.02-19.15.23:640][417]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/FruityLoopiesF559543F4BA4621E09CEC090984AEB1B.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/FruityLoopies.uasset'
+[2021.04.02-19.15.23:658][417]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/honeyCirclesCereal0D8325D7436174B737F20D954645A47A.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/honeyCirclesCereal.uasset'
+[2021.04.02-19.15.23:664][417]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/honeyCirclesCereal6330EE9D4DF284D872B6EF9A30AE9BCB.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/honeyCirclesCereal.uasset'
+[2021.04.02-19.15.23:899][417]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.02-19.15.23:899][417]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/OtherFood/FruityLoopies.FruityLoopies
+[2021.04.02-19.15.23:899][417]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/FruityLoopies.FruityLoopies
+[2021.04.02-19.15.23:899][417]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/OtherFood/honeyCirclesCereal.honeyCirclesCereal
+[2021.04.02-19.15.23:899][417]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/honeyCirclesCereal.honeyCirclesCereal
+[2021.04.02-19.15.33:431][919]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/oatSquaresCereal909757C246F66B597E6D848632F6AF0A.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/oatSquaresCereal.uasset'
+[2021.04.02-19.15.33:436][919]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/oatSquaresCereal95BBF44A40BF7169EE336BBDB2BBBDC5.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/oatSquaresCereal.uasset'
+[2021.04.02-19.15.33:456][919]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/slicedPeachesCanCE2807524C8318499765A0B957C068E6.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/slicedPeachesCan.uasset'
+[2021.04.02-19.15.33:462][919]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/slicedPeachesCan94CF8A1341091283F00F9A94CB2E49BA.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/slicedPeachesCan.uasset'
+[2021.04.02-19.15.33:479][919]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/wholeWheatCereal5C370B7A4325999218A6D6B5FA7FE88D.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/wholeWheatCereal.uasset'
+[2021.04.02-19.15.33:485][919]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/wholeWheatCerealB6220A064FBCFCF272671A834B957F51.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/wholeWheatCereal.uasset'
+[2021.04.02-19.15.33:504][919]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/tomatoSoupCan0379A8EC4F4B2F3EAD60E59CD2B584DD.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/tomatoSoupCan.uasset'
+[2021.04.02-19.15.33:510][919]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/tomatoSoupCanE29D8AB349CA6F83A863EBAE8076D8A7.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/tomatoSoupCan.uasset'
+[2021.04.02-19.15.33:743][919]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.02-19.15.33:743][919]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/OtherFood/oatSquaresCereal.oatSquaresCereal
+[2021.04.02-19.15.33:743][919]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/oatSquaresCereal.oatSquaresCereal
+[2021.04.02-19.15.33:743][919]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/OtherFood/slicedPeachesCan.slicedPeachesCan
+[2021.04.02-19.15.33:743][919]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/slicedPeachesCan.slicedPeachesCan
+[2021.04.02-19.15.33:743][919]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/OtherFood/wholeWheatCereal.wholeWheatCereal
+[2021.04.02-19.15.33:743][919]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/wholeWheatCereal.wholeWheatCereal
+[2021.04.02-19.15.33:743][919]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/OtherFood/tomatoSoupCan.tomatoSoupCan
+[2021.04.02-19.15.33:743][919]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/tomatoSoupCan.tomatoSoupCan
+[2021.04.02-19.15.48:799][755]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/cleaningCloset6F5750E44A607424834613971D766DF5.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/Furniture/cleaningCloset.uasset'
+[2021.04.02-19.15.48:805][755]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/cleaningClosetF6CA3B91446074422FED16A5037DE58E.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/cleaningCloset.uasset'
+[2021.04.02-19.15.49:030][755]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.02-19.15.49:030][755]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/Misc/Furniture/cleaningCloset.cleaningCloset
+[2021.04.02-19.15.49:030][755]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/cleaningCloset.cleaningCloset
+[2021.04.02-19.16.03:794][557]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/sofa99981CCE4A9FC477044C0E8F58E3671B.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/Furniture/sofa.uasset'
+[2021.04.02-19.16.03:800][557]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/sofa1A1B9CC64BE1116EA0A1AF8E605CE12B.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/sofa.uasset'
+[2021.04.02-19.16.03:835][557]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/tv3CF08FC6439A8180AB1C56831F430254.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/Furniture/tv.uasset'
+[2021.04.02-19.16.03:841][557]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/tv4A31AB4E4C6A99914BFA6ABF30D7E3ED.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/tv.uasset'
+[2021.04.02-19.16.03:859][557]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/tvTable621A13B64772320797B2C891715BE47D.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/Furniture/tvTable.uasset'
+[2021.04.02-19.16.03:865][557]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/tvTable4664A03F4E136FA86557B1BA45E9311F.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/tvTable.uasset'
+[2021.04.02-19.16.03:884][557]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/cashierStandD2273FF24293F28BF4C6B3A5AF7F7585.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/Furniture/cashierStand.uasset'
+[2021.04.02-19.16.03:891][557]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/cashierStand0A8E4C594A4D9F98CA0DF98121418F6C.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/cashierStand.uasset'
+[2021.04.02-19.16.04:121][557]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.02-19.16.04:121][557]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/Misc/Furniture/sofa.sofa
+[2021.04.02-19.16.04:121][557]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/sofa.sofa
+[2021.04.02-19.16.04:121][557]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/Misc/Furniture/tv.tv
+[2021.04.02-19.16.04:121][557]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/tv.tv
+[2021.04.02-19.16.04:121][557]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/Misc/Furniture/tvTable.tvTable
+[2021.04.02-19.16.04:121][557]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/tvTable.tvTable
+[2021.04.02-19.16.04:121][557]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/Misc/Furniture/cashierStand.cashierStand
+[2021.04.02-19.16.04:121][557]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/cashierStand.cashierStand
+[2021.04.02-19.16.06:068][654]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/bucket38941ACA45B9E00C76E7BA838BAE611F.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/Furniture/bucket.uasset'
+[2021.04.02-19.16.06:075][654]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/bucket098FB025425B7009EC922FBB7B791CA6.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/bucket.uasset'
+[2021.04.02-19.16.06:307][654]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.02-19.16.06:307][654]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/Misc/Furniture/bucket.bucket
+[2021.04.02-19.16.06:307][654]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/bucket.bucket
+[2021.04.02-19.16.08:979][797]LogMaterial: Display: Missing cached shader map for material blackMat, compiling. 
+[2021.04.02-19.16.09:053][797]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 15
+[2021.04.02-19.16.09:053][797]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2021.04.02-19.16.09:053][797]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 11
+[2021.04.02-19.16.09:053][797]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 9
+[2021.04.02-19.16.09:053][797]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 7
+[2021.04.02-19.16.09:053][797]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2021.04.02-19.16.09:053][797]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.04.02-19.16.09:053][797]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2021.04.02-19.16.11:476][923]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/blackMat00CC264347BE5716F39E63BC3323A27A.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Materials/blackMat.uasset'
+[2021.04.02-19.16.11:493][923]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/cabinet959EA2E24EB3F2ACBD0A1EA7E98D885D.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Materials/cabinet.uasset'
+[2021.04.02-19.16.11:511][923]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/can59F031704375340DF5AE98ACDD04E0F0.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Materials/can.uasset'
+[2021.04.02-19.16.11:956][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2021.04.02-19.16.11:967][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.04.02-19.16.11:979][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2021.04.02-19.16.11:999][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2021.04.02-19.16.12:011][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.04.02-19.16.12:069][923]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/sink1FFA1CC84EFD47A03953CB80DFBF9861.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/sink.uasset'
+[2021.04.02-19.16.12:079][923]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/MinestroneSoup94E3B90649C16B2B2F27AEA5EE1145F6.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/MinestroneSoup.uasset'
+[2021.04.02-19.16.12:089][923]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/ChiliCan0159634B4F1D1498CCBF2CB0A6771E9B.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/ChiliCan.uasset'
+[2021.04.02-19.16.12:098][923]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/ChickenNoodleSoupA888510B4E4F1238135EA799C1CE33B9.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/ChickenNoodleSoup.uasset'
+[2021.04.02-19.16.12:108][923]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/cannedCorn3F3DC26647D695B2E4B3038FF426797E.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/cannedCorn.uasset'
+[2021.04.02-19.16.12:118][923]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/blackBeansE4D577314BAB7C6F3A0F139EF50CB7BB.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/blackBeans.uasset'
+[2021.04.02-19.16.12:127][923]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/BeefStewAF0DCEE841D072287AB4A59E31DB6D6C.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/BeefStew.uasset'
+[2021.04.02-19.16.12:138][923]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/slicedPeachesCan04F778114A1AC107F438C1A6BADCF8DC.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/slicedPeachesCan.uasset'
+[2021.04.02-19.16.12:163][923]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/PotatoSoupEB3ADA3042EEF2CC7440F58E7FEFD799.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/PotatoSoup.uasset'
+[2021.04.02-19.16.12:174][923]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/tomatoSoupCanE4286AD044C879FE458628A69E98592F.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/tomatoSoupCan.uasset'
+[2021.04.02-19.16.12:184][923]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/mushroomSoup7CCA33CA4D29C065F99DB6AE660A0C70.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/mushroomSoup.uasset'
+[2021.04.02-19.16.12:457][923]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.02-19.16.12:457][923]LogContentValidation: Display: Validating Material /Game/Assets/StoreStuff/Materials/blackMat.blackMat
+[2021.04.02-19.16.12:457][923]LogContentValidation: Display: Validating Material /Game/Assets/StoreStuff/Materials/cabinet.cabinet
+[2021.04.02-19.16.12:457][923]LogContentValidation: Display: Validating Material /Game/Assets/StoreStuff/Materials/can.can
+[2021.04.02-19.16.12:457][923]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/Misc/sink.sink
+[2021.04.02-19.16.12:457][923]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/OtherFood/MinestroneSoup.MinestroneSoup
+[2021.04.02-19.16.12:457][923]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/OtherFood/ChiliCan.ChiliCan
+[2021.04.02-19.16.12:457][923]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/OtherFood/ChickenNoodleSoup.ChickenNoodleSoup
+[2021.04.02-19.16.12:457][923]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/OtherFood/cannedCorn.cannedCorn
+[2021.04.02-19.16.12:457][923]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/OtherFood/blackBeans.blackBeans
+[2021.04.02-19.16.12:457][923]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/OtherFood/BeefStew.BeefStew
+[2021.04.02-19.16.12:457][923]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/OtherFood/slicedPeachesCan.slicedPeachesCan
+[2021.04.02-19.16.12:457][923]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/Misc/PotatoSoup.PotatoSoup
+[2021.04.02-19.16.12:457][923]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/OtherFood/tomatoSoupCan.tomatoSoupCan
+[2021.04.02-19.16.12:457][923]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/OtherFood/mushroomSoup.mushroomSoup
+[2021.04.02-19.16.17:127][169]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/coldD94809004E786122430539A654DB6475.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Materials/cold.uasset'
+[2021.04.02-19.16.17:144][169]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/counterBEBAC254484A4E6D7D94BB9E8E81DC17.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Materials/counter.uasset'
+[2021.04.02-19.16.17:454][169]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2021.04.02-19.16.17:465][169]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.04.02-19.16.17:486][169]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2021.04.02-19.16.17:497][169]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2021.04.02-19.16.17:537][169]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/sink658A94E844D2EB27ADDF2691ADAD916C.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/sink.uasset'
+[2021.04.02-19.16.17:772][169]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.02-19.16.17:772][169]LogContentValidation: Display: Validating Material /Game/Assets/StoreStuff/Materials/cold.cold
+[2021.04.02-19.16.17:772][169]LogContentValidation: Display: Validating Material /Game/Assets/StoreStuff/Materials/counter.counter
+[2021.04.02-19.16.17:772][169]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/Misc/sink.sink
+[2021.04.02-19.16.27:479][540]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/peachE59B1A97470227A9F03ADC8340114443.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Materials/peach.uasset'
+[2021.04.02-19.16.27:499][540]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/pantsC5D9288341E2A1F8F23DE39B977F4179.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Materials/pants.uasset'
+[2021.04.02-19.16.27:837][540]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2021.04.02-19.16.27:850][540]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2021.04.02-19.16.27:874][540]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2021.04.02-19.16.27:889][540]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.04.02-19.16.28:018][540]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/peachSign3EE5DF7847CB1DE94B1C1F8001303DA3.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/peachSign.uasset'
+[2021.04.02-19.16.32:195][540]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/mainCharBD4137B24B7596559619E695F0587F00.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/mainChar.uasset'
+[2021.04.02-19.16.32:447][540]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.02-19.16.32:447][540]LogContentValidation: Display: Validating Material /Game/Assets/StoreStuff/Materials/peach.peach
+[2021.04.02-19.16.32:447][540]LogContentValidation: Display: Validating Material /Game/Assets/StoreStuff/Materials/pants.pants
+[2021.04.02-19.16.32:447][540]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/Misc/peachSign.peachSign
+[2021.04.02-19.16.32:447][540]LogContentValidation: Display: Validating SkeletalMesh /Game/Assets/StoreStuff/Misc/mainChar.mainChar
+[2021.04.02-19.16.58:768][ 23]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/oatsquaresPackaging6E32484246D9311AF5E8D4903F722436.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/oatsquaresPackaging.uasset'
+[2021.04.02-19.16.58:964][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2021.04.02-19.16.58:987][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2021.04.02-19.16.58:999][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.04.02-19.16.59:029][ 23]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/oatSquaresCereal44A3EA884C85F9EDB3334F9373788828.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/oatSquaresCereal.uasset'
+[2021.04.02-19.16.59:260][ 23]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.02-19.16.59:260][ 23]LogContentValidation: Display: Validating Material /Game/Assets/StoreStuff/Misc/oatsquaresPackaging.oatsquaresPackaging
+[2021.04.02-19.16.59:260][ 23]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/OtherFood/oatSquaresCereal.oatSquaresCereal
+[2021.04.02-19.17.02:697][201]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/oatsquaresPackaging6D1EEF84466AA1677C047CAB5F0F6667.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Materials/oatsquaresPackaging.uasset'
+[2021.04.02-19.17.02:897][201]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2021.04.02-19.17.02:917][201]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2021.04.02-19.17.02:930][201]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2021.04.02-19.17.02:961][201]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/oatSquaresCereal45FAB5B14E4ECA7CD55F0F914BB56657.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/oatSquaresCereal.uasset'
+[2021.04.02-19.17.03:198][201]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.02-19.17.03:198][201]LogContentValidation: Display: Validating Material /Game/Assets/StoreStuff/Materials/oatsquaresPackaging.oatsquaresPackaging
+[2021.04.02-19.17.03:198][201]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/OtherFood/oatSquaresCereal.oatSquaresCereal
+[2021.04.02-19.17.09:653][553]LogSlate: Window 'Failed Renames' being destroyed
+[2021.04.02-19.17.18:243][ 41]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/tomatoSoupPackagingBAD6C4BF4CA1AE9F918B2D99D1FE8334.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/tomatoSoupPackaging.uasset'
+[2021.04.02-19.17.18:430][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2021.04.02-19.17.18:453][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2021.04.02-19.17.18:464][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2021.04.02-19.17.18:685][ 41]AssetCheck: New page: Asset Save: tomatoSoupPackaging
+[2021.04.02-19.17.18:685][ 41]LogContentValidation: Display: Validating Material /Game/Assets/StoreStuff/Misc/tomatoSoupPackaging.tomatoSoupPackaging
+[2021.04.02-19.17.22:065][215]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/tomatoSoupPackaging913808774362A645A579FDB97ADEA833.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Materials/tomatoSoupPackaging.uasset'
+[2021.04.02-19.17.22:264][215]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2021.04.02-19.17.22:286][215]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2021.04.02-19.17.22:298][215]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2021.04.02-19.17.22:530][215]AssetCheck: New page: Asset Save: tomatoSoupPackaging
+[2021.04.02-19.17.22:530][215]LogContentValidation: Display: Validating Material /Game/Assets/StoreStuff/Materials/tomatoSoupPackaging.tomatoSoupPackaging
+[2021.04.02-19.17.29:340][517]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/vest4C50B98B4A5BFCDD2A19EDBC122EA1A5.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Materials/vest.uasset'
+[2021.04.02-19.17.29:361][517]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/vest_2D2462E1D465D3951074641B8CA1894F3.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Materials/vest_2.uasset'
+[2021.04.02-19.17.29:676][517]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.04.02-19.17.29:691][517]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2021.04.02-19.17.29:711][517]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2021.04.02-19.17.29:722][517]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2021.04.02-19.17.33:809][517]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/mainCharE13B3C0441549C18B4ECC694EAED7DEB.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/mainChar.uasset'
+[2021.04.02-19.17.34:061][517]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.02-19.17.34:061][517]LogContentValidation: Display: Validating Material /Game/Assets/StoreStuff/Materials/vest.vest
+[2021.04.02-19.17.34:061][517]LogContentValidation: Display: Validating Material /Game/Assets/StoreStuff/Materials/vest_2.vest_2
+[2021.04.02-19.17.34:061][517]LogContentValidation: Display: Validating SkeletalMesh /Game/Assets/StoreStuff/Misc/mainChar.mainChar
+[2021.04.02-19.17.42:333][964]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/PotatoSoupCDDCB0CA4BA224BD3F4809BD86882723.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/PotatoSoup.uasset'
+[2021.04.02-19.17.42:339][964]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/PotatoSoup01F22F4149A84F34C0D80CA3734DBF7B.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/PotatoSoup.uasset'
+[2021.04.02-19.17.42:573][964]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.02-19.17.42:573][964]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/OtherFood/PotatoSoup.PotatoSoup
+[2021.04.02-19.17.42:573][964]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/PotatoSoup.PotatoSoup
+[2021.04.02-19.17.47:693][232]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/sink43729E9E4A50CE1A674D51A778FB5E2A.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/Furniture/sink.uasset'
+[2021.04.02-19.17.47:699][232]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/sink1E6C3A284126E43261D25E808C947A55.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/sink.uasset'
+[2021.04.02-19.17.47:929][232]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.02-19.17.47:929][232]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/Misc/Furniture/sink.sink
+[2021.04.02-19.17.47:929][232]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/sink.sink
+[2021.04.02-19.18.13:927][415]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/mainCharC3F4E1174AD0F0FA9337ADAB6CBBB15E.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Characters/mainChar.uasset'
+[2021.04.02-19.18.13:954][415]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/mainChar_Anim_idle_00211864EF343AD581810B316A148CB343C.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Characters/mainChar_Anim_idle_002.uasset'
+[2021.04.02-19.18.13:982][415]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/mainChar_Anim_root_idle753810884B0A2D3CEB1230ADDD1BA2A8.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Characters/mainChar_Anim_root_idle.uasset'
+[2021.04.02-19.18.14:010][415]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/mainChar_Anim_root_mop649C38354A0BDD64E93AC28B742D9EC3.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Characters/mainChar_Anim_root_mop.uasset'
+[2021.04.02-19.18.14:037][415]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/mainChar_Anim_root_moppingA864E9254B4EFF2E5202F68821A999F9.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Characters/mainChar_Anim_root_mopping.uasset'
+[2021.04.02-19.18.14:065][415]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/mainChar_Anim_root_walk1B3F54C247C84F3C917BCC9D1A6A10BF.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Characters/mainChar_Anim_root_walk.uasset'
+[2021.04.02-19.18.14:093][415]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/mainChar_Anim_rootAction9C9CDC0140D418C537302A9FA96554C4.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Characters/mainChar_Anim_rootAction.uasset'
+[2021.04.02-19.18.14:125][415]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/mainChar_Anim_walk00F192CC4A6F90DCE158C7B6783200B9.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Characters/mainChar_Anim_walk.uasset'
+[2021.04.02-19.18.14:155][415]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/mainChar_PhysicsAssetBFEAEE3F49122509834E2493CF75C299.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Characters/mainChar_PhysicsAsset.uasset'
+[2021.04.02-19.18.14:158][415]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/mainChar_Skeleton2AA9E2BA4E376B760F7188A8D409626E.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Characters/mainChar_Skeleton.uasset'
+[2021.04.02-19.18.15:580][415]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2021.04.02-19.18.15:592][415]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.04.02-19.18.15:604][415]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2021.04.02-19.18.15:615][415]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.04.02-19.18.15:626][415]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2021.04.02-19.18.15:639][415]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2021.04.02-19.18.15:651][415]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2021.04.02-19.18.15:664][415]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2021.04.02-19.18.15:676][415]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2021.04.02-19.18.15:690][415]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2021.04.02-19.18.15:709][415]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2021.04.02-19.18.15:722][415]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2021.04.02-19.18.15:968][415]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.02-19.18.15:968][415]LogContentValidation: Display: Validating SkeletalMesh /Game/Assets/StoreStuff/Characters/mainChar.mainChar
+[2021.04.02-19.18.15:968][415]LogContentValidation: Display: Validating AnimSequence /Game/Assets/StoreStuff/Characters/mainChar_Anim_idle_002.mainChar_Anim_idle_002
+[2021.04.02-19.18.15:968][415]LogContentValidation: Display: Validating AnimSequence /Game/Assets/StoreStuff/Characters/mainChar_Anim_root_idle.mainChar_Anim_root_idle
+[2021.04.02-19.18.15:968][415]LogContentValidation: Display: Validating AnimSequence /Game/Assets/StoreStuff/Characters/mainChar_Anim_root_mop.mainChar_Anim_root_mop
+[2021.04.02-19.18.15:968][415]LogContentValidation: Display: Validating AnimSequence /Game/Assets/StoreStuff/Characters/mainChar_Anim_root_mopping.mainChar_Anim_root_mopping
+[2021.04.02-19.18.15:968][415]LogContentValidation: Display: Validating AnimSequence /Game/Assets/StoreStuff/Characters/mainChar_Anim_root_walk.mainChar_Anim_root_walk
+[2021.04.02-19.18.15:968][415]LogContentValidation: Display: Validating AnimSequence /Game/Assets/StoreStuff/Characters/mainChar_Anim_rootAction.mainChar_Anim_rootAction
+[2021.04.02-19.18.15:968][415]LogContentValidation: Display: Validating AnimSequence /Game/Assets/StoreStuff/Characters/mainChar_Anim_walk.mainChar_Anim_walk
+[2021.04.02-19.18.15:968][415]LogContentValidation: Display: Validating PhysicsAsset /Game/Assets/StoreStuff/Characters/mainChar_PhysicsAsset.mainChar_PhysicsAsset
+[2021.04.02-19.18.15:968][415]LogContentValidation: Display: Validating Skeleton /Game/Assets/StoreStuff/Characters/mainChar_Skeleton.mainChar_Skeleton
+[2021.04.02-19.18.29:328][142]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/produceTable89D8E12D480EFC5237BEE883B871C6CF.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/Furniture/produceTable.uasset'
+[2021.04.02-19.18.29:334][142]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/produceTableBAB621694BD9CF24C6252EBF3449E6D6.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/produceTable.uasset'
+[2021.04.02-19.18.29:352][142]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/shelf89AF0C7C4BF7D9F2A72F529642154F03.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/Furniture/shelf.uasset'
+[2021.04.02-19.18.29:359][142]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/shelf8829BA2B4C426D646FE50A8154C5078B.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/shelf.uasset'
+[2021.04.02-19.18.29:601][142]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.02-19.18.29:601][142]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/Misc/Furniture/produceTable.produceTable
+[2021.04.02-19.18.29:601][142]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/produceTable.produceTable
+[2021.04.02-19.18.29:601][142]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/Misc/Furniture/shelf.shelf
+[2021.04.02-19.18.29:601][142]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/shelf.shelf
+[2021.04.02-19.18.36:581][437]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/sink1B1F827F54EFFFCC51ABE5DA695D98A7A.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Materials/sink1.uasset'
+[2021.04.02-19.18.36:602][437]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/skin994574354A74146D91D094B5E6D1E5C3.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Materials/skin.uasset'
+[2021.04.02-19.18.36:972][437]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2021.04.02-19.18.36:990][437]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.04.02-19.18.37:019][437]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2021.04.02-19.18.37:035][437]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2021.04.02-19.18.37:080][437]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/sinkFBC35FA345036E110AEDC58AD6FA4A6B.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/Furniture/sink.uasset'
+[2021.04.02-19.18.41:265][437]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/mainChar491973E3497D23956218D4BD15C8D7D8.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Characters/mainChar.uasset'
+[2021.04.02-19.18.41:524][437]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.02-19.18.41:524][437]LogContentValidation: Display: Validating Material /Game/Assets/StoreStuff/Materials/sink1.sink1
+[2021.04.02-19.18.41:524][437]LogContentValidation: Display: Validating Material /Game/Assets/StoreStuff/Materials/skin.skin
+[2021.04.02-19.18.41:524][437]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/Misc/Furniture/sink.sink
+[2021.04.02-19.18.41:524][437]LogContentValidation: Display: Validating SkeletalMesh /Game/Assets/StoreStuff/Characters/mainChar.mainChar
+[2021.04.02-19.18.44:099][572]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/tvD7A84D32467795AAE944B78043E4FE98.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/Furniture/tv.uasset'
+[2021.04.02-19.18.44:371][572]AssetCheck: New page: Asset Save: tv
+[2021.04.02-19.18.44:371][572]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/Misc/Furniture/tv.tv
+[2021.04.02-19.18.46:000][662]LogSlate: Window 'Failed Renames' being destroyed
+[2021.04.02-19.19.15:931][422]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2021.04.02-19.19.23:259][422]LogSlate: Window 'Delete Assets' being destroyed
+[2021.04.02-19.19.30:300][823]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/leaf_signAE96202C4B0B2CA4305E548257C98747.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/leaf_sign.uasset'
+[2021.04.02-19.19.30:495][823]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2021.04.02-19.19.30:515][823]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2021.04.02-19.19.30:527][823]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2021.04.02-19.19.30:593][823]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/peachSign07A0D1D54E625C6A6F4B8BAC0017F35D.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/peachSign.uasset'
+[2021.04.02-19.19.30:835][823]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.02-19.19.30:835][823]LogContentValidation: Display: Validating Material /Game/Assets/StoreStuff/Misc/leaf_sign.leaf_sign
+[2021.04.02-19.19.30:835][823]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/Misc/peachSign.peachSign
+[2021.04.02-19.19.33:734][978]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/leaf_sign2189C08A400970327703F29E10A3B921.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Materials/leaf_sign.uasset'
+[2021.04.02-19.19.33:944][978]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2021.04.02-19.19.33:965][978]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2021.04.02-19.19.33:977][978]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2021.04.02-19.19.34:043][978]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/peachSignD581194E439FDAD6045198B8A4E6E4E4.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/peachSign.uasset'
+[2021.04.02-19.19.34:285][978]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.02-19.19.34:285][978]LogContentValidation: Display: Validating Material /Game/Assets/StoreStuff/Materials/leaf_sign.leaf_sign
+[2021.04.02-19.19.34:285][978]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/Misc/peachSign.peachSign
+[2021.04.02-19.19.37:431][146]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2021.04.02-19.19.38:450][146]LogSlate: Window 'Delete Assets' being destroyed
+[2021.04.02-19.19.38:563][146]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.04.02-19.19.38:584][146]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2021.04.02-19.19.38:595][146]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.04.02-19.19.41:324][294]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2021.04.02-19.19.59:298][294]LogSlate: Window 'Replace References?' being destroyed
+[2021.04.02-19.19.59:306][294]Message dialog closed, result: Ok, title: Replace References?, text: This will replace any reference to the pending deleted assets with Material; and then delete them.
+
+Are you sure?
+[2021.04.02-19.19.59:306][294]LogSlate: Window 'Delete Assets' being destroyed
+[2021.04.02-19.20.01:001][294]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2021.04.02-19.20.02:852][294]LogSlate: Window 'Save Content' being destroyed
+[2021.04.02-19.20.02:969][294]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/pantsSign2BF32D7A4C891065AE6264BB52735678.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/pantsSign.uasset'
+[2021.04.02-19.20.03:043][294]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/produceSign92C8E4CD4B169F7F6D83CAA8E092D35E.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/produceSign.uasset'
+[2021.04.02-19.20.03:050][294]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/shoeSign_matD101452442B3139889335F9D260DF627.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/shoeSign_mat.uasset'
+[2021.04.02-19.20.03:067][294]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.02-19.20.03:067][294]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/Misc/pantsSign.pantsSign
+[2021.04.02-19.20.03:067][294]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/Misc/produceSign.produceSign
+[2021.04.02-19.20.03:067][294]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/shoeSign_mat.shoeSign_mat
+[2021.04.02-19.20.09:261][614]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/customerServiceDesk393814514705AF26C9A0329AD1AAFE86.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/Furniture/customerServiceDesk.uasset'
+[2021.04.02-19.20.09:269][614]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/customerServiceDesk3CC0F75F46DA36733DA5F0B196B7E9C6.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/customerServiceDesk.uasset'
+[2021.04.02-19.20.09:500][614]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.02-19.20.09:500][614]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/Misc/Furniture/customerServiceDesk.customerServiceDesk
+[2021.04.02-19.20.09:500][614]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/customerServiceDesk.customerServiceDesk
+[2021.04.02-19.20.29:699][758]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/customerServiceSign92A7410C4426F7BB4062B1819CEB4FA3.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/Signs/customerServiceSign.uasset'
+[2021.04.02-19.20.29:707][758]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/customerServiceSignBAB358C8423176EA95E759854F3C653D.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/customerServiceSign.uasset'
+[2021.04.02-19.20.29:949][758]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.02-19.20.29:949][758]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/Misc/Signs/customerServiceSign.customerServiceSign
+[2021.04.02-19.20.29:949][758]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/customerServiceSign.customerServiceSign
+[2021.04.02-19.20.36:649][ 95]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/pantsSignC8BAC1604BD5390454678D865B797227.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/Signs/pantsSign.uasset'
+[2021.04.02-19.20.36:655][ 95]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/pantsSignC773620E4CA5CE70EBB78EB8027540A2.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/pantsSign.uasset'
+[2021.04.02-19.20.36:706][ 95]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/peachSign045C4E79445CD009A1FFC8829BFA42D6.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/Signs/peachSign.uasset'
+[2021.04.02-19.20.36:713][ 95]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/peachSign267682714D1793119100D2861EE36D2B.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/peachSign.uasset'
+[2021.04.02-19.20.36:756][ 95]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/produceSignADF31BC346FFFB99801842A824F5A640.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/Signs/produceSign.uasset'
+[2021.04.02-19.20.36:763][ 95]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/produceSignDA1B36FA40F703C594B8FC9824254198.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/produceSign.uasset'
+[2021.04.02-19.20.36:828][ 95]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/shoeSignD3F898284244B0030A8B54AF2AAFCAE9.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/Signs/shoeSign.uasset'
+[2021.04.02-19.20.36:836][ 95]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/shoeSign56980E02412B62C48878DBBF104F23F5.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/shoeSign.uasset'
+[2021.04.02-19.20.36:918][ 95]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/StoreSign6FB418D142B0090D9589EABF28DBF9CA.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/Signs/StoreSign.uasset'
+[2021.04.02-19.20.36:926][ 95]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/StoreSignE803239F4BBC18A03C83DFB76DAF434A.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Misc/StoreSign.uasset'
+[2021.04.02-19.20.37:193][ 95]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.02-19.20.37:193][ 95]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/Misc/Signs/pantsSign.pantsSign
+[2021.04.02-19.20.37:193][ 95]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/pantsSign.pantsSign
+[2021.04.02-19.20.37:193][ 95]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/Misc/Signs/peachSign.peachSign
+[2021.04.02-19.20.37:193][ 95]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/peachSign.peachSign
+[2021.04.02-19.20.37:193][ 95]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/Misc/Signs/produceSign.produceSign
+[2021.04.02-19.20.37:193][ 95]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/produceSign.produceSign
+[2021.04.02-19.20.37:193][ 95]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/Misc/Signs/shoeSign.shoeSign
+[2021.04.02-19.20.37:193][ 95]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/shoeSign.shoeSign
+[2021.04.02-19.20.37:193][ 95]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/Misc/Signs/StoreSign.StoreSign
+[2021.04.02-19.20.37:193][ 95]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/StoreStuff/Misc/StoreSign.StoreSign
+[2021.04.02-19.20.55:400][170]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2021.04.02-19.20.56:877][170]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/ThirdPersonExampleMap17C7EDA64AD6F5EA50C48C95E147F2F7.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2021.04.02-19.20.56:933][170]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
+[2021.04.02-19.20.56:933][170]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.04.02-19.21.01:060][407]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2021.04.02-19.21.02:459][407]LogSlate: Window 'Save Content' being destroyed
+[2021.04.02-19.21.02:514][407]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Material659D47964EAF074A2984A8BC5F089CD0.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Materials/Material.uasset'
+[2021.04.02-19.21.02:583][407]LogSlate: Window 'Retail1 - Unreal Editor' being destroyed
+[2021.04.02-19.21.02:585][407]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.04.02-19.21.02:712][407]AssetCheck: New page: Asset Save: Material
+[2021.04.02-19.21.02:712][407]LogContentValidation: Display: Validating Material /Game/Assets/StoreStuff/Materials/Material.Material
+[2021.04.02-19.21.02:718][408]Cmd: QUIT_EDITOR
+[2021.04.02-19.21.02:718][408]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2021.04.02-19.21.02:729][408]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.04.02-19.21.02:826][408]LogExit: Preparing to exit.
+[2021.04.02-19.21.03:264][408]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.04.02-19.21.03:265][408]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.04.02-19.21.03:265][408]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.04.02-19.21.03:265][408]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.04.02-19.21.03:265][408]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.04.02-19.21.03:338][408]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.04.02-19.21.03:342][408]LogExit: Editor shut down
+[2021.04.02-19.21.03:342][408]LogExit: Transaction tracking system shut down
+[2021.04.02-19.21.03:350][408]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.04.02-19.21.03:597][408]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002DEE053DE00), frame # 21408
+[2021.04.02-19.21.03:628][408]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002DEEF5EBE00), frame # 21408
+[2021.04.02-19.21.03:628][408]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002DEEDCD5800), frame # 21408
+[2021.04.02-19.21.03:649][408]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000002DEE05B9BC0), frame # 21408
+[2021.04.02-19.21.03:650][408]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002DEE04E3EC0), frame # 21408
+[2021.04.02-19.21.03:669][408]LogExit: Object subsystem successfully closed.
+[2021.04.02-19.21.03:688][408]LogShaderCompilers: Display: Shaders left to compile 0
+[2021.04.02-19.21.03:732][408]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (792)
+[2021.04.02-19.21.03:732][408]LogModuleManager: Shutting down and abandoning module SceneOutliner (790)
+[2021.04.02-19.21.03:732][408]LogModuleManager: Shutting down and abandoning module AddContentDialog (788)
+[2021.04.02-19.21.03:733][408]LogModuleManager: Shutting down and abandoning module WidgetCarousel (787)
+[2021.04.02-19.21.03:733][408]LogModuleManager: Shutting down and abandoning module EditorWidgets (784)
+[2021.04.02-19.21.03:733][408]LogModuleManager: Shutting down and abandoning module CollectionManager (782)
+[2021.04.02-19.21.03:733][408]LogModuleManager: Shutting down and abandoning module StatsViewer (780)
+[2021.04.02-19.21.03:733][408]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (778)
+[2021.04.02-19.21.03:733][408]LogModuleManager: Shutting down and abandoning module FoliageEdit (776)
+[2021.04.02-19.21.03:733][408]LogModuleManager: Shutting down and abandoning module LandscapeEditor (774)
+[2021.04.02-19.21.03:733][408]LogModuleManager: Shutting down and abandoning module MeshPaintMode (772)
+[2021.04.02-19.21.03:733][408]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (770)
+[2021.04.02-19.21.03:733][408]LogModuleManager: Shutting down and abandoning module ActorPickerMode (768)
+[2021.04.02-19.21.03:733][408]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (766)
+[2021.04.02-19.21.03:733][408]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (764)
+[2021.04.02-19.21.03:733][408]LogModuleManager: Shutting down and abandoning module AutomationWorker (762)
+[2021.04.02-19.21.03:733][408]LogModuleManager: Shutting down and abandoning module SteamVREditor (760)
+[2021.04.02-19.21.03:733][408]LogModuleManager: Shutting down and abandoning module OculusMR (758)
+[2021.04.02-19.21.03:733][408]LogModuleManager: Shutting down and abandoning module GooglePADEditor (756)
+[2021.04.02-19.21.03:733][408]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (754)
+[2021.04.02-19.21.03:733][408]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (752)
+[2021.04.02-19.21.03:733][408]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (750)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (748)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (746)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (744)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (742)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (740)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (738)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module WebMMedia (736)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (734)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (732)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module SequenceRecorder (731)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (728)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (726)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (724)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (722)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (720)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (718)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (716)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (714)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (712)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (710)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module PlanarCut (708)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module CharacterAI (706)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module TextureAlignMode (704)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module BspMode (702)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module PlacementMode (701)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module GeometryMode (698)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (696)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module SmartSnapping (694)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module SessionServices (692)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module MeshPaint (690)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module ViewportSnapping (688)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module ViewportInteraction (686)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module ClothPainter (684)
+[2021.04.02-19.21.03:734][408]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (683)
+[2021.04.02-19.21.03:735][408]LogModuleManager: Shutting down and abandoning module LogVisualizer (680)
+[2021.04.02-19.21.03:735][408]LogModuleManager: Shutting down and abandoning module IntroTutorials (678)
+[2021.04.02-19.21.03:735][408]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (677)
+[2021.04.02-19.21.03:735][408]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (674)
+[2021.04.02-19.21.03:735][408]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (672)
+[2021.04.02-19.21.03:735][408]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (670)
+[2021.04.02-19.21.03:735][408]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (669)
+[2021.04.02-19.21.03:828][408]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (666)
+[2021.04.02-19.21.03:828][408]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (664)
+[2021.04.02-19.21.03:828][408]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (662)
+[2021.04.02-19.21.03:828][408]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (660)
+[2021.04.02-19.21.03:828][408]LogModuleManager: Shutting down and abandoning module TraceInsights (658)
+[2021.04.02-19.21.03:828][408]LogModuleManager: Shutting down and abandoning module TraceServices (657)
+[2021.04.02-19.21.03:828][408]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (654)
+[2021.04.02-19.21.03:828][408]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (652)
+[2021.04.02-19.21.03:828][408]LogModuleManager: Shutting down and abandoning module InputBindingEditor (650)
+[2021.04.02-19.21.03:828][408]LogModuleManager: Shutting down and abandoning module MergeActors (648)
+[2021.04.02-19.21.03:828][408]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (646)
+[2021.04.02-19.21.03:828][408]LogModuleManager: Shutting down and abandoning module LocalizationService (645)
+[2021.04.02-19.21.03:828][408]LogModuleManager: Shutting down and abandoning module HardwareTargeting (642)
+[2021.04.02-19.21.03:828][408]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (640)
+[2021.04.02-19.21.03:828][408]LogModuleManager: Shutting down and abandoning module UndoHistory (638)
+[2021.04.02-19.21.03:828][408]LogModuleManager: Shutting down and abandoning module XmlParser (636)
+[2021.04.02-19.21.03:828][408]LogModuleManager: Shutting down and abandoning module Blutility (634)
+[2021.04.02-19.21.03:828][408]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (632)
+[2021.04.02-19.21.03:828][408]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (631)
+[2021.04.02-19.21.03:828][408]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (628)
+[2021.04.02-19.21.03:828][408]LogModuleManager: Shutting down and abandoning module SettingsEditor (626)
+[2021.04.02-19.21.03:828][408]LogModuleManager: Shutting down and abandoning module ProjectLauncher (624)
+[2021.04.02-19.21.03:828][408]LogModuleManager: Shutting down and abandoning module SessionFrontend (622)
+[2021.04.02-19.21.03:828][408]LogModuleManager: Shutting down and abandoning module ProfilerClient (620)
+[2021.04.02-19.21.03:828][408]LogModuleManager: Shutting down and abandoning module DeviceManager (618)
+[2021.04.02-19.21.03:828][408]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (617)
+[2021.04.02-19.21.03:860][408]LogModuleManager: Shutting down and abandoning module AutomationController (614)
+[2021.04.02-19.21.03:860][408]LogModuleManager: Shutting down and abandoning module AutomationWindow (612)
+[2021.04.02-19.21.03:860][408]LogModuleManager: Shutting down and abandoning module Layers (610)
+[2021.04.02-19.21.03:860][408]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (608)
+[2021.04.02-19.21.03:860][408]LogModuleManager: Shutting down and abandoning module DetailCustomizations (606)
+[2021.04.02-19.21.03:860][408]LogModuleManager: Shutting down and abandoning module PackagesDialog (604)
+[2021.04.02-19.21.03:860][408]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (602)
+[2021.04.02-19.21.03:860][408]LogModuleManager: Shutting down and abandoning module Persona (600)
+[2021.04.02-19.21.03:860][408]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (599)
+[2021.04.02-19.21.03:860][408]LogModuleManager: Shutting down and abandoning module AnimGraph (597)
+[2021.04.02-19.21.03:860][408]LogModuleManager: Shutting down and abandoning module Kismet (594)
+[2021.04.02-19.21.03:860][408]LogModuleManager: Shutting down and abandoning module KismetWidgets (593)
+[2021.04.02-19.21.03:860][408]LogModuleManager: Shutting down and abandoning module GraphEditor (590)
+[2021.04.02-19.21.03:861][408]LogModuleManager: Shutting down and abandoning module StructViewer (588)
+[2021.04.02-19.21.03:861][408]LogModuleManager: Shutting down and abandoning module ClassViewer (586)
+[2021.04.02-19.21.03:861][408]LogModuleManager: Shutting down and abandoning module Toolbox (584)
+[2021.04.02-19.21.03:861][408]LogModuleManager: Shutting down and abandoning module ModuleUI (582)
+[2021.04.02-19.21.03:861][408]LogModuleManager: Shutting down and abandoning module OutputLog (580)
+[2021.04.02-19.21.03:861][408]LogModuleManager: Shutting down and abandoning module GammaUI (578)
+[2021.04.02-19.21.03:861][408]LogModuleManager: Shutting down and abandoning module Documentation (576)
+[2021.04.02-19.21.03:861][408]LogModuleManager: Shutting down and abandoning module LiveCoding (574)
+[2021.04.02-19.21.03:861][408]LogModuleManager: Shutting down and abandoning module LevelSequence (572)
+[2021.04.02-19.21.03:861][408]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (570)
+[2021.04.02-19.21.03:861][408]LogModuleManager: Shutting down and abandoning module MovieScene (568)
+[2021.04.02-19.21.03:861][408]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (566)
+[2021.04.02-19.21.03:861][408]LogModuleManager: Shutting down and abandoning module LauncherPlatform (564)
+[2021.04.02-19.21.03:861][408]LogModuleManager: Shutting down and abandoning module AnalyticsET (562)
+[2021.04.02-19.21.03:861][408]LogModuleManager: Shutting down and abandoning module PortalServices (560)
+[2021.04.02-19.21.03:861][408]LogModuleManager: Shutting down and abandoning module PortalRpc (558)
+[2021.04.02-19.21.03:861][408]LogModuleManager: Shutting down and abandoning module MessagingRpc (556)
+[2021.04.02-19.21.03:861][408]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (554)
+[2021.04.02-19.21.03:861][408]LogModuleManager: Shutting down and abandoning module AudioMixerCore (553)
+[2021.04.02-19.21.03:861][408]LogModuleManager: Shutting down and abandoning module AIModule (550)
+[2021.04.02-19.21.03:861][408]LogModuleManager: Shutting down and abandoning module GameplayDebugger (549)
+[2021.04.02-19.21.03:861][408]LogModuleManager: Shutting down and abandoning module AITestSuite (547)
+[2021.04.02-19.21.03:861][408]LogModuleManager: Shutting down and abandoning module NavigationSystem (545)
+[2021.04.02-19.21.03:861][408]LogModuleManager: Shutting down and abandoning module ProfilerService (542)
+[2021.04.02-19.21.03:997][408]LogModuleManager: Shutting down and abandoning module TaskGraph (540)
+[2021.04.02-19.21.03:997][408]LogModuleManager: Shutting down and abandoning module ScreenshotTools (538)
+[2021.04.02-19.21.03:997][408]LogModuleManager: Shutting down and abandoning module SynthesisEditor (536)
+[2021.04.02-19.21.03:997][408]LogModuleManager: Shutting down and abandoning module Synthesis (534)
+[2021.04.02-19.21.03:997][408]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (532)
+[2021.04.02-19.21.03:997][408]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (530)
+[2021.04.02-19.21.03:997][408]LogModuleManager: Shutting down and abandoning module OculusEditor (528)
+[2021.04.02-19.21.03:997][408]LogModuleManager: Shutting down and abandoning module OculusInput (526)
+[2021.04.02-19.21.03:997][408]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (524)
+[2021.04.02-19.21.03:998][408]LogModuleManager: Shutting down and abandoning module GooglePAD (522)
+[2021.04.02-19.21.03:998][408]LogModuleManager: Shutting down and abandoning module EditableMesh (520)
+[2021.04.02-19.21.03:998][408]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (518)
+[2021.04.02-19.21.03:998][408]LogModuleManager: Shutting down and abandoning module CableComponent (516)
+[2021.04.02-19.21.03:998][408]LogModuleManager: Shutting down and abandoning module AudioCapture (514)
+[2021.04.02-19.21.03:998][408]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (513)
+[2021.04.02-19.21.03:998][408]LogModuleManager: Shutting down and abandoning module AssetTags (510)
+[2021.04.02-19.21.03:998][408]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (508)
+[2021.04.02-19.21.03:998][408]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (506)
+[2021.04.02-19.21.03:998][408]LogModuleManager: Shutting down and abandoning module AppleImageUtils (504)
+[2021.04.02-19.21.03:998][408]LogModuleManager: Shutting down and abandoning module AndroidPermission (502)
+[2021.04.02-19.21.03:998][408]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (500)
+[2021.04.02-19.21.03:998][408]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (498)
+[2021.04.02-19.21.03:998][408]LogModuleManager: Shutting down and abandoning module TemplateSequence (496)
+[2021.04.02-19.21.03:998][408]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (494)
+[2021.04.02-19.21.03:999][408]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (492)
+[2021.04.02-19.21.03:999][408]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (490)
+[2021.04.02-19.21.03:999][408]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (488)
+[2021.04.02-19.21.03:999][408]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (487)
+[2021.04.02-19.21.04:010][408]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (484)
+[2021.04.02-19.21.04:010][408]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (482)
+[2021.04.02-19.21.04:010][408]LogModuleManager: Shutting down and abandoning module MediaCompositing (480)
+[2021.04.02-19.21.04:010][408]LogModuleManager: Shutting down and abandoning module ImgMedia (478)
+[2021.04.02-19.21.04:010][408]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (476)
+[2021.04.02-19.21.04:010][408]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (474)
+[2021.04.02-19.21.04:010][408]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (472)
+[2021.04.02-19.21.04:010][408]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (470)
+[2021.04.02-19.21.04:010][408]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (468)
+[2021.04.02-19.21.04:010][408]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (466)
+[2021.04.02-19.21.04:011][408]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (464)
+[2021.04.02-19.21.04:011][408]LogModuleManager: Shutting down and abandoning module MeshConversion (462)
+[2021.04.02-19.21.04:011][408]LogModuleManager: Shutting down and abandoning module DynamicMesh (460)
+[2021.04.02-19.21.04:011][408]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (458)
+[2021.04.02-19.21.04:011][408]LogModuleManager: Shutting down and abandoning module GeometricObjects (456)
+[2021.04.02-19.21.04:011][408]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (454)
+[2021.04.02-19.21.04:011][408]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (453)
+[2021.04.02-19.21.04:011][408]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (450)
+[2021.04.02-19.21.04:011][408]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (448)
+[2021.04.02-19.21.04:011][408]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (446)
+[2021.04.02-19.21.04:011][408]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (444)
+[2021.04.02-19.21.04:011][408]LogModuleManager: Shutting down and abandoning module ChaosNiagara (442)
+[2021.04.02-19.21.04:011][408]LogModuleManager: Shutting down and abandoning module FractureEditor (440)
+[2021.04.02-19.21.04:012][408]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (438)
+[2021.04.02-19.21.04:012][408]LogModuleManager: Shutting down and abandoning module ChaosCloth (436)
+[2021.04.02-19.21.04:012][408]LogModuleManager: Shutting down and abandoning module BackChannel (434)
+[2021.04.02-19.21.04:012][408]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (432)
+[2021.04.02-19.21.04:012][408]LogModuleManager: Shutting down and abandoning module AutomationUtils (430)
+[2021.04.02-19.21.04:012][408]LogModuleManager: Shutting down and abandoning module AlembicImporter (428)
+[2021.04.02-19.21.04:012][408]LogModuleManager: Shutting down and abandoning module AlembicLibrary (427)
+[2021.04.02-19.21.04:012][408]LogModuleManager: Shutting down and abandoning module GeometryCache (426)
+[2021.04.02-19.21.04:012][408]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (425)
+[2021.04.02-19.21.04:012][408]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (420)
+[2021.04.02-19.21.04:012][408]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (418)
+[2021.04.02-19.21.04:012][408]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (416)
+[2021.04.02-19.21.04:012][408]LogModuleManager: Shutting down and abandoning module PluginBrowser (414)
+[2021.04.02-19.21.04:012][408]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (412)
+[2021.04.02-19.21.04:012][408]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (410)
+[2021.04.02-19.21.04:012][408]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (408)
+[2021.04.02-19.21.04:012][408]LogModuleManager: Shutting down and abandoning module CurveEditorTools (406)
+[2021.04.02-19.21.04:012][408]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (404)
+[2021.04.02-19.21.04:012][408]LogModuleManager: Shutting down and abandoning module CryptoKeys (402)
+[2021.04.02-19.21.04:012][408]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (400)
+[2021.04.02-19.21.04:012][408]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (398)
+[2021.04.02-19.21.04:012][408]LogModuleManager: Shutting down and abandoning module UObjectPlugin (396)
+[2021.04.02-19.21.04:012][408]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (394)
+[2021.04.02-19.21.04:012][408]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (392)
+[2021.04.02-19.21.04:012][408]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (390)
+[2021.04.02-19.21.04:013][408]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (388)
+[2021.04.02-19.21.04:013][408]LogModuleManager: Shutting down and abandoning module GitSourceControl (386)
+[2021.04.02-19.21.04:013][408]LogModuleManager: Shutting down and abandoning module SourceControl (385)
+[2021.04.02-19.21.04:013][408]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (382)
+[2021.04.02-19.21.04:013][408]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (380)
+[2021.04.02-19.21.04:013][408]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (378)
+[2021.04.02-19.21.04:013][408]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (376)
+[2021.04.02-19.21.04:013][408]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (374)
+[2021.04.02-19.21.04:013][408]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (372)
+[2021.04.02-19.21.04:013][408]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (370)
+[2021.04.02-19.21.04:013][408]LogModuleManager: Shutting down and abandoning module Paper2DEditor (368)
+[2021.04.02-19.21.04:013][408]LogModuleManager: Shutting down and abandoning module Retail1 (366)
+[2021.04.02-19.21.04:013][408]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2021.04.02-19.21.04:013][408]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2021.04.02-19.21.04:013][408]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2021.04.02-19.21.04:013][408]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2021.04.02-19.21.04:013][408]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2021.04.02-19.21.04:013][408]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2021.04.02-19.21.04:013][408]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2021.04.02-19.21.04:114][408]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2021.04.02-19.21.04:214][408]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2021.04.02-19.21.04:214][408]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2021.04.02-19.21.04:214][408]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2021.04.02-19.21.04:214][408]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2021.04.02-19.21.04:214][408]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2021.04.02-19.21.04:214][408]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2021.04.02-19.21.04:214][408]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2021.04.02-19.21.04:214][408]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2021.04.02-19.21.04:214][408]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2021.04.02-19.21.04:214][408]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2021.04.02-19.21.04:214][408]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2021.04.02-19.21.04:214][408]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2021.04.02-19.21.04:215][408]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2021.04.02-19.21.04:215][408]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2021.04.02-19.21.04:215][408]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2021.04.02-19.21.04:215][408]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2021.04.02-19.21.04:215][408]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2021.04.02-19.21.04:215][408]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2021.04.02-19.21.04:215][408]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2021.04.02-19.21.04:215][408]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2021.04.02-19.21.04:215][408]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2021.04.02-19.21.04:215][408]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2021.04.02-19.21.04:215][408]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2021.04.02-19.21.04:215][408]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2021.04.02-19.21.04:215][408]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2021.04.02-19.21.04:215][408]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2021.04.02-19.21.04:216][408]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2021.04.02-19.21.04:216][408]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2021.04.02-19.21.04:216][408]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2021.04.02-19.21.04:216][408]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2021.04.02-19.21.04:216][408]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2021.04.02-19.21.04:216][408]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2021.04.02-19.21.04:216][408]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2021.04.02-19.21.04:216][408]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2021.04.02-19.21.04:216][408]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2021.04.02-19.21.04:216][408]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2021.04.02-19.21.04:216][408]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2021.04.02-19.21.04:216][408]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2021.04.02-19.21.04:216][408]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2021.04.02-19.21.04:216][408]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2021.04.02-19.21.04:216][408]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2021.04.02-19.21.04:217][408]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2021.04.02-19.21.04:217][408]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2021.04.02-19.21.04:217][408]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2021.04.02-19.21.04:217][408]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2021.04.02-19.21.04:217][408]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2021.04.02-19.21.04:217][408]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2021.04.02-19.21.04:217][408]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2021.04.02-19.21.04:217][408]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2021.04.02-19.21.04:217][408]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2021.04.02-19.21.04:217][408]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2021.04.02-19.21.04:217][408]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2021.04.02-19.21.04:217][408]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2021.04.02-19.21.04:217][408]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2021.04.02-19.21.04:217][408]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2021.04.02-19.21.04:218][408]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2021.04.02-19.21.04:218][408]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2021.04.02-19.21.04:218][408]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2021.04.02-19.21.04:218][408]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2021.04.02-19.21.04:218][408]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2021.04.02-19.21.04:218][408]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2021.04.02-19.21.04:218][408]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2021.04.02-19.21.04:218][408]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2021.04.02-19.21.04:218][408]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2021.04.02-19.21.04:218][408]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2021.04.02-19.21.04:218][408]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2021.04.02-19.21.04:218][408]LogModuleManager: Shutting down and abandoning module Core (216)
+[2021.04.02-19.21.04:218][408]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2021.04.02-19.21.04:218][408]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2021.04.02-19.21.04:218][408]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2021.04.02-19.21.04:218][408]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2021.04.02-19.21.04:219][408]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2021.04.02-19.21.04:219][408]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2021.04.02-19.21.04:219][408]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2021.04.02-19.21.04:219][408]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2021.04.02-19.21.04:219][408]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2021.04.02-19.21.04:219][408]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2021.04.02-19.21.04:219][408]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2021.04.02-19.21.04:219][408]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2021.04.02-19.21.04:219][408]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2021.04.02-19.21.04:219][408]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2021.04.02-19.21.04:219][408]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2021.04.02-19.21.04:219][408]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2021.04.02-19.21.04:219][408]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2021.04.02-19.21.04:219][408]LogXGEController: Cleaning working directory: C:/Users/miken/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.04.02-19.21.04:219][408]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2021.04.02-19.21.04:219][408]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2021.04.02-19.21.04:219][408]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2021.04.02-19.21.04:219][408]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2021.04.02-19.21.04:219][408]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2021.04.02-19.21.04:219][408]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2021.04.02-19.21.04:219][408]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2021.04.02-19.21.04:219][408]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2021.04.02-19.21.04:219][408]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2021.04.02-19.21.04:219][408]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2021.04.02-19.21.04:219][408]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2021.04.02-19.21.04:220][408]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2021.04.02-19.21.04:220][408]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2021.04.02-19.21.04:220][408]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2021.04.02-19.21.04:220][408]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2021.04.02-19.21.04:220][408]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2021.04.02-19.21.04:220][408]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2021.04.02-19.21.04:220][408]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2021.04.02-19.21.04:220][408]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2021.04.02-19.21.04:220][408]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2021.04.02-19.21.04:220][408]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2021.04.02-19.21.04:220][408]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2021.04.02-19.21.04:221][408]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2021.04.02-19.21.04:221][408]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2021.04.02-19.21.04:221][408]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2021.04.02-19.21.04:221][408]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2021.04.02-19.21.04:221][408]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2021.04.02-19.21.04:221][408]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2021.04.02-19.21.04:221][408]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2021.04.02-19.21.04:221][408]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2021.04.02-19.21.04:221][408]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2021.04.02-19.21.04:221][408]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2021.04.02-19.21.04:224][408]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2021.04.02-19.21.04:224][408]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2021.04.02-19.21.04:224][408]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2021.04.02-19.21.04:224][408]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2021.04.02-19.21.04:224][408]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2021.04.02-19.21.04:224][408]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2021.04.02-19.21.04:224][408]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2021.04.02-19.21.04:224][408]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2021.04.02-19.21.04:224][408]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2021.04.02-19.21.04:224][408]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2021.04.02-19.21.04:224][408]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2021.04.02-19.21.04:224][408]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2021.04.02-19.21.04:224][408]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2021.04.02-19.21.04:224][408]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2021.04.02-19.21.04:224][408]LogHMD: Freeing OpenVRDLLHandle.
+[2021.04.02-19.21.04:224][408]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2021.04.02-19.21.04:224][408]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2021.04.02-19.21.04:224][408]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2021.04.02-19.21.04:224][408]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2021.04.02-19.21.04:224][408]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2021.04.02-19.21.04:225][408]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2021.04.02-19.21.04:225][408]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2021.04.02-19.21.04:238][408]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2021.04.02-19.21.04:238][408]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2021.04.02-19.21.04:238][408]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B861C182C-458F-0981-72D5-4788AB1A78E5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=c81adedc42ca269980e242ad9c83922e%7C8a41dc5ae0c34e46836258399513eab8%7C1e0c9e2f-476f-4b47-8278-83ac4f643aae&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2021.04.02-19.21.04:262][408]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2021.04.02-19.21.04:262][408]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2021.04.02-19.21.04:264][408]LogModuleManager: Shutting down and abandoning module Media (61)
+[2021.04.02-19.21.04:264][408]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2021.04.02-19.21.04:264][408]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2021.04.02-19.21.04:264][408]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2021.04.02-19.21.04:264][408]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2021.04.02-19.21.04:264][408]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2021.04.02-19.21.04:265][408]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2021.04.02-19.21.04:265][408]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2021.04.02-19.21.04:265][408]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2021.04.02-19.21.04:265][408]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2021.04.02-19.21.04:265][408]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2021.04.02-19.21.04:265][408]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2021.04.02-19.21.04:265][408]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2021.04.02-19.21.04:265][408]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2021.04.02-19.21.04:265][408]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2021.04.02-19.21.04:265][408]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2021.04.02-19.21.04:265][408]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2021.04.02-19.21.04:265][408]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2021.04.02-19.21.04:266][408]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2021.04.02-19.21.04:266][408]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2021.04.02-19.21.04:266][408]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2021.04.02-19.21.04:266][408]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2021.04.02-19.21.04:266][408]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2021.04.02-19.21.04:266][408]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2021.04.02-19.21.04:266][408]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2021.04.02-19.21.04:266][408]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2021.04.02-19.21.04:266][408]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2021.04.02-19.21.04:266][408]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2021.04.02-19.21.04:266][408]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2021.04.02-19.21.04:266][408]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2021.04.02-19.21.04:266][408]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2021.04.02-19.21.04:310][408]LogD3D11RHI: Shutdown
+[2021.04.02-19.21.04:310][408]LogD3D11RHI: CleanupD3DDevice
+[2021.04.02-19.21.04:353][408]LogExit: Exiting.
+[2021.04.02-19.21.04:360][408]Log file closed, 04/02/21 13:21:04
