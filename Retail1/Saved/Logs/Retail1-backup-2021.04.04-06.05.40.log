@@ -1,0 +1,2015 @@
+﻿Log file open, 04/03/21 22:56:38
+LogInit: Display: Running engine for game: Retail1
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.212404
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.44.0
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.04.04-04.56.39:227][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.04.04-04.56.39:228][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.04.04-04.56.39:228][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+[2021.04.04-04.56.39:228][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.04.04-04.56.39:228][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+[2021.04.04-04.56.39:228][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+[2021.04.04-04.56.39:228][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.04.04-04.56.39:228][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.04.04-04.56.39:228][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.04.04-04.56.39:228][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.04.04-04.56.39:228][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.04.04-04.56.39:228][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.04.04-04.56.39:228][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.04.04-04.56.39:228][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.04.04-04.56.39:228][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.04.04-04.56.39:228][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.04.04-04.56.39:228][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.04.04-04.56.39:228][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.04.04-04.56.39:228][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.04.04-04.56.39:228][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.04.04-04.56.39:228][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+[2021.04.04-04.56.39:228][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.04.04-04.56.39:228][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.04.04-04.56.39:228][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.04.04-04.56.39:228][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.04.04-04.56.39:228][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.04.04-04.56.39:228][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.04.04-04.56.39:228][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.04.04-04.56.39:228][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.04.04-04.56.39:228][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.04.04-04.56.39:228][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.04.04-04.56.39:228][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.04.04-04.56.39:228][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.04.04-04.56.39:229][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.04.04-04.56.39:229][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+[2021.04.04-04.56.39:229][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+[2021.04.04-04.56.39:231][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.04-04.56.39:231][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.04-04.56.39:232][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.04.04-04.56.39:233][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.04.04-04.56.39:233][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.04-04.56.39:233][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.04.04-04.56.39:233][  0]LogHAL: Display: Platform has ~ 16 GB [16966279168 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.04.04-04.56.39:233][  0]LogInit: Going up to parent DeviceProfile []
+[2021.04.04-04.56.39:234][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.04-04.56.39:234][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.04.04-04.56.39:235][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.04.04-04.56.39:236][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.04.04-04.56.39:236][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.04.04-04.56.39:236][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.04.04-04.56.39:236][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+[2021.04.04-04.56.39:236][  0]LogInit: Computer: DESKTOP-9L11L9P
+[2021.04.04-04.56.39:236][  0]LogInit: User: miken
+[2021.04.04-04.56.39:236][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.04.04-04.56.39:236][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.04.04-04.56.39:236][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2021.04.04-04.56.39:236][  0]LogMemory: Platform Memory Stats for Windows
+[2021.04.04-04.56.39:236][  0]LogMemory: Process Physical Memory: 119.18 MB used, 119.18 MB peak
+[2021.04.04-04.56.39:236][  0]LogMemory: Process Virtual Memory: 101.02 MB used, 101.02 MB peak
+[2021.04.04-04.56.39:236][  0]LogMemory: Physical Memory: 8292.12 MB used,  7888.18 MB free, 16180.30 MB total
+[2021.04.04-04.56.39:236][  0]LogMemory: Virtual Memory: 5208.28 MB used,  134212520.00 MB free, 134217728.00 MB total
+[2021.04.04-04.56.39:650][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.04.04-04.56.39:726][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.04.04-04.56.39:729][  0]LogInit: Using OS detected language (en-US).
+[2021.04.04-04.56.39:729][  0]LogInit: Using OS detected locale (en-US).
+[2021.04.04-04.56.39:736][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.04.04-04.56.39:907][  0]LogInit: Setting process to per monitor DPI aware
+[2021.04.04-04.56.39:940][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.04.04-04.56.39:940][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.04.04-04.56.40:173][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.04.04-04.56.40:173][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.04.04-04.56.40:173][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.04.04-04.56.40:173][  0]LogD3D11RHI: D3D11 adapters:
+[2021.04.04-04.56.40:246][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (Feature Level 11_0)
+[2021.04.04-04.56.40:247][  0]LogD3D11RHI:       8031/0/8090 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.04.04-04.56.40:284][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2021.04.04-04.56.40:284][  0]LogD3D11RHI:       128/0/8090 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.04.04-04.56.40:286][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.04.04-04.56.40:286][  0]LogD3D11RHI:       0/0/8090 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.04.04-04.56.40:286][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.04.04-04.56.40:295][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.04.04-04.56.40:295][  0]LogD3D11RHI:     GPU DeviceId: 0x1f10 (for the marketing name, search the web for "GPU Device Id")
+[2021.04.04-04.56.40:295][  0]LogWindows: EnumDisplayDevices:
+[2021.04.04-04.56.40:295][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2021.04.04-04.56.40:296][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.04.04-04.56.40:296][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.04.04-04.56.40:296][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2021.04.04-04.56.40:297][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2021.04.04-04.56.40:297][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2021.04.04-04.56.40:298][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2021.04.04-04.56.40:298][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2021.04.04-04.56.40:298][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070 with Max-Q Design
+[2021.04.04-04.56.40:298][  0]LogD3D11RHI:   Driver Version: 456.87 (internal:27.21.14.5687, unified:456.87)
+[2021.04.04-04.56.40:298][  0]LogD3D11RHI:      Driver Date: 10-14-2020
+[2021.04.04-04.56.40:298][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2021.04.04-04.56.40:356][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.04.04-04.56.40:357][  0]LogD3D11RHI: Async texture creation enabled
+[2021.04.04-04.56.40:357][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.04.04-04.56.40:373][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.04.04-04.56.40:728][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.04.04-04.56.40:751][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.04.04-04.56.40:751][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.04.04-04.56.40:751][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.04.04-04.56.40:751][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.04.04-04.56.40:751][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.04.04-04.56.40:751][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.04.04-04.56.40:751][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.04.04-04.56.40:751][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.04.04-04.56.40:751][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.04.04-04.56.40:751][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.04.04-04.56.40:775][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.04.04-04.56.40:775][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.04.04-04.56.40:787][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.04.04-04.56.40:797][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.04.04-04.56.40:807][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.04.04-04.56.40:816][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.04.04-04.56.40:826][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.04.04-04.56.40:837][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.04.04-04.56.40:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.04.04-04.56.40:874][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.04.04-04.56.40:874][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.04.04-04.56.40:891][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.04.04-04.56.40:891][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.04.04-04.56.40:900][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.04.04-04.56.40:910][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.04.04-04.56.40:919][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.04.04-04.56.40:929][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.04.04-04.56.40:929][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.04.04-04.56.40:936][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.04.04-04.56.40:999][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Intermediate/Shaders/WorkingDirectory/14352/).
+[2021.04.04-04.56.40:999][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/miken/AppData/Local/Temp/UnrealShaderWorkingDir/1B4BAE854A7101DF3E5951881EDBCD5B/'.
+[2021.04.04-04.56.41:000][  0]LogXGEController: Cleaning working directory: C:/Users/miken/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.04.04-04.56.41:000][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.04.04-04.56.41:000][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.04.04-04.56.41:000][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.04.04-04.56.41:737][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.04.04-04.56.41:804][  0]LogDerivedDataCache: Loaded boot cache 0.07s 82MB C:/Users/miken/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.04.04-04.56.41:804][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/miken/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.04.04-04.56.41:804][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.04.04-04.56.41:805][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.04.04-04.56.41:805][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.04-04.56.41:805][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.04.04-04.56.41:815][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.04.04-04.56.41:815][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.04-04.56.41:815][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.04.04-04.56.41:816][  0]LogDerivedDataCache: Using Local data cache path C:/Users/miken/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.04.04-04.56.41:817][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.04.04-04.56.41:817][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.04.04-04.56.41:866][  0]LogSlate: Using FreeType 2.10.0
+[2021.04.04-04.56.41:867][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.04.04-04.56.41:895][  0]LogAssetRegistry: FAssetRegistry took 0.0026 seconds to start up
+[2021.04.04-04.56.42:143][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.04-04.56.42:262][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.04.04-04.56.42:262][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.04.04-04.56.42:262][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.04.04-04.56.42:262][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.04.04-04.56.42:262][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.04.04-04.56.42:278][  0]LogNetVersion: Retail1 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2139136878)
+[2021.04.04-04.56.42:759][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000015AF0FF9BC0), frame # 0
+[2021.04.04-04.56.42:759][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000015AF0F37EC0), frame # 0
+[2021.04.04-04.56.42:760][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000015AF0FA1E00), frame # 0
+[2021.04.04-04.56.42:799][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.033755 seconds
+[2021.04.04-04.56.42:804][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.04.04-04.56.42:804][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.04.04-04.56.42:804][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.04.04-04.56.43:135][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.04.04-04.56.43:139][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.04.04-04.56.43:172][  0]LogTemp: TIME TO COMPLETE 0
+[2021.04.04-04.56.43:172][  0]LogTemp: ITEM 3
+[2021.04.04-04.56.43:332][  0]SourceControl: Source control is disabled
+[2021.04.04-04.56.43:332][  0]SourceControl: Source control is disabled
+[2021.04.04-04.56.43:335][  0]SourceControl: Source control is disabled
+[2021.04.04-04.56.43:338][  0]SourceControl: Source control is disabled
+[2021.04.04-04.56.43:345][  0]SourceControl: Source control is disabled
+[2021.04.04-04.56.43:588][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.04.04-04.56.43:606][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.04-04.56.43:606][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.04-04.56.43:657][  0]LogOcInput: OculusInput pre-init called
+[2021.04.04-04.56.43:903][  0]LogEngine: Initializing Engine...
+[2021.04.04-04.56.43:903][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.04.04-04.56.43:903][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.04.04-04.56.43:904][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.04.04-04.56.44:016][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.04.04-04.56.44:024][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.04.04-04.56.44:024][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000015AFB4D3C00), frame # 0
+[2021.04.04-04.56.44:024][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000015AFB51DA80), frame # 0
+[2021.04.04-04.56.44:043][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.04-04.56.44:043][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.04-04.56.44:043][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.04-04.56.44:043][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.04-04.56.44:043][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.04-04.56.44:043][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.04-04.56.44:043][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.04-04.56.44:043][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.04-04.56.44:043][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.04-04.56.44:043][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.04-04.56.44:181][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.04-04.56.44:181][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.04.04-04.56.44:181][  0]LogAudioMixer: Display: 2: FrontCenter
+[2021.04.04-04.56.44:181][  0]LogAudioMixer: Display: 3: LowFrequency
+[2021.04.04-04.56.44:181][  0]LogAudioMixer: Display: 4: BackLeft
+[2021.04.04-04.56.44:181][  0]LogAudioMixer: Display: 5: BackRight
+[2021.04.04-04.56.44:181][  0]LogAudioMixer: Display: 6: SideLeft
+[2021.04.04-04.56.44:181][  0]LogAudioMixer: Display: 7: SideRight
+[2021.04.04-04.56.45:292][  0]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2021.04.04-04.56.45:295][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.04-04.56.45:297][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.04-04.56.45:297][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.04-04.56.45:298][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.04-04.56.45:299][  0]LogInit: FAudioDevice initialized.
+[2021.04.04-04.56.45:300][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.04.04-04.56.45:408][  0]LogDerivedDataCache: Saved boot cache 0.11s 82MB C:/Users/miken/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.04.04-04.56.45:409][  0]LogInit: Texture streaming: Enabled
+[2021.04.04-04.56.45:434][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.04.04-04.56.45:434][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.04.04-04.56.45:445][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.04.04-04.56.45:488][  0]LogInit: Transaction tracking system initialized
+[2021.04.04-04.56.45:511][  0]BlueprintLog: New page: Editor Load
+[2021.04.04-04.56.45:586][  0]LocalizationService: Localization service is disabled
+[2021.04.04-04.56.45:752][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.04.04-04.56.45:752][  0]LogCook: Display: Mobile HDR setting 1
+[2021.04.04-04.56.45:882][  0]LogFileCache: Scanning file cache for directory 'C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/' took 0.01s
+[2021.04.04-04.56.46:093][  0]SourceControl: Source control is disabled
+[2021.04.04-04.56.46:093][  0]LogUnrealEdMisc: Loading editor; pre map load, took 9.847
+[2021.04.04-04.56.46:093][  0]Cmd: MAP LOAD FILE="../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.04.04-04.56.46:094][  0]LightingResults: New page: Lighting Build
+[2021.04.04-04.56.46:094][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.04.04-04.56.46:094][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.04-04.56.46:094][  0]MapCheck: New page: Map Check
+[2021.04.04-04.56.46:095][  0]LightingResults: New page: Lighting Build
+[2021.04.04-04.56.46:106][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000015AFB4D3C00), frame # 0
+[2021.04.04-04.56.46:106][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000015AFB51DA80), frame # 0
+[2021.04.04-04.56.46:107][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2021.04.04-04.56.46:239][  0]LogTemp: TIME TO COMPLETE 0
+[2021.04.04-04.56.46:241][  0]LogTemp: TIME TO COMPLETE 0
+[2021.04.04-04.56.46:246][  0]LogTemp: TIME TO COMPLETE 0
+[2021.04.04-04.56.47:231][  0]LogStaticMesh: Building static mesh tomatoSoupCan...
+[2021.04.04-04.56.47:242][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/StoreStuff/OtherFood/CannedFood/tomatoSoupCan.tomatoSoupCan
+[2021.04.04-04.56.47:245][  0]LogStaticMesh: Building static mesh slicedPeachesCan...
+[2021.04.04-04.56.47:256][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/StoreStuff/OtherFood/CannedFood/slicedPeachesCan.slicedPeachesCan
+[2021.04.04-04.56.47:259][  0]LogStaticMesh: Building static mesh refriedBeans...
+[2021.04.04-04.56.47:271][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/StoreStuff/OtherFood/CannedFood/refriedBeans.refriedBeans
+[2021.04.04-04.56.47:275][  0]LogStaticMesh: Building static mesh PotatoSoup...
+[2021.04.04-04.56.47:285][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/StoreStuff/OtherFood/CannedFood/PotatoSoup.PotatoSoup
+[2021.04.04-04.56.47:289][  0]LogStaticMesh: Building static mesh mushroomSoup...
+[2021.04.04-04.56.47:299][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/StoreStuff/OtherFood/CannedFood/mushroomSoup.mushroomSoup
+[2021.04.04-04.56.47:302][  0]LogStaticMesh: Building static mesh MinestroneSoup...
+[2021.04.04-04.56.47:314][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/StoreStuff/OtherFood/CannedFood/MinestroneSoup.MinestroneSoup
+[2021.04.04-04.56.47:318][  0]LogStaticMesh: Building static mesh ChiliCan...
+[2021.04.04-04.56.47:329][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/StoreStuff/OtherFood/CannedFood/ChiliCan.ChiliCan
+[2021.04.04-04.56.47:332][  0]LogStaticMesh: Building static mesh ChickenNoodleSoup...
+[2021.04.04-04.56.47:345][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/StoreStuff/OtherFood/CannedFood/ChickenNoodleSoup.ChickenNoodleSoup
+[2021.04.04-04.56.47:349][  0]LogStaticMesh: Building static mesh cannedCorn...
+[2021.04.04-04.56.47:360][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/StoreStuff/OtherFood/CannedFood/cannedCorn.cannedCorn
+[2021.04.04-04.56.47:364][  0]LogStaticMesh: Building static mesh blackBeans...
+[2021.04.04-04.56.47:382][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/StoreStuff/OtherFood/CannedFood/blackBeans.blackBeans
+[2021.04.04-04.56.47:385][  0]LogStaticMesh: Building static mesh BeefStew...
+[2021.04.04-04.56.47:396][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/StoreStuff/OtherFood/CannedFood/BeefStew.BeefStew
+[2021.04.04-04.56.47:399][  0]LogStaticMesh: Building static mesh wholeWheatCereal...
+[2021.04.04-04.56.47:405][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/StoreStuff/OtherFood/BoxedFood/wholeWheatCereal.wholeWheatCereal
+[2021.04.04-04.56.47:407][  0]LogStaticMesh: Building static mesh vanillaCakeMix...
+[2021.04.04-04.56.47:411][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/StoreStuff/OtherFood/BoxedFood/vanillaCakeMix.vanillaCakeMix
+[2021.04.04-04.56.47:413][  0]LogStaticMesh: Building static mesh StrawberryCakeMix...
+[2021.04.04-04.56.47:418][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/StoreStuff/OtherFood/BoxedFood/StrawberryCakeMix.StrawberryCakeMix
+[2021.04.04-04.56.47:420][  0]LogStaticMesh: Building static mesh pancakeMix...
+[2021.04.04-04.56.47:424][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/StoreStuff/OtherFood/BoxedFood/pancakeMix.pancakeMix
+[2021.04.04-04.56.47:428][  0]LogStaticMesh: Building static mesh RainbowCakeMix...
+[2021.04.04-04.56.47:433][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/StoreStuff/OtherFood/BoxedFood/RainbowCakeMix.RainbowCakeMix
+[2021.04.04-04.56.47:433][  0]LogStaticMesh: Building static mesh oatSquaresCereal...
+[2021.04.04-04.56.47:438][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/StoreStuff/OtherFood/BoxedFood/oatSquaresCereal.oatSquaresCereal
+[2021.04.04-04.56.47:440][  0]LogStaticMesh: Building static mesh lemonCakeMix...
+[2021.04.04-04.56.47:446][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/StoreStuff/OtherFood/BoxedFood/lemonCakeMix.lemonCakeMix
+[2021.04.04-04.56.47:449][  0]LogStaticMesh: Building static mesh honeyCirclesCereal...
+[2021.04.04-04.56.47:454][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/StoreStuff/OtherFood/BoxedFood/honeyCirclesCereal.honeyCirclesCereal
+[2021.04.04-04.56.47:456][  0]LogStaticMesh: Building static mesh FruityLoopies...
+[2021.04.04-04.56.47:461][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/StoreStuff/OtherFood/BoxedFood/FruityLoopies.FruityLoopies
+[2021.04.04-04.56.47:464][  0]LogStaticMesh: Building static mesh chocolateCakeMix...
+[2021.04.04-04.56.47:469][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/StoreStuff/OtherFood/BoxedFood/chocolateCakeMix.chocolateCakeMix
+[2021.04.04-04.56.47:827][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.04.04-04.56.47:828][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000015A8E217E00), frame # 0
+[2021.04.04-04.56.47:828][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000015A904456C0), frame # 0
+[2021.04.04-04.56.48:254][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2021.04.04-04.56.48:362][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2021.04.04-04.56.48:363][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.04.04-04.56.48:364][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.009ms to complete.
+[2021.04.04-04.56.48:364][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.271
+[2021.04.04-04.56.48:368][  0]LogUnrealEdMisc: Total Editor Startup Time, took 12.122
+[2021.04.04-04.56.48:525][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.04-04.56.48:534][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.04-04.56.48:543][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.04-04.56.48:551][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.04-04.56.48:568][  0]LogCollectionManager: Loaded 0 collections in 0.002954 seconds
+[2021.04.04-04.56.48:581][  0]LogFileCache: Scanning file cache for directory 'C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Collections/' took 0.00s
+[2021.04.04-04.56.48:581][  0]LogFileCache: Scanning file cache for directory 'C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Developers/miken/Collections/' took 0.00s
+[2021.04.04-04.56.48:581][  0]LogFileCache: Scanning file cache for directory 'C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Collections/' took 0.00s
+[2021.04.04-04.56.48:581][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 3436 classes and 824 folders.
+[2021.04.04-04.56.48:583][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.04.04-04.56.48:664][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.04.04-04.56.48:665][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2021.04.04-04.56.48:718][  0]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.04.04-04.56.48:719][  0]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.04.04-04.56.48:725][  0]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.04.04-04.56.49:009][  0]LogRenderer: Reallocating scene render targets to support 1340x676 Format 10 NumSamples 1 (Frame:1).
+[2021.04.04-04.56.49:204][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.04.04-04.56.49:204][  0]LogLoad: (Engine Initialization) Total time: 12.96 seconds
+[2021.04.04-04.56.49:204][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.04.04-04.56.49:253][  0]LogAssetRegistry: Asset discovery search completed in 7.3593 seconds
+[2021.04.04-04.56.49:257][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2021.04.04-04.56.49:296][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.04.04-04.56.49:339][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.04.04-04.57.05:102][931]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1P_Milk214)
+[2021.04.04-04.57.25:670][162]Cmd: DUPLICATE
+[2021.04.04-04.57.25:670][162]Cmd: ACTOR DUPLICATE
+[2021.04.04-04.57.47:252][442]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (groceryRefrigShelf2)
+[2021.04.04-04.57.51:244][675]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1P_Milk217)
+[2021.04.04-04.58.03:450][402]Cmd: TRANSACTION UNDO
+[2021.04.04-04.58.03:450][402]LogEditorTransaction: Undo Move Actors
+[2021.04.04-04.58.03:460][402]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.04.04-04.58.03:867][413]Cmd: TRANSACTION UNDO
+[2021.04.04-04.58.03:867][413]LogEditorTransaction: Undo Move Actors
+[2021.04.04-04.58.04:378][438]Cmd: TRANSACTION UNDO
+[2021.04.04-04.58.04:378][438]LogEditorTransaction: Undo Move Actors
+[2021.04.04-04.58.04:764][461]Cmd: TRANSACTION UNDO
+[2021.04.04-04.58.04:764][461]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.04-04.58.05:165][480]Cmd: TRANSACTION UNDO
+[2021.04.04-04.58.05:166][480]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2021.04.04-04.58.05:536][499]Cmd: TRANSACTION UNDO
+[2021.04.04-04.58.05:536][499]LogEditorTransaction: Undo Rotate Actors
+[2021.04.04-04.58.05:885][519]Cmd: TRANSACTION UNDO
+[2021.04.04-04.58.05:885][519]LogEditorTransaction: Undo Move Actors
+[2021.04.04-04.58.06:232][539]Cmd: TRANSACTION UNDO
+[2021.04.04-04.58.06:232][539]LogEditorTransaction: Undo Duplicate Actors
+[2021.04.04-04.58.06:657][540]Cmd: TRANSACTION UNDO
+[2021.04.04-04.58.06:657][540]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.04-04.59.24:453][192]Cmd: DUPLICATE
+[2021.04.04-04.59.24:453][192]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.06.49:399][979]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2021.04.04-05.06.52:221][979]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/ThirdPersonExampleMap_Auto194AE90B24F9437F92040439139AE4C24.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2021.04.04-05.06.52:229][979]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 2.848
+[2021.04.04-05.06.52:229][979]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.848
+[2021.04.04-05.06.54:248][ 92]Cmd: DUPLICATE
+[2021.04.04-05.06.54:248][ 92]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.07.23:694][845]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1P_Milk433)
+[2021.04.04-05.07.38:885][748]Cmd: DUPLICATE
+[2021.04.04-05.07.38:885][748]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.07.43:404][ 14]Cmd: DUPLICATE
+[2021.04.04-05.07.43:404][ 14]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.07.53:801][627]Cmd: DUPLICATE
+[2021.04.04-05.07.53:801][627]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.07.59:027][933]Cmd: DUPLICATE
+[2021.04.04-05.07.59:027][933]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.08.01:529][ 76]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (groceryRefrigShelf2)
+[2021.04.04-05.08.02:187][114]Cmd: TRANSACTION UNDO
+[2021.04.04-05.08.02:187][114]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.04-05.08.02:912][141]Cmd: TRANSACTION UNDO
+[2021.04.04-05.08.02:912][141]LogEditorTransaction: Undo Move Actors
+[2021.04.04-05.08.08:294][460]Cmd: DUPLICATE
+[2021.04.04-05.08.08:294][460]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.08.12:135][682]Cmd: DUPLICATE
+[2021.04.04-05.08.12:135][682]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.08.19:995][149]Cmd: DUPLICATE
+[2021.04.04-05.08.19:995][149]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.08.25:189][454]Cmd: DUPLICATE
+[2021.04.04-05.08.25:189][454]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.08.29:797][724]Cmd: DUPLICATE
+[2021.04.04-05.08.29:797][724]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.08.32:910][903]Cmd: DUPLICATE
+[2021.04.04-05.08.32:910][903]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.08.35:795][ 69]Cmd: DUPLICATE
+[2021.04.04-05.08.35:795][ 69]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.08.39:127][260]Cmd: DUPLICATE
+[2021.04.04-05.08.39:127][260]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.08.44:744][590]Cmd: DUPLICATE
+[2021.04.04-05.08.44:744][590]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.08.47:805][768]Cmd: TRANSACTION UNDO
+[2021.04.04-05.08.47:805][768]LogEditorTransaction: Undo Move Actors
+[2021.04.04-05.08.48:284][782]Cmd: TRANSACTION UNDO
+[2021.04.04-05.08.48:284][782]LogEditorTransaction: Undo Duplicate Actors
+[2021.04.04-05.08.48:956][792]Cmd: TRANSACTION UNDO
+[2021.04.04-05.08.48:956][792]LogEditorTransaction: Undo Move Actors
+[2021.04.04-05.08.52:255][988]Cmd: TRANSACTION REDO
+[2021.04.04-05.08.52:255][988]LogEditorTransaction: Redo Move Actors
+[2021.04.04-05.08.56:944][252]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1P_Milk433)
+[2021.04.04-05.09.02:667][591]Cmd: DUPLICATE
+[2021.04.04-05.09.02:667][591]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.09.08:877][951]Cmd: DUPLICATE
+[2021.04.04-05.09.08:877][951]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.09.34:423][464]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2021.04.04-05.09.37:327][464]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/ThirdPersonExampleMapDAF6D4EE4A8910D309A1DF875737FD3C.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2021.04.04-05.09.37:426][464]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
+[2021.04.04-05.09.37:426][464]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.04.04-05.09.54:951][513]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1P_Milk433)
+[2021.04.04-05.10.04:919][ 93]Cmd: DUPLICATE
+[2021.04.04-05.10.04:919][ 93]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.10.27:113][321]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2021.04.04-05.10.30:068][321]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/ThirdPersonExampleMapB07F765946F79765DDB8D3B6BC4487E8.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2021.04.04-05.10.30:184][321]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
+[2021.04.04-05.10.30:184][321]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.04.04-05.10.48:182][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton703)
+[2021.04.04-05.10.52:721][643]Cmd: DELETE
+[2021.04.04-05.10.52:721][643]Cmd: ACTOR DELETE
+[2021.04.04-05.10.52:890][643]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.10.52:891][643]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.10.52:891][643]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.10.52:891][643]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.10.52:891][643]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.10.52:891][643]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.10.52:892][643]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.10.52:892][643]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.10.52:905][643]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2021.04.04-05.10.52:907][643]LogEditorActor: Deleted 8 Actors (0.186 secs)
+[2021.04.04-05.10.54:021][709]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton715)
+[2021.04.04-05.10.57:627][909]Cmd: DELETE
+[2021.04.04-05.10.57:627][909]Cmd: ACTOR DELETE
+[2021.04.04-05.10.57:805][909]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.10.57:805][909]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.10.57:806][909]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.10.57:806][909]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.10.57:806][909]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.10.57:806][909]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.10.57:806][909]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.10.57:807][909]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.10.57:819][909]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2021.04.04-05.10.57:821][909]LogEditorActor: Deleted 8 Actors (0.194 secs)
+[2021.04.04-05.10.58:910][974]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton719)
+[2021.04.04-05.11.05:109][325]Cmd: DELETE
+[2021.04.04-05.11.05:109][325]Cmd: ACTOR DELETE
+[2021.04.04-05.11.05:275][325]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.05:275][325]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.05:275][325]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.05:275][325]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.05:276][325]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.05:276][325]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.05:276][325]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.05:276][325]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.05:276][325]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.05:276][325]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.05:277][325]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.05:290][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2021.04.04-05.11.05:292][325]LogEditorActor: Deleted 11 Actors (0.183 secs)
+[2021.04.04-05.11.07:015][427]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton699)
+[2021.04.04-05.11.10:389][618]Cmd: DELETE
+[2021.04.04-05.11.10:389][618]Cmd: ACTOR DELETE
+[2021.04.04-05.11.10:563][618]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.10:563][618]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.10:563][618]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.10:563][618]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.10:564][618]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.10:564][618]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.10:578][618]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2021.04.04-05.11.10:580][618]LogEditorActor: Deleted 6 Actors (0.191 secs)
+[2021.04.04-05.11.11:193][654]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton685)
+[2021.04.04-05.11.13:143][766]Cmd: DELETE
+[2021.04.04-05.11.13:143][766]Cmd: ACTOR DELETE
+[2021.04.04-05.11.13:315][766]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.13:315][766]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.13:315][766]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.13:329][766]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2021.04.04-05.11.13:331][766]LogEditorActor: Deleted 3 Actors (0.187 secs)
+[2021.04.04-05.11.19:287][120]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton505)
+[2021.04.04-05.11.24:864][381]Cmd: DELETE
+[2021.04.04-05.11.24:864][381]Cmd: ACTOR DELETE
+[2021.04.04-05.11.25:068][381]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.25:069][381]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.25:069][381]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.25:069][381]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.25:069][381]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.25:069][381]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.25:070][381]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.25:070][381]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.25:070][381]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.25:070][381]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.25:070][381]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.25:071][381]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.25:071][381]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.25:071][381]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.25:071][381]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.25:088][381]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2021.04.04-05.11.25:090][381]LogEditorActor: Deleted 15 Actors (0.225 secs)
+[2021.04.04-05.11.26:189][444]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton507)
+[2021.04.04-05.11.29:271][576]Cmd: DELETE
+[2021.04.04-05.11.29:271][576]Cmd: ACTOR DELETE
+[2021.04.04-05.11.29:447][576]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.29:447][576]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.29:447][576]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.29:447][576]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.29:448][576]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.29:448][576]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.29:448][576]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.29:448][576]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.29:466][576]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2021.04.04-05.11.29:468][576]LogEditorActor: Deleted 8 Actors (0.197 secs)
+[2021.04.04-05.11.30:603][642]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton521)
+[2021.04.04-05.11.34:175][837]Cmd: DELETE
+[2021.04.04-05.11.34:175][837]Cmd: ACTOR DELETE
+[2021.04.04-05.11.34:344][837]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.34:344][837]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.34:345][837]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.34:345][837]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.34:363][837]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2021.04.04-05.11.34:364][837]LogEditorActor: Deleted 4 Actors (0.190 secs)
+[2021.04.04-05.11.36:214][944]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton506)
+[2021.04.04-05.11.39:782][131]Cmd: DELETE
+[2021.04.04-05.11.39:782][131]Cmd: ACTOR DELETE
+[2021.04.04-05.11.39:961][131]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.39:961][131]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.39:961][131]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.39:961][131]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.39:962][131]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.39:962][131]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.39:982][131]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2021.04.04-05.11.39:984][131]LogEditorActor: Deleted 6 Actors (0.202 secs)
+[2021.04.04-05.11.42:285][266]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton533)
+[2021.04.04-05.11.46:926][499]Cmd: DELETE
+[2021.04.04-05.11.46:926][499]Cmd: ACTOR DELETE
+[2021.04.04-05.11.47:125][499]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.47:125][499]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.47:126][499]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.47:126][499]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.47:126][499]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.47:126][499]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.47:126][499]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.47:126][499]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.47:153][499]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2021.04.04-05.11.47:154][499]LogEditorActor: Deleted 8 Actors (0.229 secs)
+[2021.04.04-05.11.48:153][557]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (groceryRefrigShelf4)
+[2021.04.04-05.11.48:721][586]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton534)
+[2021.04.04-05.11.56:636][ 21]Cmd: DELETE
+[2021.04.04-05.11.56:636][ 21]Cmd: ACTOR DELETE
+[2021.04.04-05.11.56:846][ 21]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.56:847][ 21]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.56:847][ 21]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.56:847][ 21]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.56:847][ 21]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.56:847][ 21]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.56:848][ 21]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.56:848][ 21]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.56:868][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2021.04.04-05.11.56:870][ 21]LogEditorActor: Deleted 8 Actors (0.234 secs)
+[2021.04.04-05.11.57:627][ 65]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton555)
+[2021.04.04-05.11.59:206][155]Cmd: DELETE
+[2021.04.04-05.11.59:206][155]Cmd: ACTOR DELETE
+[2021.04.04-05.11.59:392][155]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.11.59:412][155]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2021.04.04-05.11.59:414][155]LogEditorActor: Deleted 1 Actors (0.207 secs)
+[2021.04.04-05.12.02:568][341]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton553)
+[2021.04.04-05.12.03:657][401]Cmd: DELETE
+[2021.04.04-05.12.03:657][401]Cmd: ACTOR DELETE
+[2021.04.04-05.12.03:879][401]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.03:900][401]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2021.04.04-05.12.03:901][401]LogEditorActor: Deleted 1 Actors (0.245 secs)
+[2021.04.04-05.12.06:379][547]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (groceryRefrigShelf4)
+[2021.04.04-05.12.07:068][583]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton556)
+[2021.04.04-05.12.10:998][786]Cmd: DELETE
+[2021.04.04-05.12.10:998][786]Cmd: ACTOR DELETE
+[2021.04.04-05.12.11:206][786]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.11:206][786]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.11:206][786]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.11:207][786]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.11:207][786]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.11:207][786]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.11:207][786]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.11:229][786]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2021.04.04-05.12.11:230][786]LogEditorActor: Deleted 7 Actors (0.232 secs)
+[2021.04.04-05.12.15:140][ 14]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton557)
+[2021.04.04-05.12.17:964][148]Cmd: DELETE
+[2021.04.04-05.12.17:964][148]Cmd: ACTOR DELETE
+[2021.04.04-05.12.18:167][148]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.18:167][148]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.18:167][148]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.18:168][148]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.18:168][148]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.18:168][148]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.18:168][148]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.18:199][148]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.04.04-05.12.18:201][148]LogEditorActor: Deleted 7 Actors (0.237 secs)
+[2021.04.04-05.12.19:274][211]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton558)
+[2021.04.04-05.12.22:263][356]Cmd: DELETE
+[2021.04.04-05.12.22:263][356]Cmd: ACTOR DELETE
+[2021.04.04-05.12.22:462][356]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.22:463][356]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.22:463][356]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.22:463][356]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.22:463][356]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.22:463][356]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.22:464][356]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.22:486][356]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2021.04.04-05.12.22:488][356]LogEditorActor: Deleted 7 Actors (0.226 secs)
+[2021.04.04-05.12.44:467][660]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton831)
+[2021.04.04-05.12.47:544][821]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton843)
+[2021.04.04-05.12.50:751][986]Cmd: DELETE
+[2021.04.04-05.12.50:751][986]Cmd: ACTOR DELETE
+[2021.04.04-05.12.50:939][986]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.50:939][986]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.50:939][986]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.50:939][986]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.50:940][986]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.50:967][986]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2021.04.04-05.12.50:969][986]LogEditorActor: Deleted 5 Actors (0.219 secs)
+[2021.04.04-05.12.52:134][ 54]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton842)
+[2021.04.04-05.12.55:606][217]Cmd: DELETE
+[2021.04.04-05.12.55:606][217]Cmd: ACTOR DELETE
+[2021.04.04-05.12.55:799][217]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.55:799][217]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.55:799][217]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.55:799][217]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.55:800][217]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.55:800][217]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.55:800][217]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.55:800][217]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.12.55:824][217]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.04.04-05.12.55:825][217]LogEditorActor: Deleted 8 Actors (0.219 secs)
+[2021.04.04-05.12.56:763][272]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton863)
+[2021.04.04-05.13.01:067][489]Cmd: DELETE
+[2021.04.04-05.13.01:067][489]Cmd: ACTOR DELETE
+[2021.04.04-05.13.01:251][489]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.01:251][489]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.01:251][489]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.01:251][489]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.01:251][489]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.01:252][489]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.01:252][489]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.01:281][489]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2021.04.04-05.13.01:283][489]LogEditorActor: Deleted 7 Actors (0.216 secs)
+[2021.04.04-05.13.02:307][549]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton844)
+[2021.04.04-05.13.04:649][657]Cmd: DELETE
+[2021.04.04-05.13.04:649][657]Cmd: ACTOR DELETE
+[2021.04.04-05.13.04:851][657]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.04:852][657]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.04:852][657]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.04:852][657]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.04:852][657]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.04:852][657]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.04:853][657]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.04:882][657]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2021.04.04-05.13.04:884][657]LogEditorActor: Deleted 7 Actors (0.235 secs)
+[2021.04.04-05.13.06:565][756]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton830)
+[2021.04.04-05.13.08:912][884]Cmd: DELETE
+[2021.04.04-05.13.08:912][884]Cmd: ACTOR DELETE
+[2021.04.04-05.13.09:129][884]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.09:129][884]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.09:129][884]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.09:130][884]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.09:130][884]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.09:159][884]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.04.04-05.13.09:161][884]LogEditorActor: Deleted 5 Actors (0.249 secs)
+[2021.04.04-05.13.10:121][941]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton838)
+[2021.04.04-05.13.11:671][ 23]Cmd: DELETE
+[2021.04.04-05.13.11:671][ 23]Cmd: ACTOR DELETE
+[2021.04.04-05.13.11:852][ 23]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.11:853][ 23]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.11:853][ 23]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.11:853][ 23]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.11:880][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2021.04.04-05.13.11:881][ 23]LogEditorActor: Deleted 4 Actors (0.210 secs)
+[2021.04.04-05.13.22:018][608]Cmd: DELETE
+[2021.04.04-05.13.22:018][608]Cmd: ACTOR DELETE
+[2021.04.04-05.13.22:219][608]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.22:219][608]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.22:219][608]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.22:219][608]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.22:220][608]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.22:220][608]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.22:220][608]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.22:220][608]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.22:220][608]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.22:249][608]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.04.04-05.13.22:252][608]LogEditorActor: Deleted 9 Actors (0.233 secs)
+[2021.04.04-05.13.26:896][886]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton287)
+[2021.04.04-05.13.29:448][ 18]Cmd: DELETE
+[2021.04.04-05.13.29:448][ 18]Cmd: ACTOR DELETE
+[2021.04.04-05.13.29:660][ 18]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.29:660][ 18]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.29:661][ 18]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.29:661][ 18]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.29:661][ 18]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.29:662][ 18]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.29:662][ 18]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.29:662][ 18]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.29:662][ 18]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.29:691][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2021.04.04-05.13.29:693][ 18]LogEditorActor: Deleted 9 Actors (0.245 secs)
+[2021.04.04-05.13.30:961][ 94]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton278)
+[2021.04.04-05.13.33:330][229]Cmd: DELETE
+[2021.04.04-05.13.33:330][229]Cmd: ACTOR DELETE
+[2021.04.04-05.13.33:537][229]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.33:537][229]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.33:537][229]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.33:569][229]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.04.04-05.13.33:570][229]LogEditorActor: Deleted 3 Actors (0.240 secs)
+[2021.04.04-05.13.34:625][292]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton286)
+[2021.04.04-05.13.35:339][331]Cmd: DELETE
+[2021.04.04-05.13.35:339][331]Cmd: ACTOR DELETE
+[2021.04.04-05.13.35:527][331]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.35:528][331]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.35:557][331]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2021.04.04-05.13.35:558][331]LogEditorActor: Deleted 2 Actors (0.220 secs)
+[2021.04.04-05.13.36:447][384]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton271)
+[2021.04.04-05.13.39:623][548]Cmd: DELETE
+[2021.04.04-05.13.39:623][548]Cmd: ACTOR DELETE
+[2021.04.04-05.13.39:819][548]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.39:820][548]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.39:820][548]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.39:820][548]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.39:820][548]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.39:820][548]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.39:821][548]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.39:821][548]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.39:821][548]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.39:821][548]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.39:853][548]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2021.04.04-05.13.39:855][548]LogEditorActor: Deleted 10 Actors (0.231 secs)
+[2021.04.04-05.13.41:144][625]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton272)
+[2021.04.04-05.13.41:835][664]Cmd: DELETE
+[2021.04.04-05.13.41:835][664]Cmd: ACTOR DELETE
+[2021.04.04-05.13.42:029][664]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.42:066][664]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.04.04-05.13.42:068][664]LogEditorActor: Deleted 1 Actors (0.232 secs)
+[2021.04.04-05.13.43:071][724]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton268)
+[2021.04.04-05.13.43:796][765]Cmd: DELETE
+[2021.04.04-05.13.43:796][765]Cmd: ACTOR DELETE
+[2021.04.04-05.13.43:968][765]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.44:000][765]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2021.04.04-05.13.44:002][765]LogEditorActor: Deleted 1 Actors (0.206 secs)
+[2021.04.04-05.13.49:688][106]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton262)
+[2021.04.04-05.13.50:227][136]Cmd: DELETE
+[2021.04.04-05.13.50:227][136]Cmd: ACTOR DELETE
+[2021.04.04-05.13.50:431][136]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.50:467][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2021.04.04-05.13.50:469][136]LogEditorActor: Deleted 1 Actors (0.241 secs)
+[2021.04.04-05.13.51:755][213]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton260)
+[2021.04.04-05.13.51:904][220]Cmd: DELETE
+[2021.04.04-05.13.51:904][220]Cmd: ACTOR DELETE
+[2021.04.04-05.13.52:110][220]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.52:153][220]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2021.04.04-05.13.52:154][220]LogEditorActor: Deleted 1 Actors (0.251 secs)
+[2021.04.04-05.13.52:257][226]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton259)
+[2021.04.04-05.13.52:401][233]Cmd: DELETE
+[2021.04.04-05.13.52:401][233]Cmd: ACTOR DELETE
+[2021.04.04-05.13.52:587][233]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.52:624][233]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2021.04.04-05.13.52:625][233]LogEditorActor: Deleted 1 Actors (0.225 secs)
+[2021.04.04-05.13.52:984][254]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton258)
+[2021.04.04-05.13.53:078][258]Cmd: DELETE
+[2021.04.04-05.13.53:078][258]Cmd: ACTOR DELETE
+[2021.04.04-05.13.53:258][258]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.53:299][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.04.04-05.13.53:300][258]LogEditorActor: Deleted 1 Actors (0.221 secs)
+[2021.04.04-05.13.53:307][258]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (wholeMilkCarton258)
+[2021.04.04-05.13.53:307][258]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (wholeMilkCarton258)
+[2021.04.04-05.13.53:716][282]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton257)
+[2021.04.04-05.13.53:864][289]Cmd: DELETE
+[2021.04.04-05.13.53:864][289]Cmd: ACTOR DELETE
+[2021.04.04-05.13.54:049][289]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.54:084][289]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2021.04.04-05.13.54:085][289]LogEditorActor: Deleted 1 Actors (0.221 secs)
+[2021.04.04-05.13.54:558][317]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton256)
+[2021.04.04-05.13.54:685][323]Cmd: DELETE
+[2021.04.04-05.13.54:685][323]Cmd: ACTOR DELETE
+[2021.04.04-05.13.54:870][323]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.54:909][323]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2021.04.04-05.13.54:910][323]LogEditorActor: Deleted 1 Actors (0.225 secs)
+[2021.04.04-05.13.55:115][334]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton254)
+[2021.04.04-05.13.55:333][345]Cmd: DELETE
+[2021.04.04-05.13.55:333][345]Cmd: ACTOR DELETE
+[2021.04.04-05.13.55:507][345]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.55:546][345]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2021.04.04-05.13.55:547][345]LogEditorActor: Deleted 1 Actors (0.213 secs)
+[2021.04.04-05.13.55:624][349]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton253)
+[2021.04.04-05.13.55:828][359]Cmd: DELETE
+[2021.04.04-05.13.55:828][359]Cmd: ACTOR DELETE
+[2021.04.04-05.13.56:010][359]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.56:054][359]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2021.04.04-05.13.56:055][359]LogEditorActor: Deleted 1 Actors (0.227 secs)
+[2021.04.04-05.13.56:118][362]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (groceryRefrigShelf4)
+[2021.04.04-05.13.56:708][395]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton250)
+[2021.04.04-05.13.57:033][412]Cmd: DELETE
+[2021.04.04-05.13.57:033][412]Cmd: ACTOR DELETE
+[2021.04.04-05.13.57:212][412]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.13.57:256][412]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2021.04.04-05.13.57:257][412]LogEditorActor: Deleted 1 Actors (0.224 secs)
+[2021.04.04-05.14.01:140][644]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton248)
+[2021.04.04-05.14.03:825][793]Cmd: DELETE
+[2021.04.04-05.14.03:825][793]Cmd: ACTOR DELETE
+[2021.04.04-05.14.04:003][793]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.14.04:004][793]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.14.04:004][793]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.14.04:005][793]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.14.04:005][793]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.14.04:005][793]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.14.04:043][793]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2021.04.04-05.14.04:044][793]LogEditorActor: Deleted 6 Actors (0.220 secs)
+[2021.04.04-05.14.04:799][838]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton231)
+[2021.04.04-05.14.07:104][937]Cmd: DELETE
+[2021.04.04-05.14.07:104][937]Cmd: ACTOR DELETE
+[2021.04.04-05.14.07:291][937]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.14.07:292][937]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.14.07:292][937]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.14.07:292][937]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.14.07:292][937]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.14.07:335][937]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2021.04.04-05.14.07:337][937]LogEditorActor: Deleted 5 Actors (0.233 secs)
+[2021.04.04-05.14.11:176][167]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton233)
+[2021.04.04-05.14.13:149][277]Cmd: DELETE
+[2021.04.04-05.14.13:149][277]Cmd: ACTOR DELETE
+[2021.04.04-05.14.13:329][277]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.14.13:329][277]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.14.13:329][277]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.14.13:329][277]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.14.13:364][277]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2021.04.04-05.14.13:365][277]LogEditorActor: Deleted 4 Actors (0.217 secs)
+[2021.04.04-05.14.14:136][323]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton221)
+[2021.04.04-05.14.16:163][439]Cmd: DELETE
+[2021.04.04-05.14.16:163][439]Cmd: ACTOR DELETE
+[2021.04.04-05.14.16:328][439]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.14.16:328][439]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.14.16:329][439]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.14.16:371][439]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2021.04.04-05.14.16:372][439]LogEditorActor: Deleted 3 Actors (0.209 secs)
+[2021.04.04-05.14.16:975][475]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton227)
+[2021.04.04-05.14.17:324][494]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton227)
+[2021.04.04-05.14.18:604][570]Cmd: DELETE
+[2021.04.04-05.14.18:604][570]Cmd: ACTOR DELETE
+[2021.04.04-05.14.18:790][570]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.14.18:836][570]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2021.04.04-05.14.18:838][570]LogEditorActor: Deleted 1 Actors (0.233 secs)
+[2021.04.04-05.14.19:984][638]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton247)
+[2021.04.04-05.14.23:103][809]Cmd: DELETE
+[2021.04.04-05.14.23:103][809]Cmd: ACTOR DELETE
+[2021.04.04-05.14.23:297][809]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.14.23:298][809]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.14.23:298][809]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.14.23:298][809]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.14.23:299][809]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.14.23:299][809]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.14.23:299][809]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.14.23:300][809]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.14.23:342][809]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2021.04.04-05.14.23:343][809]LogEditorActor: Deleted 8 Actors (0.239 secs)
+[2021.04.04-05.14.24:196][860]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wholeMilkCarton217)
+[2021.04.04-05.14.24:679][887]Cmd: DELETE
+[2021.04.04-05.14.24:679][887]Cmd: ACTOR DELETE
+[2021.04.04-05.14.24:857][887]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.14.24:896][887]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2021.04.04-05.14.24:898][887]LogEditorActor: Deleted 1 Actors (0.219 secs)
+[2021.04.04-05.14.46:064][571]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\miken\Documents\GIMM 480\2P_Milk.fbx)
+[2021.04.04-05.14.46:077][571]LogFbx: Loading FBX Scene from C:\Users\miken\Documents\GIMM 480\2P_Milk.fbx
+[2021.04.04-05.14.46:083][571]LogFbx: FBX Scene Loaded Succesfully
+[2021.04.04-05.14.47:514][571]LogSlate: Window 'FBX Import Options' being destroyed
+[2021.04.04-05.14.47:754][571]LogTexture: Display: Building textures: 2PmilkCarton (AutoDXT, 792X612)
+[2021.04.04-05.14.47:769][571]LogMaterial: Display: Missing cached shader map for material 2PmilkLabel, compiling. 
+[2021.04.04-05.14.47:882][571]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 15
+[2021.04.04-05.14.47:882][571]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2021.04.04-05.14.47:882][571]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 11
+[2021.04.04-05.14.47:882][571]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 9
+[2021.04.04-05.14.47:882][571]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 7
+[2021.04.04-05.14.47:882][571]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2021.04.04-05.14.47:882][571]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.04.04-05.14.47:882][571]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2021.04.04-05.14.47:882][571]LogFbx: Display: Triangulating static mesh Cube
+[2021.04.04-05.14.48:586][571]LogStaticMesh: Building static mesh 2P_Milk...
+[2021.04.04-05.14.48:603][571]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/StoreStuff/OtherFood/2P_Milk.2P_Milk
+[2021.04.04-05.14.48:624][571]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.04.04-05.14.48:808][571]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.04.04-05.14.51:216][700]LogSlate: Window 'Message Log' being destroyed
+[2021.04.04-05.14.51:228][700]LogSlate: Window 'Message Log' being destroyed
+[2021.04.04-05.14.54:621][892]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/2P_MilkD559013F467F2D15F8ABB289F5F4CDD0.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/2P_Milk.uasset'
+[2021.04.04-05.14.54:637][892]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/2PmilkCarton1824890B43376A935E9563A99EB63463.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/2PmilkCarton.uasset'
+[2021.04.04-05.14.54:654][892]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/2PmilkLabel73DC719C4A986B90276FA7B4530F7202.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/2PmilkLabel.uasset'
+[2021.04.04-05.14.54:676][892]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.04-05.14.54:676][892]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/OtherFood/2P_Milk.2P_Milk
+[2021.04.04-05.14.54:676][892]LogContentValidation: Display: Validating Texture2D /Game/Assets/StoreStuff/OtherFood/2PmilkCarton.2PmilkCarton
+[2021.04.04-05.14.54:676][892]LogContentValidation: Display: Validating Material /Game/Assets/StoreStuff/OtherFood/2PmilkLabel.2PmilkLabel
+[2021.04.04-05.15.04:209][450]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/2PmilkLabel427C7EA34A63C605E2418B8B6568075A.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Materials/2PmilkLabel.uasset'
+[2021.04.04-05.15.04:598][450]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2021.04.04-05.15.04:656][450]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2021.04.04-05.15.04:697][450]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2021.04.04-05.15.04:737][450]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/2P_Milk9E52B6F8415E000CAACFD3AD21ED831B.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/2P_Milk.uasset'
+[2021.04.04-05.15.05:211][450]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.04-05.15.05:211][450]LogContentValidation: Display: Validating Material /Game/Assets/StoreStuff/Materials/2PmilkLabel.2PmilkLabel
+[2021.04.04-05.15.05:211][450]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/OtherFood/2P_Milk.2P_Milk
+[2021.04.04-05.15.07:931][596]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/2PmilkCarton7137D0B14213A9410CCD859515070B26.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Textures/2PmilkCarton.uasset'
+[2021.04.04-05.15.08:276][596]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.04.04-05.15.08:327][596]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2021.04.04-05.15.08:369][596]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2021.04.04-05.15.08:394][596]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/2PmilkLabel9C55EC6F487A286886B0EF95F4242E06.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Materials/2PmilkLabel.uasset'
+[2021.04.04-05.15.08:885][596]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.04-05.15.08:885][596]LogContentValidation: Display: Validating Texture2D /Game/Assets/StoreStuff/Textures/2PmilkCarton.2PmilkCarton
+[2021.04.04-05.15.08:885][596]LogContentValidation: Display: Validating Material /Game/Assets/StoreStuff/Materials/2PmilkLabel.2PmilkLabel
+[2021.04.04-05.15.09:553][632]LogActorFactory: Actor Factory created 2P_Milk
+[2021.04.04-05.15.10:156][666]LogActorFactory: Actor Factory created 2P_Milk
+[2021.04.04-05.15.17:897][125]Cmd: DELETE
+[2021.04.04-05.15.17:897][125]Cmd: ACTOR DELETE
+[2021.04.04-05.15.18:068][125]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.15.18:118][125]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2021.04.04-05.15.18:120][125]LogEditorActor: Deleted 1 Actors (0.223 secs)
+[2021.04.04-05.15.21:843][337]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2021.04.04-05.15.22:850][337]LogSlate: Window 'Delete Assets' being destroyed
+[2021.04.04-05.15.23:552][337]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Assets/StoreStuff/OtherFood/2P_Milk.2P_Milk
+[2021.04.04-05.15.25:260][337]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2021.04.04-05.15.25:276][337]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2021.04.04-05.15.25:290][337]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2021.04.04-05.15.38:829][777]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\miken\Documents\GIMM 480\Skim_Milk.fbx)
+[2021.04.04-05.15.38:838][777]LogFbx: Loading FBX Scene from C:\Users\miken\Documents\GIMM 480\Skim_Milk.fbx
+[2021.04.04-05.15.38:845][777]LogFbx: FBX Scene Loaded Succesfully
+[2021.04.04-05.15.40:966][777]LogSlate: Window 'FBX Import Options' being destroyed
+[2021.04.04-05.15.41:011][777]LogTexture: Display: Building textures: skimMilkCarton (AutoDXT, 792X612)
+[2021.04.04-05.15.41:024][777]LogMaterial: Display: Missing cached shader map for material skimMilk, compiling. 
+[2021.04.04-05.15.41:133][777]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 15
+[2021.04.04-05.15.41:133][777]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2021.04.04-05.15.41:133][777]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 11
+[2021.04.04-05.15.41:133][777]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 9
+[2021.04.04-05.15.41:133][777]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 7
+[2021.04.04-05.15.41:133][777]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2021.04.04-05.15.41:133][777]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.04.04-05.15.41:133][777]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2021.04.04-05.15.41:133][777]LogFbx: Display: Triangulating static mesh Cube
+[2021.04.04-05.15.41:438][777]LogStaticMesh: Building static mesh Skim_Milk...
+[2021.04.04-05.15.41:454][777]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/StoreStuff/OtherFood/Skim_Milk.Skim_Milk
+[2021.04.04-05.15.41:473][777]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.04.04-05.16.06:508][216]LogSlate: Window 'Message Log' being destroyed
+[2021.04.04-05.16.06:514][216]LogSlate: Window 'Message Log' being destroyed
+[2021.04.04-05.16.10:746][467]LogActorFactory: Actor Factory created Skim_Milk
+[2021.04.04-05.16.11:748][525]LogActorFactory: Actor Factory created Skim_Milk
+[2021.04.04-05.16.15:300][726]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Skim_Milk9CC085BE4A53DC0888802EBC5CFEAF0F.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/Skim_Milk.uasset'
+[2021.04.04-05.16.15:319][726]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/skimMilk457D99E2446EED2811AAD0AA735D1FB1.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/skimMilk.uasset'
+[2021.04.04-05.16.15:339][726]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/skimMilkCartonF0D8DF1B42C5714502AAD9B7D1774934.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/skimMilkCarton.uasset'
+[2021.04.04-05.16.15:365][726]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.04-05.16.15:365][726]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/OtherFood/Skim_Milk.Skim_Milk
+[2021.04.04-05.16.15:365][726]LogContentValidation: Display: Validating Material /Game/Assets/StoreStuff/OtherFood/skimMilk.skimMilk
+[2021.04.04-05.16.15:365][726]LogContentValidation: Display: Validating Texture2D /Game/Assets/StoreStuff/OtherFood/skimMilkCarton.skimMilkCarton
+[2021.04.04-05.16.15:928][760]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Skim_Milk)
+[2021.04.04-05.18.45:131][702]Cmd: DUPLICATE
+[2021.04.04-05.18.45:131][702]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.18.49:407][953]Cmd: DUPLICATE
+[2021.04.04-05.18.49:407][953]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.18.57:478][425]Cmd: DUPLICATE
+[2021.04.04-05.18.57:478][425]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.19.06:047][932]Cmd: DUPLICATE
+[2021.04.04-05.19.06:047][932]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.19.11:978][281]Cmd: DUPLICATE
+[2021.04.04-05.19.11:978][281]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.19.24:807][ 44]Cmd: DUPLICATE
+[2021.04.04-05.19.24:807][ 44]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.19.30:160][358]Cmd: DUPLICATE
+[2021.04.04-05.19.30:161][358]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.19.33:607][560]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Skim_Milk18)
+[2021.04.04-05.19.35:371][663]Cmd: TRANSACTION UNDO
+[2021.04.04-05.19.35:371][663]LogEditorTransaction: Undo Move Actors
+[2021.04.04-05.19.35:631][670]Cmd: TRANSACTION UNDO
+[2021.04.04-05.19.35:631][670]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.04-05.19.51:619][615]Cmd: DUPLICATE
+[2021.04.04-05.19.51:620][615]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.20.11:780][817]Cmd: DUPLICATE
+[2021.04.04-05.20.11:780][817]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.20.16:055][ 68]Cmd: DUPLICATE
+[2021.04.04-05.20.16:055][ 68]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.20.25:325][617]Cmd: DUPLICATE
+[2021.04.04-05.20.25:325][617]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.20.28:304][788]Cmd: DUPLICATE
+[2021.04.04-05.20.28:304][788]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.20.37:126][310]Cmd: DUPLICATE
+[2021.04.04-05.20.37:127][310]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.20.39:672][456]Cmd: DUPLICATE
+[2021.04.04-05.20.39:672][456]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.20.42:040][591]Cmd: DUPLICATE
+[2021.04.04-05.20.42:040][591]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.20.45:372][785]Cmd: DUPLICATE
+[2021.04.04-05.20.45:372][785]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.20.50:744][102]Cmd: DUPLICATE
+[2021.04.04-05.20.50:744][102]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.20.52:934][226]Cmd: DUPLICATE
+[2021.04.04-05.20.52:934][226]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.20.58:062][527]Cmd: DUPLICATE
+[2021.04.04-05.20.58:062][527]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.21.01:335][716]Cmd: DUPLICATE
+[2021.04.04-05.21.01:335][716]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.21.03:896][863]Cmd: DUPLICATE
+[2021.04.04-05.21.03:896][863]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.21.07:040][ 43]Cmd: DUPLICATE
+[2021.04.04-05.21.07:041][ 43]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.21.09:568][187]Cmd: DUPLICATE
+[2021.04.04-05.21.09:568][187]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.21.12:249][340]Cmd: DUPLICATE
+[2021.04.04-05.21.12:249][340]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.21.22:170][929]Cmd: DUPLICATE
+[2021.04.04-05.21.22:170][929]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.21.24:504][ 62]Cmd: DUPLICATE
+[2021.04.04-05.21.24:504][ 62]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.21.27:376][229]Cmd: DELETE
+[2021.04.04-05.21.27:376][229]Cmd: ACTOR DELETE
+[2021.04.04-05.21.27:535][229]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.21.27:535][229]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.21.27:536][229]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.04-05.21.27:567][229]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2021.04.04-05.21.27:572][229]LogEditorActor: Deleted 3 Actors (0.195 secs)
+[2021.04.04-05.22.36:121][820]Cmd: DUPLICATE
+[2021.04.04-05.22.36:121][820]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.23.17:087][213]Cmd: DUPLICATE
+[2021.04.04-05.23.17:087][213]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.23.52:535][221]Cmd: DUPLICATE
+[2021.04.04-05.23.52:535][221]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.24.04:935][882]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2021.04.04-05.24.08:260][882]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/ThirdPersonExampleMap554BFA1B49D657634F6CBB9919FCD706.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2021.04.04-05.24.08:346][882]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
+[2021.04.04-05.24.08:346][882]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.04.04-05.25.43:535][488]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Skim_Milk289)
+[2021.04.04-05.25.45:218][586]Cmd: DUPLICATE
+[2021.04.04-05.25.45:218][586]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.27.36:128][208]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (groceryRefrigShelf)
+[2021.04.04-05.27.36:667][234]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (groceryRefrigShelf)
+[2021.04.04-05.27.37:837][300]Cmd: TRANSACTION UNDO
+[2021.04.04-05.27.37:837][300]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2021.04.04-05.27.38:507][324]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (groceryRefrigShelf)
+[2021.04.04-05.27.39:073][352]Cmd: TRANSACTION UNDO
+[2021.04.04-05.27.39:073][352]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.04-05.28.01:458][644]Cmd: DUPLICATE
+[2021.04.04-05.28.01:458][644]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.28.07:056][955]Cmd: DUPLICATE
+[2021.04.04-05.28.07:056][955]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.28.13:479][309]Cmd: DUPLICATE
+[2021.04.04-05.28.13:479][309]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.28.15:984][449]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Skim_Milk438)
+[2021.04.04-05.28.16:729][489]Cmd: TRANSACTION UNDO
+[2021.04.04-05.28.16:729][489]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.04-05.28.20:462][688]Cmd: DUPLICATE
+[2021.04.04-05.28.20:462][688]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.28.26:935][ 55]Cmd: DUPLICATE
+[2021.04.04-05.28.26:935][ 55]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.28.29:768][204]Cmd: DUPLICATE
+[2021.04.04-05.28.29:768][204]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.28.37:000][618]Cmd: DUPLICATE
+[2021.04.04-05.28.37:000][618]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.28.39:507][749]Cmd: DUPLICATE
+[2021.04.04-05.28.39:507][749]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.28.43:077][944]Cmd: DUPLICATE
+[2021.04.04-05.28.43:078][944]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.28.52:947][524]Cmd: DUPLICATE
+[2021.04.04-05.28.52:947][524]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.28.55:787][685]Cmd: DUPLICATE
+[2021.04.04-05.28.55:787][685]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.28.59:320][885]Cmd: DUPLICATE
+[2021.04.04-05.28.59:320][885]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.29.21:306][191]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Skim_Milk433)
+[2021.04.04-05.34.05:041][184]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2021.04.04-05.34.08:212][184]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/ThirdPersonExampleMap_Auto2590BEDB3457C292B84E70580A376429D.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2021.04.04-05.34.08:221][184]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 3.205
+[2021.04.04-05.34.08:221][184]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.205
+[2021.04.04-05.35.45:262][994]Cmd: DUPLICATE
+[2021.04.04-05.35.45:262][994]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.35.52:368][398]Cmd: DUPLICATE
+[2021.04.04-05.35.52:368][398]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.37.08:190][903]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Skim_Milk433)
+[2021.04.04-05.37.27:240][ 30]Cmd: DUPLICATE
+[2021.04.04-05.37.27:240][ 30]Cmd: ACTOR DUPLICATE
+[2021.04.04-05.38.00:865][965]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2021.04.04-05.38.03:939][965]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/ThirdPersonExampleMap33351D914BF5CBC830C8598BE82537F5.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2021.04.04-05.38.04:016][965]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
+[2021.04.04-05.38.04:016][965]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.04.04-05.38.21:350][996]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2021.04.04-05.38.24:410][996]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/ThirdPersonExampleMapC3DFEB134A3F6038C6DE3899EB7D014F.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2021.04.04-05.38.24:479][996]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
+[2021.04.04-05.38.24:479][996]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.04.04-05.38.29:118][255]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/skimMilkCartonAEA0B3B0477C10DAF2FC0CB4856D2A17.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Textures/skimMilkCarton.uasset'
+[2021.04.04-05.38.29:455][255]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.04.04-05.38.29:481][255]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2021.04.04-05.38.29:494][255]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.04.04-05.38.29:531][255]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/skimMilk6562026440E41746324AFBAC5398EBC9.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/skimMilk.uasset'
+[2021.04.04-05.38.30:022][255]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.04-05.38.30:022][255]LogContentValidation: Display: Validating Texture2D /Game/Assets/StoreStuff/Textures/skimMilkCarton.skimMilkCarton
+[2021.04.04-05.38.30:022][255]LogContentValidation: Display: Validating Material /Game/Assets/StoreStuff/OtherFood/skimMilk.skimMilk
+[2021.04.04-05.38.35:256][552]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/skimMilk89405D17460463E2EACFDDB74FE6F497.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Materials/skimMilk.uasset'
+[2021.04.04-05.38.35:554][552]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2021.04.04-05.38.35:576][552]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2021.04.04-05.38.35:591][552]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2021.04.04-05.38.35:630][552]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Skim_MilkC0D3D9124FDE57050FD1A59C5C5EC2F4.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/OtherFood/Skim_Milk.uasset'
+[2021.04.04-05.38.36:126][552]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.04-05.38.36:126][552]LogContentValidation: Display: Validating Material /Game/Assets/StoreStuff/Materials/skimMilk.skimMilk
+[2021.04.04-05.38.36:126][552]LogContentValidation: Display: Validating StaticMesh /Game/Assets/StoreStuff/OtherFood/Skim_Milk.Skim_Milk
+[2021.04.04-05.41.24:996][926]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (ApparelFloor)
+[2021.04.04-05.41.25:479][946]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (ApparelFloor)
+[2021.04.04-05.41.42:759][882]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pantsSign)
+[2021.04.04-05.42.40:364][222]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\miken\Documents\GIMM 480\mannequin_two.fbx)
+[2021.04.04-05.42.40:387][222]LogFbx: Loading FBX Scene from C:\Users\miken\Documents\GIMM 480\mannequin_two.fbx
+[2021.04.04-05.42.40:454][222]LogFbx: FBX Scene Loaded Succesfully
+[2021.04.04-05.42.41:655][222]LogSlate: Window 'FBX Import Options' being destroyed
+[2021.04.04-05.42.41:681][222]LogFbx: Valid bind pose for Pose (Sphere) - main_head
+[2021.04.04-05.42.41:681][222]LogFbx: Valid bind pose for Pose (Sphere.001) - main_head
+[2021.04.04-05.42.41:681][222]LogFbx: Valid bind pose for Pose (Sphere.002) - main_head
+[2021.04.04-05.42.41:681][222]LogFbx: Valid bind pose for Pose (Cube.001) - main_head
+[2021.04.04-05.42.41:681][222]LogFbx: Valid bind pose for Pose (Cube.002) - main_head
+[2021.04.04-05.42.41:681][222]LogFbx: Valid bind pose for Pose (Sphere.003) - main_head
+[2021.04.04-05.42.41:681][222]LogFbx: Valid bind pose for Pose (Sphere.004) - main_head
+[2021.04.04-05.42.41:681][222]LogFbx: Valid bind pose for Pose (Sphere.005) - main_head
+[2021.04.04-05.42.41:681][222]LogFbx: Valid bind pose for Pose (Cube.004) - main_head
+[2021.04.04-05.42.41:682][222]LogFbx: Valid bind pose for Pose (Cube.005) - main_head
+[2021.04.04-05.42.41:684][222]LogFbx: Triangulating skeletal mesh main_head
+[2021.04.04-05.42.42:122][222]LogFbx: Triangulating skeletal mesh left_eye
+[2021.04.04-05.42.42:576][222]LogFbx: Triangulating skeletal mesh right_eye
+[2021.04.04-05.42.43:035][222]LogFbx: Triangulating skeletal mesh left_eyebrow
+[2021.04.04-05.42.43:047][222]LogFbx: Triangulating skeletal mesh right_eyebrow
+[2021.04.04-05.42.43:063][222]LogFbx: Triangulating skeletal mesh main_body
+[2021.04.04-05.42.43:485][222]LogFbx: Triangulating skeletal mesh left_hand
+[2021.04.04-05.42.43:967][222]LogFbx: Triangulating skeletal mesh right_hand
+[2021.04.04-05.42.44:464][222]LogFbx: Triangulating skeletal mesh left_foot
+[2021.04.04-05.42.44:512][222]LogFbx: Triangulating skeletal mesh right_foot
+[2021.04.04-05.42.44:648][222]LogFbx: Warning: Bones digested - 16  Depth of hierarchy - 6
+[2021.04.04-05.42.48:246][222]LogSkeletalMesh: Section 0: 45830 vertices, 6 active bones
+[2021.04.04-05.42.48:246][222]LogSkeletalMesh: Section 1: 8023 vertices, 4 active bones
+[2021.04.04-05.42.48:248][222]LogSkeletalMesh: Section 2: 3117 vertices, 1 active bones
+[2021.04.04-05.42.48:255][222]LogSkeletalMesh: Section 0: Material=0, 80256 triangles
+[2021.04.04-05.42.48:255][222]LogSkeletalMesh: Section 1: Material=1, 13824 triangles
+[2021.04.04-05.42.48:255][222]LogSkeletalMesh: Section 2: Material=2, 5120 triangles
+[2021.04.04-05.42.48:263][222]LogSkeletalMesh: Building Skeletal Mesh mannequin_two...
+[2021.04.04-05.42.51:587][222]LogSkeletalMesh: Section 0: 45830 vertices, 6 active bones
+[2021.04.04-05.42.51:587][222]LogSkeletalMesh: Section 1: 8023 vertices, 4 active bones
+[2021.04.04-05.42.51:588][222]LogSkeletalMesh: Section 2: 3117 vertices, 1 active bones
+[2021.04.04-05.42.51:594][222]LogSkeletalMesh: Section 0: Material=0, 80256 triangles
+[2021.04.04-05.42.51:594][222]LogSkeletalMesh: Section 1: Material=1, 13824 triangles
+[2021.04.04-05.42.51:594][222]LogSkeletalMesh: Section 2: Material=2, 5120 triangles
+[2021.04.04-05.42.51:788][222]LogSkeletalMesh: Built Skeletal Mesh [3.52s] /Game/Assets/StoreStuff/Apparel/mannequin_two.mannequin_two
+[2021.04.04-05.42.51:831][222]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_4:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2021.04.04-05.42.51:831][222]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.04.04-05.42.51:831][222]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.04-05.42.51:845][222]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.04.04-05.42.51:845][222]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.04-05.42.51:941][222]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.04.04-05.42.51:941][222]FBXImport: Warning: The following bones are missing from the bind pose:
+leftEye_end  
+rightEye_end  
+leftArm_end  
+rightArm_end  
+leftFoot_end  
+rightFoot_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2021.04.04-05.42.56:363][462]LogSlate: Window 'Message Log' being destroyed
+[2021.04.04-05.42.56:368][462]LogSlate: Window 'Message Log' being destroyed
+[2021.04.04-05.43.00:108][655]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/mannequin_twoEDEB23FC4569DF44A80AC89ABE04F6A9.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Apparel/mannequin_two.uasset'
+[2021.04.04-05.43.00:126][655]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/mannequin_two_PhysicsAsset2ACBD6D0408B607E4A0B8A95D4895A65.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/Assets/StoreStuff/Apparel/mannequin_two_PhysicsAsset.uasset'
+[2021.04.04-05.43.00:145][655]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.04-05.43.00:145][655]LogContentValidation: Display: Validating SkeletalMesh /Game/Assets/StoreStuff/Apparel/mannequin_two.mannequin_two
+[2021.04.04-05.43.00:145][655]LogContentValidation: Display: Validating PhysicsAsset /Game/Assets/StoreStuff/Apparel/mannequin_two_PhysicsAsset.mannequin_two_PhysicsAsset
+[2021.04.04-05.43.10:328][248]Cmd: DELETE
+[2021.04.04-05.43.10:328][248]Cmd: ACTOR DELETE
+[2021.04.04-05.43.10:521][248]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2021.04.04-05.43.10:542][248]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2021.04.04-05.43.10:546][248]LogEditorActor: Deleted 1 Actors (0.216 secs)
+[2021.04.04-05.43.15:414][536]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2021.04.04-05.43.16:633][536]LogSlate: Window 'Delete Assets' being destroyed
+[2021.04.04-05.43.17:382][536]LogUObjectGlobals: Force Deleting 2 Package(s):
+	Asset Name: /Game/Assets/StoreStuff/Apparel/mannequin_two.mannequin_two
+	Asset Name: /Game/Assets/StoreStuff/Apparel/mannequin_two_PhysicsAsset.mannequin_two_PhysicsAsset
+[2021.04.04-05.43.19:203][536]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2021.04.04-05.43.19:219][536]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2021.04.04-05.43.19:234][536]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2021.04.04-05.43.19:250][536]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2021.04.04-05.43.29:473][137]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pantsSign2)
+[2021.04.04-05.48.21:566][628]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.04.04-05.48.24:800][628]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/ThirdPersonExampleMap_Auto3D395EF3544DE40F739224E845EAC7EAE.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2021.04.04-05.48.24:806][628]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 3.252
+[2021.04.04-05.48.24:806][628]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.252
+[2021.04.04-06.05.22:356][668]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.04.04-06.05.25:573][668]LogSavePackage: Moving '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Saved/ThirdPersonExampleMapF918214344BB3D51594896888B727BAB.tmp' to '../../../../../../Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2021.04.04-06.05.25:638][668]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
+[2021.04.04-06.05.25:638][668]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.04.04-06.05.30:380][945]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2021.04.04-06.05.30:385][945]Candidate modules for hot reload:
+[2021.04.04-06.05.30:385][945]  Retail1
+[2021.04.04-06.05.30:385][945]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Retail1,7978 Retail1Editor Win64 Development -Project="C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Retail1.uproject" "C:/Users/miken/Desktop/RetailGame/480RetailGame/Retail-Game/Retail1/Retail1.uproject"  -IgnoreJunk]
+[2021.04.04-06.05.30:391][945]Warning: Starting HotReload took  0.0s.
+[2021.04.04-06.05.33:574][116]CompilerResultsLog: New page: Compilation - Apr 3, 2021, 6:05:33 PM
+[2021.04.04-06.05.33:575][116]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\miken\Desktop\RetailGame\480RetailGame\Retail-Game).
+[2021.04.04-06.05.33:575][116]CompilerResultsLog: Building Retail1Editor...
+[2021.04.04-06.05.33:575][116]CompilerResultsLog: Using Visual Studio 2019 14.28.29336 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.04.04-06.05.33:575][116]CompilerResultsLog: Building 3 actions with 12 processes...
+[2021.04.04-06.05.33:575][116]CompilerResultsLog:   [1/3] UE4Editor-Retail1-7978.lib
+[2021.04.04-06.05.33:575][116]CompilerResultsLog:      Creating library C:\Users\miken\Desktop\RetailGame\480RetailGame\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-7978.lib and object C:\Users\miken\Desktop\RetailGame\480RetailGame\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-7978.exp
+[2021.04.04-06.05.33:575][116]CompilerResultsLog:   [2/3] UE4Editor-Retail1-7978.dll
+[2021.04.04-06.05.33:575][116]CompilerResultsLog:      Creating library C:\Users\miken\Desktop\RetailGame\480RetailGame\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-7978.suppressed.lib and object C:\Users\miken\Desktop\RetailGame\480RetailGame\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-7978.suppressed.exp
+[2021.04.04-06.05.33:575][116]CompilerResultsLog:   [3/3] Retail1Editor.target
+[2021.04.04-06.05.33:575][116]CompilerResultsLog: Total time in Parallel executor: 1.85 seconds
+[2021.04.04-06.05.33:575][116]CompilerResultsLog: Total execution time: 3.05 seconds
+[2021.04.04-06.05.33:575][116]LogMainFrame: MainFrame: Module compiling took 3.194 seconds
+[2021.04.04-06.05.33:614][116]LogClass: EStateOfPlay HotReload.
+[2021.04.04-06.05.33:615][116]LogTemp: TIME TO COMPLETE 0
+[2021.04.04-06.05.33:616][116]LogTemp: ITEM 1
+[2021.04.04-06.05.33:616][116]LogHotReload: Re-instancing Customer after hot-reload.
+[2021.04.04-06.05.33:633][116]LogContentBrowser: Native class hierarchy updated for 'Retail1' in 0.0010 seconds. Added 9 classes and 3 folders.
+[2021.04.04-06.05.33:636][116]Display: HotReload successful (52 functions remapped  0 scriptstructs remapped)
+[2021.04.04-06.05.33:788][116]LogContentBrowser: Native class hierarchy populated in 0.0141 seconds. Added 3436 classes and 824 folders.
+[2021.04.04-06.05.33:788][116]Display: HotReload took  3.4s.
+[2021.04.04-06.05.37:503][336]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2021.04.04-06.05.37:576][336]LogSlate: Window 'Retail1 - Unreal Editor' being destroyed
+[2021.04.04-06.05.37:724][337]Cmd: QUIT_EDITOR
+[2021.04.04-06.05.37:724][337]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2021.04.04-06.05.37:735][337]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.04.04-06.05.37:827][337]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.04.04-06.05.37:840][337]LogExit: Preparing to exit.
+[2021.04.04-06.05.38:475][337]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.04.04-06.05.38:475][337]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.04.04-06.05.38:475][337]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.04.04-06.05.38:475][337]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.04.04-06.05.38:571][337]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.04.04-06.05.38:598][337]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.04.04-06.05.38:629][337]LogExit: Editor shut down
+[2021.04.04-06.05.38:630][337]LogExit: Transaction tracking system shut down
+[2021.04.04-06.05.38:821][337]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (0000015AF0FF9BC0), frame # 236337
+[2021.04.04-06.05.38:821][337]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000015AF0F37EC0), frame # 236337
+[2021.04.04-06.05.38:821][337]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000015AF0FA1E00), frame # 236337
+[2021.04.04-06.05.38:846][337]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000015A8E217E00), frame # 236337
+[2021.04.04-06.05.38:846][337]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000015A904456C0), frame # 236337
+[2021.04.04-06.05.38:951][337]LogExit: Object subsystem successfully closed.
+[2021.04.04-06.05.38:981][337]LogShaderCompilers: Display: Shaders left to compile 0
+[2021.04.04-06.05.39:022][337]LogModuleManager: Shutting down and abandoning module Retail1 (793)
+[2021.04.04-06.05.39:022][337]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (792)
+[2021.04.04-06.05.39:022][337]LogModuleManager: Shutting down and abandoning module SceneOutliner (790)
+[2021.04.04-06.05.39:022][337]LogModuleManager: Shutting down and abandoning module AddContentDialog (788)
+[2021.04.04-06.05.39:025][337]LogModuleManager: Shutting down and abandoning module WidgetCarousel (787)
+[2021.04.04-06.05.39:025][337]LogModuleManager: Shutting down and abandoning module EditorWidgets (784)
+[2021.04.04-06.05.39:025][337]LogModuleManager: Shutting down and abandoning module CollectionManager (782)
+[2021.04.04-06.05.39:025][337]LogModuleManager: Shutting down and abandoning module StatsViewer (780)
+[2021.04.04-06.05.39:025][337]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (778)
+[2021.04.04-06.05.39:025][337]LogModuleManager: Shutting down and abandoning module FoliageEdit (776)
+[2021.04.04-06.05.39:025][337]LogModuleManager: Shutting down and abandoning module LandscapeEditor (774)
+[2021.04.04-06.05.39:025][337]LogModuleManager: Shutting down and abandoning module MeshPaintMode (772)
+[2021.04.04-06.05.39:025][337]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (770)
+[2021.04.04-06.05.39:025][337]LogModuleManager: Shutting down and abandoning module ActorPickerMode (768)
+[2021.04.04-06.05.39:025][337]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (766)
+[2021.04.04-06.05.39:025][337]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (764)
+[2021.04.04-06.05.39:025][337]LogModuleManager: Shutting down and abandoning module AutomationWorker (762)
+[2021.04.04-06.05.39:025][337]LogModuleManager: Shutting down and abandoning module SteamVREditor (760)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module OculusMR (758)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module GooglePADEditor (756)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (754)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (752)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (750)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (748)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (746)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (744)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (742)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (740)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (738)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module WebMMedia (736)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (734)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (732)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module SequenceRecorder (731)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (728)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (726)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (724)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (722)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (720)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (718)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (716)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (714)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (712)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (710)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module PlanarCut (708)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module CharacterAI (706)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module TextureAlignMode (704)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module BspMode (702)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module PlacementMode (701)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module GeometryMode (698)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (696)
+[2021.04.04-06.05.39:026][337]LogModuleManager: Shutting down and abandoning module SmartSnapping (694)
+[2021.04.04-06.05.39:027][337]LogModuleManager: Shutting down and abandoning module SessionServices (692)
+[2021.04.04-06.05.39:027][337]LogModuleManager: Shutting down and abandoning module MeshPaint (690)
+[2021.04.04-06.05.39:027][337]LogModuleManager: Shutting down and abandoning module ViewportSnapping (688)
+[2021.04.04-06.05.39:027][337]LogModuleManager: Shutting down and abandoning module ViewportInteraction (686)
+[2021.04.04-06.05.39:027][337]LogModuleManager: Shutting down and abandoning module ClothPainter (684)
+[2021.04.04-06.05.39:027][337]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (683)
+[2021.04.04-06.05.39:027][337]LogModuleManager: Shutting down and abandoning module LogVisualizer (680)
+[2021.04.04-06.05.39:027][337]LogModuleManager: Shutting down and abandoning module IntroTutorials (678)
+[2021.04.04-06.05.39:027][337]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (677)
+[2021.04.04-06.05.39:027][337]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (674)
+[2021.04.04-06.05.39:027][337]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (672)
+[2021.04.04-06.05.39:027][337]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (670)
+[2021.04.04-06.05.39:027][337]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (669)
+[2021.04.04-06.05.39:946][337]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (666)
+[2021.04.04-06.05.39:946][337]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (664)
+[2021.04.04-06.05.39:946][337]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (662)
+[2021.04.04-06.05.39:947][337]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (660)
+[2021.04.04-06.05.39:947][337]LogModuleManager: Shutting down and abandoning module TraceInsights (658)
+[2021.04.04-06.05.39:947][337]LogModuleManager: Shutting down and abandoning module TraceServices (657)
+[2021.04.04-06.05.39:947][337]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (654)
+[2021.04.04-06.05.39:947][337]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (652)
+[2021.04.04-06.05.39:947][337]LogModuleManager: Shutting down and abandoning module InputBindingEditor (650)
+[2021.04.04-06.05.39:947][337]LogModuleManager: Shutting down and abandoning module MergeActors (648)
+[2021.04.04-06.05.39:947][337]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (646)
+[2021.04.04-06.05.39:947][337]LogModuleManager: Shutting down and abandoning module LocalizationService (645)
+[2021.04.04-06.05.39:947][337]LogModuleManager: Shutting down and abandoning module HardwareTargeting (642)
+[2021.04.04-06.05.39:947][337]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (640)
+[2021.04.04-06.05.39:947][337]LogModuleManager: Shutting down and abandoning module UndoHistory (638)
+[2021.04.04-06.05.39:947][337]LogModuleManager: Shutting down and abandoning module XmlParser (636)
+[2021.04.04-06.05.39:947][337]LogModuleManager: Shutting down and abandoning module Blutility (634)
+[2021.04.04-06.05.39:947][337]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (632)
+[2021.04.04-06.05.39:947][337]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (631)
+[2021.04.04-06.05.39:948][337]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (628)
+[2021.04.04-06.05.39:948][337]LogModuleManager: Shutting down and abandoning module SettingsEditor (626)
+[2021.04.04-06.05.39:948][337]LogModuleManager: Shutting down and abandoning module ProjectLauncher (624)
+[2021.04.04-06.05.39:948][337]LogModuleManager: Shutting down and abandoning module SessionFrontend (622)
+[2021.04.04-06.05.39:948][337]LogModuleManager: Shutting down and abandoning module ProfilerClient (620)
+[2021.04.04-06.05.39:948][337]LogModuleManager: Shutting down and abandoning module DeviceManager (618)
+[2021.04.04-06.05.39:948][337]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (617)
+[2021.04.04-06.05.39:981][337]LogModuleManager: Shutting down and abandoning module AutomationController (614)
+[2021.04.04-06.05.39:981][337]LogModuleManager: Shutting down and abandoning module AutomationWindow (612)
+[2021.04.04-06.05.39:981][337]LogModuleManager: Shutting down and abandoning module Layers (610)
+[2021.04.04-06.05.39:981][337]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (608)
+[2021.04.04-06.05.39:981][337]LogModuleManager: Shutting down and abandoning module DetailCustomizations (606)
+[2021.04.04-06.05.39:981][337]LogModuleManager: Shutting down and abandoning module PackagesDialog (604)
+[2021.04.04-06.05.39:981][337]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (602)
+[2021.04.04-06.05.39:981][337]LogModuleManager: Shutting down and abandoning module Persona (600)
+[2021.04.04-06.05.39:981][337]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (599)
+[2021.04.04-06.05.39:981][337]LogModuleManager: Shutting down and abandoning module AnimGraph (597)
+[2021.04.04-06.05.39:981][337]LogModuleManager: Shutting down and abandoning module Kismet (594)
+[2021.04.04-06.05.39:982][337]LogModuleManager: Shutting down and abandoning module KismetWidgets (593)
+[2021.04.04-06.05.39:982][337]LogModuleManager: Shutting down and abandoning module GraphEditor (590)
+[2021.04.04-06.05.39:982][337]LogModuleManager: Shutting down and abandoning module StructViewer (588)
+[2021.04.04-06.05.39:982][337]LogModuleManager: Shutting down and abandoning module ClassViewer (586)
+[2021.04.04-06.05.39:982][337]LogModuleManager: Shutting down and abandoning module Toolbox (584)
+[2021.04.04-06.05.39:982][337]LogModuleManager: Shutting down and abandoning module ModuleUI (582)
+[2021.04.04-06.05.39:982][337]LogModuleManager: Shutting down and abandoning module OutputLog (580)
+[2021.04.04-06.05.39:983][337]LogModuleManager: Shutting down and abandoning module GammaUI (578)
+[2021.04.04-06.05.39:983][337]LogModuleManager: Shutting down and abandoning module Documentation (576)
+[2021.04.04-06.05.39:983][337]LogModuleManager: Shutting down and abandoning module LiveCoding (574)
+[2021.04.04-06.05.39:983][337]LogModuleManager: Shutting down and abandoning module LevelSequence (572)
+[2021.04.04-06.05.39:983][337]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (570)
+[2021.04.04-06.05.39:983][337]LogModuleManager: Shutting down and abandoning module MovieScene (568)
+[2021.04.04-06.05.39:983][337]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (566)
+[2021.04.04-06.05.39:983][337]LogModuleManager: Shutting down and abandoning module LauncherPlatform (564)
+[2021.04.04-06.05.39:983][337]LogModuleManager: Shutting down and abandoning module AnalyticsET (562)
+[2021.04.04-06.05.39:983][337]LogModuleManager: Shutting down and abandoning module PortalServices (560)
+[2021.04.04-06.05.39:983][337]LogModuleManager: Shutting down and abandoning module PortalRpc (558)
+[2021.04.04-06.05.39:983][337]LogModuleManager: Shutting down and abandoning module MessagingRpc (556)
+[2021.04.04-06.05.39:983][337]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (554)
+[2021.04.04-06.05.39:983][337]LogModuleManager: Shutting down and abandoning module AudioMixerCore (553)
+[2021.04.04-06.05.39:983][337]LogModuleManager: Shutting down and abandoning module AIModule (550)
+[2021.04.04-06.05.39:983][337]LogModuleManager: Shutting down and abandoning module GameplayDebugger (549)
+[2021.04.04-06.05.39:983][337]LogModuleManager: Shutting down and abandoning module AITestSuite (547)
+[2021.04.04-06.05.39:983][337]LogModuleManager: Shutting down and abandoning module NavigationSystem (545)
+[2021.04.04-06.05.39:983][337]LogModuleManager: Shutting down and abandoning module ProfilerService (542)
+[2021.04.04-06.05.40:135][337]LogModuleManager: Shutting down and abandoning module TaskGraph (540)
+[2021.04.04-06.05.40:135][337]LogModuleManager: Shutting down and abandoning module ScreenshotTools (538)
+[2021.04.04-06.05.40:135][337]LogModuleManager: Shutting down and abandoning module SynthesisEditor (536)
+[2021.04.04-06.05.40:136][337]LogModuleManager: Shutting down and abandoning module Synthesis (534)
+[2021.04.04-06.05.40:136][337]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (532)
+[2021.04.04-06.05.40:136][337]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (530)
+[2021.04.04-06.05.40:136][337]LogModuleManager: Shutting down and abandoning module OculusEditor (528)
+[2021.04.04-06.05.40:136][337]LogModuleManager: Shutting down and abandoning module OculusInput (526)
+[2021.04.04-06.05.40:136][337]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (524)
+[2021.04.04-06.05.40:136][337]LogModuleManager: Shutting down and abandoning module GooglePAD (522)
+[2021.04.04-06.05.40:136][337]LogModuleManager: Shutting down and abandoning module EditableMesh (520)
+[2021.04.04-06.05.40:136][337]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (518)
+[2021.04.04-06.05.40:136][337]LogModuleManager: Shutting down and abandoning module CableComponent (516)
+[2021.04.04-06.05.40:136][337]LogModuleManager: Shutting down and abandoning module AudioCapture (514)
+[2021.04.04-06.05.40:136][337]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (513)
+[2021.04.04-06.05.40:136][337]LogModuleManager: Shutting down and abandoning module AssetTags (510)
+[2021.04.04-06.05.40:136][337]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (508)
+[2021.04.04-06.05.40:136][337]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (506)
+[2021.04.04-06.05.40:136][337]LogModuleManager: Shutting down and abandoning module AppleImageUtils (504)
+[2021.04.04-06.05.40:136][337]LogModuleManager: Shutting down and abandoning module AndroidPermission (502)
+[2021.04.04-06.05.40:136][337]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (500)
+[2021.04.04-06.05.40:136][337]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (498)
+[2021.04.04-06.05.40:136][337]LogModuleManager: Shutting down and abandoning module TemplateSequence (496)
+[2021.04.04-06.05.40:136][337]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (494)
+[2021.04.04-06.05.40:136][337]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (492)
+[2021.04.04-06.05.40:136][337]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (490)
+[2021.04.04-06.05.40:136][337]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (488)
+[2021.04.04-06.05.40:136][337]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (487)
+[2021.04.04-06.05.40:140][337]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (484)
+[2021.04.04-06.05.40:140][337]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (482)
+[2021.04.04-06.05.40:140][337]LogModuleManager: Shutting down and abandoning module MediaCompositing (480)
+[2021.04.04-06.05.40:140][337]LogModuleManager: Shutting down and abandoning module ImgMedia (478)
+[2021.04.04-06.05.40:140][337]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (476)
+[2021.04.04-06.05.40:140][337]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (474)
+[2021.04.04-06.05.40:140][337]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (472)
+[2021.04.04-06.05.40:140][337]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (470)
+[2021.04.04-06.05.40:140][337]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (468)
+[2021.04.04-06.05.40:140][337]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (466)
+[2021.04.04-06.05.40:140][337]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (464)
+[2021.04.04-06.05.40:140][337]LogModuleManager: Shutting down and abandoning module MeshConversion (462)
+[2021.04.04-06.05.40:140][337]LogModuleManager: Shutting down and abandoning module DynamicMesh (460)
+[2021.04.04-06.05.40:140][337]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (458)
+[2021.04.04-06.05.40:140][337]LogModuleManager: Shutting down and abandoning module GeometricObjects (456)
+[2021.04.04-06.05.40:140][337]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (454)
+[2021.04.04-06.05.40:140][337]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (453)
+[2021.04.04-06.05.40:140][337]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (450)
+[2021.04.04-06.05.40:140][337]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (448)
+[2021.04.04-06.05.40:140][337]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (446)
+[2021.04.04-06.05.40:140][337]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (444)
+[2021.04.04-06.05.40:140][337]LogModuleManager: Shutting down and abandoning module ChaosNiagara (442)
+[2021.04.04-06.05.40:140][337]LogModuleManager: Shutting down and abandoning module FractureEditor (440)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (438)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module ChaosCloth (436)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module BackChannel (434)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (432)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module AutomationUtils (430)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module AlembicImporter (428)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module AlembicLibrary (427)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module GeometryCache (426)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (425)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (420)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (418)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (416)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module PluginBrowser (414)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (412)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (410)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (408)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module CurveEditorTools (406)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (404)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module CryptoKeys (402)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (400)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (398)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module UObjectPlugin (396)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (394)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (392)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (390)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (388)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module GitSourceControl (386)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module SourceControl (385)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (382)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (380)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (378)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (376)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (374)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (372)
+[2021.04.04-06.05.40:141][337]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (370)
+[2021.04.04-06.05.40:142][337]LogModuleManager: Shutting down and abandoning module Paper2DEditor (368)
+[2021.04.04-06.05.40:142][337]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2021.04.04-06.05.40:142][337]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2021.04.04-06.05.40:142][337]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2021.04.04-06.05.40:142][337]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2021.04.04-06.05.40:142][337]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2021.04.04-06.05.40:142][337]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2021.04.04-06.05.40:142][337]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2021.04.04-06.05.40:242][337]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2021.04.04-06.05.40:343][337]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2021.04.04-06.05.40:343][337]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2021.04.04-06.05.40:343][337]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2021.04.04-06.05.40:343][337]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2021.04.04-06.05.40:343][337]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2021.04.04-06.05.40:343][337]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2021.04.04-06.05.40:343][337]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2021.04.04-06.05.40:343][337]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2021.04.04-06.05.40:343][337]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2021.04.04-06.05.40:343][337]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2021.04.04-06.05.40:343][337]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2021.04.04-06.05.40:343][337]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2021.04.04-06.05.40:346][337]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2021.04.04-06.05.40:346][337]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2021.04.04-06.05.40:346][337]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2021.04.04-06.05.40:346][337]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2021.04.04-06.05.40:346][337]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2021.04.04-06.05.40:346][337]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2021.04.04-06.05.40:346][337]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2021.04.04-06.05.40:346][337]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2021.04.04-06.05.40:346][337]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2021.04.04-06.05.40:346][337]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2021.04.04-06.05.40:347][337]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2021.04.04-06.05.40:347][337]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2021.04.04-06.05.40:347][337]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2021.04.04-06.05.40:347][337]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2021.04.04-06.05.40:348][337]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2021.04.04-06.05.40:348][337]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2021.04.04-06.05.40:348][337]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2021.04.04-06.05.40:348][337]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2021.04.04-06.05.40:349][337]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2021.04.04-06.05.40:349][337]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2021.04.04-06.05.40:349][337]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2021.04.04-06.05.40:349][337]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2021.04.04-06.05.40:349][337]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2021.04.04-06.05.40:349][337]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2021.04.04-06.05.40:361][337]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2021.04.04-06.05.40:361][337]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2021.04.04-06.05.40:361][337]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2021.04.04-06.05.40:361][337]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2021.04.04-06.05.40:361][337]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2021.04.04-06.05.40:361][337]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2021.04.04-06.05.40:361][337]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2021.04.04-06.05.40:361][337]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2021.04.04-06.05.40:361][337]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2021.04.04-06.05.40:361][337]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2021.04.04-06.05.40:361][337]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2021.04.04-06.05.40:361][337]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2021.04.04-06.05.40:361][337]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2021.04.04-06.05.40:361][337]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2021.04.04-06.05.40:361][337]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2021.04.04-06.05.40:361][337]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2021.04.04-06.05.40:361][337]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2021.04.04-06.05.40:361][337]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2021.04.04-06.05.40:362][337]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2021.04.04-06.05.40:363][337]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2021.04.04-06.05.40:363][337]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2021.04.04-06.05.40:363][337]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2021.04.04-06.05.40:363][337]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2021.04.04-06.05.40:363][337]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2021.04.04-06.05.40:363][337]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2021.04.04-06.05.40:363][337]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2021.04.04-06.05.40:363][337]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2021.04.04-06.05.40:363][337]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2021.04.04-06.05.40:363][337]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2021.04.04-06.05.40:363][337]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2021.04.04-06.05.40:363][337]LogModuleManager: Shutting down and abandoning module Core (216)
+[2021.04.04-06.05.40:363][337]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2021.04.04-06.05.40:363][337]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2021.04.04-06.05.40:363][337]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2021.04.04-06.05.40:363][337]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2021.04.04-06.05.40:365][337]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2021.04.04-06.05.40:365][337]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2021.04.04-06.05.40:365][337]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2021.04.04-06.05.40:365][337]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2021.04.04-06.05.40:365][337]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2021.04.04-06.05.40:365][337]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2021.04.04-06.05.40:365][337]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2021.04.04-06.05.40:366][337]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2021.04.04-06.05.40:366][337]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2021.04.04-06.05.40:366][337]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2021.04.04-06.05.40:366][337]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2021.04.04-06.05.40:366][337]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2021.04.04-06.05.40:366][337]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2021.04.04-06.05.40:366][337]LogXGEController: Cleaning working directory: C:/Users/miken/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.04.04-06.05.40:366][337]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2021.04.04-06.05.40:366][337]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2021.04.04-06.05.40:366][337]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2021.04.04-06.05.40:366][337]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2021.04.04-06.05.40:366][337]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2021.04.04-06.05.40:366][337]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2021.04.04-06.05.40:366][337]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2021.04.04-06.05.40:366][337]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2021.04.04-06.05.40:366][337]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2021.04.04-06.05.40:366][337]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2021.04.04-06.05.40:367][337]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2021.04.04-06.05.40:367][337]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2021.04.04-06.05.40:367][337]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2021.04.04-06.05.40:367][337]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2021.04.04-06.05.40:367][337]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2021.04.04-06.05.40:367][337]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2021.04.04-06.05.40:367][337]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2021.04.04-06.05.40:367][337]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2021.04.04-06.05.40:367][337]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2021.04.04-06.05.40:367][337]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2021.04.04-06.05.40:367][337]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2021.04.04-06.05.40:376][337]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2021.04.04-06.05.40:381][337]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2021.04.04-06.05.40:381][337]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2021.04.04-06.05.40:381][337]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2021.04.04-06.05.40:381][337]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2021.04.04-06.05.40:381][337]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2021.04.04-06.05.40:381][337]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2021.04.04-06.05.40:381][337]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2021.04.04-06.05.40:381][337]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2021.04.04-06.05.40:381][337]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2021.04.04-06.05.40:384][337]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2021.04.04-06.05.40:394][337]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2021.04.04-06.05.40:394][337]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2021.04.04-06.05.40:394][337]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2021.04.04-06.05.40:394][337]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2021.04.04-06.05.40:395][337]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2021.04.04-06.05.40:395][337]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2021.04.04-06.05.40:395][337]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2021.04.04-06.05.40:395][337]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2021.04.04-06.05.40:395][337]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2021.04.04-06.05.40:395][337]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2021.04.04-06.05.40:395][337]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2021.04.04-06.05.40:395][337]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2021.04.04-06.05.40:395][337]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2021.04.04-06.05.40:395][337]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2021.04.04-06.05.40:395][337]LogHMD: Freeing OpenVRDLLHandle.
+[2021.04.04-06.05.40:395][337]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2021.04.04-06.05.40:395][337]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2021.04.04-06.05.40:395][337]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2021.04.04-06.05.40:395][337]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2021.04.04-06.05.40:395][337]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2021.04.04-06.05.40:396][337]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2021.04.04-06.05.40:396][337]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2021.04.04-06.05.40:399][337]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2021.04.04-06.05.40:399][337]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2021.04.04-06.05.40:399][337]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B867F3E7A-4C38-FDD9-F6B1-588D68C0E642%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=c81adedc42ca269980e242ad9c83922e%7C8a41dc5ae0c34e46836258399513eab8%7C1e0c9e2f-476f-4b47-8278-83ac4f643aae&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2021.04.04-06.05.40:417][337]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2021.04.04-06.05.40:418][337]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2021.04.04-06.05.40:420][337]LogModuleManager: Shutting down and abandoning module Media (61)
+[2021.04.04-06.05.40:421][337]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2021.04.04-06.05.40:421][337]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2021.04.04-06.05.40:421][337]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2021.04.04-06.05.40:421][337]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2021.04.04-06.05.40:421][337]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2021.04.04-06.05.40:421][337]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2021.04.04-06.05.40:421][337]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2021.04.04-06.05.40:421][337]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2021.04.04-06.05.40:421][337]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2021.04.04-06.05.40:421][337]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2021.04.04-06.05.40:421][337]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2021.04.04-06.05.40:421][337]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2021.04.04-06.05.40:421][337]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2021.04.04-06.05.40:422][337]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2021.04.04-06.05.40:422][337]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2021.04.04-06.05.40:422][337]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2021.04.04-06.05.40:422][337]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2021.04.04-06.05.40:423][337]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2021.04.04-06.05.40:423][337]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2021.04.04-06.05.40:423][337]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2021.04.04-06.05.40:423][337]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2021.04.04-06.05.40:423][337]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2021.04.04-06.05.40:423][337]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2021.04.04-06.05.40:423][337]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2021.04.04-06.05.40:423][337]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2021.04.04-06.05.40:423][337]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2021.04.04-06.05.40:423][337]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2021.04.04-06.05.40:423][337]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2021.04.04-06.05.40:423][337]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2021.04.04-06.05.40:423][337]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2021.04.04-06.05.40:427][337]LogD3D11RHI: Shutdown
+[2021.04.04-06.05.40:427][337]LogD3D11RHI: CleanupD3DDevice
+[2021.04.04-06.05.40:460][337]LogExit: Exiting.
+[2021.04.04-06.05.40:473][337]Log file closed, 04/04/21 00:05:40
