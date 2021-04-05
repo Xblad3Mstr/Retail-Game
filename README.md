@@ -20,11 +20,10 @@ Item Numbers:
 15 - Yellow Shirts
 16 - Brown Shirts
 17 - Pants
-18 - Sliced Pears
+18 - Sliced Peaches
 19 - Potato Soup
 20 - Cream of Mushroom
 21 - Black Beans
-22 - Sweet Corn
 22 - Minestrone
 23 - Chili
 24 - Chicken Noodle
@@ -56,3 +55,4 @@ Item Numbers:
 50 - Salsa
 51 - Tortilla Chips
 52 - Water Biscuits
+53 - Sweet Corn
