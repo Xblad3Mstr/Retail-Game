@@ -54,6 +54,7 @@ ARetail1Character::ARetail1Character()
 	employeeLevel = 10.0f;
 	dailyPoints = 0.0f;
 	item = -1;
+	isMopping = false;
 
 	// Create CollectionSphere
 	collectionSphere = CreateDefaultSubobject<USphereComponent>(TEXT("CollectionSphere"));
@@ -131,6 +132,7 @@ void ARetail1Character::Interact()
 				currentCleanup = cleanup;
 				currentCleanup->StartTimer();
 			}
+			isMopping = true;
 		}
 		else if (customer && !customer->IsPendingKill())
 		{
@@ -233,6 +235,7 @@ void ARetail1Character::Interact()
 
 void ARetail1Character::StopInteract()
 {
+	isMopping = false;
 	if (currentCleanup != NULL)
 	{
 		if (!currentCleanup->IsPendingKill())

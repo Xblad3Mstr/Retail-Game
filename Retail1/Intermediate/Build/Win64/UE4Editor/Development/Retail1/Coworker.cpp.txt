@@ -1,6 +1,6 @@
-C:\Users\miken\Desktop\RetailGame\480RetailGame\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\Definitions.Retail1.h
-C:\Users\miken\Desktop\RetailGame\480RetailGame\Retail-Game\Retail1\Source\Retail1\Public\Coworker.h
-C:\Users\miken\Desktop\RetailGame\480RetailGame\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Inc\Retail1\Coworker.generated.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/KismetMathLibrary.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetMathLibrary.generated.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\KismetMathLibrary.inl
+D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\Definitions.Retail1.h
+D:\missp\Projects\Retail-Game\Retail1\Source\Retail1\Public\Coworker.h
+D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Inc\Retail1\Coworker.generated.h
+D:\missp\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/KismetMathLibrary.h
+D:\missp\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetMathLibrary.generated.h
+D:\missp\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\KismetMathLibrary.inl

@@ -1,19 +1,22 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\missp\Projects\Retail-Game).
   Parsing headers for Retail1Editor
     Running UnrealHeaderTool "D:\missp\Projects\Retail-Game\Retail1\Retail1.uproject" "D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\Retail1Editor\Development\Retail1Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\missp\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for Retail1Editor in 28.46829 seconds
+  Reflection code generated for Retail1Editor in 37.7655999 seconds
   Building Retail1Editor...
   Using Visual Studio 2019 14.28.29333 toolchain (D:\VSCommunity\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 8 actions with 8 processes...
-    [1/8] Retail1.init.gen.cpp
-    [2/8] CustomerSpawner.cpp
-    [3/8] Retail1GameMode.gen.cpp
-    [4/8] CustomerSpawner.gen.cpp
-    [5/8] Retail1GameMode.cpp
-    [6/8] UE4Editor-Retail1-0033.lib
-       Creating library D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-0033.lib and object D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-0033.exp
-    [7/8] UE4Editor-Retail1-0033.dll
-       Creating library D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-0033.suppressed.lib and object D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-0033.suppressed.exp
-    [8/8] Retail1Editor.target
-  Total time in Parallel executor: 388.45 seconds
-  Total execution time: 422.99 seconds
+  Building 11 actions with 8 processes...
+    [1/11] Retail1.init.gen.cpp
+    [2/11] Customer.cpp
+    [3/11] Cleanup.cpp
+    [4/11] ProduceSpawner.cpp
+    [5/11] ItemSpawner.cpp
+    [6/11] Retail1Character.gen.cpp
+    [7/11] Retail1Character.cpp
+    [8/11] Retail1GameMode.cpp
+    [9/11] UE4Editor-Retail1-0001.lib
+       Creating library D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-0001.lib and object D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-0001.exp
+    [10/11] UE4Editor-Retail1-0001.dll
+       Creating library D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-0001.suppressed.lib and object D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-0001.suppressed.exp
+    [11/11] Retail1Editor.target
+  Total time in Parallel executor: 384.67 seconds
+  Total execution time: 426.60 seconds

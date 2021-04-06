@@ -1,5 +1,5 @@
-C:\Users\miken\Desktop\RetailGame\480RetailGame\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\Definitions.Retail1.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\miken\Desktop\RetailGame\480RetailGame\Retail-Game\Retail1\Source\Retail1/Public/Coworker.h
-C:\Users\miken\Desktop\RetailGame\480RetailGame\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Inc\Retail1\Coworker.generated.h
+D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\Definitions.Retail1.h
+D:\missp\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\missp\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\missp\Projects\Retail-Game\Retail1\Source\Retail1/Public/Coworker.h
+D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Inc\Retail1\Coworker.generated.h
