@@ -56,3 +56,33 @@ Item Numbers:
 51 - Tortilla Chips
 52 - Water Biscuits
 53 - Sweet Corn
+54 - Ice Cream Cones
+55 - Chocolate Syrup
+56 - Broccoli
+57 - Carrots
+58 - Cucumbers
+59 - Oranges
+60 - Pears
+61 - Potatoes
+62 - Strawberries
+63 - Yellow Apples
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

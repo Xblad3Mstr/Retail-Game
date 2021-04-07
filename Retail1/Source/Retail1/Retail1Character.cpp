@@ -54,6 +54,7 @@ ARetail1Character::ARetail1Character()
 	employeeLevel = 10.0f;
 	dailyPoints = 0.0f;
 	item = -1;
+	isMopping = false;
 
 	// Create CollectionSphere
 	collectionSphere = CreateDefaultSubobject<USphereComponent>(TEXT("CollectionSphere"));
@@ -102,7 +103,7 @@ void ARetail1Character::Interact()
 
 	int32 iCollected = 0;
 	bool foundInteraction = false;
-	while ( iCollected < CollectedActors.Num() && !foundInteraction)
+	while (iCollected < CollectedActors.Num() && !foundInteraction)
 	{
 		ACleanup* const cleanup = Cast<ACleanup>(CollectedActors[iCollected]);
 		ACustomer* const customer = Cast<ACustomer>(CollectedActors[iCollected]);
@@ -131,6 +132,7 @@ void ARetail1Character::Interact()
 				currentCleanup = cleanup;
 				currentCleanup->StartTimer();
 			}
+			isMopping = true;
 		}
 		else if (customer && !customer->IsPendingKill())
 		{
@@ -176,7 +178,7 @@ void ARetail1Character::Interact()
 				{
 					if (currentProduce == prodSpawn)
 					{
-						currentProduce-> ResumeTimer();
+						currentProduce->ResumeTimer();
 					}
 					else
 					{
@@ -233,6 +235,7 @@ void ARetail1Character::Interact()
 
 void ARetail1Character::StopInteract()
 {
+	isMopping = false;
 	if (currentCleanup != NULL)
 	{
 		if (!currentCleanup->IsPendingKill())
@@ -286,7 +289,7 @@ void ARetail1Character::adjustEmployeeLevel(float adjustment)
 	{
 		sum *= difficulty;
 	}
-	
+
 	// if level 92.1 adjustment is 3 sum = 2.7 so adjust level by .3. or if adjustment is -2, sum = -.2 so adjust level by -1.8.
 	employeeLevel += adjustment - sum;
 
@@ -403,12 +406,12 @@ void ARetail1Character::MoveForward(float Value)
 
 void ARetail1Character::MoveRight(float Value)
 {
-	if ( (Controller != NULL) && (Value != 0.0f) )
+	if ((Controller != NULL) && (Value != 0.0f))
 	{
 		// find out which way is right
 		const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0, Rotation.Yaw, 0);
-	
+
 		// get right vector 
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
 		// add movement in that direction

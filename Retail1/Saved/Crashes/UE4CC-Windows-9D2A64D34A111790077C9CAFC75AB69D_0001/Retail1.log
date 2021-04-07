@@ -1,0 +1,1410 @@
+﻿Log file open, 04/07/21 08:05:09
+LogInit: Display: Running engine for game: Retail1
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.448939
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Warning: Incompatible or missing module: Retail1
+Running D:/missp/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="D:/missp/Projects/Retail-Game/Retail1/Retail1.uproject" -TargetType=Editor -Progress -NoEngineChanges -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build (D:\missp\Projects\Retail-Game).
+Creating makefile for Retail1Editor (config setting changed)
+@progress push 5%
+Parsing headers for Retail1Editor
+  Running UnrealHeaderTool "D:\missp\Projects\Retail-Game\Retail1\Retail1.uproject" "D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\Retail1Editor\Development\Retail1Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\missp\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+Reflection code generated for Retail1Editor in 13.3141477 seconds
+@progress pop
+Building Retail1Editor...
+Using Visual Studio 2019 14.28.29333 toolchain (D:\VSCommunity\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 24 actions with 8 processes...
+  @progress 'Compiling C++ source code...' 0%
+  @progress 'Compiling C++ source code...' 4%
+  [1/24] SharedPCH.Engine.ShadowErrors.cpp
+  @progress 'Compiling C++ source code...' 8%
+  [2/24] Retail1.cpp
+  @progress 'Compiling C++ source code...' 12%
+  [3/24] Coworker.cpp
+  @progress 'Compiling C++ source code...' 17%
+  [4/24] SpillSpawner.cpp
+  @progress 'Compiling C++ source code...' 21%
+  [5/24] CustomerSpawner.cpp
+  @progress 'Compiling C++ source code...' 25%
+  [6/24] Cleanup.cpp
+  @progress 'Compiling C++ source code...' 29%
+  [7/24] Customer.cpp
+  @progress 'Compiling C++ source code...' 33%
+  [8/24] ItemSpawner.cpp
+  @progress 'Compiling C++ source code...' 38%
+  [9/24] ProduceSpawner.cpp
+  @progress 'Compiling C++ source code...' 42%
+  [10/24] Customer.gen.cpp
+  @progress 'Compiling C++ source code...' 46%
+  [11/24] Cleanup.gen.cpp
+  @progress 'Compiling C++ source code...' 50%
+  [12/24] CustomerSpawner.gen.cpp
+  @progress 'Compiling C++ source code...' 54%
+  [13/24] ProduceSpawner.gen.cpp
+  @progress 'Compiling C++ source code...' 58%
+  [14/24] ItemSpawner.gen.cpp
+  @progress 'Compiling C++ source code...' 62%
+  [15/24] Retail1.init.gen.cpp
+  @progress 'Compiling C++ source code...' 67%
+  [16/24] Retail1Character.cpp
+  @progress 'Compiling C++ source code...' 71%
+  [17/24] SpillSpawner.gen.cpp
+  @progress 'Compiling C++ source code...' 75%
+  [18/24] Retail1Character.gen.cpp
+  @progress 'Compiling C++ source code...' 79%
+  [19/24] Coworker.gen.cpp
+  @progress 'Compiling C++ source code...' 83%
+  [20/24] Retail1GameMode.gen.cpp
+  @progress 'Compiling C++ source code...' 88%
+  [21/24] Retail1GameMode.cpp
+  @progress 'Compiling C++ source code...' 92%
+  [22/24] UE4Editor-Retail1.lib
+     Creating library D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1.lib and object D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1.exp
+  @progress 'Compiling C++ source code...' 96%
+  [23/24] UE4Editor-Retail1.dll
+     Creating library D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1.suppressed.lib and object D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1.suppressed.exp
+  @progress 'Compiling C++ source code...' 100%
+  [24/24] Retail1Editor.target
+Total time in Parallel executor: 69.79 seconds
+Total execution time: 86.90 seconds
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.44.0
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-7820HK CPU @ 2.90GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: D:/missp/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+[2021.04.07-14.06.49:591][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+[2021.04.07-14.06.49:591][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+[2021.04.07-14.06.49:591][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+[2021.04.07-14.06.49:591][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.04.07-14.06.49:591][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+[2021.04.07-14.06.49:591][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+[2021.04.07-14.06.49:597][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-14.06.49:597][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.07-14.06.49:597][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.07-14.06.49:597][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-14.06.49:597][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.04.07-14.06.49:597][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-14.06.49:597][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.07-14.06.49:597][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.07-14.06.49:598][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-14.06.49:598][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.04.07-14.06.49:599][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.04.07-14.06.49:599][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.07-14.06.49:599][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.04.07-14.06.49:600][  0]LogHAL: Display: Platform has ~ 16 GB [17042706432 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.04.07-14.06.49:600][  0]LogInit: Going up to parent DeviceProfile []
+[2021.04.07-14.06.49:600][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.07-14.06.49:600][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Scalability.ini]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.04.07-14.06.49:601][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.04.07-14.06.49:602][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.04.07-14.06.49:602][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.04.07-14.06.49:602][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.04.07-14.06.49:602][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.04.07-14.06.49:602][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.04.07-14.06.49:602][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.04.07-14.06.49:674][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.04.07-14.06.49:674][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.04.07-14.06.49:674][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.04.07-14.06.49:674][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/missp/Projects/Retail-Game/Retail1/Saved/Config/Windows/Engine.ini]
+[2021.04.07-14.06.49:674][  0]LogInit: Computer: WONDERLAND
+[2021.04.07-14.06.49:674][  0]LogInit: User: missp
+[2021.04.07-14.06.49:674][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.04.07-14.06.49:674][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.04.07-14.06.49:675][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.04.07-14.06.49:675][  0]LogMemory: Platform Memory Stats for Windows
+[2021.04.07-14.06.49:675][  0]LogMemory: Process Physical Memory: 125.17 MB used, 125.17 MB peak
+[2021.04.07-14.06.49:675][  0]LogMemory: Process Virtual Memory: 100.95 MB used, 100.95 MB peak
+[2021.04.07-14.06.49:675][  0]LogMemory: Physical Memory: 14237.65 MB used,  2015.54 MB free, 16253.19 MB total
+[2021.04.07-14.06.49:675][  0]LogMemory: Virtual Memory: 5226.28 MB used,  134212504.00 MB free, 134217728.00 MB total
+[2021.04.07-14.06.49:682][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.04.07-14.06.50:009][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.04.07-14.06.50:021][  0]LogInit: Using OS detected language (en-US).
+[2021.04.07-14.06.50:021][  0]LogInit: Using OS detected locale (en-US).
+[2021.04.07-14.06.50:067][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.04.07-14.06.51:932][  0]LogInit: Setting process to per monitor DPI aware
+[2021.04.07-14.06.53:260][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.04.07-14.06.53:260][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.04.07-14.06.56:863][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.04.07-14.06.56:863][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.04.07-14.06.56:863][  0]LogD3D11RHI: D3D11 adapters:
+[2021.04.07-14.06.56:965][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2021.04.07-14.06.56:966][  0]LogD3D11RHI:       8081/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.04.07-14.06.57:069][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2021.04.07-14.06.57:069][  0]LogD3D11RHI:       128/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.04.07-14.06.57:072][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.04.07-14.06.57:072][  0]LogD3D11RHI:       0/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.04.07-14.06.57:072][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.04.07-14.06.57:094][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.04.07-14.06.57:094][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2021.04.07-14.06.57:094][  0]LogWindows: EnumDisplayDevices:
+[2021.04.07-14.06.57:094][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2021.04.07-14.06.57:094][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2021.04.07-14.06.57:095][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.04.07-14.06.57:095][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.04.07-14.06.57:095][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2021.04.07-14.06.57:096][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2021.04.07-14.06.57:096][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2021.04.07-14.06.57:096][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2021.04.07-14.06.57:096][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2021.04.07-14.06.57:096][  0]LogD3D11RHI:   Driver Version: 431.53 (internal:26.21.14.3153, unified:431.53)
+[2021.04.07-14.06.57:096][  0]LogD3D11RHI:      Driver Date: 7-12-2019
+[2021.04.07-14.06.57:096][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2021.04.07-14.06.57:161][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.04.07-14.06.57:161][  0]LogD3D11RHI: Async texture creation enabled
+[2021.04.07-14.06.57:161][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.04.07-14.06.57:273][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.04.07-14.06.59:292][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.04.07-14.07.00:264][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.04.07-14.07.00:264][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.04.07-14.07.00:264][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.04.07-14.07.00:264][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.04.07-14.07.00:264][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.04.07-14.07.00:264][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.04.07-14.07.00:264][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.04.07-14.07.00:264][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.04.07-14.07.00:264][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.04.07-14.07.00:264][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.04.07-14.07.00:702][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.04.07-14.07.00:702][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.04.07-14.07.00:987][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.04.07-14.07.01:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.04.07-14.07.01:396][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.04.07-14.07.01:593][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.04.07-14.07.01:929][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.04.07-14.07.01:940][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.04.07-14.07.02:122][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.04.07-14.07.02:554][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.04.07-14.07.02:554][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.04.07-14.07.02:619][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.04.07-14.07.02:619][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.04.07-14.07.02:659][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.04.07-14.07.02:904][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.04.07-14.07.02:964][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.04.07-14.07.03:110][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.04.07-14.07.03:110][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.04.07-14.07.04:051][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.04.07-14.07.04:991][  0]LogShaderCompilers: Guid format shader working directory is 4 characters bigger than the processId version (../../../../Projects/Retail-Game/Retail1/Intermediate/Shaders/WorkingDirectory/121472/).
+[2021.04.07-14.07.04:991][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/missp/AppData/Local/Temp/UnrealShaderWorkingDir/C8033F4B4F8AF67B606194BE223785C3/'.
+[2021.04.07-14.07.05:017][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.04.07-14.07.05:017][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.04.07-14.07.05:017][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.04.07-14.07.07:724][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.04.07-14.07.07:939][  0]LogDerivedDataCache: Loaded boot cache 0.22s 163MB C:/Users/missp/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.04.07-14.07.07:939][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/missp/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.04.07-14.07.07:961][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Projects/Retail-Game/Retail1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.04.07-14.07.07:961][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.04.07-14.07.07:961][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Projects/Retail-Game/Retail1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.07-14.07.07:961][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.04.07-14.07.07:973][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.04.07-14.07.07:973][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.07-14.07.07:973][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.04.07-14.07.07:975][  0]LogDerivedDataCache: Using Local data cache path C:/Users/missp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.04.07-14.07.07:975][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.04.07-14.07.07:975][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.04.07-14.07.08:034][  0]LogSlate: Using FreeType 2.10.0
+[2021.04.07-14.07.08:068][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.04.07-14.07.08:465][  0]LogAssetRegistry: FAssetRegistry took 0.0025 seconds to start up
+[2021.04.07-14.07.08:788][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.07-14.07.09:353][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.04.07-14.07.09:353][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.04.07-14.07.09:353][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.04.07-14.07.09:353][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.04.07-14.07.09:353][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.04.07-14.07.09:451][  0]LogNetVersion: Retail1 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2139136878)
+[2021.04.07-14.07.23:105][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001A895F7AA00), frame # 0
+[2021.04.07-14.07.23:105][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001A895E502C0), frame # 0
+[2021.04.07-14.07.23:107][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001A895F72600), frame # 0
+[2021.04.07-14.07.23:197][  0]LogPackageLocalizationCache: Processed 18 localized package path(s) for 1 prioritized culture(s) in 0.082541 seconds
+[2021.04.07-14.07.23:203][  0]LogUObjectArray: 15814 objects as part of root set at end of initial load.
+[2021.04.07-14.07.23:203][  0]LogUObjectAllocator: 3939424 out of 0 bytes used by permanent object pool.
+[2021.04.07-14.07.23:203][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.04.07-14.07.26:811][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.04.07-14.07.26:822][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.04.07-14.07.27:016][  0]LogTemp: TIME TO COMPLETE 0
+[2021.04.07-14.07.27:016][  0]LogTemp: ITEM 2
+[2021.04.07-14.07.28:923][  0]SourceControl: Source control is disabled
+[2021.04.07-14.07.28:923][  0]SourceControl: Source control is disabled
+[2021.04.07-14.07.29:007][  0]SourceControl: Source control is disabled
+[2021.04.07-14.07.29:056][  0]SourceControl: Source control is disabled
+[2021.04.07-14.07.29:093][  0]SourceControl: Source control is disabled
+[2021.04.07-14.07.31:435][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.04.07-14.07.31:693][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.07-14.07.31:693][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.07-14.07.32:024][  0]LogOcInput: OculusInput pre-init called
+[2021.04.07-14.07.32:659][  0]LogEngine: Initializing Engine...
+[2021.04.07-14.07.32:659][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.04.07-14.07.32:661][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2021.04.07-14.07.32:813][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.04.07-14.07.32:902][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.04.07-14.07.32:902][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001A89FF78800), frame # 0
+[2021.04.07-14.07.32:902][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001A89FF2BB00), frame # 0
+[2021.04.07-14.07.32:987][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.07-14.07.32:987][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.07-14.07.32:987][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.07-14.07.32:987][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.07-14.07.32:987][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.07-14.07.32:987][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.07-14.07.32:987][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.07-14.07.32:987][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.07-14.07.32:988][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.07-14.07.32:988][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.07-14.07.33:075][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.07-14.07.33:075][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.04.07-14.07.33:075][  0]LogAudioMixer: Display: 2: FrontCenter
+[2021.04.07-14.07.33:075][  0]LogAudioMixer: Display: 3: LowFrequency
+[2021.04.07-14.07.33:075][  0]LogAudioMixer: Display: 4: BackLeft
+[2021.04.07-14.07.33:075][  0]LogAudioMixer: Display: 5: BackRight
+[2021.04.07-14.07.33:075][  0]LogAudioMixer: Display: 6: SideLeft
+[2021.04.07-14.07.33:075][  0]LogAudioMixer: Display: 7: SideRight
+[2021.04.07-14.07.33:188][  0]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.04.07-14.07.33:191][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.07-14.07.33:194][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.07-14.07.33:194][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.07-14.07.33:196][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.07-14.07.33:197][  0]LogInit: FAudioDevice initialized.
+[2021.04.07-14.07.33:197][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.04.07-14.07.33:478][  0]LogDerivedDataCache: Saved boot cache 0.28s 163MB C:/Users/missp/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.04.07-14.07.33:488][  0]LogInit: Texture streaming: Enabled
+[2021.04.07-14.07.33:578][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.04.07-14.07.33:578][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.04.07-14.07.33:583][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.04.07-14.07.33:831][  0]LogInit: Transaction tracking system initialized
+[2021.04.07-14.07.34:171][  0]BlueprintLog: New page: Editor Load
+[2021.04.07-14.07.34:825][  0]LocalizationService: Localization service is disabled
+[2021.04.07-14.07.35:688][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.04.07-14.07.35:688][  0]LogCook: Display: Mobile HDR setting 1
+[2021.04.07-14.07.36:455][  0]LogFileCache: Scanning file cache for directory 'D:/missp/Projects/Retail-Game/Retail1/Content/' took 0.01s
+[2021.04.07-14.07.37:546][  0]SourceControl: Source control is disabled
+[2021.04.07-14.07.37:546][  0]LogUnrealEdMisc: Loading editor; pre map load, took 161.854
+[2021.04.07-14.07.37:546][  0]Cmd: MAP LOAD FILE="../../../../Projects/Retail-Game/Retail1/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.04.07-14.07.37:634][  0]LightingResults: New page: Lighting Build
+[2021.04.07-14.07.37:683][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.07.37:683][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.07.37:683][  0]MapCheck: New page: Map Check
+[2021.04.07-14.07.37:683][  0]LightingResults: New page: Lighting Build
+[2021.04.07-14.07.37:713][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001A89FF78800), frame # 0
+[2021.04.07-14.07.37:713][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001A89FF2BB00), frame # 0
+[2021.04.07-14.07.37:713][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2021.04.07-14.07.38:454][  0]LogTemp: TIME TO COMPLETE 0
+[2021.04.07-14.07.38:457][  0]LogTemp: TIME TO COMPLETE 0
+[2021.04.07-14.07.38:460][  0]LogTemp: TIME TO COMPLETE 0
+[2021.04.07-14.07.52:168][  0]LogTexture: Display: Building textures: chocolateSyrup1 (AutoDXT, 792X612)
+[2021.04.07-14.07.52:168][  0]LogTexture: Display: Building textures: iceCreamCones2 (AutoDXT, 792X612)
+[2021.04.07-14.07.52:168][  0]LogMaterial: Display: Missing cached shader map for material orangeStem, compiling. 
+[2021.04.07-14.07.52:574][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2021.04.07-14.07.52:574][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2021.04.07-14.07.52:574][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2021.04.07-14.07.52:574][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.04.07-14.07.52:574][  0]LogMaterial: Display: Missing cached shader map for material orange1, compiling. 
+[2021.04.07-14.07.52:583][  0]LogStaticMesh: Building static mesh orange...
+[2021.04.07-14.07.52:892][  0]LogStaticMesh: Built static mesh [0.30s] /Game/Assets/StoreStuff/Produce/Produce/orange.orange
+[2021.04.07-14.07.53:166][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 15
+[2021.04.07-14.07.53:166][  0]LogMaterial: Display: Missing cached shader map for material bottleLabel, compiling. 
+[2021.04.07-14.07.53:505][  0]LogMaterial: Display: Missing cached shader map for material bottleColor, compiling. 
+[2021.04.07-14.07.53:514][  0]LogStaticMesh: Building static mesh chocolateSyrup...
+[2021.04.07-14.07.53:517][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/StoreStuff/OtherFood/chocolateSyrup.chocolateSyrup
+[2021.04.07-14.07.53:606][  0]LogMaterial: Display: Missing cached shader map for material iceCreamCones1, compiling. 
+[2021.04.07-14.07.53:614][  0]LogStaticMesh: Building static mesh iceCreamCones...
+[2021.04.07-14.07.53:620][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/StoreStuff/OtherFood/BoxedFood/iceCreamCones.iceCreamCones
+[2021.04.07-14.07.53:787][  0]LogStaticMesh: Building static mesh freezer...
+[2021.04.07-14.07.53:830][  0]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/StoreStuff/Misc/Furniture/freezer.freezer
+[2021.04.07-14.07.53:845][  0]LogMaterial: Display: Missing cached shader map for material shelf1, compiling. 
+[2021.04.07-14.07.53:860][  0]LogMaterial: Display: Missing cached shader map for material hinge, compiling. 
+[2021.04.07-14.07.53:873][  0]LogMaterial: Display: Missing cached shader map for material freezer_blue, compiling. 
+[2021.04.07-14.07.54:651][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.04.07-14.07.54:653][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001A8B6239E00), frame # 0
+[2021.04.07-14.07.54:653][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001A8B64556C0), frame # 0
+[2021.04.07-14.07.55:885][  0]LogEditorServer: Finished looking for orphan Actors (0.002 secs)
+[2021.04.07-14.07.56:102][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2021.04.07-14.07.56:103][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.04.07-14.07.56:105][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.512ms to complete.
+[2021.04.07-14.07.56:105][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 18.559
+[2021.04.07-14.07.56:109][  0]LogUnrealEdMisc: Total Editor Startup Time, took 180.418
+[2021.04.07-14.07.58:553][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 101
+[2021.04.07-14.07.58:553][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 91
+[2021.04.07-14.07.58:553][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 81
+[2021.04.07-14.07.58:553][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 71
+[2021.04.07-14.07.58:553][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 61
+[2021.04.07-14.07.58:553][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.07-14.07.58:575][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.07-14.07.58:598][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.07-14.07.58:619][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.07-14.07.58:706][  0]LogCollectionManager: Loaded 0 collections in 0.001799 seconds
+[2021.04.07-14.07.58:761][  0]LogFileCache: Scanning file cache for directory 'D:/missp/Projects/Retail-Game/Retail1/Saved/Collections/' took 0.00s
+[2021.04.07-14.07.58:761][  0]LogFileCache: Scanning file cache for directory 'D:/missp/Projects/Retail-Game/Retail1/Content/Developers/missp/Collections/' took 0.00s
+[2021.04.07-14.07.58:761][  0]LogFileCache: Scanning file cache for directory 'D:/missp/Projects/Retail-Game/Retail1/Content/Collections/' took 0.00s
+[2021.04.07-14.07.58:761][  0]LogContentBrowser: Native class hierarchy populated in 0.0214 seconds. Added 3428 classes and 817 folders.
+[2021.04.07-14.07.59:041][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2021.04.07-14.08.02:777][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 51
+[2021.04.07-14.08.02:777][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 41
+[2021.04.07-14.08.02:777][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 32
+[2021.04.07-14.08.02:777][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2021.04.07-14.08.03:747][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 25
+[2021.04.07-14.08.03:747][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2021.04.07-14.08.03:747][  0]LogSlate: Took 0.014084 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.04.07-14.08.03:759][  0]LogSlate: Took 0.006505 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.04.07-14.08.03:776][  0]LogSlate: Took 0.014029 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.04.07-14.08.04:917][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 15
+[2021.04.07-14.08.04:917][  0]LogRenderer: Reallocating scene render targets to support 1716x828 Format 10 NumSamples 1 (Frame:1).
+[2021.04.07-14.08.05:685][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2021.04.07-14.08.05:685][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2021.04.07-14.08.05:687][  0]LogLoad: (Engine Initialization) Total time: 190.00 seconds
+[2021.04.07-14.08.05:687][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.04.07-14.08.06:011][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 8
+[2021.04.07-14.08.06:011][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2021.04.07-14.08.06:275][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.04.07-14.08.06:513][  1]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2021.04.07-14.08.06:513][  1]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.04.07-14.08.07:105][  3]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2021.04.07-14.08.12:456][277]LogAssetRegistry: Asset discovery search completed in 63.9926 seconds
+[2021.04.07-14.08.12:463][277]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
+[2021.04.07-14.09.10:032][116]LogSlate: Took 0.015759 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.04.07-14.09.10:081][116]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/StoreStuff/OtherFood/chocolateSyrup.chocolateSyrup
+[2021.04.07-14.09.11:473][116]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.09.11:473][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.09.12:012][116]LogSlate: Took 0.015166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.04.07-14.10.23:014][823]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/StoreStuff/OtherFood/BoxedFood/iceCreamCones.iceCreamCones
+[2021.04.07-14.10.23:198][823]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.10.23:198][823]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.11.05:165][564]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.11.05:165][564]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.11.20:113][191]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/StoreStuff/Produce/Produce/broccoli.broccoli
+[2021.04.07-14.11.20:306][191]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.11.20:306][191]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.12.08:416][421]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/StoreStuff/Produce/Produce/carrots.carrots
+[2021.04.07-14.12.08:580][421]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.12.08:581][421]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.13.00:113][832]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/StoreStuff/Produce/Produce/cucumber.cucumber
+[2021.04.07-14.13.00:278][832]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.13.00:278][832]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.13.04:330][967]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.13.04:330][967]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.13.04:981][995]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.13.04:981][995]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.13.05:678][ 28]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.13.05:678][ 28]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.13.55:347][788]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/StoreStuff/Produce/Produce/carrots.carrots
+[2021.04.07-14.13.55:511][788]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.13.55:511][788]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.14.34:976][515]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.14.34:976][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.15.06:214][156]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/StoreStuff/Produce/Produce/orange.orange
+[2021.04.07-14.15.06:357][156]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.15.06:357][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.15.50:214][996]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/StoreStuff/Produce/Produce/pear.pear
+[2021.04.07-14.15.50:350][996]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.15.50:350][996]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.16.21:872][613]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.16.21:872][613]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.16.22:591][644]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.16.22:591][644]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.16.24:048][700]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/StoreStuff/Produce/Produce/potato.potato
+[2021.04.07-14.16.24:204][700]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.16.24:204][700]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.16.51:222][194]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/StoreStuff/Produce/Produce/strawberries.strawberries
+[2021.04.07-14.16.51:359][194]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.16.51:359][194]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.17.47:820][317]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/StoreStuff/Produce/Produce/yellowApple.yellowApple
+[2021.04.07-14.17.47:966][317]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.17.47:966][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.18.32:695][347]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.18.32:695][347]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.18.33:376][373]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.18.33:376][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.18.34:060][405]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.18.34:060][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.18.34:673][438]LogSlate: Window 'yellowApple' being destroyed
+[2021.04.07-14.18.34:701][438]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.18.34:701][438]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.29.49:865][141]LogTemp: TIME TO COMPLETE 0
+[2021.04.07-14.29.54:725][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item00_Avocado.png)
+[2021.04.07-14.29.54:780][414]LogTexture: Display: Building textures: Item00_Avocado (AutoDXT, 1024X1024)
+[2021.04.07-14.29.54:979][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item01_Bananas.png)
+[2021.04.07-14.29.55:003][414]LogTexture: Display: Building textures: Item01_Bananas (AutoDXT, 1024X1024)
+[2021.04.07-14.29.55:119][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item02_Grapes.png)
+[2021.04.07-14.29.55:144][414]LogTexture: Display: Building textures: Item02_Grapes (AutoDXT, 1024X1024)
+[2021.04.07-14.29.55:260][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item03_GreenApples.png)
+[2021.04.07-14.29.55:283][414]LogTexture: Display: Building textures: Item03_GreenApples (AutoDXT, 1024X1024)
+[2021.04.07-14.29.55:384][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item04_GreenOnions.png)
+[2021.04.07-14.29.55:407][414]LogTexture: Display: Building textures: Item04_GreenOnions (AutoDXT, 1024X1024)
+[2021.04.07-14.29.55:483][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item05_RedApples.png)
+[2021.04.07-14.29.55:508][414]LogTexture: Display: Building textures: Item05_RedApples (AutoDXT, 1024X1024)
+[2021.04.07-14.29.55:612][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item06_RedOnions.png)
+[2021.04.07-14.29.55:637][414]LogTexture: Display: Building textures: Item06_RedOnions (AutoDXT, 1024X1024)
+[2021.04.07-14.29.55:720][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item07_Tomatoes.png)
+[2021.04.07-14.29.55:746][414]LogTexture: Display: Building textures: Item07_Tomatoes (AutoDXT, 1024X1024)
+[2021.04.07-14.29.55:858][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item08_TomatoSoup.png)
+[2021.04.07-14.29.55:875][414]LogTexture: Display: Building textures: Item08_TomatoSoup (AutoDXT, 1024X1024)
+[2021.04.07-14.29.55:941][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item09_BlackShirts.png)
+[2021.04.07-14.29.55:957][414]LogTexture: Display: Building textures: Item09_BlackShirts (AutoDXT, 1024X1024)
+[2021.04.07-14.29.56:010][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item10_BlueShirts.png)
+[2021.04.07-14.29.56:026][414]LogTexture: Display: Building textures: Item10_BlueShirts (AutoDXT, 1024X1024)
+[2021.04.07-14.29.56:069][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item11_GreenShirts.png)
+[2021.04.07-14.29.56:088][414]LogTexture: Display: Building textures: Item11_GreenShirts (AutoDXT, 1024X1024)
+[2021.04.07-14.29.56:145][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item12_PinkShirts.png)
+[2021.04.07-14.29.56:162][414]LogTexture: Display: Building textures: Item12_PinkShirts (AutoDXT, 1024X1024)
+[2021.04.07-14.29.56:220][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item13_RedShirts.png)
+[2021.04.07-14.29.56:236][414]LogTexture: Display: Building textures: Item13_RedShirts (AutoDXT, 1024X1024)
+[2021.04.07-14.29.56:297][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item14_WhiteShirts.png)
+[2021.04.07-14.29.56:314][414]LogTexture: Display: Building textures: Item14_WhiteShirts (AutoDXT, 1024X1024)
+[2021.04.07-14.29.56:371][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item15_YellowShirts.png)
+[2021.04.07-14.29.56:388][414]LogTexture: Display: Building textures: Item15_YellowShirts (AutoDXT, 1024X1024)
+[2021.04.07-14.29.56:446][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item16_BrownShirts.png)
+[2021.04.07-14.29.56:463][414]LogTexture: Display: Building textures: Item16_BrownShirts (AutoDXT, 1024X1024)
+[2021.04.07-14.29.56:525][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item17_Pants.png)
+[2021.04.07-14.29.56:547][414]LogTexture: Display: Building textures: Item17_Pants (AutoDXT, 1024X1024)
+[2021.04.07-14.29.56:649][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item18_SlicedPeaches.png)
+[2021.04.07-14.29.56:670][414]LogTexture: Display: Building textures: Item18_SlicedPeaches (AutoDXT, 1024X1024)
+[2021.04.07-14.29.56:756][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item19_PotatoSoup.png)
+[2021.04.07-14.29.56:774][414]LogTexture: Display: Building textures: Item19_PotatoSoup (AutoDXT, 1024X1024)
+[2021.04.07-14.29.56:850][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item20_CreamOfMushroom.png)
+[2021.04.07-14.29.56:869][414]LogTexture: Display: Building textures: Item20_CreamOfMushroom (AutoDXT, 1024X1024)
+[2021.04.07-14.29.56:941][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item21_BlackBeans.png)
+[2021.04.07-14.29.56:960][414]LogTexture: Display: Building textures: Item21_BlackBeans (AutoDXT, 1024X1024)
+[2021.04.07-14.29.57:042][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item22_Minestrone.png)
+[2021.04.07-14.29.57:062][414]LogTexture: Display: Building textures: Item22_Minestrone (AutoDXT, 1024X1024)
+[2021.04.07-14.29.57:146][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item23_Chili.png)
+[2021.04.07-14.29.57:165][414]LogTexture: Display: Building textures: Item23_Chili (AutoDXT, 1024X1024)
+[2021.04.07-14.29.57:241][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item24_ChickenNoodle.png)
+[2021.04.07-14.29.57:260][414]LogTexture: Display: Building textures: Item24_ChickenNoodle (AutoDXT, 1024X1024)
+[2021.04.07-14.29.57:339][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item25_BeefStew.png)
+[2021.04.07-14.29.57:359][414]LogTexture: Display: Building textures: Item25_BeefStew (AutoDXT, 1024X1024)
+[2021.04.07-14.29.57:447][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item26_OatSquares.png)
+[2021.04.07-14.29.57:462][414]LogTexture: Display: Building textures: Item26_OatSquares (AutoDXT, 1024X1024)
+[2021.04.07-14.29.57:597][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item27_HoneyCircles.png)
+[2021.04.07-14.29.57:614][414]LogTexture: Display: Building textures: Item27_HoneyCircles (AutoDXT, 1024X1024)
+[2021.04.07-14.29.57:682][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item28_FruityLoopies.png)
+[2021.04.07-14.29.57:700][414]LogTexture: Display: Building textures: Item28_FruityLoopies (AutoDXT, 1024X1024)
+[2021.04.07-14.29.57:766][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item29_WholeWheat.png)
+[2021.04.07-14.29.57:781][414]LogTexture: Display: Building textures: Item29_WholeWheat (AutoDXT, 1024X1024)
+[2021.04.07-14.29.57:842][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item30_ChocolateCakeMix.png)
+[2021.04.07-14.29.57:858][414]LogTexture: Display: Building textures: Item30_ChocolateCakeMix (AutoDXT, 1024X1024)
+[2021.04.07-14.29.57:924][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item31_LemonCakeMix.png)
+[2021.04.07-14.29.57:942][414]LogTexture: Display: Building textures: Item31_LemonCakeMix (AutoDXT, 1024X1024)
+[2021.04.07-14.29.58:017][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item32_PancakeMix.png)
+[2021.04.07-14.29.58:032][414]LogTexture: Display: Building textures: Item32_PancakeMix (AutoDXT, 1024X1024)
+[2021.04.07-14.29.58:173][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item33_RainbowCakeMix.png)
+[2021.04.07-14.29.58:190][414]LogTexture: Display: Building textures: Item33_RainbowCakeMix (AutoDXT, 1024X1024)
+[2021.04.07-14.29.58:341][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item34_StrawberryCakeMix.png)
+[2021.04.07-14.29.58:358][414]LogTexture: Display: Building textures: Item34_StrawberryCakeMix (AutoDXT, 1024X1024)
+[2021.04.07-14.29.58:433][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item35_VanillaCakeMix.png)
+[2021.04.07-14.29.58:450][414]LogTexture: Display: Building textures: Item35_VanillaCakeMix (AutoDXT, 1024X1024)
+[2021.04.07-14.29.58:522][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item36_BBQCrisps.png)
+[2021.04.07-14.29.58:539][414]LogTexture: Display: Building textures: Item36_BBQCrisps (AutoDXT, 1024X1024)
+[2021.04.07-14.29.58:612][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item37_PotatoCrisps.png)
+[2021.04.07-14.29.58:628][414]LogTexture: Display: Building textures: Item37_PotatoCrisps (AutoDXT, 1024X1024)
+[2021.04.07-14.29.58:699][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item38_Salt&VinegarCrisps.png)
+[2021.04.07-14.29.58:717][414]LogTexture: Display: Building textures: Item38_Salt_VinegarCrisps (AutoDXT, 1024X1024)
+[2021.04.07-14.29.58:808][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item39_AnimalCrackers.png)
+[2021.04.07-14.29.58:825][414]LogTexture: Display: Building textures: Item39_AnimalCrackers (AutoDXT, 1024X1024)
+[2021.04.07-14.29.58:899][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item40_GrahamCrackers.png)
+[2021.04.07-14.29.58:916][414]LogTexture: Display: Building textures: Item40_GrahamCrackers (AutoDXT, 1024X1024)
+[2021.04.07-14.29.58:988][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item41_RiceCrackers.png)
+[2021.04.07-14.29.59:004][414]LogTexture: Display: Building textures: Item41_RiceCrackers (AutoDXT, 1024X1024)
+[2021.04.07-14.29.59:149][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item42_SaltineCrackers.png)
+[2021.04.07-14.29.59:167][414]LogTexture: Display: Building textures: Item42_SaltineCrackers (AutoDXT, 1024X1024)
+[2021.04.07-14.29.59:247][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item43_WheatCrackers.png)
+[2021.04.07-14.29.59:264][414]LogTexture: Display: Building textures: Item43_WheatCrackers (AutoDXT, 1024X1024)
+[2021.04.07-14.29.59:337][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item44_1PMilk.png)
+[2021.04.07-14.29.59:353][414]LogTexture: Display: Building textures: Item44_1PMilk (AutoDXT, 1024X1024)
+[2021.04.07-14.29.59:420][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item45_SkimMilk.png)
+[2021.04.07-14.29.59:436][414]LogTexture: Display: Building textures: Item45_SkimMilk (AutoDXT, 1024X1024)
+[2021.04.07-14.29.59:500][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item46_WholeMilk.png)
+[2021.04.07-14.29.59:516][414]LogTexture: Display: Building textures: Item46_WholeMilk (AutoDXT, 1024X1024)
+[2021.04.07-14.29.59:580][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item47_PastaBags.png)
+[2021.04.07-14.29.59:605][414]LogTexture: Display: Building textures: Item47_PastaBags (AutoDXT, 1024X1024)
+[2021.04.07-14.29.59:683][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item48_PastaSauce.png)
+[2021.04.07-14.29.59:700][414]LogTexture: Display: Building textures: Item48_PastaSauce (AutoDXT, 1024X1024)
+[2021.04.07-14.29.59:771][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item49_RefriedBeans.png)
+[2021.04.07-14.29.59:791][414]LogTexture: Display: Building textures: Item49_RefriedBeans (AutoDXT, 1024X1024)
+[2021.04.07-14.29.59:857][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item50_Salsa.png)
+[2021.04.07-14.29.59:875][414]LogTexture: Display: Building textures: Item50_Salsa (AutoDXT, 1024X1024)
+[2021.04.07-14.29.59:941][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item51_TortillaChips.png)
+[2021.04.07-14.29.59:958][414]LogTexture: Display: Building textures: Item51_TortillaChips (AutoDXT, 1024X1024)
+[2021.04.07-14.30.00:031][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item52_WaterBiscuits.png)
+[2021.04.07-14.30.00:047][414]LogTexture: Display: Building textures: Item52_WaterBiscuits (AutoDXT, 1024X1024)
+[2021.04.07-14.30.00:118][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item53_SweetCorn.png)
+[2021.04.07-14.30.00:135][414]LogTexture: Display: Building textures: Item53_SweetCorn (AutoDXT, 1024X1024)
+[2021.04.07-14.30.00:207][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item54_IceCreamCones.png)
+[2021.04.07-14.30.00:223][414]LogTexture: Display: Building textures: Item54_IceCreamCones (AutoDXT, 1024X1024)
+[2021.04.07-14.30.00:288][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item55_ChocolateSyrup.png)
+[2021.04.07-14.30.00:304][414]LogTexture: Display: Building textures: Item55_ChocolateSyrup (AutoDXT, 1024X1024)
+[2021.04.07-14.30.00:358][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item56_Broccoli.png)
+[2021.04.07-14.30.00:387][414]LogTexture: Display: Building textures: Item56_Broccoli (AutoDXT, 1024X1024)
+[2021.04.07-14.30.00:483][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item57_Carrots.png)
+[2021.04.07-14.30.00:505][414]LogTexture: Display: Building textures: Item57_Carrots (AutoDXT, 1024X1024)
+[2021.04.07-14.30.00:590][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item58_Cucumbers.png)
+[2021.04.07-14.30.00:613][414]LogTexture: Display: Building textures: Item58_Cucumbers (AutoDXT, 1024X1024)
+[2021.04.07-14.30.00:699][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item59_Oranges.png)
+[2021.04.07-14.30.00:723][414]LogTexture: Display: Building textures: Item59_Oranges (AutoDXT, 1024X1024)
+[2021.04.07-14.30.00:814][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item60_Pears.png)
+[2021.04.07-14.30.00:838][414]LogTexture: Display: Building textures: Item60_Pears (AutoDXT, 1024X1024)
+[2021.04.07-14.30.00:923][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item61_Potatoes.png)
+[2021.04.07-14.30.00:947][414]LogTexture: Display: Building textures: Item61_Potatoes (AutoDXT, 1024X1024)
+[2021.04.07-14.30.01:028][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item62_Strawberries.png)
+[2021.04.07-14.30.01:054][414]LogTexture: Display: Building textures: Item62_Strawberries (AutoDXT, 1024X1024)
+[2021.04.07-14.30.01:193][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\missp\School\490\ItemTextures/Item63_YellowApples.png)
+[2021.04.07-14.30.01:217][414]LogTexture: Display: Building textures: Item63_YellowApples (AutoDXT, 1024X1024)
+[2021.04.07-14.30.05:736][656]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2021.04.07-14.30.08:290][656]LogSlate: Window 'Save Content' being destroyed
+[2021.04.07-14.30.08:450][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item00_Avocado" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item00_Avocado.uasset" SILENT=true
+[2021.04.07-14.30.08:627][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item00_Avocado3668EFFE44146165B56BC49800EC35DC.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item00_Avocado.uasset'
+[2021.04.07-14.30.08:662][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item01_Bananas" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item01_Bananas.uasset" SILENT=true
+[2021.04.07-14.30.08:701][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item01_Bananas12E3585A4306FD5068E8339D75B6358E.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item01_Bananas.uasset'
+[2021.04.07-14.30.08:710][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item02_Grapes" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item02_Grapes.uasset" SILENT=true
+[2021.04.07-14.30.08:748][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item02_GrapesCDB89B2E498F4D2203D86AA942A88702.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item02_Grapes.uasset'
+[2021.04.07-14.30.08:755][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item03_GreenApples" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item03_GreenApples.uasset" SILENT=true
+[2021.04.07-14.30.08:801][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item03_GreenApplesDD90933C449CD7681DBDBABC93516B38.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item03_GreenApples.uasset'
+[2021.04.07-14.30.08:810][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item04_GreenOnions" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item04_GreenOnions.uasset" SILENT=true
+[2021.04.07-14.30.08:844][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item04_GreenOnions72C3A2F94AC3076EAE442685A54F3300.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item04_GreenOnions.uasset'
+[2021.04.07-14.30.08:851][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item05_RedApples" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item05_RedApples.uasset" SILENT=true
+[2021.04.07-14.30.08:891][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item05_RedApples27B41FE94155BB65047960BA49292421.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item05_RedApples.uasset'
+[2021.04.07-14.30.08:898][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item06_RedOnions" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item06_RedOnions.uasset" SILENT=true
+[2021.04.07-14.30.08:938][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item06_RedOnions6F37F10941690E184475DFB9F5786AF4.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item06_RedOnions.uasset'
+[2021.04.07-14.30.08:945][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item07_Tomatoes" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item07_Tomatoes.uasset" SILENT=true
+[2021.04.07-14.30.08:985][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item07_TomatoesCCFFC547451EF096480F6C9767B9F2CA.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item07_Tomatoes.uasset'
+[2021.04.07-14.30.08:993][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item08_TomatoSoup" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item08_TomatoSoup.uasset" SILENT=true
+[2021.04.07-14.30.09:024][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item08_TomatoSoup8000BBA745DC826516950EB2CB19F03A.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item08_TomatoSoup.uasset'
+[2021.04.07-14.30.09:032][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item09_BlackShirts" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item09_BlackShirts.uasset" SILENT=true
+[2021.04.07-14.30.09:061][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item09_BlackShirtsCCC2E54C48A37DC16C7884804BA4514D.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item09_BlackShirts.uasset'
+[2021.04.07-14.30.09:069][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item10_BlueShirts" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item10_BlueShirts.uasset" SILENT=true
+[2021.04.07-14.30.09:094][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item10_BlueShirts33772B774EB4539BA054079AF573AA26.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item10_BlueShirts.uasset'
+[2021.04.07-14.30.09:102][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item11_GreenShirts" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item11_GreenShirts.uasset" SILENT=true
+[2021.04.07-14.30.09:128][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item11_GreenShirts55ED38164C9905FB7CDF03B35CB5F033.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item11_GreenShirts.uasset'
+[2021.04.07-14.30.09:136][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item12_PinkShirts" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item12_PinkShirts.uasset" SILENT=true
+[2021.04.07-14.30.09:166][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item12_PinkShirtsD074BFDD4CBC16602254C7B12AB30628.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item12_PinkShirts.uasset'
+[2021.04.07-14.30.09:174][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item13_RedShirts" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item13_RedShirts.uasset" SILENT=true
+[2021.04.07-14.30.09:201][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item13_RedShirtsD017C7F649F7198243D9BE99CBA6ED86.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item13_RedShirts.uasset'
+[2021.04.07-14.30.09:209][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item14_WhiteShirts" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item14_WhiteShirts.uasset" SILENT=true
+[2021.04.07-14.30.09:237][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item14_WhiteShirtsB2F0C0854487A289DFCE77A5DCF0BA34.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item14_WhiteShirts.uasset'
+[2021.04.07-14.30.09:245][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item15_YellowShirts" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item15_YellowShirts.uasset" SILENT=true
+[2021.04.07-14.30.09:274][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item15_YellowShirts486BA5BE4F39789868D57CB84738D108.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item15_YellowShirts.uasset'
+[2021.04.07-14.30.09:282][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item16_BrownShirts" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item16_BrownShirts.uasset" SILENT=true
+[2021.04.07-14.30.09:307][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item16_BrownShirtsDDC319BC4801B3FAFBF614977C83921F.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item16_BrownShirts.uasset'
+[2021.04.07-14.30.09:316][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item17_Pants" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item17_Pants.uasset" SILENT=true
+[2021.04.07-14.30.09:355][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item17_Pants6FCF3D6F4C48CE970D4D67A430021841.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item17_Pants.uasset'
+[2021.04.07-14.30.09:362][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item18_SlicedPeaches" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item18_SlicedPeaches.uasset" SILENT=true
+[2021.04.07-14.30.09:398][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item18_SlicedPeaches454F5B624C1A0B52B262BBA9EB3B8BF2.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item18_SlicedPeaches.uasset'
+[2021.04.07-14.30.09:406][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item19_PotatoSoup" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item19_PotatoSoup.uasset" SILENT=true
+[2021.04.07-14.30.09:436][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item19_PotatoSoup5FE511134586EC5F6F59CCB7A4AEA8FB.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item19_PotatoSoup.uasset'
+[2021.04.07-14.30.09:471][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item20_CreamOfMushroom90219C30448414DD180187B73705E68C.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item20_CreamOfMushroom.uasset'
+[2021.04.07-14.30.09:479][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item21_BlackBeans" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item21_BlackBeans.uasset" SILENT=true
+[2021.04.07-14.30.09:506][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item21_BlackBeansBEE5FF8745212864AE2FEE957ADA5423.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item21_BlackBeans.uasset'
+[2021.04.07-14.30.09:514][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item22_Minestrone" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item22_Minestrone.uasset" SILENT=true
+[2021.04.07-14.30.09:542][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item22_MinestroneF8C5BDCA4E7116BCCCE051B08CAF00BE.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item22_Minestrone.uasset'
+[2021.04.07-14.30.09:549][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item23_Chili" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item23_Chili.uasset" SILENT=true
+[2021.04.07-14.30.09:579][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item23_ChiliE984A1934120DC71984A9C9F6333704D.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item23_Chili.uasset'
+[2021.04.07-14.30.09:587][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item24_ChickenNoodle" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item24_ChickenNoodle.uasset" SILENT=true
+[2021.04.07-14.30.09:616][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item24_ChickenNoodleF5AECC0F4489612CC9918CAEDAF6A367.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item24_ChickenNoodle.uasset'
+[2021.04.07-14.30.09:623][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item25_BeefStew" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item25_BeefStew.uasset" SILENT=true
+[2021.04.07-14.30.09:653][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item25_BeefStewDFA76B634FF28FF921C8F0A848551F52.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item25_BeefStew.uasset'
+[2021.04.07-14.30.09:661][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item26_OatSquares" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item26_OatSquares.uasset" SILENT=true
+[2021.04.07-14.30.09:689][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item26_OatSquares392257F048175C52432DE094086EDBAE.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item26_OatSquares.uasset'
+[2021.04.07-14.30.09:698][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item27_HoneyCircles" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item27_HoneyCircles.uasset" SILENT=true
+[2021.04.07-14.30.09:741][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item27_HoneyCirclesBA5B06D9401DEF7FE2C2EDB3B5C2D544.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item27_HoneyCircles.uasset'
+[2021.04.07-14.30.09:749][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item28_FruityLoopies" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item28_FruityLoopies.uasset" SILENT=true
+[2021.04.07-14.30.09:779][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item28_FruityLoopies95549CF841726DB3CC62ABA2F2467BD0.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item28_FruityLoopies.uasset'
+[2021.04.07-14.30.09:786][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item29_WholeWheat" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item29_WholeWheat.uasset" SILENT=true
+[2021.04.07-14.30.09:814][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item29_WholeWheat0CCAD94F4408D24B75EAADA2C09D73CE.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item29_WholeWheat.uasset'
+[2021.04.07-14.30.09:852][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item30_ChocolateCakeMixECEB75064B588EA0E7B3639EB1AA853A.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item30_ChocolateCakeMix.uasset'
+[2021.04.07-14.30.09:861][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item31_LemonCakeMix" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item31_LemonCakeMix.uasset" SILENT=true
+[2021.04.07-14.30.09:889][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item31_LemonCakeMix1E20ADD343E3187D9D401EB088AD0D79.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item31_LemonCakeMix.uasset'
+[2021.04.07-14.30.09:897][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item32_PancakeMix" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item32_PancakeMix.uasset" SILENT=true
+[2021.04.07-14.30.09:923][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item32_PancakeMixAA9DCFA9401406516EC78CA9B29FB8AE.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item32_PancakeMix.uasset'
+[2021.04.07-14.30.09:931][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item33_RainbowCakeMix" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item33_RainbowCakeMix.uasset" SILENT=true
+[2021.04.07-14.30.09:959][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item33_RainbowCakeMix14872FC14D28053C2EF0999541E3773D.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item33_RainbowCakeMix.uasset'
+[2021.04.07-14.30.09:998][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item34_StrawberryCakeMixA437890E4240BFA2E7202B93175D5D6D.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item34_StrawberryCakeMix.uasset'
+[2021.04.07-14.30.10:006][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item35_VanillaCakeMix" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item35_VanillaCakeMix.uasset" SILENT=true
+[2021.04.07-14.30.10:033][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item35_VanillaCakeMix2945D25842913767AC211DB928EA13FF.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item35_VanillaCakeMix.uasset'
+[2021.04.07-14.30.10:041][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item36_BBQCrisps" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item36_BBQCrisps.uasset" SILENT=true
+[2021.04.07-14.30.10:074][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item36_BBQCrispsA5CD4BB04B5E5333109912A59218B838.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item36_BBQCrisps.uasset'
+[2021.04.07-14.30.10:081][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item37_PotatoCrisps" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item37_PotatoCrisps.uasset" SILENT=true
+[2021.04.07-14.30.10:111][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item37_PotatoCrispsBBCC4ECD48999435E73C5BB99B0B392E.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item37_PotatoCrisps.uasset'
+[2021.04.07-14.30.10:151][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item38_Salt_VinegarCrispsCD6FDE6F4EA57F4BA854CDB8A147608A.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item38_Salt_VinegarCrisps.uasset'
+[2021.04.07-14.30.10:159][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item39_AnimalCrackers" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item39_AnimalCrackers.uasset" SILENT=true
+[2021.04.07-14.30.10:207][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item39_AnimalCrackers83935EDB4810108264A1E8AD3D25F0CD.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item39_AnimalCrackers.uasset'
+[2021.04.07-14.30.10:216][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item40_GrahamCrackers" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item40_GrahamCrackers.uasset" SILENT=true
+[2021.04.07-14.30.10:243][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item40_GrahamCrackers89C26C1E467BC9417E3324A9162A2F1E.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item40_GrahamCrackers.uasset'
+[2021.04.07-14.30.10:250][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item41_RiceCrackers" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item41_RiceCrackers.uasset" SILENT=true
+[2021.04.07-14.30.10:278][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item41_RiceCrackers08E393784039848C814AC491738BE610.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item41_RiceCrackers.uasset'
+[2021.04.07-14.30.10:314][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item42_SaltineCrackers4F4B6C1F4F9A7C3AA3981193143E7B79.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item42_SaltineCrackers.uasset'
+[2021.04.07-14.30.10:322][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item43_WheatCrackers" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item43_WheatCrackers.uasset" SILENT=true
+[2021.04.07-14.30.10:350][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item43_WheatCrackersE0CA1DC3439DB3DCE3B8A7B62DA41617.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item43_WheatCrackers.uasset'
+[2021.04.07-14.30.10:358][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item44_1PMilk" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item44_1PMilk.uasset" SILENT=true
+[2021.04.07-14.30.10:386][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item44_1PMilkAB1F6E994BF93EA944B73E8B44C5D507.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item44_1PMilk.uasset'
+[2021.04.07-14.30.10:393][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item45_SkimMilk" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item45_SkimMilk.uasset" SILENT=true
+[2021.04.07-14.30.10:438][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item45_SkimMilkC7BC04AD4BC3A6E84487CE80C3888EF6.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item45_SkimMilk.uasset'
+[2021.04.07-14.30.10:461][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item46_WholeMilk" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item46_WholeMilk.uasset" SILENT=true
+[2021.04.07-14.30.10:490][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item46_WholeMilk4B9D5B9341424CE3EA26AABDB1AB2FE0.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item46_WholeMilk.uasset'
+[2021.04.07-14.30.10:500][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item47_PastaBags" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item47_PastaBags.uasset" SILENT=true
+[2021.04.07-14.30.10:528][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item47_PastaBagsFD50016C4E3043FBBE0E4996038795FC.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item47_PastaBags.uasset'
+[2021.04.07-14.30.10:539][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item48_PastaSauce" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item48_PastaSauce.uasset" SILENT=true
+[2021.04.07-14.30.10:569][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item48_PastaSauce5032487F46BE7C3B2D0956B29CE5128A.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item48_PastaSauce.uasset'
+[2021.04.07-14.30.10:577][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item49_RefriedBeans" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item49_RefriedBeans.uasset" SILENT=true
+[2021.04.07-14.30.10:605][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item49_RefriedBeans97583C3F4C43ACE0D6F1AC91D32ABF58.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item49_RefriedBeans.uasset'
+[2021.04.07-14.30.10:615][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item50_Salsa" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item50_Salsa.uasset" SILENT=true
+[2021.04.07-14.30.10:647][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item50_Salsa5780C58146E33C4146643EB272BC77C7.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item50_Salsa.uasset'
+[2021.04.07-14.30.10:656][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item51_TortillaChips" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item51_TortillaChips.uasset" SILENT=true
+[2021.04.07-14.30.10:685][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item51_TortillaChipsE4DCCBD142312870907E0581DA225CD3.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item51_TortillaChips.uasset'
+[2021.04.07-14.30.10:694][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item52_WaterBiscuits" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item52_WaterBiscuits.uasset" SILENT=true
+[2021.04.07-14.30.10:725][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item52_WaterBiscuits2F8BA89C4942480049B64CAE91D3DA9B.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item52_WaterBiscuits.uasset'
+[2021.04.07-14.30.10:733][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item53_SweetCorn" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item53_SweetCorn.uasset" SILENT=true
+[2021.04.07-14.30.10:762][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item53_SweetCornA6D9A0B64E18B1E9129900B3C6B0C250.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item53_SweetCorn.uasset'
+[2021.04.07-14.30.10:774][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item54_IceCreamCones" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item54_IceCreamCones.uasset" SILENT=true
+[2021.04.07-14.30.10:804][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item54_IceCreamCones42EDF3C541E4D40DD24B1E969CAA5539.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item54_IceCreamCones.uasset'
+[2021.04.07-14.30.10:812][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item55_ChocolateSyrup" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item55_ChocolateSyrup.uasset" SILENT=true
+[2021.04.07-14.30.10:839][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item55_ChocolateSyrupB274E5CC4F490AE746D0BBA484689F32.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item55_ChocolateSyrup.uasset'
+[2021.04.07-14.30.10:846][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item56_Broccoli" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item56_Broccoli.uasset" SILENT=true
+[2021.04.07-14.30.10:891][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item56_Broccoli6726E4B34BD3BC15F6048A8BF1507BE0.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item56_Broccoli.uasset'
+[2021.04.07-14.30.10:899][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item57_Carrots" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item57_Carrots.uasset" SILENT=true
+[2021.04.07-14.30.10:939][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item57_Carrots9685F2004C8B7A993B04E99C1772F098.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item57_Carrots.uasset'
+[2021.04.07-14.30.10:947][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item58_Cucumbers" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item58_Cucumbers.uasset" SILENT=true
+[2021.04.07-14.30.10:986][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item58_CucumbersE25F0F3E48F2D15643B99180FE0938AA.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item58_Cucumbers.uasset'
+[2021.04.07-14.30.10:994][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item59_Oranges" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item59_Oranges.uasset" SILENT=true
+[2021.04.07-14.30.11:031][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item59_OrangesA7B7A1194EF2CE7966E01E90A8D6F1D2.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item59_Oranges.uasset'
+[2021.04.07-14.30.11:038][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item60_Pears" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item60_Pears.uasset" SILENT=true
+[2021.04.07-14.30.11:075][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item60_PearsA4C5D2204B69FB7893EB8E8ECCCE5217.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item60_Pears.uasset'
+[2021.04.07-14.30.11:082][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item61_Potatoes" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item61_Potatoes.uasset" SILENT=true
+[2021.04.07-14.30.11:117][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item61_Potatoes5AF338014AAB02BF429E2D9A24BCD805.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item61_Potatoes.uasset'
+[2021.04.07-14.30.11:125][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item62_Strawberries" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item62_Strawberries.uasset" SILENT=true
+[2021.04.07-14.30.11:170][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item62_StrawberriesAD6EB2E64BE5D82DC69989B3554489E8.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item62_Strawberries.uasset'
+[2021.04.07-14.30.11:178][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ItemTextures/Item63_YellowApples" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item63_YellowApples.uasset" SILENT=true
+[2021.04.07-14.30.11:215][656]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/Item63_YellowApplesDBE9EBA54F001E355EF721922E80C778.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/ItemTextures/Item63_YellowApples.uasset'
+[2021.04.07-14.30.11:479][656]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.07-14.30.11:479][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item00_Avocado.Item00_Avocado
+[2021.04.07-14.30.11:479][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item01_Bananas.Item01_Bananas
+[2021.04.07-14.30.11:479][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item02_Grapes.Item02_Grapes
+[2021.04.07-14.30.11:479][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item03_GreenApples.Item03_GreenApples
+[2021.04.07-14.30.11:479][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item04_GreenOnions.Item04_GreenOnions
+[2021.04.07-14.30.11:479][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item05_RedApples.Item05_RedApples
+[2021.04.07-14.30.11:479][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item06_RedOnions.Item06_RedOnions
+[2021.04.07-14.30.11:479][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item07_Tomatoes.Item07_Tomatoes
+[2021.04.07-14.30.11:479][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item08_TomatoSoup.Item08_TomatoSoup
+[2021.04.07-14.30.11:479][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item09_BlackShirts.Item09_BlackShirts
+[2021.04.07-14.30.11:479][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item10_BlueShirts.Item10_BlueShirts
+[2021.04.07-14.30.11:479][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item11_GreenShirts.Item11_GreenShirts
+[2021.04.07-14.30.11:479][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item12_PinkShirts.Item12_PinkShirts
+[2021.04.07-14.30.11:479][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item13_RedShirts.Item13_RedShirts
+[2021.04.07-14.30.11:479][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item14_WhiteShirts.Item14_WhiteShirts
+[2021.04.07-14.30.11:479][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item15_YellowShirts.Item15_YellowShirts
+[2021.04.07-14.30.11:479][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item16_BrownShirts.Item16_BrownShirts
+[2021.04.07-14.30.11:479][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item17_Pants.Item17_Pants
+[2021.04.07-14.30.11:479][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item18_SlicedPeaches.Item18_SlicedPeaches
+[2021.04.07-14.30.11:479][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item19_PotatoSoup.Item19_PotatoSoup
+[2021.04.07-14.30.11:479][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item20_CreamOfMushroom.Item20_CreamOfMushroom
+[2021.04.07-14.30.11:479][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item21_BlackBeans.Item21_BlackBeans
+[2021.04.07-14.30.11:479][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item22_Minestrone.Item22_Minestrone
+[2021.04.07-14.30.11:479][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item23_Chili.Item23_Chili
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item24_ChickenNoodle.Item24_ChickenNoodle
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item25_BeefStew.Item25_BeefStew
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item26_OatSquares.Item26_OatSquares
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item27_HoneyCircles.Item27_HoneyCircles
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item28_FruityLoopies.Item28_FruityLoopies
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item29_WholeWheat.Item29_WholeWheat
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item30_ChocolateCakeMix.Item30_ChocolateCakeMix
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item31_LemonCakeMix.Item31_LemonCakeMix
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item32_PancakeMix.Item32_PancakeMix
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item33_RainbowCakeMix.Item33_RainbowCakeMix
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item34_StrawberryCakeMix.Item34_StrawberryCakeMix
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item35_VanillaCakeMix.Item35_VanillaCakeMix
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item36_BBQCrisps.Item36_BBQCrisps
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item37_PotatoCrisps.Item37_PotatoCrisps
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item38_Salt_VinegarCrisps.Item38_Salt_VinegarCrisps
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item39_AnimalCrackers.Item39_AnimalCrackers
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item40_GrahamCrackers.Item40_GrahamCrackers
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item41_RiceCrackers.Item41_RiceCrackers
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item42_SaltineCrackers.Item42_SaltineCrackers
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item43_WheatCrackers.Item43_WheatCrackers
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item44_1PMilk.Item44_1PMilk
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item45_SkimMilk.Item45_SkimMilk
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item46_WholeMilk.Item46_WholeMilk
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item47_PastaBags.Item47_PastaBags
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item48_PastaSauce.Item48_PastaSauce
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item49_RefriedBeans.Item49_RefriedBeans
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item50_Salsa.Item50_Salsa
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item51_TortillaChips.Item51_TortillaChips
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item52_WaterBiscuits.Item52_WaterBiscuits
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item53_SweetCorn.Item53_SweetCorn
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item54_IceCreamCones.Item54_IceCreamCones
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item55_ChocolateSyrup.Item55_ChocolateSyrup
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item56_Broccoli.Item56_Broccoli
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item57_Carrots.Item57_Carrots
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item58_Cucumbers.Item58_Cucumbers
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item59_Oranges.Item59_Oranges
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item60_Pears.Item60_Pears
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item61_Potatoes.Item61_Potatoes
+[2021.04.07-14.30.11:480][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item62_Strawberries.Item62_Strawberries
+[2021.04.07-14.30.11:481][656]LogContentValidation: Display: Validating Texture2D /Game/Blueprints/ItemTextures/Item63_YellowApples.Item63_YellowApples
+[2021.04.07-14.30.22:676][430]LogTemp: Resetting audio stream to device id 
+[2021.04.07-14.30.22:715][430]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.07-14.30.22:715][430]LogAudioMixer: Display: 1: FrontRight
+[2021.04.07-14.30.22:715][430]LogAudioMixer: Display: 2: FrontCenter
+[2021.04.07-14.30.22:715][430]LogAudioMixer: Display: 3: LowFrequency
+[2021.04.07-14.30.22:715][430]LogAudioMixer: Display: 4: BackLeft
+[2021.04.07-14.30.22:715][430]LogAudioMixer: Display: 5: BackRight
+[2021.04.07-14.30.22:715][430]LogAudioMixer: Display: 6: SideLeft
+[2021.04.07-14.30.22:715][430]LogAudioMixer: Display: 7: SideRight
+[2021.04.07-14.32.27:892][956]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2021.04.07-14.32.32:642][956]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/ThirdPersonExampleMap_Auto13AF6DFDC40FF70033D0030A01168A30F.tmp' to '../../../../Projects/Retail-Game/Retail1/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2021.04.07-14.32.32:672][956]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 4.797
+[2021.04.07-14.32.32:672][956]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.797
+[2021.04.07-14.33.24:862][306]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.04.07-14.33.24:942][306]LogBlueprint: Warning: [Compiler mainCharAnimation_BP] Could not find a variable named "isMopping" in 'Retail1Character'.
+Make sure 'Retail1Character' has been compiled for  Get isMopping
+[2021.04.07-14.33.24:944][306]LogBlueprint: Warning: [Compiler mainCharAnimation_BP] Could not find a variable named "isMopping" in 'Retail1Character'.
+Make sure 'Retail1Character' has been compiled for  Get isMopping
+[2021.04.07-14.33.24:957][306]LogBlueprint: Error: [Compiler mainCharAnimation_BP] The property associated with  Is Mopping  could not be found in '/Game/Assets/StoreStuff/Characters/Main_Character/mainCharAnimation_BP.mainCharAnimation_BP_C'
+[2021.04.07-14.33.34:397][701]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2021.04.07-14.33.38:054][701]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/ThirdPersonExampleMap646FF8254BFB3D86854AB394B9388B64.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2021.04.07-14.33.38:139][701]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
+[2021.04.07-14.33.38:139][701]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.04.07-14.33.39:599][776]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.07-14.33.39:670][776]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.07-14.33.39:670][776]BlueprintLog: Warning: Blueprint failed to compile:  mainCharAnimation_BP
+[2021.04.07-14.33.39:670][776]LogCustomDialog: Dialog displayed:
+[2021.04.07-14.33.44:225][776]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Assets/StoreStuff/Characters/Main_Character/mainCharAnimation_BP.mainCharAnimation_BP
+[2021.04.07-14.33.44:384][776]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2021.04.07-14.33.44:477][776]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.04.07-14.33.44:508][776]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0008 seconds. Added 1 classes and 0 folders.
+[2021.04.07-14.33.45:157][776]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 125 classes and 0 folders.
+[2021.04.07-14.33.46:792][776]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.04.07-14.33.54:467][776]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2021.04.07-14.33.54:768][776]LogSlate: Took 0.019608 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.04.07-14.33.55:092][776]LogSlate: Took 0.032981 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.04.07-14.33.57:663][876]LogSlate: Window 'Message Log' being destroyed
+[2021.04.07-14.33.57:672][876]LogSlate: Window 'Message Log' being destroyed
+[2021.04.07-14.36.19:145][493]Candidate modules for hot reload:
+[2021.04.07-14.36.19:145][493]  Retail1
+[2021.04.07-14.36.19:145][493]Launching UnrealBuildTool... [D:/missp/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Retail1,5491 Retail1Editor Win64 Development -Project="D:/missp/Projects/Retail-Game/Retail1/Retail1.uproject" "D:/missp/Projects/Retail-Game/Retail1/Retail1.uproject"  -IgnoreJunk]
+[2021.04.07-14.36.20:028][493]Warning: Starting HotReload took  2.2s.
+[2021.04.07-14.36.33:149][ 19]LogSlate: Window 'mainCharAnimation_BP' being destroyed
+[2021.04.07-14.36.33:158][ 19]LogSlate: Window 'mainCharAnimation_BP' being destroyed
+[2021.04.07-14.36.33:546][ 19]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.36.33:546][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.36.33:713][ 19]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.36.33:713][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.36.34:153][ 19]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.36.34:153][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.37.10:533][719]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/RetailHUD_BP.RetailHUD_BP
+[2021.04.07-14.40.35:067][737]CompilerResultsLog: New page: Compilation - Apr 7, 2021, 2:40:35 AM
+[2021.04.07-14.40.35:082][737]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\missp\Projects\Retail-Game).
+[2021.04.07-14.40.35:082][737]CompilerResultsLog: Parsing headers for Retail1Editor
+[2021.04.07-14.40.35:082][737]CompilerResultsLog:   Running UnrealHeaderTool "D:\missp\Projects\Retail-Game\Retail1\Retail1.uproject" "D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\Retail1Editor\Development\Retail1Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\missp\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.04.07-14.40.35:082][737]CompilerResultsLog: Reflection code generated for Retail1Editor in 23.7381736 seconds
+[2021.04.07-14.40.35:082][737]CompilerResultsLog: Building Retail1Editor...
+[2021.04.07-14.40.35:082][737]CompilerResultsLog: Using Visual Studio 2019 14.28.29333 toolchain (D:\VSCommunity\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.04.07-14.40.35:082][737]CompilerResultsLog: Building 11 actions with 8 processes...
+[2021.04.07-14.40.35:083][737]CompilerResultsLog:   [1/11] Retail1.init.gen.cpp
+[2021.04.07-14.40.35:083][737]CompilerResultsLog:   [2/11] Retail1Character.gen.cpp
+[2021.04.07-14.40.35:083][737]CompilerResultsLog:   [3/11] Cleanup.cpp
+[2021.04.07-14.40.35:083][737]CompilerResultsLog:   [4/11] ProduceSpawner.cpp
+[2021.04.07-14.40.35:083][737]CompilerResultsLog:   [5/11] ItemSpawner.cpp
+[2021.04.07-14.40.35:083][737]CompilerResultsLog:   [6/11] Customer.cpp
+[2021.04.07-14.40.35:083][737]CompilerResultsLog:   [7/11] Retail1Character.cpp
+[2021.04.07-14.40.35:083][737]CompilerResultsLog:   [8/11] Retail1GameMode.cpp
+[2021.04.07-14.40.35:083][737]CompilerResultsLog:   [9/11] UE4Editor-Retail1-5491.lib
+[2021.04.07-14.40.35:083][737]CompilerResultsLog:      Creating library D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-5491.lib and object D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-5491.exp
+[2021.04.07-14.40.35:083][737]CompilerResultsLog:   [10/11] UE4Editor-Retail1-5491.dll
+[2021.04.07-14.40.35:083][737]CompilerResultsLog:      Creating library D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-5491.suppressed.lib and object D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-5491.suppressed.exp
+[2021.04.07-14.40.35:083][737]CompilerResultsLog:   [11/11] Retail1Editor.target
+[2021.04.07-14.40.35:083][737]CompilerResultsLog: Total time in Parallel executor: 220.02 seconds
+[2021.04.07-14.40.35:083][737]CompilerResultsLog: Total execution time: 249.77 seconds
+[2021.04.07-14.40.35:083][737]LogMainFrame: MainFrame: Module compiling took 256.504 seconds
+[2021.04.07-14.40.35:152][737]LogClass: Could not find existing class Retail1Character in package /Script/Retail1 for HotReload, assuming new class
+[2021.04.07-14.40.35:152][737]LogClass: Function adjustDailyPoints is new.
+[2021.04.07-14.40.35:152][737]LogClass: Function adjustEmployeeLevel is new.
+[2021.04.07-14.40.35:152][737]LogClass: Function GetCurrentItem is new.
+[2021.04.07-14.40.35:152][737]LogClass: Function Interact is new.
+[2021.04.07-14.40.35:152][737]LogClass: Function resetCleanup is new.
+[2021.04.07-14.40.35:152][737]LogClass: Function StopInteract is new.
+[2021.04.07-14.40.35:158][737]LogClass: EStateOfPlay HotReload.
+[2021.04.07-14.40.35:161][737]LogTemp: TIME TO COMPLETE 0
+[2021.04.07-14.40.35:161][737]LogTemp: ITEM 0
+[2021.04.07-14.40.35:162][737]LogHotReload: Re-instancing Customer after hot-reload.
+[2021.04.07-14.40.35:372][737]LogHotReload: Re-instancing Retail1Character after hot-reload.
+[2021.04.07-14.40.35:701][737]LogContentBrowser: Native class hierarchy updated for 'Retail1' in 0.0007 seconds. Added 9 classes and 3 folders.
+[2021.04.07-14.40.35:707][737]Display: HotReload successful (46 functions remapped  0 scriptstructs remapped)
+[2021.04.07-14.40.36:483][737]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 3429 classes and 819 folders.
+[2021.04.07-14.40.36:502][737]Display: HotReload took 258.7s.
+[2021.04.07-14.41.23:765][441]BlueprintLog: New page: Compile RetailHUD_BP
+[2021.04.07-14.41.23:952][441]LogUObjectHash: Compacting FUObjectHashTables data took   8.23ms
+[2021.04.07-14.41.24:002][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RetailHUD_BP" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/RetailHUD_BP.uasset" SILENT=true
+[2021.04.07-14.41.24:130][441]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/RetailHUD_BPDB01910545E59CF0EC8B46BAB8E601BD.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/RetailHUD_BP.uasset'
+[2021.04.07-14.41.24:148][441]AssetCheck: New page: Asset Save: RetailHUD_BP
+[2021.04.07-14.41.24:148][441]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/RetailHUD_BP.RetailHUD_BP
+[2021.04.07-14.41.44:534][553]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Assets/StoreStuff/Characters/Main_Character/mainCharAnimation_BP.mainCharAnimation_BP
+[2021.04.07-14.41.44:543][553]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.04.07-14.41.45:017][553]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.04.07-14.41.46:795][617]BlueprintLog: New page: Compile mainCharAnimation_BP
+[2021.04.07-14.41.46:901][617]LogUObjectHash: Compacting FUObjectHashTables data took   5.66ms
+[2021.04.07-14.41.50:675][797]LogSlate: Window 'mainCharAnimation_BP' being destroyed
+[2021.04.07-14.41.50:727][797]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.41.50:727][797]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.41.50:734][797]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.41.50:734][797]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.41.50:874][797]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.41.50:874][797]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.46.05:420][385]BlueprintLog: New page: Compile RetailHUD_BP
+[2021.04.07-14.46.05:485][385]LogUObjectHash: Compacting FUObjectHashTables data took   7.67ms
+[2021.04.07-14.46.05:539][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RetailHUD_BP" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/RetailHUD_BP.uasset" SILENT=true
+[2021.04.07-14.46.05:588][385]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/RetailHUD_BP6BD5909A474CE928F20434B06C39F14F.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/RetailHUD_BP.uasset'
+[2021.04.07-14.46.05:610][385]AssetCheck: New page: Asset Save: RetailHUD_BP
+[2021.04.07-14.46.05:611][385]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/RetailHUD_BP.RetailHUD_BP
+[2021.04.07-14.46.13:770][835]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.07-14.46.13:794][835]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.07-14.46.13:794][835]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 7, 2021, 2:46:13 AM)
+[2021.04.07-14.46.13:797][835]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.04.07-14.46.13:798][835]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.04.07-14.46.13:798][835]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.04.07-14.46.14:612][835]LogPlayLevel: PIE: StaticDuplicateObject took: (0.812861s)
+[2021.04.07-14.46.14:613][835]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.04.07-14.46.14:613][835]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001A9F02EF800), frame # 61835
+[2021.04.07-14.46.14:613][835]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001A9A053DF80), frame # 61835
+[2021.04.07-14.46.14:618][835]LogPlayLevel: PIE: World Init took: (0.006737s)
+[2021.04.07-14.46.14:622][835]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.823843s)
+[2021.04.07-14.46.14:656][835]LogUObjectHash: Compacting FUObjectHashTables data took   5.75ms
+[2021.04.07-14.46.14:661][835]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.07-14.46.14:661][835]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.07-14.46.14:661][835]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.07-14.46.14:661][835]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.07-14.46.14:661][835]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.07-14.46.14:662][835]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.07-14.46.14:662][835]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.07-14.46.14:662][835]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.07-14.46.14:662][835]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.07-14.46.14:662][835]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.07-14.46.14:713][835]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.07-14.46.14:713][835]LogAudioMixer: Display: 1: FrontRight
+[2021.04.07-14.46.14:713][835]LogAudioMixer: Display: 2: FrontCenter
+[2021.04.07-14.46.14:713][835]LogAudioMixer: Display: 3: LowFrequency
+[2021.04.07-14.46.14:713][835]LogAudioMixer: Display: 4: BackLeft
+[2021.04.07-14.46.14:713][835]LogAudioMixer: Display: 5: BackRight
+[2021.04.07-14.46.14:713][835]LogAudioMixer: Display: 6: SideLeft
+[2021.04.07-14.46.14:713][835]LogAudioMixer: Display: 7: SideRight
+[2021.04.07-14.46.14:793][835]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.04.07-14.46.14:793][835]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.07-14.46.14:793][835]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.07-14.46.14:793][835]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.07-14.46.14:794][835]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.07-14.46.14:808][835]LogInit: FAudioDevice initialized.
+[2021.04.07-14.46.14:863][835]LogLoad: Game class is 'GameMode_BP_C'
+[2021.04.07-14.46.15:304][835]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.04.07-08.46.15
+[2021.04.07-14.46.15:313][835]LogWorld: Bringing up level for play took: 0.449019
+[2021.04.07-14.46.15:313][835]LogOnline: OSS: Creating online subsystem instance for: :Context_39
+[2021.04.07-14.46.15:410][835]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 20 classes and 0 folders.
+[2021.04.07-14.46.15:437][835]LogTemp: PRODUCESPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: PRODUCESPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: PRODUCESPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: PRODUCESPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: PRODUCESPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: PRODUCESPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: PRODUCESPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: PRODUCESPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: PRODUCESPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: ItemSPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: ItemSPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: ItemSPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: ItemSPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: ItemSPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: ItemSPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: ItemSPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: ItemSPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: ItemSPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: ItemSPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: ItemSPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: ItemSPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: ItemSPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: ItemSPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: ItemSPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: ItemSPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: ItemSPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: ItemSPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: ItemSPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: ItemSPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: ItemSPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: ItemSPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: ItemSPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: ItemSPAWNER
+[2021.04.07-14.46.15:437][835]LogTemp: ItemSPAWNER
+[2021.04.07-14.46.15:438][835]LogTemp: GAMEMODE::StartTimer
+[2021.04.07-14.46.15:438][835]PIE: Server logged in
+[2021.04.07-14.46.15:440][835]PIE: Play in editor total start time 1.65 seconds.
+[2021.04.07-14.46.24:246][313]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.07-14.46.24:246][313]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.04.07-14.46.24:255][313]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.46.24:338][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.46.24:354][313]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.07-14.46.24:374][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.46.24:459][313]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.07-14.46.24:860][313]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001A9F02EF800), frame # 62313
+[2021.04.07-14.46.24:860][313]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001A9A053DF80), frame # 62313
+[2021.04.07-14.46.24:866][313]LogUObjectHash: Compacting FUObjectHashTables data took   5.87ms
+[2021.04.07-14.46.24:987][314]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2021.04.07-14.48.31:205][168]LogEditorViewport: Clicking on Actor (LMB): ProduceSpawner_BP_C (TomatoSpawner1)
+[2021.04.07-14.51.48:744][485]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/CustomerSpawner_BP.CustomerSpawner_BP
+[2021.04.07-14.51.53:239][687]LogSlate: Window 'CustomerSpawner_BP' being destroyed
+[2021.04.07-14.51.53:315][687]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.51.53:315][687]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.51.56:041][827]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/CustomerWidget_BP.CustomerWidget_BP
+[2021.04.07-14.52.18:775][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CustomerWidget_BP" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/CustomerWidget_BP.uasset" SILENT=true
+[2021.04.07-14.52.18:805][893]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/CustomerWidget_BP6807EAA64A29DB0E840C20864E0C1A5B.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/CustomerWidget_BP.uasset'
+[2021.04.07-14.52.18:826][893]AssetCheck: New page: Asset Save: CustomerWidget_BP
+[2021.04.07-14.52.18:826][893]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/CustomerWidget_BP.CustomerWidget_BP
+[2021.04.07-14.52.23:146][140]LogSlate: Window 'CustomerWidget_BP' being destroyed
+[2021.04.07-14.52.23:359][140]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.52.23:359][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.52.23:380][140]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.52.23:380][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.52.26:478][311]LogTemp: ITEM 0
+[2021.04.07-14.52.26:479][311]LogTemp: ITEM 2
+[2021.04.07-14.52.26:481][311]LogTemp: ITEM 0
+[2021.04.07-14.52.26:543][311]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/InteractableCustomer_BP.InteractableCustomer_BP
+[2021.04.07-14.52.26:904][311]LogTemp: ITEM 3
+[2021.04.07-14.52.26:906][311]LogTemp: ITEM 2
+[2021.04.07-14.53.16:951][186]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/InteractableCustomer_BP" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/InteractableCustomer_BP.uasset" SILENT=true
+[2021.04.07-14.53.17:255][186]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/InteractableCustomer_BPB9929CA44646C8FFC888489166F74DE1.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/InteractableCustomer_BP.uasset'
+[2021.04.07-14.53.17:280][186]AssetCheck: New page: Asset Save: InteractableCustomer_BP
+[2021.04.07-14.53.17:280][186]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/InteractableCustomer_BP.InteractableCustomer_BP
+[2021.04.07-14.53.25:316][663]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2021.04.07-14.53.25:316][663]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.07-14.53.29:841][912]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/CustomerWidget_BP.CustomerWidget_BP
+[2021.04.07-14.54.54:288][623]LogSlate: Window 'CustomerWidget_BP' being destroyed
+[2021.04.07-14.59.25:643][792]BlueprintLog: New page: Compile CustomerWidget_BP
+[2021.04.07-14.59.25:644][792]LogTemp: ITEM 2
+[2021.04.07-14.59.26:059][792]LogUObjectHash: Compacting FUObjectHashTables data took   7.29ms
+[2021.04.07-14.59.26:115][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CustomerWidget_BP" FILE="../../../../Projects/Retail-Game/Retail1/Content/Blueprints/CustomerWidget_BP.uasset" SILENT=true
+[2021.04.07-14.59.26:141][792]LogSavePackage: Moving '../../../../Projects/Retail-Game/Retail1/Saved/CustomerWidget_BP9A56771F4CF2926EB1F7E5901006DDD0.tmp' to '../../../../Projects/Retail-Game/Retail1/Content/Blueprints/CustomerWidget_BP.uasset'
+[2021.04.07-14.59.26:161][792]AssetCheck: New page: Asset Save: CustomerWidget_BP
+[2021.04.07-14.59.26:161][792]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/CustomerWidget_BP.CustomerWidget_BP
+[2021.04.07-14.59.34:358][248]Candidate modules for hot reload:
+[2021.04.07-14.59.34:358][248]  Retail1
+[2021.04.07-14.59.34:358][248]Launching UnrealBuildTool... [D:/missp/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Retail1,7614 Retail1Editor Win64 Development -Project="D:/missp/Projects/Retail-Game/Retail1/Retail1.uproject" "D:/missp/Projects/Retail-Game/Retail1/Retail1.uproject"  -IgnoreJunk]
+[2021.04.07-14.59.34:360][248]Warning: Starting HotReload took  0.0s.
+[2021.04.07-14.59.39:859][542]CompilerResultsLog: New page: Compilation - Apr 7, 2021, 2:59:39 AM
+[2021.04.07-14.59.39:859][542]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\missp\Projects\Retail-Game).
+[2021.04.07-14.59.39:859][542]CompilerResultsLog: Building Retail1Editor...
+[2021.04.07-14.59.39:859][542]CompilerResultsLog: Using Visual Studio 2019 14.28.29333 toolchain (D:\VSCommunity\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.04.07-14.59.39:859][542]CompilerResultsLog: Building 4 actions with 8 processes...
+[2021.04.07-14.59.39:859][542]CompilerResultsLog:   [1/4] Customer.cpp
+[2021.04.07-14.59.39:860][542]CompilerResultsLog:   [2/4] UE4Editor-Retail1-7614.lib
+[2021.04.07-14.59.39:860][542]CompilerResultsLog:      Creating library D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-7614.lib and object D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-7614.exp
+[2021.04.07-14.59.39:860][542]CompilerResultsLog:   [3/4] UE4Editor-Retail1-7614.dll
+[2021.04.07-14.59.39:860][542]CompilerResultsLog:      Creating library D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-7614.suppressed.lib and object D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-7614.suppressed.exp
+[2021.04.07-14.59.39:860][542]CompilerResultsLog:   [4/4] Retail1Editor.target
+[2021.04.07-14.59.39:860][542]CompilerResultsLog: Total time in Parallel executor: 4.12 seconds
+[2021.04.07-14.59.39:860][542]CompilerResultsLog: Total execution time: 5.32 seconds
+[2021.04.07-14.59.39:860][542]LogMainFrame: MainFrame: Module compiling took 5.507 seconds
+[2021.04.07-14.59.39:913][542]LogClass: EStateOfPlay HotReload.
+[2021.04.07-14.59.39:916][542]LogTemp: TIME TO COMPLETE 0
+[2021.04.07-14.59.39:916][542]LogTemp: ITEM 32
+[2021.04.07-14.59.39:916][542]LogHotReload: Re-instancing Customer after hot-reload.
+[2021.04.07-14.59.39:917][542]LogTemp: ITEM 43
+[2021.04.07-14.59.39:919][542]LogTemp: ITEM 29
+[2021.04.07-14.59.39:921][542]LogTemp: ITEM 0
+[2021.04.07-14.59.39:990][542]LogContentBrowser: Native class hierarchy updated for 'Retail1' in 0.0007 seconds. Added 9 classes and 3 folders.
+[2021.04.07-14.59.39:997][542]Display: HotReload successful (52 functions remapped  0 scriptstructs remapped)

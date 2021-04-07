@@ -320,6 +320,11 @@ void EmptyLinkFunctionForGeneratedCodeRetail1Character() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_employeeLevel;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isMopping_MetaData[];
+#endif
+		static void NewProp_isMopping_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isMopping;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseLookUpRate_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BaseLookUpRate;
@@ -463,6 +468,19 @@ void EmptyLinkFunctionForGeneratedCodeRetail1Character() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ARetail1Character_Statics::NewProp_employeeLevel = { "employeeLevel", nullptr, (EPropertyFlags)0x0020080000000014, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARetail1Character, employeeLevel), METADATA_PARAMS(Z_Construct_UClass_ARetail1Character_Statics::NewProp_employeeLevel_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARetail1Character_Statics::NewProp_employeeLevel_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARetail1Character_Statics::NewProp_isMopping_MetaData[] = {
+		{ "Category", "Cleanup" },
+		{ "Comment", "/** If this timer is currently paused*/" },
+		{ "ModuleRelativePath", "Retail1Character.h" },
+		{ "ToolTip", "If this timer is currently paused" },
+	};
+#endif
+	void Z_Construct_UClass_ARetail1Character_Statics::NewProp_isMopping_SetBit(void* Obj)
+	{
+		((ARetail1Character*)Obj)->isMopping = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ARetail1Character_Statics::NewProp_isMopping = { "isMopping", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ARetail1Character), &Z_Construct_UClass_ARetail1Character_Statics::NewProp_isMopping_SetBit, METADATA_PARAMS(Z_Construct_UClass_ARetail1Character_Statics::NewProp_isMopping_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARetail1Character_Statics::NewProp_isMopping_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARetail1Character_Statics::NewProp_BaseLookUpRate_MetaData[] = {
 		{ "Category", "Camera" },
 		{ "Comment", "/** Base look up/down rate, in deg/sec. Other scaling may affect final rate. */" },
@@ -514,6 +532,7 @@ void EmptyLinkFunctionForGeneratedCodeRetail1Character() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1Character_Statics::NewProp_item,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1Character_Statics::NewProp_dailyPoints,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1Character_Statics::NewProp_employeeLevel,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1Character_Statics::NewProp_isMopping,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1Character_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1Character_Statics::NewProp_BaseTurnRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARetail1Character_Statics::NewProp_FollowCamera,
@@ -546,7 +565,7 @@ void EmptyLinkFunctionForGeneratedCodeRetail1Character() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ARetail1Character, 891548586);
+	IMPLEMENT_CLASS(ARetail1Character, 822686320);
 	template<> RETAIL1_API UClass* StaticClass<ARetail1Character>()
 	{
 		return ARetail1Character::StaticClass();
