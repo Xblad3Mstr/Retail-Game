@@ -34,10 +34,6 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
 
-	/** If this timer is currently paused*/
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Cleanup")
-		bool isMopping;
-
 protected:
 
 	/** Current Employment Status*/

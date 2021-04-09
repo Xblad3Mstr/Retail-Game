@@ -1,12 +1,12 @@
-D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\Definitions.Retail1.h
-D:\missp\Projects\Retail-Game\Retail1\Source\Retail1\Public\CustomerSpawner.h
-D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Inc\Retail1\CustomerSpawner.generated.h
-D:\missp\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
-D:\missp\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
-D:\missp\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
-D:\missp\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
-D:\missp\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/KismetMathLibrary.h
-D:\missp\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetMathLibrary.generated.h
-D:\missp\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\KismetMathLibrary.inl
-D:\missp\Projects\Retail-Game\Retail1\Source\Retail1\Public\Customer.h
-D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Inc\Retail1\Customer.generated.h
+C:\Users\miken\Desktop\RetailGame\480RetailGame\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\Definitions.Retail1.h
+C:\Users\miken\Desktop\RetailGame\480RetailGame\Retail-Game\Retail1\Source\Retail1\Public\CustomerSpawner.h
+C:\Users\miken\Desktop\RetailGame\480RetailGame\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Inc\Retail1\CustomerSpawner.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/KismetMathLibrary.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetMathLibrary.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\KismetMathLibrary.inl
+C:\Users\miken\Desktop\RetailGame\480RetailGame\Retail-Game\Retail1\Source\Retail1\Public\Customer.h
+C:\Users\miken\Desktop\RetailGame\480RetailGame\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Inc\Retail1\Customer.generated.h
