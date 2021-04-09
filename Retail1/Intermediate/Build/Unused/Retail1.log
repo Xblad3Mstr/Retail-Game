@@ -1,11 +1,13 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\missp\Projects\Retail-Game).
   Building Retail1Editor...
   Using Visual Studio 2019 14.28.29333 toolchain (D:\VSCommunity\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 3 actions with 8 processes...
-    [1/3] UE4Editor-Retail1-0003.lib
-       Creating library D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-0003.lib and object D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-0003.exp
-    [2/3] UE4Editor-Retail1-0003.dll
-       Creating library D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-0003.suppressed.lib and object D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-0003.suppressed.exp
-    [3/3] Retail1Editor.target
-  Total time in Parallel executor: 3.45 seconds
-  Total execution time: 5.43 seconds
+  Building 5 actions with 8 processes...
+    [1/5] ProduceSpawner.cpp
+    [2/5] ItemSpawner.cpp
+    [3/5] UE4Editor-Retail1-0004.lib
+       Creating library D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-0004.lib and object D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-0004.exp
+    [4/5] UE4Editor-Retail1-0004.dll
+       Creating library D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-0004.suppressed.lib and object D:\missp\Projects\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\UE4Editor-Retail1-0004.suppressed.exp
+    [5/5] Retail1Editor.target
+  Total time in Parallel executor: 413.93 seconds
+  Total execution time: 418.68 seconds

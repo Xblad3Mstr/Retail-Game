@@ -60,7 +60,6 @@ void AItemSpawner::SetSpawningActive(bool bShouldSpawn)
 	if (bShouldSpawn)
 	{
 		SpawnDelay = FMath::FRandRange(SpawnDelayRangeLow, SpawnDelayRangeHigh);
-		UE_LOG(LogTemp, Log, TEXT("ItemSPAWNER"));
 		GetWorldTimerManager().SetTimer(SpawnTimer, this, &AItemSpawner::SpawnItem, SpawnDelay, false);
 	}
 	else
@@ -114,7 +113,7 @@ void AItemSpawner::ResetTimer()
 
 void AItemSpawner::FinishItem()
 {
-	UE_LOG(LogTemp, Log, TEXT("Item::FinishItem"));
+	UE_LOG(LogTemp, Log, TEXT("Item::Finish"));
 	ARetail1Character* player = Cast<ARetail1Character>(UGameplayStatics::GetPlayerPawn(this, 0));
 	if (player)
 	{

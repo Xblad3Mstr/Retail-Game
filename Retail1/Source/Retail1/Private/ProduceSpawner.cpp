@@ -60,7 +60,6 @@ void AProduceSpawner::SetSpawningActive(bool bShouldSpawn)
 	if (bShouldSpawn)
 	{
 		SpawnDelay = FMath::FRandRange(SpawnDelayRangeLow, SpawnDelayRangeHigh);
-		UE_LOG(LogTemp, Log, TEXT("PRODUCESPAWNER"));
 		GetWorldTimerManager().SetTimer(SpawnTimer, this, &AProduceSpawner::SpawnProduce, SpawnDelay, false);
 	}
 	else
@@ -114,7 +113,7 @@ void AProduceSpawner::ResetTimer()
 
 void AProduceSpawner::FinishProduce()
 {
-	UE_LOG(LogTemp, Log, TEXT("Produce::FinishCleanup"));
+	UE_LOG(LogTemp, Log, TEXT("Produce::Finish"));
 	ARetail1Character* player = Cast<ARetail1Character>(UGameplayStatics::GetPlayerPawn(this, 0));
 	if (player)
 	{
