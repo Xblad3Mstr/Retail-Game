@@ -351,6 +351,10 @@ void ARetail1Character::adjustEmployeeLevel(float adjustment)
 void ARetail1Character::adjustDailyPoints(float adjustment)
 {
 	dailyPoints += adjustment;
+	if (dailyPoints < 0.0f)
+	{
+		dailyPoints = 0.0f;
+	}
 }
 
 void ARetail1Character::resetCleanup()

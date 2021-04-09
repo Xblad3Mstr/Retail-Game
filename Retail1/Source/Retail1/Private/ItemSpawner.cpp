@@ -44,6 +44,7 @@ void AItemSpawner::UpdateProgress()
 	if (progress >= timeToComplete)
 	{
 		GetWorldTimerManager().ClearTimer(timer);
+		progress = 0.0f;
 		FinishItem();
 	}
 }
@@ -126,7 +127,6 @@ void AItemSpawner::FinishItem()
 	{
 		Actor->SetActorHiddenInGame(false);
 	}
-	progress = 0.0f;
 	canInteract = false;
 	lastHidden = 0;
 	timerStarted = false;

@@ -51,6 +51,9 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Customer")
+		int correctItem;
+
 	/** Starts the Customer timer*/
 	UFUNCTION(BlueprintCallable, Category = "Customer")
 		void StartTimer();

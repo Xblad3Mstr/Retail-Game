@@ -44,6 +44,7 @@ void AProduceSpawner::UpdateProgress()
 	if (progress >= timeToComplete)
 	{
 		GetWorldTimerManager().ClearTimer(timer);
+		progress = 0.0f;
 		FinishProduce();
 	}
 }

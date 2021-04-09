@@ -11,18 +11,19 @@ ACustomer::ACustomer()
 {
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+	correctItem = 0;
 	timerStarted = false;
 	timerPaused = false;
 	progress = 0.0f;
-	item = FMath::RandRange(0, 63);
-	timeToComplete = FMath::RandRange(30.0f, 60.0f);
-	UE_LOG(LogTemp, Log, TEXT("ITEM %d"), item);
 }
 
 // Called when the game starts or when spawned
 void ACustomer::BeginPlay()
 {
 	Super::BeginPlay();
+	item = FMath::RandRange(0, 63);
+	timeToComplete = FMath::RandRange(30.0f, 60.0f);
+	UE_LOG(LogTemp, Log, TEXT("ITEM %d"), item);
 }
 
 // Called every frame
@@ -72,7 +73,7 @@ void ACustomer::FailCustomer()
 	GetWorldTimerManager().ClearTimer(timer);
 	if (player)
 	{
-		player->adjustDailyPoints(-5.0f);
+		player->adjustDailyPoints(-1.0f);
 	}
 	Destroy();
 }
@@ -82,11 +83,13 @@ void ACustomer::FinishCustomer()
 	UE_LOG(LogTemp, Log, TEXT("Customer::FinishCustomer"));
 	GetWorldTimerManager().ClearTimer(timer);
 	ARetail1Character* player = Cast<ARetail1Character>(UGameplayStatics::GetPlayerPawn(this, 0));
+	correctItem = 1;
 	if (player)
 	{
 		player->adjustDailyPoints((timeToComplete - progress) / 10.0f);
 	}
-	Destroy();
+	//Destroy();
+	SetLifeSpan(5.0f);
 }
 
 void ACustomer::FinishWrongCustomer()
@@ -94,16 +97,17 @@ void ACustomer::FinishWrongCustomer()
 	UE_LOG(LogTemp, Log, TEXT("Customer::FinishWrongCustomer"));
 	GetWorldTimerManager().ClearTimer(timer);
 	ARetail1Character* player = Cast<ARetail1Character>(UGameplayStatics::GetPlayerPawn(this, 0));
+	correctItem = -1;
 	if (player)
 	{
 		player->adjustDailyPoints((timeToComplete - progress) / 2.0f);
 	}
-	Destroy();
+	//Destroy();
+	SetLifeSpan(5.0f);
 }
 
 int ACustomer::GetItem()
 {
-	UE_LOG(LogTemp, Log, TEXT("Customer::GetItem"));
 	return item;
 }
 
