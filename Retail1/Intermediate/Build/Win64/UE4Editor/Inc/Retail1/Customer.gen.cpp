@@ -312,6 +312,10 @@ void EmptyLinkFunctionForGeneratedCodeCustomer() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_correctItem_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_correctItem;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_timerPaused_MetaData[];
 #endif
 		static void NewProp_timerPaused_SetBit(void* Obj);
@@ -361,6 +365,13 @@ void EmptyLinkFunctionForGeneratedCodeCustomer() {}
 		{ "ModuleRelativePath", "Public/Customer.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACustomer_Statics::NewProp_correctItem_MetaData[] = {
+		{ "Category", "Customer" },
+		{ "ModuleRelativePath", "Public/Customer.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ACustomer_Statics::NewProp_correctItem = { "correctItem", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACustomer, correctItem), METADATA_PARAMS(Z_Construct_UClass_ACustomer_Statics::NewProp_correctItem_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACustomer_Statics::NewProp_correctItem_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACustomer_Statics::NewProp_timerPaused_MetaData[] = {
 		{ "Category", "Customer" },
@@ -424,6 +435,7 @@ void EmptyLinkFunctionForGeneratedCodeCustomer() {}
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ACustomer_Statics::NewProp_timer = { "timer", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACustomer, timer), Z_Construct_UScriptStruct_FTimerHandle, METADATA_PARAMS(Z_Construct_UClass_ACustomer_Statics::NewProp_timer_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACustomer_Statics::NewProp_timer_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACustomer_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACustomer_Statics::NewProp_correctItem,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACustomer_Statics::NewProp_timerPaused,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACustomer_Statics::NewProp_timerStarted,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACustomer_Statics::NewProp_item,
@@ -458,7 +470,7 @@ void EmptyLinkFunctionForGeneratedCodeCustomer() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACustomer, 2472875167);
+	IMPLEMENT_CLASS(ACustomer, 1298774328);
 	template<> RETAIL1_API UClass* StaticClass<ACustomer>()
 	{
 		return ACustomer::StaticClass();
