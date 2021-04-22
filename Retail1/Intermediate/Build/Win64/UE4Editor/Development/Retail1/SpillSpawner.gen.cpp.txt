@@ -1,5 +1,0 @@
-C:\Users\miken\Desktop\RetailGame\480RetailGame\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Development\Retail1\Definitions.Retail1.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\miken\Desktop\RetailGame\480RetailGame\Retail-Game\Retail1\Source\Retail1/Public/SpillSpawner.h
-C:\Users\miken\Desktop\RetailGame\480RetailGame\Retail-Game\Retail1\Intermediate\Build\Win64\UE4Editor\Inc\Retail1\SpillSpawner.generated.h

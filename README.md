@@ -67,22 +67,7 @@ Item Numbers:
 62 - Strawberries
 63 - Yellow Apples
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+64 - Daikon Radishes
+65 - Canary Melons
+66 - Canteloupes
+67 - Mangos

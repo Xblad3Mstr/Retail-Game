@@ -71,7 +71,7 @@ void ACustomerSpawner::SpawnCustomer()
 			FVector SpawnLocation = GetRandomPointInVolume();
 
 			FRotator SpawnRotation;
-			SpawnRotation.Yaw = 0.0f;
+			SpawnRotation.Yaw = FMath::FRand() * 360.0f;
 			SpawnRotation.Pitch = 0.0f;
 			SpawnRotation.Roll = 0.0f;
 
