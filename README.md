@@ -66,8 +66,11 @@ Item Numbers:
 61 - Potatoes
 62 - Strawberries
 63 - Yellow Apples
-
 64 - Daikon Radishes
 65 - Canary Melons
 66 - Canteloupes
 67 - Mangos
+68 - Green Bell Pepper
+69 - Orange Bell Pepper
+70 - Red Bell Pepper
+71 - Yellow Bell Pepper

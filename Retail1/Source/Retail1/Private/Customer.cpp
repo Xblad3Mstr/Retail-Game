@@ -21,7 +21,7 @@ ACustomer::ACustomer()
 void ACustomer::BeginPlay()
 {
 	Super::BeginPlay();
-	item = FMath::RandRange(0, 63);
+	item = FMath::RandRange(0, 71);
 	timeToComplete = FMath::RandRange(30.0f, 60.0f);
 	UE_LOG(LogTemp, Log, TEXT("ITEM %d"), item);
 }

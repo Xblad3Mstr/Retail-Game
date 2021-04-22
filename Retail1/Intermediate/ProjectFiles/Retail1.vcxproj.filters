@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Retail1.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{2409D200-4F3E-4D0F-8763-18CD04CCC7AC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Retail1.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Retail1Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{21325FE7-4614-4E8D-BBC1-5E51D6369974}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\.vs">
+      <UniqueIdentifier>{5D973AFB-1576-43EF-A729-5CE4E5A20BCA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\.vs\ProjectSettings.json">
+      <Filter>Config\.vs</Filter>
+    </None>
+    <None Include="..\..\Config\.vs\slnx.sqlite">
+      <Filter>Config\.vs</Filter>
+    </None>
+    <None Include="..\..\Config\.vs\VSWorkspaceState.json">
+      <Filter>Config\.vs</Filter>
+    </None>
+    <Filter Include="Source\Retail1">
+      <UniqueIdentifier>{A6491256-8CD0-4BB0-B9FA-B2DC0E78F434}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Retail1\Retail1.Build.cs">
+      <Filter>Source\Retail1</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Retail1\Retail1.cpp">
+      <Filter>Source\Retail1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Retail1\Retail1.h">
+      <Filter>Source\Retail1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Retail1\Retail1Character.cpp">
+      <Filter>Source\Retail1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Retail1\Retail1Character.h">
+      <Filter>Source\Retail1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Retail1\Retail1GameMode.cpp">
+      <Filter>Source\Retail1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Retail1\Retail1GameMode.h">
+      <Filter>Source\Retail1</Filter>
+    </ClInclude>
+    <Filter Include="Source\Retail1\Private">
+      <UniqueIdentifier>{2FB9425E-A9C1-47A9-B822-42FEB4135F23}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Retail1\Private\Cleanup.cpp">
+      <Filter>Source\Retail1\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Retail1\Private\Coworker.cpp">
+      <Filter>Source\Retail1\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Retail1\Private\Customer.cpp">
+      <Filter>Source\Retail1\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Retail1\Private\CustomerSpawner.cpp">
+      <Filter>Source\Retail1\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Retail1\Private\ItemSpawner.cpp">
+      <Filter>Source\Retail1\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Retail1\Private\ProduceSpawner.cpp">
+      <Filter>Source\Retail1\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Retail1\Private\SpillSpawner.cpp">
+      <Filter>Source\Retail1\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Retail1\Public">
+      <UniqueIdentifier>{F7F1AF63-B161-41AE-BBD3-CC4D2F783035}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Retail1\Public\Cleanup.h">
+      <Filter>Source\Retail1\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Retail1\Public\Coworker.h">
+      <Filter>Source\Retail1\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Retail1\Public\Customer.h">
+      <Filter>Source\Retail1\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Retail1\Public\CustomerSpawner.h">
+      <Filter>Source\Retail1\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Retail1\Public\ItemSpawner.h">
+      <Filter>Source\Retail1\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Retail1\Public\ProduceSpawner.h">
+      <Filter>Source\Retail1\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Retail1\Public\SpillSpawner.h">
+      <Filter>Source\Retail1\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
