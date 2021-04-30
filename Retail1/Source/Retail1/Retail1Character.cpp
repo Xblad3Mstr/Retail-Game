@@ -158,7 +158,6 @@ void ARetail1Character::Interact()
 				{
 					currentCustomer->FailCustomer();
 					currentCustomer = customer;
-					item = customer->GetItem();
 					currentCustomer->StartTimer();
 				}
 			}

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Retail1.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{2409D200-4F3E-4D0F-8763-18CD04CCC7AC}</UniqueIdentifier>
+      <UniqueIdentifier>{A0BB278B-5E57-499B-8069-DD9D1F8BDC1C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Retail1.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{21325FE7-4614-4E8D-BBC1-5E51D6369974}</UniqueIdentifier>
+      <UniqueIdentifier>{8F231523-59D5-4857-9BA7-3CBC24CEB5B9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Config\.vs">
-      <UniqueIdentifier>{5D973AFB-1576-43EF-A729-5CE4E5A20BCA}</UniqueIdentifier>
+      <UniqueIdentifier>{40F46E7C-B0F2-4BEA-9F47-2617F7397B2B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\.vs\ProjectSettings.json">
       <Filter>Config\.vs</Filter>
@@ -42,7 +42,7 @@
       <Filter>Config\.vs</Filter>
     </None>
     <Filter Include="Source\Retail1">
-      <UniqueIdentifier>{A6491256-8CD0-4BB0-B9FA-B2DC0E78F434}</UniqueIdentifier>
+      <UniqueIdentifier>{D0596E56-325E-4751-A91C-66E2148EB364}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Retail1\Retail1.Build.cs">
       <Filter>Source\Retail1</Filter>
@@ -66,7 +66,7 @@
       <Filter>Source\Retail1</Filter>
     </ClInclude>
     <Filter Include="Source\Retail1\Private">
-      <UniqueIdentifier>{2FB9425E-A9C1-47A9-B822-42FEB4135F23}</UniqueIdentifier>
+      <UniqueIdentifier>{1FD41DAD-364C-4F21-AC47-B55E842C7B0C}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Retail1\Private\Cleanup.cpp">
       <Filter>Source\Retail1\Private</Filter>
@@ -90,7 +90,7 @@
       <Filter>Source\Retail1\Private</Filter>
     </ClCompile>
     <Filter Include="Source\Retail1\Public">
-      <UniqueIdentifier>{F7F1AF63-B161-41AE-BBD3-CC4D2F783035}</UniqueIdentifier>
+      <UniqueIdentifier>{0DA15835-376F-4020-81CF-1A88241BB825}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Retail1\Public\Cleanup.h">
       <Filter>Source\Retail1\Public</Filter>

@@ -101,10 +101,10 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Daily")
 		float GetProgress();
 
-private:
 	/** Keeps track of the current playing state*/
 	EStateOfPlay currentState;
 
+private:
 	TArray<class ASpillSpawner*> SpillSpawnerActors;
 
 	TArray<class ACustomerSpawner*> CustomerSpawnerActors;

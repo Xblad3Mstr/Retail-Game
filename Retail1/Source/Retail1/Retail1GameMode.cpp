@@ -98,14 +98,6 @@ void ARetail1GameMode::BeginPlay()
 void ARetail1GameMode::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
-
-	// check that we are using retail character
-	ARetail1Character* MyCharacter = Cast<ARetail1Character>(UGameplayStatics::GetPlayerPawn(this, 0));
-	if (MyCharacter)
-	{
-		// TODO: set state here
-	}
 }
 
 void ARetail1GameMode::StartTimer()
@@ -155,7 +147,7 @@ void ARetail1GameMode::ResetTimer()
 void ARetail1GameMode::FinishDay()
 {
 	UE_LOG(LogTemp, Log, TEXT("GAMEMODE::FinishDay"));
-
+	SetCurrentState(EStateOfPlay::EEndOfDay);
 }
 
 void ARetail1GameMode::UpdateProgress()
@@ -254,6 +246,13 @@ void ARetail1GameMode::HandleNewState(EStateOfPlay newState)
 		for (AItemSpawner* volume : ItemSpawnerActors)
 		{
 			volume->SetSpawningActive(false);
+		}
+		// check that we are using retail character
+		ARetail1Character* MyCharacter = Cast<ARetail1Character>(UGameplayStatics::GetPlayerPawn(this, 0));
+		if (MyCharacter)
+		{
+			APlayerController* PlayerController = GetWorld()->GetFirstPlayerController();
+			MyCharacter->DisableInput(PlayerController);
 		}
 	}
 	break;

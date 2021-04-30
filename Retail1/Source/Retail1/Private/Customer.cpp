@@ -86,7 +86,8 @@ void ACustomer::FinishCustomer()
 	correctItem = 1;
 	if (player)
 	{
-		player->adjustDailyPoints((timeToComplete - progress) / 10.0f);
+		int points = timeToComplete - progress;
+		player->adjustDailyPoints(points / 10.0f);
 	}
 	//Destroy();
 	SetLifeSpan(5.0f);
@@ -100,7 +101,8 @@ void ACustomer::FinishWrongCustomer()
 	correctItem = -1;
 	if (player)
 	{
-		player->adjustDailyPoints((timeToComplete - progress) / 2.0f);
+		int points = timeToComplete - progress;
+		player->adjustDailyPoints(points / 20.0f);
 	}
 	//Destroy();
 	SetLifeSpan(5.0f);
@@ -117,7 +119,7 @@ void ACustomer::UpdateProgress()
 
 	if (progress >= timeToComplete)
 	{
-		FinishCustomer();
+		FailCustomer();
 	}
 
 }
